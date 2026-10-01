@@ -21,6 +21,7 @@ Open http://localhost:3000. The repository includes the collected catalog and li
 ```sh
 npm run typecheck
 npm test
+npm run api:check
 python3 scripts/test-collector.py
 npm run data:validate:launch
 npm run build

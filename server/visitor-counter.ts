@@ -69,7 +69,8 @@ export async function handleVisitorCounter(request: Request, options: CounterOpt
   try {
     const count = await storedCount(key, increment, options.fetch ?? fetch);
     if (request.method === 'GET') {
-      return json({ count }, 200, { 'Cache-Control': 'public, max-age=0, s-maxage=15, stale-while-revalidate=30' });
+      // A refresh after a successful visit must not return a stale CDN total.
+      return json({ count });
     }
     // Only acknowledge a successful write; errors never suppress a later visit.
     const headers: Record<string, string> = !bot ? {

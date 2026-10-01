@@ -18,7 +18,7 @@ describe('persistent visitor counter', () => {
     expect(await response.json()).toEqual({ count: 214 });
     expect(upstream.mock.calls[0][0]).toContain('/get/');
     expect(upstream.mock.calls[0][1]?.method).toBe('GET');
-    expect(response.headers.get('cache-control')).toContain('s-maxage=15');
+    expect(response.headers.get('cache-control')).toBe('no-store');
     expect(response.headers.has('set-cookie')).toBe(false);
   });
 

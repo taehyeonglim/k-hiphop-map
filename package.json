@@ -8,6 +8,7 @@
     "start": "serve out",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "api:check": "node scripts/check-visitor-api.mjs",
     "data:collect": "python3 scripts/collect.py",
     "data:build": "tsx scripts/build-snapshot.ts",
     "data:validate": "tsx scripts/validate-data.ts",
