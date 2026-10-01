@@ -1,6 +1,6 @@
 # Browser QA evidence
 
-The browser suite exercises the real generated catalog through the Next.js development server. It does not substitute a synthetic catalog for product data. The performance test temporarily injects a graph into the same Sigma renderer in development only, then restores the actual map.
+The browser suite exercises the real generated catalog through development, built-static, or public servers. It does not substitute a synthetic catalog for product data. The performance test temporarily injects a graph into the same Sigma renderer in development only, then restores the actual map.
 
 ## Reproduction
 
@@ -9,10 +9,11 @@ npm run data:build
 npm run dev
 PLAYWRIGHT_BASE_URL=http://localhost:3000 PLAYWRIGHT_OUTPUT_DIR=test-results/functional PLAYWRIGHT_REPORT_DIR=playwright-report/functional npm run test:e2e
 PLAYWRIGHT_BASE_URL=http://localhost:3000 PLAYWRIGHT_OUTPUT_DIR=test-results/performance PLAYWRIGHT_REPORT_DIR=playwright-report/performance npm run test:performance
-PLAYWRIGHT_BASE_URL=https://YOUR-DEPLOYMENT.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/public-loading PLAYWRIGHT_REPORT_DIR=playwright-report/public-loading npx playwright test tests/performance.spec.ts --grep 'five fresh'
+PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/public-functional PLAYWRIGHT_REPORT_DIR=playwright-report/public-functional npm run test:e2e
+PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/public-loading PLAYWRIGHT_REPORT_DIR=playwright-report/public-loading npx playwright test tests/performance.spec.ts --grep 'five fresh'
 ```
 
-Run the two commands sequentially and keep source files and generated data unchanged during measurement. HMR can remount the graph during a test and invalidate its fixture size. When no existing server is supplied, Playwright starts the development server locally; CI uses `npm start` to serve the previously built static export. The same functional suite can target a production preview or deployed URL through `PLAYWRIGHT_BASE_URL`.
+Run browser commands sequentially and keep source files and generated data unchanged during measurement. HMR can remount the graph during a test and invalidate its fixture size. When no existing server is supplied, Playwright starts the development server locally; CI uses `npm start` to serve the previously built static export. The same functional suite can target a production preview or deployed URL through `PLAYWRIGHT_BASE_URL`.
 
 The macOS configuration uses installed Google Chrome with native ANGLE Metal. `PLAYWRIGHT_CHROME_PATH` can select another installed Chrome. Linux/CI uses the Playwright Chromium installation and explicitly enables software WebGL for functional checks. CI runs the functional suite; GPU performance is measured separately on an available native renderer.
 
@@ -34,6 +35,12 @@ Visual inspection found and prompted fixes for invalid border GLSL, additive glo
 
 Corrected functional artifacts: `test-results/corrected-functional/` and `playwright-report/corrected-functional/`. Desktop/mobile map screenshots are stored under each `e2e-the-real-source-backed-...` result directory. Full names appear on focus, selection, and suitable zoom levels rather than all at once in the overview. The initial HTML now contains a small bootstrap, while map data is fetched separately with failure/retry and version-mismatch handling.
 
+The same corrected release at [the public service](https://k-hiphop-map.vercel.app/map/) passed **22/22 in 43.7 seconds**. Public functional artifacts are in `test-results/public-functional/` and `playwright-report/public-functional/`. The [Lee Young-ji profile](https://k-hiphop-map.vercel.app/artists/lee-young-ji/) returned HTTP 200 and links to rapper MusicBrainz ID `0433e75d-70b6-4118-9ff8-9b6f7e534093`.
+
+[GitHub verification for commit `8088c5f`](https://github.com/taehyeonglim/k-hiphop-map/actions/runs/36877065139) also passed on Linux with Node 22, including all 22 built-static functional scenarios. CI uses software WebGL for behavior checks and does not certify native GPU frame rate.
+
+Separate settled visual checks waited for network idle on both viewports. All 160 portrait asset requests in the full artist index succeeded, with no page errors or same-origin HTTP failures and no horizontal overflow. The eligible network includes 132 portrait-bearing artists; the default core view includes 116. Screenshots `test-results/public-visual/desktop-settled.png`, `mobile-settled.png`, and `mobile-selected.png` show the loaded circular portraits and the mobile Garion sheet. `visual-evidence.json` records the checks. Initial graph-ready screenshots can precede completion of the portrait downloads.
+
 ## Performance evidence requirements
 
 `tests/performance.spec.ts` requests exactly 1,000 nodes and 10,000 unique undirected edges in the production renderer, measures actual Sigma `afterRender` frames during three 2-second camera animations, and checks the median against 45fps desktop / 30fps mobile-viewport thresholds. Each measurement must retain the requested graph size. JSON measurements, the WebGL renderer name, and a screenshot are stored in each test result directory.
@@ -42,19 +49,28 @@ The `five fresh contexts` case measures initial map readiness five times for eac
 
 The mobile project emulates viewport, touch, user agent, and device scale on the same computer. It **does not certify frame rate on physical mobile hardware**. A physical-device measurement remains a separate requirement.
 
-Final native stress run: **2/2 passed in 17.5 seconds**. Renderer: `ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)`.
+Final native stress run on the corrected code and bootstrap: **2/2 passed in 17.0 seconds**. Renderer: `ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)`.
 
 | Viewport | Measured fps | Median | Target | Fixture verified |
 | --- | --- | --- | --- | --- |
-| Desktop 1600×1000 | 54, 60, 60 | 60 | ≥45 | 1,000 nodes / 10,000 ties in each measurement |
-| Mobile emulation 390×844 | 58, 60, 60 | 60 | ≥30 | 1,000 nodes / 10,000 ties in each measurement |
+| Desktop 1600×1000 | 58, 60, 60 | 60 | ≥45 | 1,000 nodes / 10,000 ties in each measurement |
+| Mobile emulation 390×844 | 59, 60, 60 | 60 | ≥30 | 1,000 nodes / 10,000 ties in each measurement |
 
-Native stress artifacts: `test-results/final-performance/` and `playwright-report/final-performance/`. Each result includes `navigation-performance.json` and the rendered stress screenshot. The stress run used the same unchanged renderer before the source-only correction and bootstrap addition; its synthetic graph size and drawing programs are unaffected by those changes.
+Native stress artifacts: `test-results/corrected-performance/` and `playwright-report/corrected-performance/`. Each result includes `navigation-performance.json` and the rendered stress screenshot. The injected fixture affects the renderer only; the surrounding product counters still describe the real catalog.
 
-Preliminary public latency at `https://k-hiphop-map.vercel.app`, older version `1753171e`: desktop samples 3,862 / 630 / 591 / 610 / 641ms (median 630ms; empirical p95 3,862ms, target failed), mobile-emulation samples 647 / 743 / 618 / 625 / 639ms (median 639ms; empirical p95 743ms, target passed). There were no page errors or same-origin HTTP failures. The slow first sample remains in the results. These preliminary numbers prompted moving the large dataset out of SSR props; they do not validate the corrected optimized deployment. Public verification and loading measurements for the corrected version remain pending.
+Final public initial-map measurements: **2/2 passed in 13.9 seconds**, with all 10 contexts reporting version `2026.10.01-73d5c2c3-c92fd5a3` and 268 initialized graph nodes.
+
+| Viewport | Five samples, ms | Median, ms | Empirical p95, ms | Target |
+| --- | --- | --- | --- | --- |
+| Desktop | 598, 584, 599, 615, 615 | 599 | 615 | <3,000ms |
+| Mobile emulation | 605, 655, 640, 578, 569 | 605 | 655 | <3,000ms |
+
+The native, unthrottled network was measured after functional verification had already accessed the public deployment. Each context had an empty HTTP cache; the browser process, operating system, DNS/TLS infrastructure, and CDN were not reset. There were no page errors or same-origin HTTP failures. HTML was 3,219 encoded bytes; the map payload was 896,251 encoded / 6,270,746 decoded bytes and transferred in 96–130ms across the 10 samples. These values describe this computer and connection, not a throttled mobile network. Results and resource timings are in `test-results/final-public-loading/` and `playwright-report/final-public-loading/`, under `initial-map-performance.json`.
+
+Preliminary public latency on the superseded `1753171e` version remains preserved: desktop samples 3,862 / 630 / 591 / 610 / 641ms (median 630ms; empirical p95 3,862ms, target failed), mobile-emulation samples 647 / 743 / 618 / 625 / 639ms (median 639ms; empirical p95 743ms, target passed). The slow first sample was retained and prompted moving the large dataset out of SSR props. This earlier run had no page errors or same-origin HTTP failures; it is not release evidence for the corrected deployment.
 
 ## Evidence and limitations
 
 Local artifacts are in ignored `test-results/` and `playwright-report/`: screenshots, failure traces, the HTML report, and performance JSON. They can be regenerated with the commands above.
 
-The suite establishes UI behavior and source-to-view consistency. It does not establish complete discography coverage, the truth of every third-party music credit, physical mobile performance, or public deployment. Dataset validation and manual source review are separate evidence.
+The suite establishes UI behavior, source-to-view consistency, and operation of the corrected public release. It does not establish complete discography coverage, the truth of every third-party music credit, or physical mobile performance. Dataset validation and manual source review are separate evidence.

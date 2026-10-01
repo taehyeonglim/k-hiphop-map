@@ -63,6 +63,6 @@ The application exports to out/. `vercel --prod` publishes with the authenticate
 
 ## Attribution
 
-Code is MIT. Music metadata has its own source-specific terms: MusicBrainz core metadata is CC0; maniadb-derived data is CC BY-NC-SA 2.0 KR. Do not assume the code license relicenses data, photographs, or source material. Each included image carries author, file page, license URL, and transformation details. Local fonts are Anton and Barlow Condensed, under SIL Open Font License; their licenses are in public/fonts/.
+Code is MIT. Music metadata has its own source-specific terms: [MusicBrainz core metadata is CC0, while supplementary tags and genre associations retain CC BY-NC-SA 3.0](https://musicbrainz.org/doc/About/Data_License). This distinction also applies to the cached profiles in data/artist-metadata.json and derivatives of supplementary data. maniadb-derived data retains CC BY-NC-SA 2.0 KR. Do not assume the code license relicenses data, photographs, or source material. Each included image carries author, file page, license URL, and transformation details. Local fonts are Anton and Barlow Condensed, under SIL Open Font License; their licenses are in public/fonts/.
 
 The site exposes /methodology/, /credits/, /artists/<id>/ and direct recording-source links. For corrections, open an issue with artist, recording, and a verifiable source URL.

@@ -60,7 +60,8 @@ test('five fresh contexts expose an interactive initial map within three seconds
     navigationDetails.push(await page.evaluate(() => {
       const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
       const resources = (performance.getEntriesByType('resource') as PerformanceResourceTiming[]).filter(resource => /\.(js|css)(\?|$)/.test(resource.name)).sort((a,b) => b.duration - a.duration).slice(0, 5);
-      return { responseStartMs: Math.round(navigation.responseStart), responseEndMs: Math.round(navigation.responseEnd), domContentLoadedMs: Math.round(navigation.domContentLoadedEventEnd), encodedDocumentBytes: navigation.encodedBodySize, slowestCodeResources: resources.map(resource => ({ path: new URL(resource.name).pathname, durationMs: Math.round(resource.duration), encodedBytes: resource.encodedBodySize })) };
+      const mapData = (performance.getEntriesByType('resource') as PerformanceResourceTiming[]).find(resource => new URL(resource.name).pathname === '/data/map.json');
+      return { responseStartMs: Math.round(navigation.responseStart), responseEndMs: Math.round(navigation.responseEnd), domContentLoadedMs: Math.round(navigation.domContentLoadedEventEnd), encodedDocumentBytes: navigation.encodedBodySize, mapDataResource: mapData ? { durationMs: Math.round(mapData.duration), encodedBytes: mapData.encodedBodySize, decodedBytes: mapData.decodedBodySize } : null, slowestCodeResources: resources.map(resource => ({ path: new URL(resource.name).pathname, durationMs: Math.round(resource.duration), encodedBytes: resource.encodedBodySize })) };
     }));
     const manifestResponse = await page.request.get(`${baseURL}/data/manifest.json`);
     expect(manifestResponse.ok()).toBe(true);
