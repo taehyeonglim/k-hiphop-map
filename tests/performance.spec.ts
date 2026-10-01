@@ -40,6 +40,8 @@ test('1000 artists and 10000 ties sustain the required navigation frame rate', a
 test('five fresh contexts expose an interactive initial map within three seconds', async ({ browser, baseURL }, testInfo) => {
   test.setTimeout(90_000);
   const samples: number[] = [];
+  const navigationDetails: unknown[] = [];
+  const versions: string[] = [];
   const errors: string[] = [];
   const statuses: { url: string; status: number }[] = [];
   let visibleNodes = 0;
@@ -55,6 +57,15 @@ test('five fresh contexts expose an interactive initial map within three seconds
     await page.waitForFunction(() => ((window as unknown as { __hiphopGraph?: PerformanceGraph }).__hiphopGraph?.nodes || 0) > 0);
     samples.push(Math.round(performance.now() - started));
     visibleNodes = await page.evaluate(() => (window as unknown as { __hiphopGraph: PerformanceGraph }).__hiphopGraph.nodes);
+    navigationDetails.push(await page.evaluate(() => {
+      const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
+      const resources = (performance.getEntriesByType('resource') as PerformanceResourceTiming[]).filter(resource => /\.(js|css)(\?|$)/.test(resource.name)).sort((a,b) => b.duration - a.duration).slice(0, 5);
+      return { responseStartMs: Math.round(navigation.responseStart), responseEndMs: Math.round(navigation.responseEnd), domContentLoadedMs: Math.round(navigation.domContentLoadedEventEnd), encodedDocumentBytes: navigation.encodedBodySize, slowestCodeResources: resources.map(resource => ({ path: new URL(resource.name).pathname, durationMs: Math.round(resource.duration), encodedBytes: resource.encodedBodySize })) };
+    }));
+    const manifestResponse = await page.request.get(`${baseURL}/data/manifest.json`);
+    expect(manifestResponse.ok()).toBe(true);
+    const manifest = await manifestResponse.json() as { version: string };
+    versions.push(manifest.version);
     renderer = await page.evaluate(() => {
       const gl = document.createElement('canvas').getContext('webgl');
       const extension = gl?.getExtension('WEBGL_debug_renderer_info');
@@ -65,7 +76,7 @@ test('five fresh contexts expose an interactive initial map within three seconds
   }
   const sorted = [...samples].sort((a,b) => a-b);
   const p95 = sorted[Math.ceil(sorted.length * 0.95) - 1];
-  const result = { project: testInfo.project.name, url: baseURL, renderer, samplesMs: samples, medianMs: sorted[2], empiricalP95Ms: p95, nodes: visibleNodes, targetMs: 3000, conditions: 'Five fresh browser contexts, browser process reused, native network without throttling; map-ready means a positive Sigma node count after renderer initialization. Portrait completion is not part of this timing.', errors, failedResponses: statuses };
+  const result = { project: testInfo.project.name, url: baseURL, versions, renderer, samplesMs: samples, medianMs: sorted[2], empiricalP95Ms: p95, nodes: visibleNodes, targetMs: 3000, conditions: 'Five fresh browser contexts, browser process reused, native network without throttling; map-ready means a positive Sigma node count after renderer initialization. Portrait completion is not part of this timing.', navigationDetails, errors, failedResponses: statuses };
   const reportPath = testInfo.outputPath('initial-map-performance.json');
   writeFileSync(reportPath, JSON.stringify(result, null, 2));
   await testInfo.attach('initial-map-performance.json', { path: reportPath, contentType: 'application/json' });

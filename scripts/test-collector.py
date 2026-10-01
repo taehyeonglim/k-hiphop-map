@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Offline regression tests for source identity and collaboration eligibility."""
-import copy, json, tempfile, unittest
+import copy, json, sqlite3, tempfile, unittest
 from pathlib import Path
 import collect
 
@@ -28,6 +28,24 @@ class CollectorRegressions(unittest.TestCase):
         self.assertIsNone(c.seed_match(foreign))
         c.mbid_seed['verified-korean-mbid']=seed
         self.assertEqual(c.seed_match({'id':'verified-korean-mbid','name':'Young B'})['id'],'korean-rapper')
+    def resolver_client(self,response):
+        class CachedClient:
+            def __init__(self):
+                self.db=sqlite3.connect(':memory:')
+                self.db.execute('CREATE TABLE candidates (seed_id TEXT PRIMARY KEY, payload TEXT, checked_at TEXT)')
+            def mb(self,*args,**kwargs):return response
+        return CachedClient()
+    def test_missing_country_namesake_prevents_automatic_wrong_identity(self):
+        seed={'id':'rapper','name':'탁','nameEn':'Tak','aliases':[],'kind':'person','core':True,'country':'KR'}
+        raw={'artists':[{'id':'actual-rapper','name':'탁','type':'Person','score':100,'area':{'name':'Seoul'}}, {'id':'unrelated-composer','name':'탁','type':'Person','country':'KR','score':100}]}
+        c=collect.Collector(self.resolver_client(raw),[seed])
+        self.assertIsNone(c.resolve(seed))
+        self.assertEqual(set(c.pending['rapper']['candidateIds']),{'actual-rapper','unrelated-composer'})
+    def test_pinned_identity_survives_display_name_change(self):
+        seed={'id':'rapper','name':'이영지','nameEn':'Lee Young-ji','aliases':['영지'],'kind':'person','core':True,'country':'KR','musicbrainz':'actual-rapper'}
+        client=self.resolver_client({'id':'actual-rapper','name':'이영지'})
+        client.db.execute('INSERT INTO candidates VALUES (?,?,?)',('rapper',json.dumps({'artists':[{'id':'actual-rapper','name':'이영지'},{'id':'unrelated-singer','name':'영지','country':'KR'}]}),'2026-10-01'))
+        self.assertEqual(collect.Collector(client,[seed]).resolve(seed)['id'],'actual-rapper')
     def test_undocumented_noncore_voice_stays_pending(self):
         ds=self.dataset([recording('song',['core','unknown'])],[artist('core'),artist('unknown',False)])
         got=collect.normalize_dataset(ds)['recordings'][0]
@@ -42,6 +60,12 @@ class CollectorRegressions(unittest.TestCase):
         a=recording('one',['a','b'],'KRFIX0000001');b=recording('two',['a','b'],'KRFIX0000001');b['date']='2022-01-01';b['year']=2022
         got=collect.normalize_dataset(self.dataset([a,b],[artist('a'),artist('b')]))
         self.assertEqual(len(got['recordings']),1);self.assertEqual(got['recordings'][0]['year'],2020)
+    def test_nonperformance_variant_component_dedup_is_stable(self):
+        rows=[recording(rid,['a','b']) for rid in ['one','two','three']]
+        rows[0]['title']='Song';rows[1]['title']='Song';rows[2]['title']='Song (bonus track)'
+        ds=collect.normalize_dataset(self.dataset(rows,[artist('a'),artist('b')]))
+        self.assertEqual(len(ds['recordings']),1)
+        self.assertEqual(collect.dataset_version(ds),collect.dataset_version(collect.normalize_dataset(copy.deepcopy(ds))))
     def test_version_changes_for_corrected_credit_but_not_check_timestamp(self):
         ds=self.dataset([recording('one',['a','b'])],[artist('a'),artist('b')]);version=collect.dataset_version(ds)
         checked=copy.deepcopy(ds);checked['artists'][0]['coverage']['checkedAt']='2026-10-01T23:00:00Z';checked['recordings'][0]['sources'][0]['fetchedAt']='2026-10-01T23:00:00Z'

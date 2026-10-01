@@ -2,6 +2,8 @@
 
 1995년부터 현재까지, 실제 녹음 크레딧을 바탕으로 한국 힙합의 협업을 탐험하는 비영리 웹 아카이브.
 
+Live service: [K-HIPHOP MAP](https://k-hiphop-map.vercel.app/).
+
 ## Run locally
 
 Requires Node.js22+ and Python3.10+.
@@ -44,6 +46,8 @@ The collector stores original responses, identity decisions, and review candidat
 ## Data flow
 
 Collectors → SQLite cache and evidence → data/catalog.json → deterministic full-period ForceAtlas2 + weighted Louvain → public/data/map.json, graph.json and per-artist/per-recording detail chunks → static Next.js site.
+
+The initial HTML carries a small versioned summary. The browser loads the map dataset separately, then fetches artist and recording evidence when selected. Interrupted downloads can be retried; a changed dataset version prompts a page refresh.
 
 - Tie thickness: logarithmic unique co-recording count.
 - Layout: ensemble-size correction and strength normalization; static full-period positions, optional worker recalculation for the selected period.

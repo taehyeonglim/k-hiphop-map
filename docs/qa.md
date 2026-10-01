@@ -19,6 +19,7 @@ The macOS configuration uses installed Google Chrome with native ANGLE Metal. `P
 ## Functional scenarios
 
 - Real WebGL graph, zoom/reset controls, no page exceptions, no horizontal overflow, and screenshots at 1600×1000 and 390×844 CSS pixels.
+- Failed initial map JSON download, visible recovery action, and successful retry into the real network.
 - Alias search, empty search results, distinct person/group identities, and actual canvas node selection.
 - Collaborative recordings with participating artists, source URLs, and external listening links after detail fetch completes.
 - Range, single-year, cumulative, and minimum-song filters against the source catalog.
@@ -27,9 +28,11 @@ The macOS configuration uses installed Google Chrome with native ANGLE Metal. `P
 - WebGL initialization failure with usable list exploration, and failed portrait requests with named initials fallback.
 - Legend and keyboard Escape, methodology, image credits, and standalone artist discography.
 
-Latest preliminary native-GPU run: desktop 10/10 passed; mobile 9/10 passed. The remaining mobile failure is the share icon's missing accessible label, also identified by code review. This includes proof that a browser worker was created and actual graph coordinates changed during relayout. Final acceptance still awaits the final catalog freeze and a complete rerun.
+Corrected built-static run at `http://127.0.0.1:3100`, version `2026.10.01-73d5c2c3-c92fd5a3`: **22/22 passed in 35.6 seconds** (11 desktop, 11 mobile). The corrected catalog has 268 core artists and 11,208 eligible recordings. Source identity pins were corrected and independently re-audited before this run. The suite includes proof that a browser worker was created and actual graph coordinates changed during relayout. The mobile share button's accessible name, collaborator sheet, and new map-download recovery action are verified by actual clicks. The older `1753171e` run is superseded and is not source-acceptance evidence for this release.
 
 Visual inspection found and prompted fixes for invalid border GLSL, additive glow, overlapping faces, hidden labels, and an unusably short mobile artist scroll area. Updated native-GPU desktop/mobile screenshots show circular portraits, separated nodes, readable labels, and usable selected-artist sheets. Earlier SwiftShader/concurrent-HMR runs are diagnostic only and are not valid performance evidence.
+
+Corrected functional artifacts: `test-results/corrected-functional/` and `playwright-report/corrected-functional/`. Desktop/mobile map screenshots are stored under each `e2e-the-real-source-backed-...` result directory. Full names appear on focus, selection, and suitable zoom levels rather than all at once in the overview. The initial HTML now contains a small bootstrap, while map data is fetched separately with failure/retry and version-mismatch handling.
 
 ## Performance evidence requirements
 
@@ -38,6 +41,17 @@ Visual inspection found and prompted fixes for invalid border GLSL, additive glo
 The `five fresh contexts` case measures initial map readiness five times for each viewport. It records median and empirical p95 against a 3-second target, without network throttling. Five samples' empirical p95 is their maximum; this is not a population estimate. A fresh context resets the HTTP cache, while the browser process and operating system remain reused. Readiness means a positive Sigma node count after initialization and does not include completion of every portrait download. Run this case against the public URL with `--grep 'five fresh'` and the native stress case against development with `--grep '1000 artists'`.
 
 The mobile project emulates viewport, touch, user agent, and device scale on the same computer. It **does not certify frame rate on physical mobile hardware**. A physical-device measurement remains a separate requirement.
+
+Final native stress run: **2/2 passed in 17.5 seconds**. Renderer: `ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)`.
+
+| Viewport | Measured fps | Median | Target | Fixture verified |
+| --- | --- | --- | --- | --- |
+| Desktop 1600×1000 | 54, 60, 60 | 60 | ≥45 | 1,000 nodes / 10,000 ties in each measurement |
+| Mobile emulation 390×844 | 58, 60, 60 | 60 | ≥30 | 1,000 nodes / 10,000 ties in each measurement |
+
+Native stress artifacts: `test-results/final-performance/` and `playwright-report/final-performance/`. Each result includes `navigation-performance.json` and the rendered stress screenshot. The stress run used the same unchanged renderer before the source-only correction and bootstrap addition; its synthetic graph size and drawing programs are unaffected by those changes.
+
+Preliminary public latency at `https://k-hiphop-map.vercel.app`, older version `1753171e`: desktop samples 3,862 / 630 / 591 / 610 / 641ms (median 630ms; empirical p95 3,862ms, target failed), mobile-emulation samples 647 / 743 / 618 / 625 / 639ms (median 639ms; empirical p95 743ms, target passed). There were no page errors or same-origin HTTP failures. The slow first sample remains in the results. These preliminary numbers prompted moving the large dataset out of SSR props; they do not validate the corrected optimized deployment. Public verification and loading measurements for the corrected version remain pending.
 
 ## Evidence and limitations
 

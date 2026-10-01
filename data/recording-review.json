@@ -53,5 +53,15 @@
     "verification": "pending",
     "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
     "sourceUrl": "https://musicbrainz.org/recording/19b0dc04-e023-4c92-ba2e-5b1295965624"
+  },
+  "mb-9119fe80-f07b-40a6-8145-a4de1da898f4": {
+    "verification": "pending",
+    "reason": "Upstream MusicBrainz identity conflict: German Jazzkantine 2012 Wooden Heart is assigned to Homies Louie without corroborating Korean artist evidence. A shared credit name does not establish this performer identity.",
+    "sourceUrl": "https://musicbrainz.org/recording/9119fe80-f07b-40a6-8145-a4de1da898f4"
+  },
+  "mb-f54b3684-da62-4909-9e88-5f19de843e3e": {
+    "verification": "pending",
+    "reason": "Upstream MusicBrainz assigns TAKEWON 책상 to Homies Louie. Bugs track 31143769 explicitly features 황문섭 and links artist 80095509, whose group is Geeks; this contradicts the source identity. Held pending, with no global merge of the distinct Louie IDs.",
+    "sourceUrl": "https://music.bugs.co.kr/track/31143769"
   }
 }

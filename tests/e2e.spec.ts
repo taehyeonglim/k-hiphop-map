@@ -61,6 +61,25 @@ test('the real source-backed graph renders, supports zoom, and fits the viewport
   await page.screenshot({ path: testInfo.outputPath(`map-${testInfo.project.name}.png`), fullPage: true });
 });
 
+test('a failed map download exposes a retry that loads the real graph', async ({ page }) => {
+  let failing = true;
+  let attempts = 0;
+  await page.route(/\/data\/map\.json(?:\?.*)?$/, route => {
+    attempts++;
+    return failing ? route.abort() : route.continue();
+  });
+  await page.goto('/map/?artist=');
+  await expect(page.locator('.bootstrap-error[role="alert"]')).toContainText('지도를 불러오지 못했습니다.');
+  await expect(page.locator('.bootstrap-error')).toContainText('연결 상태를 확인한 뒤 다시 불러와 주세요.');
+  expect(attempts).toBeGreaterThan(0);
+  const failedAttempts = attempts;
+  failing = false;
+  await page.getByRole('button', { name: '다시 불러오기', exact: true }).click();
+  await graphReady(page);
+  expect(attempts).toBeGreaterThan(failedAttempts);
+  await expect(page.locator('.bootstrap-error')).toHaveCount(0);
+});
+
 test('alias search selects a person while group identities remain distinct', async ({ page }) => {
   const data = catalog();
   const group = data.artists.find(a => a.id === 'garion')!;

@@ -7,7 +7,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "가리온"
+    "search": "가리온",
+    "musicbrainz": "a6cc73c6-926d-466e-8235-745e2d94feee"
   },
   {
     "id": "mc-meta",
@@ -17,7 +18,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "MC 메타"
+    "search": "MC 메타",
+    "musicbrainz": "e9c5a7a9-f127-4672-88d3-d6f36cb25501"
   },
   {
     "id": "naachal",
@@ -27,7 +29,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "나찰"
+    "search": "나찰",
+    "musicbrainz": "ec6cae58-8ec6-4faf-975f-4b8817db76e3"
   },
   {
     "id": "tiger-jk",
@@ -37,7 +40,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "타이거 JK"
+    "search": "타이거 JK",
+    "musicbrainz": "e6ac2d77-315e-4f92-9513-8b277342534e"
   },
   {
     "id": "yoon-mi-rae",
@@ -47,7 +51,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "윤미래"
+    "search": "윤미래",
+    "musicbrainz": "d2faa4dd-f3fc-4aa9-aa9e-001826d6fdd2"
   },
   {
     "id": "drunken-tiger",
@@ -59,7 +64,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "드렁큰 타이거"
+    "search": "드렁큰 타이거",
+    "musicbrainz": "69aa17d9-b9b0-433b-b81d-0033e6f9b7fd"
   },
   {
     "id": "dj-doc",
@@ -69,7 +75,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "DJ DOC"
+    "search": "DJ DOC",
+    "musicbrainz": "502e4ed1-eb37-44ac-bf95-84fbc5315ae5"
   },
   {
     "id": "kim-jin-pyo",
@@ -79,7 +86,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김진표"
+    "search": "김진표",
+    "musicbrainz": "552d3421-4b3d-403b-82b1-a30e0d9dbcbc"
   },
   {
     "id": "kim-chang-yeol",
@@ -89,7 +97,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김창열"
+    "search": "김창열",
+    "musicbrainz": "480358ff-5127-4fca-b7e6-2257fe3ab610"
   },
   {
     "id": "lee-ha-neul",
@@ -99,7 +108,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이하늘"
+    "search": "이하늘",
+    "musicbrainz": "94e5d11c-1070-483d-bee6-5bc0befa9dfd"
   },
   {
     "id": "honey-family",
@@ -109,7 +119,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "허니 패밀리"
+    "search": "허니 패밀리",
+    "musicbrainz": "bd11e00a-0a0a-45e1-8813-6e2169b6b283"
   },
   {
     "id": "leessang",
@@ -119,7 +130,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "리쌍"
+    "search": "리쌍",
+    "musicbrainz": "003cd25f-0bc2-4187-8584-363fe6c7cf28"
   },
   {
     "id": "gary",
@@ -129,7 +141,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "개리"
+    "search": "개리",
+    "musicbrainz": "cec6ecc6-dfe2-46f0-9382-8a6eede03716"
   },
   {
     "id": "gil",
@@ -139,7 +152,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "길"
+    "search": "길",
+    "musicbrainz": "197311da-acef-42b2-97b0-015533778bc3"
   },
   {
     "id": "cb-mass",
@@ -149,7 +163,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "CB Mass"
+    "search": "CB Mass",
+    "musicbrainz": "4032b6fa-4044-4000-a392-05f35c5c7b17"
   },
   {
     "id": "dynamic-duo",
@@ -159,7 +174,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "다이나믹 듀오"
+    "search": "다이나믹 듀오",
+    "musicbrainz": "9f92f1e5-7b25-4be2-ab61-76b6db556887"
   },
   {
     "id": "gaeko",
@@ -169,7 +185,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "개코"
+    "search": "개코",
+    "musicbrainz": "0911a2dd-1e8f-4c63-8c93-e5b853298383"
   },
   {
     "id": "choiza",
@@ -179,7 +196,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "최자"
+    "search": "최자",
+    "musicbrainz": "dda1c5e2-e18e-40c8-a464-84014011ec65"
   },
   {
     "id": "joosuc",
@@ -189,7 +207,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "주석"
+    "search": "주석",
+    "musicbrainz": "e1966a43-9ec1-4c24-ae19-c0908045d8b0"
   },
   {
     "id": "defconn",
@@ -201,7 +220,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "데프콘"
+    "search": "데프콘",
+    "musicbrainz": "a4da15e4-41c5-4e35-a651-40cd4b829253"
   },
   {
     "id": "p-type",
@@ -211,7 +231,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "피타입"
+    "search": "피타입",
+    "musicbrainz": "80e01491-b2e1-4a6b-b8b2-c6657455c03a"
   },
   {
     "id": "verbal-jint",
@@ -221,7 +242,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "버벌진트"
+    "search": "버벌진트",
+    "musicbrainz": "02631a80-5a17-40af-b3fc-eb1aeeffc55d"
   },
   {
     "id": "kim-ban-jang",
@@ -231,7 +253,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김반장"
+    "search": "김반장",
+    "musicbrainz": "036c08be-5798-4cfb-aa41-62e626d6df4c"
   },
   {
     "id": "infinite-flow",
@@ -241,7 +264,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "인피닛 플로우"
+    "search": "인피닛 플로우",
+    "musicbrainz": "c39bffa0-7515-4f65-86f5-040df27f51fb"
   },
   {
     "id": "nuck",
@@ -251,7 +275,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "넋업샨"
+    "search": "넋업샨",
+    "musicbrainz": "ff5d417a-6de7-430e-ad7b-136c5ccbc0e3"
   },
   {
     "id": "bizniz",
@@ -261,7 +286,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비즈니즈"
+    "search": "비즈니즈",
+    "musicbrainz": "835a47a7-4790-4672-ad68-a630058475e4"
   },
   {
     "id": "one-sun",
@@ -271,7 +297,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "원썬"
+    "search": "원썬",
+    "musicbrainz": "e8a2c58e-a912-4f47-87a2-701d06c43ea1"
   },
   {
     "id": "deegie",
@@ -283,7 +310,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디지"
+    "search": "디지",
+    "musicbrainz": "f1a0dab9-6891-4c28-b4ef-994f5c9cfd8b"
   },
   {
     "id": "bill-stax",
@@ -295,7 +323,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "바스코"
+    "search": "바스코",
+    "musicbrainz": "4bb2e755-5017-475f-8295-fc6e59038cf3"
   },
   {
     "id": "skull",
@@ -305,7 +334,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스컬"
+    "search": "스컬",
+    "musicbrainz": "4503247e-5ff1-440e-a8a1-425f518cfe9a"
   },
   {
     "id": "stony-skunk",
@@ -315,7 +345,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "스토니스컹크"
+    "search": "스토니스컹크",
+    "musicbrainz": "ed6f2106-648b-4bea-a04b-df92652dd3ed"
   },
   {
     "id": "dok2",
@@ -325,7 +356,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "도끼"
+    "search": "도끼",
+    "musicbrainz": "425afcd0-0db2-41d0-a0fa-10af97ee1f77"
   },
   {
     "id": "the-quiett",
@@ -337,7 +369,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "더 콰이엇"
+    "search": "더 콰이엇",
+    "musicbrainz": "e9966d7d-8ded-4c65-97c1-f984a2efcea0"
   },
   {
     "id": "beenzino",
@@ -349,7 +382,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "빈지노"
+    "search": "빈지노",
+    "musicbrainz": "ff2f225e-a49e-47ee-866a-d4606c4e3fea"
   },
   {
     "id": "illinit",
@@ -361,7 +395,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "일리닛"
+    "search": "일리닛",
+    "musicbrainz": "90e82ecb-d519-482d-b249-8231ad3a9611"
   },
   {
     "id": "paloalto",
@@ -371,7 +406,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "팔로알토"
+    "search": "팔로알토",
+    "musicbrainz": "be3b8476-48d4-4ff9-9916-757638e8355d"
   },
   {
     "id": "san-e",
@@ -381,7 +417,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "산이"
+    "search": "산이",
+    "musicbrainz": "3bd8b6f7-c4d7-4798-bf03-1a8f4a76760b"
   },
   {
     "id": "swings",
@@ -393,7 +430,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스윙스"
+    "search": "스윙스",
+    "musicbrainz": "b24471a9-d826-48f6-bf7c-03b251bcc284"
   },
   {
     "id": "e-sens",
@@ -403,7 +441,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이센스"
+    "search": "이센스",
+    "musicbrainz": "52b43c7e-b974-4d1e-9c7a-dfd21a0970b2"
   },
   {
     "id": "simon-dominic",
@@ -415,7 +454,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "사이먼 도미닉"
+    "search": "사이먼 도미닉",
+    "musicbrainz": "6304678e-2d4b-4b1c-9f78-5444bace44b6"
   },
   {
     "id": "supreme-team",
@@ -425,7 +465,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "슈프림팀"
+    "search": "슈프림팀",
+    "musicbrainz": "4ffa1b2b-5ef1-4441-8dc1-f7e51a7852e4"
   },
   {
     "id": "epik-high",
@@ -435,7 +476,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "에픽하이"
+    "search": "에픽하이",
+    "musicbrainz": "57f1cdd6-cf32-4004-a095-3ef043c91b61"
   },
   {
     "id": "tablo",
@@ -445,7 +487,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "타블로"
+    "search": "타블로",
+    "musicbrainz": "0fad358b-6147-46fc-be41-032500786ed1"
   },
   {
     "id": "mithra-jin",
@@ -455,7 +498,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "미쓰라"
+    "search": "미쓰라",
+    "musicbrainz": "9e0346de-34fc-4ec6-bcb7-c5b6c72340f4"
   },
   {
     "id": "kebee",
@@ -465,7 +509,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "키비"
+    "search": "키비",
+    "musicbrainz": "e96e7912-3ab5-4d05-a5e1-94589c5b8c8b"
   },
   {
     "id": "jerry-k",
@@ -475,7 +520,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제리케이"
+    "search": "제리케이",
+    "musicbrainz": "cb649122-6bc0-4d5e-bd06-384ac258b568"
   },
   {
     "id": "soul-dive",
@@ -485,7 +531,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "소울 다이브"
+    "search": "소울 다이브",
+    "musicbrainz": "792937ea-9334-4e0a-a2d1-b4bc83325585"
   },
   {
     "id": "d-theo",
@@ -495,7 +542,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디테오"
+    "search": "디테오",
+    "musicbrainz": "ac9eae12-0f77-470e-b097-68c9e2aed8c7"
   },
   {
     "id": "zito",
@@ -505,7 +553,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지토"
+    "search": "지토",
+    "musicbrainz": "d2277f5c-837d-46c1-9e17-1f4331e5a462"
   },
   {
     "id": "minos",
@@ -515,7 +564,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "마이노스"
+    "search": "마이노스",
+    "musicbrainz": "7208bff9-ca52-4b88-a0e1-cb1a16df34ac"
   },
   {
     "id": "eluphant",
@@ -527,7 +577,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "엘루이"
+    "search": "엘루이",
+    "musicbrainz": "057ae199-16e5-473b-8e9b-284e5d9c18f4"
   },
   {
     "id": "mad-clown",
@@ -537,7 +588,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "매드클라운"
+    "search": "매드클라운",
+    "musicbrainz": "379d302d-8df0-440e-86c0-30cb37d66a3e"
   },
   {
     "id": "loopy",
@@ -547,7 +599,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "루피"
+    "search": "루피",
+    "musicbrainz": "e5c26140-3d81-4690-834a-6dad120d5dbc"
   },
   {
     "id": "yanghongwon",
@@ -560,7 +613,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "영비"
+    "search": "영비",
+    "musicbrainz": "b1c58e6a-2e9a-4502-8724-5571b47292ad"
   },
   {
     "id": "justhis",
@@ -570,7 +624,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "저스디스"
+    "search": "저스디스",
+    "musicbrainz": "950cdf11-c030-475d-aa49-fbdcdc69bf97"
   },
   {
     "id": "superbee",
@@ -580,7 +635,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "수퍼비"
+    "search": "수퍼비",
+    "musicbrainz": "99b006a2-1ffb-4307-9723-e17c51dffd7d"
   },
   {
     "id": "uneducated-kid",
@@ -590,7 +646,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "언에듀케이티드 키드"
+    "search": "언에듀케이티드 키드",
+    "musicbrainz": "f4db936f-eb5d-4691-a3c0-4683633873f1"
   },
   {
     "id": "homies",
@@ -600,7 +657,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "호미들"
+    "search": "호미들",
+    "musicbrainz": "cbc010f0-f910-4009-a4d8-e096d5e41f34"
   },
   {
     "id": "chin",
@@ -610,7 +668,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "친"
+    "search": "친",
+    "musicbrainz": "d3de5109-d329-4e06-ac9d-aacb4da81840"
   },
   {
     "id": "ck",
@@ -620,7 +679,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "씨케이"
+    "search": "씨케이",
+    "musicbrainz": "d0f0f336-3714-4462-82a1-395343414422"
   },
   {
     "id": "louie",
@@ -632,7 +692,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "Louie"
+    "search": "Louie",
+    "musicbrainz": "b4f51145-3d43-4fb0-b983-289d7e3ede1f"
   },
   {
     "id": "lil-boi",
@@ -642,7 +703,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "릴보이"
+    "search": "릴보이",
+    "musicbrainz": "9727b9b2-5e0e-4b2d-a62a-2999a9b3996f"
   },
   {
     "id": "geeks",
@@ -652,7 +714,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "긱스"
+    "search": "긱스",
+    "musicbrainz": "80ab91cb-3b46-4f38-92e4-f8f68518596b"
   },
   {
     "id": "takeone",
@@ -664,7 +727,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "테이크원"
+    "search": "테이크원",
+    "musicbrainz": "56092a77-8281-4f55-8d15-0149629b6034"
   },
   {
     "id": "ugly-duck",
@@ -674,7 +738,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "어글리덕"
+    "search": "어글리덕",
+    "musicbrainz": "e56dca4b-3c01-4b7f-82d3-219d0e9043dd"
   },
   {
     "id": "loco",
@@ -684,7 +749,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "로꼬"
+    "search": "로꼬",
+    "musicbrainz": "9e9e2a33-905c-4436-8ad8-8d9df00ba23d"
   },
   {
     "id": "jay-park",
@@ -694,7 +760,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "박재범"
+    "search": "박재범",
+    "musicbrainz": "3dda8202-ce15-4031-862a-77bc6759d15e"
   },
   {
     "id": "gray",
@@ -704,7 +771,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "그레이"
+    "search": "그레이",
+    "musicbrainz": "3d8084a9-656e-497b-a368-04b59fd75ce0"
   },
   {
     "id": "woo",
@@ -714,7 +782,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "우원재"
+    "search": "우원재",
+    "musicbrainz": "b22efa02-ca72-4aa7-a81d-838e60dc81c7"
   },
   {
     "id": "coogie",
@@ -724,7 +793,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "쿠기"
+    "search": "쿠기",
+    "musicbrainz": "b9880049-93f3-4791-a718-20a2891b1d96"
   },
   {
     "id": "punchnello",
@@ -734,7 +804,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "펀치넬로"
+    "search": "펀치넬로",
+    "musicbrainz": "2dc18d13-6ba0-4486-98a2-634bf3a20ab1"
   },
   {
     "id": "meenoi",
@@ -744,7 +815,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "미노이"
+    "search": "미노이",
+    "musicbrainz": "8730860d-bc42-4ce7-960e-cf63dafdab43"
   },
   {
     "id": "hoody",
@@ -754,7 +826,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "후디"
+    "search": "후디",
+    "musicbrainz": "967bd5ad-a182-4c9b-aa5a-df316a40f00f"
   },
   {
     "id": "elo",
@@ -764,7 +837,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "엘로"
+    "search": "엘로",
+    "musicbrainz": "16868edf-a07a-44df-859f-6f2608f39d8c"
   },
   {
     "id": "crush",
@@ -774,7 +848,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "크러쉬"
+    "search": "크러쉬",
+    "musicbrainz": "d663f95b-096e-419b-8b5d-f9e8b980ad2b"
   },
   {
     "id": "dean",
@@ -784,7 +859,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "딘"
+    "search": "딘",
+    "musicbrainz": "2b983abf-ef53-483e-a5f0-356e745008bd"
   },
   {
     "id": "zion-t",
@@ -794,7 +870,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "자이언티"
+    "search": "자이언티",
+    "musicbrainz": "86258e71-2bf2-43ac-a3b3-c1b94bf2c3d4"
   },
   {
     "id": "owen",
@@ -804,7 +881,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오왼"
+    "search": "오왼",
+    "musicbrainz": "6b6a5a5f-b35f-4ab3-817b-2890149ed80d"
   },
   {
     "id": "bloo",
@@ -814,7 +892,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "블루"
+    "search": "블루",
+    "musicbrainz": "3d1988a8-c888-47c9-a02f-be2dd817f415"
   },
   {
     "id": "nafla",
@@ -824,7 +903,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "나플라"
+    "search": "나플라",
+    "musicbrainz": "468d8d24-6863-48af-aaaf-0f331877fa9d"
   },
   {
     "id": "niahn",
@@ -834,7 +914,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "니안"
+    "search": "니안",
+    "musicbrainz": "acc9e573-96cb-4eda-9946-57f5bb5b8f1b"
   },
   {
     "id": "paul-blanco",
@@ -844,7 +925,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "폴블랑코"
+    "search": "폴블랑코",
+    "musicbrainz": "807f6570-0e97-4704-b142-29b54429d15d"
   },
   {
     "id": "ash-island",
@@ -854,7 +936,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "애쉬 아일랜드"
+    "search": "애쉬 아일랜드",
+    "musicbrainz": "1b402bc8-aef9-4078-b3fd-ba3129b5daf8"
   },
   {
     "id": "changmo",
@@ -864,7 +947,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "창모"
+    "search": "창모",
+    "musicbrainz": "93ed67ff-2ab4-4fb3-9e3c-b971b8481e1a"
   },
   {
     "id": "keem-hyo-eun",
@@ -874,7 +958,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김효은"
+    "search": "김효은",
+    "musicbrainz": "8edbb2c5-3452-47a0-a528-0aff875cccd7"
   },
   {
     "id": "hash-swan",
@@ -884,7 +969,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "해쉬스완"
+    "search": "해쉬스완",
+    "musicbrainz": "9518c5e4-9d29-4d5f-b6a5-af8fce7d126d"
   },
   {
     "id": "leellamarz",
@@ -894,7 +980,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "릴러말즈"
+    "search": "릴러말즈",
+    "musicbrainz": "9fa5f403-e477-44c9-a093-5a26ad8309ee"
   },
   {
     "id": "gist",
@@ -904,7 +991,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지스트"
+    "search": "지스트",
+    "musicbrainz": "6cbc3e2d-f273-4d35-9338-9272241aa203"
   },
   {
     "id": "polodared",
@@ -914,7 +1002,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "폴로다레드"
+    "search": "폴로다레드",
+    "musicbrainz": "3e273fbe-bda7-4cae-87f3-0a1f1b88d769"
   },
   {
     "id": "huh",
@@ -924,7 +1013,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "허성현"
+    "search": "허성현",
+    "musicbrainz": "3e1e4ce8-21b1-44fc-bf00-5c16ecacbbf3"
   },
   {
     "id": "don-malik",
@@ -934,7 +1024,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "던말릭"
+    "search": "던말릭",
+    "musicbrainz": "5deda91a-8329-42d0-b0de-45b81af4c2fa"
   },
   {
     "id": "khundi-panda",
@@ -944,7 +1035,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "쿤디판다"
+    "search": "쿤디판다",
+    "musicbrainz": "30cea1d2-62f5-446d-8c98-c0427b43df85"
   },
   {
     "id": "son-simba",
@@ -954,7 +1046,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "손심바"
+    "search": "손심바",
+    "musicbrainz": "e1a3868a-8a48-47f9-82a2-f61b7172bc8f"
   },
   {
     "id": "bewhy",
@@ -964,7 +1057,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비와이"
+    "search": "비와이",
+    "musicbrainz": "b043d091-9c31-44c4-b646-c79d0c97840f"
   },
   {
     "id": "c-jamm",
@@ -974,7 +1068,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "씨잼"
+    "search": "씨잼",
+    "musicbrainz": "5a3a8fd2-fc67-4d79-b598-cd6c06604ba5"
   },
   {
     "id": "giriboy",
@@ -984,7 +1079,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "기리보이"
+    "search": "기리보이",
+    "musicbrainz": "197077b0-559a-4875-9816-b848d47b59e9"
   },
   {
     "id": "black-nut",
@@ -994,7 +1090,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "블랙넛"
+    "search": "블랙넛",
+    "musicbrainz": "aaad7c8e-7671-4dcc-a822-66a1e93ce8b5"
   },
   {
     "id": "han-yo-han",
@@ -1004,7 +1101,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "한요한"
+    "search": "한요한",
+    "musicbrainz": "f4cef7e0-ca80-45b3-b0d0-e73740c2a043"
   },
   {
     "id": "kid-milli",
@@ -1014,7 +1112,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "키드밀리"
+    "search": "키드밀리",
+    "musicbrainz": "767638aa-d3f1-49ab-8112-348ac99b82eb"
   },
   {
     "id": "jvcki-wai",
@@ -1024,7 +1123,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "재키와이"
+    "search": "재키와이",
+    "musicbrainz": "cb519afd-6332-42e7-b2d0-e81b568abfe0"
   },
   {
     "id": "no-el",
@@ -1034,7 +1134,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "노엘"
+    "search": "노엘",
+    "musicbrainz": "b071d402-9860-4923-acba-a5354ef9fa31"
   },
   {
     "id": "osshun-gum",
@@ -1044,7 +1145,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오션검"
+    "search": "오션검",
+    "musicbrainz": "b488c818-50d5-4460-aec6-b7f19794e5f3"
   },
   {
     "id": "jimmy-paige",
@@ -1057,7 +1159,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지미페이지"
+    "search": "지미페이지",
+    "musicbrainz": "0792db4a-d0ea-48b9-bf37-9537db84ccdd"
   },
   {
     "id": "jinbo",
@@ -1067,7 +1170,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "진보"
+    "search": "진보",
+    "musicbrainz": "29490548-39e1-4f67-a342-4f85014f53c8"
   },
   {
     "id": "vince",
@@ -1077,7 +1181,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "빈스"
+    "search": "빈스",
+    "musicbrainz": "eb3b506f-da9a-4c4f-a0e9-7612597751f3"
   },
   {
     "id": "penomeco",
@@ -1087,7 +1192,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "페노메코"
+    "search": "페노메코",
+    "musicbrainz": "60df792c-a06f-4fa5-b0d5-94d44a8d8bee"
   },
   {
     "id": "zico",
@@ -1097,7 +1203,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지코"
+    "search": "지코",
+    "musicbrainz": "f2215143-d7db-4cf0-9cd4-b0040eb63cbd"
   },
   {
     "id": "park-kyung",
@@ -1107,7 +1214,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "박경"
+    "search": "박경",
+    "musicbrainz": "e01610bb-9d29-4ad0-a66d-b559d8c23af9"
   },
   {
     "id": "p-o",
@@ -1117,7 +1225,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "피오"
+    "search": "피오",
+    "musicbrainz": "d51c75c7-205d-46e2-ad0d-2712fbc9910e"
   },
   {
     "id": "mino",
@@ -1130,7 +1239,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "민호"
+    "search": "민호",
+    "musicbrainz": "2650741e-908c-4cae-ba98-0717da3c3ce0"
   },
   {
     "id": "bobby",
@@ -1140,7 +1250,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "바비"
+    "search": "바비",
+    "musicbrainz": "de461f00-89b7-46e2-b6ba-550ef383fb8e"
   },
   {
     "id": "b-i",
@@ -1150,7 +1261,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비아이"
+    "search": "비아이",
+    "musicbrainz": "75312d53-db94-4dc1-a08f-2fa3511cf8f2"
   },
   {
     "id": "rm",
@@ -1174,7 +1286,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "슈가"
+    "search": "슈가",
+    "musicbrainz": "b629da42-c668-49d2-be67-498605ee2a13"
   },
   {
     "id": "j-hope",
@@ -1184,7 +1297,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제이홉"
+    "search": "제이홉",
+    "musicbrainz": "b3977da4-f899-4328-921b-ecc599a5618a"
   },
   {
     "id": "g-dragon",
@@ -1194,7 +1308,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지드래곤"
+    "search": "지드래곤",
+    "musicbrainz": "b4f66d7f-3282-404e-a682-97374d63b5ab"
   },
   {
     "id": "t-o-p",
@@ -1204,7 +1319,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "탑"
+    "search": "탑",
+    "musicbrainz": "bb7246a8-40b6-4397-8322-448aaa2d33a3"
   },
   {
     "id": "cl",
@@ -1214,7 +1330,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "CL"
+    "search": "CL",
+    "musicbrainz": "549c659d-bd39-4acd-b664-d0691036e71a"
   },
   {
     "id": "cheetah",
@@ -1224,7 +1341,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "치타"
+    "search": "치타",
+    "musicbrainz": "7040a448-9dec-412e-b56a-8378a4e83da4"
   },
   {
     "id": "jessi",
@@ -1234,7 +1352,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제시"
+    "search": "제시",
+    "musicbrainz": "04b67fdc-8fdb-47e0-8307-d260abbc93f8"
   },
   {
     "id": "kisum",
@@ -1244,7 +1363,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "키썸"
+    "search": "키썸",
+    "musicbrainz": "9761dd8b-eda9-4b3e-ac09-b59787d3ebfd"
   },
   {
     "id": "yezi",
@@ -1254,7 +1374,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "예지"
+    "search": "예지",
+    "musicbrainz": "d75b5252-6d93-4090-9e3b-8781544f3ac4"
   },
   {
     "id": "truedy",
@@ -1264,7 +1385,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "트루디"
+    "search": "트루디",
+    "musicbrainz": "7545e97f-ad7a-43fc-8ed0-45dcafa5dfe8"
   },
   {
     "id": "tymee",
@@ -1274,7 +1396,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "타이미"
+    "search": "타이미",
+    "musicbrainz": "3fbcd3a0-a5ea-4476-bfe9-0dfb8d1f456b"
   },
   {
     "id": "nada",
@@ -1284,7 +1407,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "나다"
+    "search": "나다",
+    "musicbrainz": "5b0728a5-8802-496f-a2eb-0050a1b6fa70"
   },
   {
     "id": "jeon-soyeon",
@@ -1294,7 +1418,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "전소연"
+    "search": "전소연",
+    "musicbrainz": "c62e0aeb-d7e2-406a-9036-d14881661e0e"
   },
   {
     "id": "lee-young-ji",
@@ -1306,7 +1431,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "영지"
+    "search": "이영지",
+    "musicbrainz": "0433e75d-70b6-4118-9ff8-9b6f7e534093"
   },
   {
     "id": "bryn",
@@ -1316,7 +1442,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "브린"
+    "search": "브린",
+    "musicbrainz": "d86b3916-42cf-4d94-ac5f-ad95a08cbc51"
   },
   {
     "id": "queen-wa-abii",
@@ -1326,7 +1453,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "퀸 와사비"
+    "search": "퀸 와사비",
+    "musicbrainz": "15a1b875-cc86-411c-b00f-9efa7aad2ea4"
   },
   {
     "id": "swervy",
@@ -1336,7 +1464,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스월비"
+    "search": "스월비",
+    "musicbrainz": "6f871579-165e-4c47-8dfa-ddc70ef3ea3a"
   },
   {
     "id": "yunhway",
@@ -1346,7 +1475,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "윤훼이"
+    "search": "윤훼이",
+    "musicbrainz": "f482c4d4-9a61-43be-9968-d9958bcebe46"
   },
   {
     "id": "sleeq",
@@ -1356,7 +1486,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "슬릭"
+    "search": "슬릭",
+    "musicbrainz": "6c2c11c5-6573-48bf-91b4-450d02013d5e"
   },
   {
     "id": "chin-chilla",
@@ -1366,7 +1497,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오담률"
+    "search": "오담률",
+    "musicbrainz": "3fa4453d-fd28-4604-a717-3489fb8a9fd6"
   },
   {
     "id": "haon",
@@ -1376,7 +1508,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김하온"
+    "search": "김하온",
+    "musicbrainz": "8cb31f1b-645a-4c9e-ab9e-06aa8cb08949"
   },
   {
     "id": "rohann",
@@ -1386,7 +1519,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이로한"
+    "search": "이로한",
+    "musicbrainz": "cde885e9-4d2f-4247-a17e-d207594eaa74"
   },
   {
     "id": "vinxen",
@@ -1396,7 +1530,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "빈첸"
+    "search": "빈첸",
+    "musicbrainz": "b3ff789f-6e2b-4fef-807e-a10e36bbdc28"
   },
   {
     "id": "a-mond",
@@ -1406,7 +1541,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "방재민"
+    "search": "방재민",
+    "musicbrainz": "6ff86a7f-9238-4619-accf-5269c97ba4b9"
   },
   {
     "id": "h2adin",
@@ -1416,7 +1552,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "조원우"
+    "search": "조원우",
+    "musicbrainz": "e4c6c6bf-0ec6-46f0-979d-f5658afdad23"
   },
   {
     "id": "mc-gree",
@@ -1430,7 +1567,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김동현"
+    "search": "김동현",
+    "musicbrainz": "6e82b864-0723-4830-a834-d63d4fa63358"
   },
   {
     "id": "pluma",
@@ -1440,7 +1578,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "플루마"
+    "search": "플루마",
+    "musicbrainz": "3c037215-dda5-4f03-ab2e-c186286bc763"
   },
   {
     "id": "d-ark",
@@ -1450,7 +1589,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디아크"
+    "search": "디아크",
+    "musicbrainz": "cb21cb19-5ffd-420c-b949-671b8e3320ab"
   },
   {
     "id": "big-naughty",
@@ -1460,7 +1600,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "빅나티"
+    "search": "빅나티",
+    "musicbrainz": "edcbd883-7b5d-45ac-b5d7-fa63cae79a0a"
   },
   {
     "id": "trade-l",
@@ -1470,7 +1611,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "트레이드엘"
+    "search": "트레이드엘",
+    "musicbrainz": "666ca281-e4c6-42b1-bc1b-9592e8d513a6"
   },
   {
     "id": "noh-yun-ha",
@@ -1480,7 +1622,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "노윤하"
+    "search": "노윤하",
+    "musicbrainz": "f6605fb3-30c6-4f74-a699-cef595a11f7a"
   },
   {
     "id": "anandelight",
@@ -1490,7 +1633,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "아넌딜라이트"
+    "search": "아넌딜라이트",
+    "musicbrainz": "181cd249-a8eb-43ce-95ae-2189ecb4a015"
   },
   {
     "id": "sokodomo",
@@ -1500,7 +1644,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "소코도모"
+    "search": "소코도모",
+    "musicbrainz": "dfccb178-b1d4-461c-9233-35a2a8016341"
   },
   {
     "id": "ja-mezz",
@@ -1510,7 +1655,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "자메즈"
+    "search": "자메즈",
+    "musicbrainz": "0db05f34-9567-46b3-8117-c4b256b4e3f8"
   },
   {
     "id": "andup",
@@ -1520,7 +1666,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "앤덥"
+    "search": "앤덥",
+    "musicbrainz": "5e4f17e6-2e88-4d06-8970-34955d70d00c"
   },
   {
     "id": "song-rapper",
@@ -1540,7 +1687,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "올티"
+    "search": "올티",
+    "musicbrainz": "8d34db59-571e-4f20-a3c7-325a6ff1a388"
   },
   {
     "id": "zizo",
@@ -1550,7 +1698,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지조"
+    "search": "지조",
+    "musicbrainz": "6f91b1ae-28e6-4896-8f7f-43c2ff6cc6b0"
   },
   {
     "id": "b-free",
@@ -1560,7 +1709,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비프리"
+    "search": "비프리",
+    "musicbrainz": "f9dd86d9-835c-47c3-811a-f0fc547247ee"
   },
   {
     "id": "okasian",
@@ -1572,7 +1722,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오케이션"
+    "search": "오케이션",
+    "musicbrainz": "fbff099f-d707-4501-9730-6a118390715c"
   },
   {
     "id": "reddy",
@@ -1582,7 +1733,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "레디"
+    "search": "레디",
+    "musicbrainz": "4d307129-42b4-46ae-aa52-85be1f743377"
   },
   {
     "id": "huckleberry-p",
@@ -1592,7 +1744,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "허클베리피"
+    "search": "허클베리피",
+    "musicbrainz": "8774220b-26c1-4776-8b31-b850a6873eff"
   },
   {
     "id": "suda",
@@ -1604,7 +1757,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "수다쟁이"
+    "search": "수다쟁이",
+    "musicbrainz": "64e448e8-9a9a-40d2-8889-94ed7a4cb385"
   },
   {
     "id": "odee",
@@ -1614,7 +1768,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오디"
+    "search": "오디",
+    "musicbrainz": "f350cca4-cc18-4a1f-ac19-8d8a5f9f6f23"
   },
   {
     "id": "deepflow",
@@ -1624,7 +1779,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "딥플로우"
+    "search": "딥플로우",
+    "musicbrainz": "6fc7a6a3-8f88-4369-bd52-e1be04313b3e"
   },
   {
     "id": "nucksal",
@@ -1634,7 +1790,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "넉살"
+    "search": "넉살",
+    "musicbrainz": "905d99c1-2497-40de-9825-29d1a92da170"
   },
   {
     "id": "don-mills",
@@ -1644,7 +1801,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "던밀스"
+    "search": "던밀스",
+    "musicbrainz": "493977b9-04a6-4d9b-8d7e-777250172f9f"
   },
   {
     "id": "wutan",
@@ -1654,7 +1812,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "우탄"
+    "search": "우탄",
+    "musicbrainz": "0411568f-9181-42ac-a1bc-1c51f7348d8a"
   },
   {
     "id": "los",
@@ -1664,7 +1823,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "로스"
+    "search": "로스",
+    "musicbrainz": "b80c6a8c-4689-41d2-a467-dc8a3a8e1c20"
   },
   {
     "id": "qm",
@@ -1676,7 +1836,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "QM"
+    "search": "QM",
+    "musicbrainz": "5c14c410-5146-45e9-b7b3-337e88027d93"
   },
   {
     "id": "sleepy",
@@ -1686,7 +1847,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "슬리피"
+    "search": "슬리피",
+    "musicbrainz": "d4fd98c7-a0e5-4706-b498-82cefe2b1bcf"
   },
   {
     "id": "untouchable",
@@ -1696,7 +1858,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "언터쳐블"
+    "search": "언터쳐블",
+    "musicbrainz": "05963046-bf64-443f-8d7a-00e748babebe"
   },
   {
     "id": "d-action",
@@ -1706,7 +1869,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디액션"
+    "search": "디액션",
+    "musicbrainz": "2d4dc048-27d0-42b6-ba46-f6cc436ebca4"
   },
   {
     "id": "basick",
@@ -1716,7 +1880,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "베이식"
+    "search": "베이식",
+    "musicbrainz": "4aeb4915-b7de-4b12-a601-063176996ee6"
   },
   {
     "id": "black-nine",
@@ -1726,7 +1891,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "블랙나인"
+    "search": "블랙나인",
+    "musicbrainz": "a1294307-43c1-4d71-86c7-8ca4a7580518"
   },
   {
     "id": "ignito",
@@ -1738,7 +1904,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이그니토"
+    "search": "이그니토",
+    "musicbrainz": "7333b3d9-558f-42fc-b89b-b071f38aab4d"
   },
   {
     "id": "dead-p",
@@ -1748,7 +1915,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "데드피"
+    "search": "데드피",
+    "musicbrainz": "1dbfd27b-8b55-41a3-a2a3-7742d8cb6157"
   },
   {
     "id": "dj-shine",
@@ -1758,7 +1926,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "DJ 샤인"
+    "search": "DJ 샤인",
+    "musicbrainz": "03df1b98-7a57-474a-8e3a-bc2f2db47042"
   },
   {
     "id": "buga-kingz",
@@ -1768,7 +1937,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "부가킹즈"
+    "search": "부가킹즈",
+    "musicbrainz": "deb96d52-0bf3-4744-89bc-4d9d4e198533"
   },
   {
     "id": "bobby-kim",
@@ -1778,7 +1948,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "바비킴"
+    "search": "바비킴",
+    "musicbrainz": "37e8e3b5-94e9-413d-92d9-0af6e8b7ea65"
   },
   {
     "id": "gan-d",
@@ -1788,7 +1959,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "간디"
+    "search": "간디",
+    "musicbrainz": "1f4655f7-1e38-44ad-97c1-0fc828738e39"
   },
   {
     "id": "juvie-train",
@@ -1798,7 +1970,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "주비트레인"
+    "search": "주비트레인",
+    "musicbrainz": "68b256a6-41cd-4165-8187-1da4c94af1e2"
   },
   {
     "id": "uptown",
@@ -1808,7 +1981,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "업타운"
+    "search": "업타운",
+    "musicbrainz": "bfbe89c8-6cd6-4023-88e6-c9936b554f14"
   },
   {
     "id": "jung-yeon-jun",
@@ -1818,7 +1992,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "정연준"
+    "search": "정연준",
+    "musicbrainz": "18e6f7d1-e6f5-4d0c-aa7d-095ac03f56ef"
   },
   {
     "id": "tbny",
@@ -1828,7 +2003,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "TBNY"
+    "search": "TBNY",
+    "musicbrainz": "f8316cff-2973-4f49-970c-f240e270fbe1"
   },
   {
     "id": "yankie",
@@ -1838,7 +2014,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "얀키"
+    "search": "얀키",
+    "musicbrainz": "f0b635c0-4886-4f2b-8754-1092b9028525"
   },
   {
     "id": "topbob",
@@ -1848,7 +2025,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "톱밥"
+    "search": "톱밥",
+    "musicbrainz": "43430a03-9f2c-49d2-9869-34fd523a168b"
   },
   {
     "id": "baechigi",
@@ -1858,7 +2036,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "배치기"
+    "search": "배치기",
+    "musicbrainz": "47f939a0-3548-4932-bd8b-77c2aab9a86d"
   },
   {
     "id": "tak",
@@ -1868,7 +2047,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "탁"
+    "search": "탁",
+    "musicbrainz": "3d9738d8-8dff-4b8b-9ff2-a5d8f5e397ff"
   },
   {
     "id": "moowoong",
@@ -1878,7 +2058,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "무웅"
+    "search": "무웅",
+    "musicbrainz": "54f4e5ec-176b-499f-91e3-28429337adea"
   },
   {
     "id": "mighty-mouth",
@@ -1888,7 +2069,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "마이티 마우스"
+    "search": "마이티 마우스",
+    "musicbrainz": "30342954-a1fa-4f8f-8032-b0429334d829"
   },
   {
     "id": "sangchu",
@@ -1898,7 +2080,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "상추"
+    "search": "상추",
+    "musicbrainz": "d105db16-bf7e-4a06-86c9-e9370dbf13a1"
   },
   {
     "id": "shorry-j",
@@ -1908,7 +2091,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "쇼리"
+    "search": "쇼리",
+    "musicbrainz": "cc933659-45be-4af3-82c6-58656fab8785"
   },
   {
     "id": "45rpm",
@@ -1918,7 +2102,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "45RPM"
+    "search": "45RPM",
+    "musicbrainz": "05a42ebb-b91b-47d8-88e3-78754d0a232a"
   },
   {
     "id": "lee-hyun-bae",
@@ -1928,7 +2113,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이현배"
+    "search": "이현배",
+    "musicbrainz": "0ec6c8f1-624f-44d4-8473-0548e20f04c5"
   },
   {
     "id": "j-kwondo",
@@ -1938,7 +2124,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "J-Kwondo"
+    "search": "J-Kwondo",
+    "musicbrainz": "24ee524b-5c4f-4c9d-adba-e350ecc7e35e"
   },
   {
     "id": "a-jo",
@@ -1958,7 +2145,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "아웃사이더"
+    "search": "아웃사이더",
+    "musicbrainz": "a6a77ea7-be0e-47ee-8230-f698f15e3a8d"
   },
   {
     "id": "mc-sniper",
@@ -1968,7 +2156,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "MC 스나이퍼"
+    "search": "MC 스나이퍼",
+    "musicbrainz": "1e11420e-dacb-44c6-8447-25d16653c9c9"
   },
   {
     "id": "room9",
@@ -1978,7 +2167,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "룸나인"
+    "search": "룸나인",
+    "musicbrainz": "6c42c793-4f00-4959-b100-2a9960a64c11"
   },
   {
     "id": "fatdoo",
@@ -1988,7 +2178,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "팻두"
+    "search": "팻두",
+    "musicbrainz": "f76d1cb7-3086-4c02-860c-b5684c260993"
   },
   {
     "id": "rhyme-a",
@@ -1998,7 +2189,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "라임어택"
+    "search": "라임어택",
+    "musicbrainz": "083985be-d813-4453-945a-693fa03bf0c5"
   },
   {
     "id": "crucial-star",
@@ -2008,7 +2200,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "크루셜 스타"
+    "search": "크루셜 스타",
+    "musicbrainz": "1a4b8d1f-aa15-40a7-b035-84e550171f20"
   },
   {
     "id": "fana",
@@ -2018,7 +2211,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "화나"
+    "search": "화나",
+    "musicbrainz": "f695e873-78cd-434d-a631-803ec015aa97"
   },
   {
     "id": "jjangyou",
@@ -2028,7 +2222,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "짱유"
+    "search": "짱유",
+    "musicbrainz": "9c14a6e0-7a40-4861-a8a2-90cd2e4a6191"
   },
   {
     "id": "sapo",
@@ -2038,7 +2233,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "사포"
+    "search": "사포",
+    "musicbrainz": "31d7250f-d844-460a-8bb6-5e7dfc4e38b4"
   },
   {
     "id": "dbo",
@@ -2048,7 +2244,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디보"
+    "search": "디보",
+    "musicbrainz": "c2bf891b-3b70-4709-974c-8487c661c55d"
   },
   {
     "id": "choilb",
@@ -2058,7 +2255,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "최엘비"
+    "search": "최엘비",
+    "musicbrainz": "5fcd5ec8-cb51-487a-9950-43ce991608f6"
   },
   {
     "id": "kim-ximya",
@@ -2068,7 +2266,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김심야"
+    "search": "김심야",
+    "musicbrainz": "778c8a6b-8ab2-4dc2-9866-11a15547c489"
   },
   {
     "id": "xxx",
@@ -2078,7 +2277,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "XXX"
+    "search": "XXX",
+    "musicbrainz": "48f987de-4924-48da-8eb0-e3228f7657b4"
   },
   {
     "id": "kirin",
@@ -2088,7 +2288,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "기린"
+    "search": "기린",
+    "musicbrainz": "7bd2ae62-f764-4843-9433-35271f280dc1"
   },
   {
     "id": "sumin",
@@ -2098,7 +2299,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "수민"
+    "search": "수민",
+    "musicbrainz": "16f456c9-e23b-4675-ab6a-fd295712c256"
   },
   {
     "id": "chaboom",
@@ -2108,7 +2310,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "차붐"
+    "search": "차붐",
+    "musicbrainz": "d32be3d2-af8d-4fb6-a73f-0419eac98d66"
   },
   {
     "id": "legit-goons",
@@ -2118,7 +2321,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "리짓군즈"
+    "search": "리짓군즈",
+    "musicbrainz": "c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b"
   },
   {
     "id": "blnk",
@@ -2128,7 +2332,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "블랭"
+    "search": "블랭",
+    "musicbrainz": "3b29e453-11e4-45bf-a3e9-4922d257b400"
   },
   {
     "id": "bassagong",
@@ -2138,7 +2343,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "뱃사공"
+    "search": "뱃사공",
+    "musicbrainz": "c9cd4f60-1177-4adb-8f24-340fae86a9bc"
   },
   {
     "id": "jayho",
@@ -2148,7 +2354,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제이호"
+    "search": "제이호",
+    "musicbrainz": "3c110a6e-977d-427f-8ee5-8265d9f5c097"
   },
   {
     "id": "jaedal",
@@ -2158,7 +2365,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "재달"
+    "search": "재달",
+    "musicbrainz": "63fd0e95-9d0e-4ed4-bb27-9a290557bb24"
   },
   {
     "id": "ra-d",
@@ -2168,7 +2376,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "라디"
+    "search": "라디",
+    "musicbrainz": "278a1822-bcdb-4500-9bf7-b86f7c3d455a"
   },
   {
     "id": "dopesun",
@@ -2178,7 +2387,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "돕선"
+    "search": "돕선",
+    "musicbrainz": "3df162b0-e9ba-4708-96cd-107532ba790d"
   },
   {
     "id": "soma",
@@ -2188,7 +2398,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "소마"
+    "search": "소마",
+    "musicbrainz": "aef970d7-b7f9-47c6-bb7f-fb0c297bdca6"
   },
   {
     "id": "olnl",
@@ -2198,7 +2409,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오르내림"
+    "search": "오르내림",
+    "musicbrainz": "7a12b0e0-5b1a-42e5-b71a-5c014e5cc21f"
   },
   {
     "id": "samuel-seo",
@@ -2208,7 +2420,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "서사무엘"
+    "search": "서사무엘",
+    "musicbrainz": "174ad2f6-3e53-4eb3-8ec9-98325215d8eb"
   },
   {
     "id": "g2",
@@ -2218,7 +2431,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지투"
+    "search": "지투",
+    "musicbrainz": "8b64ad51-3ad3-4310-b63a-804da3145492"
   },
   {
     "id": "myundo",
@@ -2228,7 +2442,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "면도"
+    "search": "면도",
+    "musicbrainz": "ed25c6e5-ba7e-48e0-848e-303615cf713d"
   },
   {
     "id": "bizzy",
@@ -2238,7 +2453,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비지"
+    "search": "비지",
+    "musicbrainz": "5ca9e3fe-93e1-451e-8616-f5427b9cfbf5"
   },
   {
     "id": "mfbty",
@@ -2248,7 +2464,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "MFBTY"
+    "search": "MFBTY",
+    "musicbrainz": "034b4ba9-1f70-412a-8cac-ed8591f8a583"
   },
   {
     "id": "new-champ",
@@ -2258,7 +2475,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "뉴챔프"
+    "search": "뉴챔프",
+    "musicbrainz": "066c1a9b-7e9a-4830-9e25-b5ff52d95065"
   },
   {
     "id": "jung-sang-soo",
@@ -2268,7 +2486,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "정상수"
+    "search": "정상수",
+    "musicbrainz": "1c320554-3a51-48d8-ab10-cf9cffc1210a"
   },
   {
     "id": "beatbox-dg",
@@ -2278,7 +2497,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비트박스 DG"
+    "search": "비트박스 DG",
+    "musicbrainz": "3fac695f-828c-4388-8c4c-aace3ef5d91a"
   },
   {
     "id": "futuristic-swaver",
@@ -2288,7 +2508,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "퓨처리스틱 스웨버"
+    "search": "퓨처리스틱 스웨버",
+    "musicbrainz": "19ce9c6c-545b-410e-8eda-d1643484982b"
   },
   {
     "id": "lil-cherry",
@@ -2298,7 +2519,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "릴체리"
+    "search": "릴체리",
+    "musicbrainz": "5b09ad39-db52-4b79-9b70-290957e66217"
   },
   {
     "id": "goldbuuda",
@@ -2308,7 +2530,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "골드부다"
+    "search": "골드부다",
+    "musicbrainz": "64f1b823-2673-4cca-9ce5-e64919abf83e"
   },
   {
     "id": "mckdaddy",
@@ -2318,7 +2541,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "맥대디"
+    "search": "맥대디",
+    "musicbrainz": "2e1fe326-7b3a-46b8-ba3e-8079e1a417b1"
   },
   {
     "id": "koonta",
@@ -2328,7 +2552,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "쿤타"
+    "search": "쿤타",
+    "musicbrainz": "b9f51482-63f1-46e6-9a79-8f5a9136d817"
   },
   {
     "id": "layone",
@@ -2338,7 +2563,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "래원"
+    "search": "래원",
+    "musicbrainz": "119f98cc-1780-4d80-9218-0d335b228c38"
   },
   {
     "id": "mushvenom",
@@ -2348,7 +2574,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "머쉬베놈"
+    "search": "머쉬베놈",
+    "musicbrainz": "87c5cd75-54c4-40cf-9456-9398cfc6713f"
   },
   {
     "id": "chillin-homie",
@@ -2358,7 +2585,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "칠린호미"
+    "search": "칠린호미",
+    "musicbrainz": "63ae7ed8-3ce5-4df9-aa82-be235a795ce8"
   },
   {
     "id": "lil-tachi",
@@ -2368,7 +2596,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "릴타치"
+    "search": "릴타치",
+    "musicbrainz": "cf8f90ea-cc3b-4cf7-943c-5404d70db4d1"
   },
   {
     "id": "bully-da-ba-tard",
@@ -2378,7 +2607,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "불리 다 바스타드"
+    "search": "불리 다 바스타드",
+    "musicbrainz": "3abb2367-a746-4825-a227-34852f7f52bf"
   },
   {
     "id": "kuan",
@@ -2400,7 +2630,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제이켠"
+    "search": "제이켠",
+    "musicbrainz": "43f29cdd-c1a0-4a5b-8abe-ff7effdf08be"
   },
   {
     "id": "jjk",
@@ -2410,7 +2641,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "제이제이케이"
+    "search": "제이제이케이",
+    "musicbrainz": "9a1888c6-056b-4f61-8817-eb092bec4c2d"
   },
   {
     "id": "tarae",
@@ -2420,7 +2652,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "타래"
+    "search": "타래",
+    "musicbrainz": "af6ffb68-54d5-4ec8-8737-8dbfe5ad6afb"
   },
   {
     "id": "be-o",
@@ -2430,7 +2663,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "비오"
+    "search": "비오",
+    "musicbrainz": "2228765c-f236-4db5-b576-cbad758dfc12"
   },
   {
     "id": "since",
@@ -2440,7 +2674,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "신스"
+    "search": "신스",
+    "musicbrainz": "0b7a9b4c-2ee1-4b6c-ad31-4732d2b781b4"
   },
   {
     "id": "blase",
@@ -2450,7 +2685,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "블라세"
+    "search": "블라세",
+    "musicbrainz": "2f96c1ae-0671-4d48-9507-670892a2ac67"
   },
   {
     "id": "unofficialboyy",
@@ -2460,7 +2696,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "언오피셜보이"
+    "search": "언오피셜보이",
+    "musicbrainz": "78d32ee5-5b35-444f-8f64-2d00516ef805"
   },
   {
     "id": "chamane",
@@ -2470,7 +2707,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "차메인"
+    "search": "차메인",
+    "musicbrainz": "e5110a56-2133-4ff2-96ae-561619f4e41f"
   },
   {
     "id": "mac-k",
@@ -2490,7 +2728,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "노스페이스갓"
+    "search": "노스페이스갓",
+    "musicbrainz": "5aeba76e-d77e-4463-a202-7d964086f54d"
   },
   {
     "id": "lucigang",
@@ -2510,7 +2749,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이케이"
+    "search": "이케이",
+    "musicbrainz": "aced9319-1020-4caa-93cd-4023b039a52f"
   },
   {
     "id": "mba",
@@ -2520,7 +2760,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "MBA"
+    "search": "MBA",
+    "musicbrainz": "f7f1614e-4fda-4074-824e-949c44d65122"
   },
   {
     "id": "boi-b",
@@ -2530,7 +2771,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "보이비"
+    "search": "보이비",
+    "musicbrainz": "8d235776-51a8-446b-ba81-11e9de55dcb8"
   },
   {
     "id": "hangzoo",
@@ -2540,7 +2782,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "행주"
+    "search": "행주",
+    "musicbrainz": "15b381b5-a02d-4d5e-af0a-4a1b0bf0cd4c"
   },
   {
     "id": "rhythm-power",
@@ -2550,7 +2793,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "리듬파워"
+    "search": "리듬파워",
+    "musicbrainz": "91075f86-a5f7-4d9a-878a-7380b905953e"
   },
   {
     "id": "geegooin",
@@ -2560,7 +2804,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "지구인"
+    "search": "지구인",
+    "musicbrainz": "07e78331-884c-4c94-988f-1424da3b94d2"
   },
   {
     "id": "iron",
@@ -2570,7 +2815,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "아이언"
+    "search": "아이언",
+    "musicbrainz": "d312461a-9cd6-42a3-9c10-509756bb9d91"
   },
   {
     "id": "rock-punkman",
@@ -2580,7 +2826,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "록스 펑크맨"
+    "search": "록스 펑크맨",
+    "musicbrainz": "4f0b05b2-b44d-4342-b537-b6ebe9df8a4f"
   },
   {
     "id": "choi-sam",
@@ -2590,7 +2837,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "최삼"
+    "search": "최삼",
+    "musicbrainz": "2a8a1d2a-08b6-4178-b7df-210f4db6b137"
   },
   {
     "id": "oddy",
@@ -2610,7 +2858,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "아체"
+    "search": "아체",
+    "musicbrainz": "1380a0d4-0e0b-48d2-a755-cd7107021d0a"
   },
   {
     "id": "pinodyne",
@@ -2620,7 +2869,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "피노다인"
+    "search": "피노다인",
+    "musicbrainz": "45481dad-8c61-483a-8004-fab5dd920e6c"
   },
   {
     "id": "ted-park",
@@ -2630,7 +2880,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "테드 박"
+    "search": "테드 박",
+    "musicbrainz": "ec81a0da-f8e2-44d2-861c-2f2fc4fff9f4"
   },
   {
     "id": "ph-1",
@@ -2640,7 +2891,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "pH-1"
+    "search": "pH-1",
+    "musicbrainz": "aace796b-0569-49b6-a144-64ea24031962"
   },
   {
     "id": "sik-k",
@@ -2650,7 +2902,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "식케이"
+    "search": "식케이",
+    "musicbrainz": "bbf6aa09-987b-46b6-8dd9-89c6ade3c00f"
   },
   {
     "id": "woodie-gochild",
@@ -2660,7 +2913,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "우디 고차일드"
+    "search": "우디 고차일드",
+    "musicbrainz": "adc8b0d8-874b-4e10-be9f-82d52582b310"
   },
   {
     "id": "small-t",
@@ -2690,7 +2944,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "이현준"
+    "search": "이현준",
+    "musicbrainz": "5bad2471-f9bc-4cb6-929e-ebbda9f40780"
   },
   {
     "id": "30",
@@ -2700,7 +2955,8 @@
     "kind": "group",
     "core": true,
     "country": "KR",
-    "search": "서리"
+    "search": "서리",
+    "musicbrainz": "55dfb458-b42e-4e72-b654-47429e3b7fa6"
   },
   {
     "id": "olive",
@@ -2720,7 +2976,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "플리키뱅"
+    "search": "플리키뱅",
+    "musicbrainz": "ad3dfedc-33bb-43a1-82e4-0fb155bab681"
   },
   {
     "id": "street-baby",
@@ -2730,7 +2987,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스트릿 베이비"
+    "search": "스트릿 베이비",
+    "musicbrainz": "58448f2b-deab-4ecc-9f2f-cca0f0e453e0"
   },
   {
     "id": "jambino",
@@ -2740,7 +2998,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "잠비노"
+    "search": "잠비노",
+    "musicbrainz": "7c839fbe-06ac-4100-821e-03834f0affa6"
   },
   {
     "id": "damini",
@@ -2750,7 +3009,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "다민이"
+    "search": "다민이",
+    "musicbrainz": "70fc0660-c58d-4794-b8df-ad00f504a5ab"
   },
   {
     "id": "haru",
@@ -2773,7 +3033,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "디젤"
+    "search": "디젤",
+    "musicbrainz": "c175bbb7-84e3-4b11-84dd-9ac5d1cb8ab2"
   },
   {
     "id": "psycho",
@@ -2793,7 +3054,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "원슈타인"
+    "search": "원슈타인",
+    "musicbrainz": "fc2a8a28-b81c-449a-9f6d-6e67c19801d4"
   },
   {
     "id": "ourealgoat",
@@ -2803,7 +3065,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "오우릴고트"
+    "search": "오우릴고트",
+    "musicbrainz": "0d2f9a5b-b578-4e79-85bb-8f3e01ad296f"
   },
   {
     "id": "nuol",
@@ -2813,7 +3076,8 @@
     "kind": "person",
     "core": false,
     "country": "KR",
-    "search": "뉴올"
+    "search": "뉴올",
+    "musicbrainz": "e44a0006-fb27-4064-a1de-91790ed2cc07"
   },
   {
     "id": "louie-homies",
@@ -2847,7 +3111,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "마미손"
+    "search": "마미손",
+    "musicbrainz": "5afd7e09-6b35-49f9-a05e-ed092e2e065d"
   },
   {
     "id": "gwangil-jo",
@@ -2857,7 +3122,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "조광일"
+    "search": "조광일",
+    "musicbrainz": "6afdafa4-ff3e-4bbe-8150-12e96313526c"
   },
   {
     "id": "kim-seungmin",
@@ -2867,7 +3133,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "김승민"
+    "search": "김승민",
+    "musicbrainz": "a5a20f2a-2d24-4670-9242-8eb466b2546b"
   },
   {
     "id": "bigone",
@@ -2877,7 +3144,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "빅원"
+    "search": "빅원",
+    "musicbrainz": "988b93e2-1c97-40db-b1f3-58bdae3fb1c8"
   },
   {
     "id": "sway-d",
@@ -2887,7 +3155,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스웨이디"
+    "search": "스웨이디",
+    "musicbrainz": "d70f81de-d369-4fe6-9499-2d0ea2208149"
   },
   {
     "id": "microdot",
@@ -2897,7 +3166,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "마이크로닷"
+    "search": "마이크로닷",
+    "musicbrainz": "f58ee3e2-d829-4177-b479-266e7eaa79c9"
   },
   {
     "id": "maniac",
@@ -2907,7 +3177,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "매니악"
+    "search": "매니악",
+    "musicbrainz": "6d0e5588-934e-4da3-ad9d-e9fa35e85091"
   },
   {
     "id": "sean2slow",
@@ -2917,7 +3188,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "션이슬로우"
+    "search": "션이슬로우",
+    "musicbrainz": "4456441f-ba3f-4017-b3f4-64778ca1c247"
   },
   {
     "id": "leo-kekoa",
@@ -2927,7 +3199,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "레오케코아"
+    "search": "레오케코아",
+    "musicbrainz": "d0573111-ca4f-4b90-9a35-f56c2964f54a"
   },
   {
     "id": "myk",
@@ -2937,7 +3210,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "MYK"
+    "search": "MYK",
+    "musicbrainz": "8640d38c-9fd5-4e44-86ae-1437096954a1"
   },
   {
     "id": "snacky-chan",
@@ -2947,7 +3221,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "스낵키챈"
+    "search": "스낵키챈",
+    "musicbrainz": "6c1bab22-ae3f-4df8-a371-4cab6124c52f"
   },
   {
     "id": "takuwa",
@@ -2957,7 +3232,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "타쿠와"
+    "search": "타쿠와",
+    "musicbrainz": "8471d2c1-3f10-4e10-98d1-1cc7c4b18b40"
   },
   {
     "id": "ahn-byeong-woong",
@@ -2967,7 +3243,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "안병웅"
+    "search": "안병웅",
+    "musicbrainz": "99337052-942b-4d1f-b214-0812360d54b8"
   },
   {
     "id": "seo-chul-goo",
@@ -2977,7 +3254,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "서출구"
+    "search": "서출구",
+    "musicbrainz": "7387cc0f-ccf2-4061-a018-0c9350145f4b"
   },
   {
     "id": "kittib",
@@ -2987,7 +3265,8 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "키디비"
+    "search": "키디비",
+    "musicbrainz": "fa1f6198-f710-43d8-ac23-48ee5272da2a"
   },
   {
     "id": "miryo",
@@ -2997,6 +3276,7 @@
     "kind": "person",
     "core": true,
     "country": "KR",
-    "search": "미료"
+    "search": "미료",
+    "musicbrainz": "30eedc7b-4474-4cf1-849a-d03b0452f7f2"
   }
 ]

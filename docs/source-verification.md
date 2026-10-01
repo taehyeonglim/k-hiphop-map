@@ -17,7 +17,7 @@ The eras refer to the **sample recording date**, not a claimed artist debut. Eve
 | Recording era | Focal artist / identity kind | Cached first release | Recording source | Raw credited parties | Audit note |
 | --- | --- | --- | --- | --- | --- |
 | 1995–2004 | 가리온 / group | 2004-01-16 | [이렇게 (U Practice the Art of Hiphop)](https://musicbrainz.org/recording/43fdd7c6-b403-4cb1-96d8-bd115879d950) | 가리온 | Group-only control; no person-level or collaboration edge inferred. |
-| 1995–2004 | 드렁큰 타이거 / group | 2000-04-23 | [Blues (Boom Bap 으로 치료해줄께)](https://musicbrainz.org/recording/57d6fc75-6911-499c-9351-a9380874b2b6) | Drunken Tiger; Roscoe Umali | Second same-title recording MBID exists; duplicate review required. |
+| 1995–2004 | 드렁큰 타이거 / group | 2000-04-23 | [Blues (Boom Bap 으로 치료해줄께)](https://musicbrainz.org/recording/57d6fc75-6911-499c-9351-a9380874b2b6) | Drunken Tiger; Roscoe Umali | Final normalization retains this source URL under canonical MBID 12259981… dated 2000-03-29; one performance counted. |
 | 1995–2004 | DJ DOC / group | 2004-11-09 | [One Night](https://musicbrainz.org/recording/6e5e8518-2d8a-4c1d-8e6f-aba3a9fce540) | DJ DOC; Red Roc | Group retained as one credited party. |
 | 1995–2004 | 김진표 / person | 2001-01-23 | [목격자는 필요없어](https://musicbrainz.org/recording/26365728-69f3-433d-b2a1-4fc6e165b9b3) | 김진표; Mysty | Later 2004 release does not reset recording year. |
 | 1995–2004 | CB Mass / group | 2000-09-06 | [The Movement II](https://musicbrainz.org/recording/1c0dd8a5-dfb4-4c80-bbc5-8ac8ad363d2f) | CB Mass; Drunken Tiger | Group-to-group billing; no expansion to either group's members. |
@@ -55,6 +55,8 @@ These are concrete findings from the first generated catalog, communicated to th
 7. **Freshness is not completeness.** The first snapshot's latest cached dates included 2026-09-04 (`anime`, `TUKUTZISM`), but that does not prove every October 1 release has been collected or independently verified. The data's collection date and actual observed latest date must be described separately.
 8. **A recording is not proof of an official release.** A later audit pass found 34 catalog recordings for which all returned release statuses were Bootleg, Promotion or Pseudo-Release, yet the generated kind was `official`. Examples include Garion's [Mutu](https://musicbrainz.org/recording/5bd384b5-6014-436e-8ae3-58b7c9e29659), returned with a DJMAX Portable Clazziquai Edition bootleg release. Search results can be partial, so these records are review candidates rather than proof that no official release exists. An official release or artist/label publication should establish eligibility; promotional and free releases require publication evidence rather than an automatic official label.
 9. **Review status must survive every public view.** The graph excludes pending recordings and pending participant credits. The initial artist discography view only checked participant status, allowing a quarantined recording to appear under confirmed releases. Confirmed discographies must also exclude pending recordings; collection coverage counts must be labeled as collection counts when they include review candidates.
+10. **Changing a display name must not rerun identity selection without a stable ID.** A later rebuild changed the Lee Young-ji seed from the rapper MBID `0433e75d-70b6-4118-9ff8-9b6f7e534093` to the singer 영지 MBID `61945c36-1c1c-4219-9657-22e9209be07a`, exposing 2007–2016 recordings under the rapper's portrait. The cached rapper profile establishes a female South Korean rapper born 2002-09-10. The final seed pins the rapper MBID explicitly; her 49 collected recordings span 2019–2026. All 283 resolved seed MBIDs are now persisted and checked against the published identities. This is protection against resolver drift, not a claim that 283 identities were independently researched to the same depth as the 46 manual reviews.
+11. **Correct artist profiles do not repair wrong upstream recording credits.** The Homies Louie MBID is linked upstream to a 2012 Jazzkantine recording, [Wooden Heart](https://musicbrainz.org/recording/9119fe80-f07b-40a6-8145-a4de1da898f4), and TAKEWON's [책상](https://musicbrainz.org/recording/f54b3684-da62-4909-9e88-5f19de843e3e). The latter has decisive conflicting primary evidence: [Bugs' song credits](https://music.bugs.co.kr/track/31143769) identify featured artist 황문섭, whose linked [Bugs artist profile](https://music.bugs.co.kr/artist/80095509) identifies Geeks membership. Both recordings are quarantined pending a recording-specific correction; neither is used to merge Geeks Louie and Homies Louie. The Jazzkantine entry remains an unresolved foreign-context identity conflict, not a proved Korean collaboration.
 
 ## Rechecking before publication
 
@@ -72,7 +74,7 @@ The authoritative collection status remains the generated catalog and pending-re
 
 ## Reviewed identity mapping evidence
 
-All 45 manually reviewed mapping decisions in `data/identity-review.json` were matched to actual cached artist data. The table records the raw identity context, rather than merely trusting the review-file notes. Publication matching is checked separately against the frozen catalog. Birth dates are identity disambiguators, not debut years. BIGHIT and Genie sources linked here were also independently opened for the SUGA/Agust D relationship and the H2ADIN, Pinodyne, Noh Yun-ha and Loxx Punkman contexts.
+All 46 manually reviewed mapping decisions in `data/identity-review.json` were matched to actual cached artist data. The table records the raw identity context, rather than merely trusting the review-file notes. Publication matching is checked separately against the frozen catalog. Birth dates are identity disambiguators, not debut years. BIGHIT and Genie sources linked here were also independently opened for the SUGA/Agust D relationship and the H2ADIN, Pinodyne, Noh Yun-ha and Loxx Punkman contexts.
 
 | Reviewed key | Source identity | Canonical MusicBrainz ID | Cached identity context |
 | --- | --- | --- | --- |
@@ -121,6 +123,58 @@ All 45 manually reviewed mapping decisions in `data/identity-review.json` were m
 | rock-punkman | [Loxx Punkman](https://www.genie.co.kr/magazine/subMain?mgz_seq=4675) | 4f0b05b2-b44d-4342-b537-b6ebe9df8a4f | lookup; KR; Korean rapper |
 | skull | [Skull](https://www.maniadb.com/artist/106118?o=g) | 4503247e-5ff1-440e-a8a1-425f518cfe9a | search; KR; Korean reggae artist; 1979-11-02 |
 | jimmy-paige | [Jimmy Paige](https://musicbrainz.org/artist/0792db4a-d0ea-48b9-bf37-9537db84ccdd) | 0792db4a-d0ea-48b9-bf37-9537db84ccdd | lookup; KR; Korean rapper; 1990-09-03 |
+| lee-young-ji | [이영지](https://musicbrainz.org/artist/0433e75d-70b6-4118-9ff8-9b6f7e534093) | 0433e75d-70b6-4118-9ff8-9b6f7e534093 | search; KR; female; South Korean rapper; 2002-09-10 |
 
 Skull additionally preserves the independently reviewed alternate MBID `5765ee3c-4cc7-431a-b6a4-e3851a8f601f`; SUGA additionally preserves the official Agust D persona MBID `f09d2950-e3c6-47b2-b21c-2bad2cd3f616`. These are explicit cross-ID decisions, not generalized alias merging.
 
+## Frozen catalog audit
+
+The final cached-source audit is bound to `data/catalog.json` version `2026.10.01-73d5c2c3`, SHA-256 `4832d3bb897b30c9a6f70220b7c880e69a645930f4c67e130dd0eb9666341e8e`. The hash was checked before and after the audit. This supersedes the earlier snapshot with the Lee Young-ji identity error.
+
+| Population in this frozen catalog | Count | Meaning |
+| --- | ---: | --- |
+| Raw artist identities | 2,611 | Includes identities absent from the visible graph and pending credits. |
+| Core hip-hop artists | 268 | Editorial scope; adjacent R&B collaborators remain available separately. |
+| Collected normalized recordings | 12,324 | Includes review candidates. |
+| Eligible recordings | 11,208 | Recording status is not pending; eligible participant identity is checked separately. |
+| Pending recordings | 1,116 | Excluded from accepted ties and confirmed discographies. |
+| Collected releases | 3,976 | Collection count, not complete discography coverage. |
+| Officially evidenced free-release tracks | 11 | RM's 2015 mixtape; official blog evidence. |
+| Explicit group-membership relations | 85 | Each matched to cached `member of band` relations. |
+| Manually reviewed identity decisions | 46 | All canonical IDs match the frozen catalog and cached profiles. |
+| Persisted resolved seed MBIDs | 283 | All match the corresponding published canonical identity. |
+| Performer-identity policies | 628 | 585 allow vocal identities; the remaining policies prevent unsupported instrumental/producer projection. |
+
+The audit checked every catalog participant against the union of credited MBIDs in its retained recording-source responses, allowing only the listed reviewed cross-ID identities. It found no missing cached recording evidence, source-credit mismatch, duplicate canonical artist MBID, release-eligibility mismatch or unsupported accepted noncore vocal identity under the current policy. This is exhaustive **structural reconciliation against the collected evidence**, not independent verification of every MusicBrainz claim. The twenty-five recording examples above were inspected as factual samples; core profiles were screened for country/type/date contradictions, followed by targeted identity checks. The concrete upstream errors demonstrate the remaining limit.
+
+For recording eligibility, every nonpending entry has at least one returned `Official` release status or independently evidenced artist/label publication. Source-confirmed rap/singing identities permit participant filtering, but the fact that an artist can rap or sing still does not independently prove a particular performance role on every billed recording. All 85 memberships, including their supplied start/end years, match explicit cached group relations; none is inferred from name similarity or shared recording credits.
+
+The known cases were rechecked: Baechigi Tak is `3d9738d8…`, not composer TAK; Geeks Louie is `b4f51145…` and Homies Louie is `121f82d5…`; Skull's two IDs are an explicit reviewed exception; Jimmy Paige/Goretexx remains one person. Lee Young-ji has the correct pinned identity. The two Young B conflicts and the two Louie conflicts are pending. The video-edit Garion record is absent. Adjacent artists Zion.T, Crush, DEAN, Hoody, SUMIN, Ra.D, Samuel Seo and Nuol are noncore.
+
+Known nonvocal identities are preserved without accepted vocal ties: composer TAK has one reviewed `producer` credit, DJ Wegun has 39 reviewed `instrumental` credits, trumpeter 이주한 has four, and unknownDJs has two. These checks establish how the particular known cases are filtered; they do not prove the absence of every possible instrumental billing error in the source database.
+
+Duplicate controls retain one performance for Blues, NEURON and The Quiett's `f*k all that shit` single/album bonus-track appearance. The separately titled 2019 remix remains distinct. Clean/explicit/Atmos versions are normalized across the whole duplicate component; all contributing source URLs remain attached. This prevents the same accepted performance from adding multiple contributions to an edge, while preserving a meaningful remix as a separate recording.
+
+Two shared-ISRC conflicts remain deliberately unresolved. `KRNAR2339149` links `why stop now` / `새`; `KRMIM1916877` links `Trouble` / `imFINE`. All four recordings are pending because their participant sets conflict. Shared ISRC is not used to force a merge or justify a collaboration.
+
+The observed eligible recording dates run from `1995-06` to `2026-09-15`; their precision varies. The snapshot's `asOf` is 2026-10-01. These dates describe the observed collection, not a guarantee that every release through October 1 is included. The separate `data/source-audit.json` Maniadb search checks cover 25 artist/album availability samples; they do not establish complete recall or validate every catalog credit.
+
+The confirmed-discography guards were checked in `ArtistPanel.tsx` and `RecordingList.tsx`: both reject pending recordings; artist releases require at least one confirmed artist recording. Pending rows may remain in public metadata for transparent review status, but must not contribute to accepted ties or confirmed discographies. Collection counts are labeled `수집한 곡` / `수집 발매작`.
+
+## Rebuilt public graph reconciliation
+
+The rebuilt `public/data/graph.json`, `map.json` and `manifest.json` agree on public version `2026.10.01-73d5c2c3-c92fd5a3`, derived from the frozen catalog above. The published full-period snapshot includes direct collaborators; the interactive default core-only filter has a narrower node/pair scope.
+
+| Full-period public snapshot | Count |
+| --- | ---: |
+| Visible artist nodes, including direct collaborators | 731 |
+| Core artists | 268 |
+| Eligible recording population | 11,208 |
+| Recordings contributing a collaboration | 4,054 |
+| Distinct artist-pair edges | 6,344 |
+| Visible artist portraits | 132 |
+| Collected releases in visible-artist scope | 2,693 |
+
+An independent reconstruction from the frozen catalog's eligible participant lists matched every public edge's unique recording IDs and ensemble-normalized weight, the total edge/collaboration counts, and every node's recording count and degree. It found zero pending recording references and zero unsupported participant references in all 6,344 accepted edges. Both shared-ISRC conflict pairs and all four Young B/Louie quarantines contribute zero accepted ties. Public metadata retains the 1,116 pending rows with their flags; that retention is separate from the confirmed graph and discography views.
+
+The catalog SHA-256 remained `4832d3bb897b30c9a6f70220b7c880e69a645930f4c67e130dd0eb9666341e8e` before and after this graph audit. These checks establish consistency of the published artifact with the reviewed frozen collection and rules; the historical coverage and per-recording factual limitations above still apply.

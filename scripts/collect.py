@@ -121,7 +121,10 @@ class Collector:
             for alias_id in review.get('alternateMusicbrainz',[]):self.mbid_seed[alias_id]=seed
             return raw
         if seed.get('musicbrainz'):
-            a=self.client.mb('artist/'+seed['musicbrainz'],inc='aliases+url-rels');self.mbid_seed[a['id']]=seed;self.primary_mbid[seed['id']]=a['id'];return a
+            cached=self.client.db.execute('SELECT payload FROM candidates WHERE seed_id=?',(seed['id'],)).fetchone()
+            a=next((a for a in json.loads(cached[0]).get('artists',[]) if a['id']==seed['musicbrainz']),None) if cached else None
+            if not a:a=self.client.mb('artist/'+seed['musicbrainz'],inc='aliases+url-rels')
+            self.mbid_seed[a['id']]=seed;self.primary_mbid[seed['id']]=a['id'];return a
         safe=lambda s:s.replace('"','')
         query='('+ ' OR '.join('artist:"'+safe(n)+'"' for n in list(dict.fromkeys([seed.get('search',seed['name']),seed['nameEn'],*seed.get('aliases',[])])))+')'
         result=self.client.mb('artist',query=query,limit=25)
@@ -131,14 +134,20 @@ class Collector:
             exact=bool(names.intersection({norm(a.get('name','')),norm(a.get('sort-name','')),*[norm(x['name']) for x in a.get('aliases',[])]}))
             area=a.get('area',{}).get('name','')
             korean=a.get('country')=='KR' or area=='South Korea' or bool(re.search(r'korea',a.get('disambiguation',''),re.I))
+            unknown_country=not a.get('country')
             kind_ok=not (seed['kind']=='person' and a.get('type') in ('Group','Orchestra','Choir')) and not (seed['kind']=='group' and a.get('type')=='Person')
             if not kind_ok:continue
             if exact and korean:candidates.append(a)
+            elif exact and unknown_country:candidates.append(a)
             elif exact and int(a.get('score',0))==100 and len(result.get('artists',[]))==1 and len(norm(seed['nameEn']))>=5:candidates.append(a)
         self.client.db.execute('INSERT OR REPLACE INTO candidates VALUES (?,?,?)',(seed['id'],json.dumps(result,ensure_ascii=False),NOW));self.client.db.commit()
         if len(candidates)==1:
-            a=candidates[0];self.mbid_seed[a['id']]=seed;self.primary_mbid[seed['id']]=a['id']
-            return a
+            a=candidates[0]
+            korean=a.get('country')=='KR' or a.get('area',{}).get('name')=='South Korea' or bool(re.search(r'korea',a.get('disambiguation',''),re.I))
+            globally_unique=int(a.get('score',0))==100 and len(result.get('artists',[]))==1 and len(norm(seed['nameEn']))>=5
+            if korean or globally_unique:
+                self.mbid_seed[a['id']]=seed;self.primary_mbid[seed['id']]=a['id']
+                return a
         self.pending[seed['id']]={'reason':'artist-match-ambiguous' if candidates else 'artist-not-matched','candidateIds':[a['id'] for a in candidates]}
         return None
     def ingest(self,rec):
@@ -336,10 +345,12 @@ def normalize_dataset(ds):
             else:by_isrc[isrc]=r['id']
         base=suffix.sub('',r['title']).strip();key=(norm(base),p)
         marked=base!=r['title'].strip() or any(re.search(r'Version:.*(atmos|spatial|remaster|3d sound)',src.get('note',''),re.I) for src in r['sources'])
-        if key in by_title:
-            old_id,old_marked=by_title[key]
-            if marked or old_marked:union(old_id,r['id'])
-        else:by_title[key]=(r['id'],marked)
+        by_title.setdefault(key,[]).append((r['id'],marked))
+    # Examine the whole component: a spatial/remaster annotation may be the
+    # final row returned by the API, after several otherwise unmarked editions.
+    for variants in by_title.values():
+        if any(marked for _,marked in variants):
+            for rid,_ in variants[1:]:union(variants[0][0],rid)
     # Reviewed same-duration single/EP variant with identical MB artist-credit ID.
     if 'mb-bab592fc-63a4-46e2-883c-273509cec038' in rows and 'mb-def24bc1-16a2-4027-b1a3-aae895b496d1' in rows:
         union('mb-bab592fc-63a4-46e2-883c-273509cec038','mb-def24bc1-16a2-4027-b1a3-aae895b496d1')

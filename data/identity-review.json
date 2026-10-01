@@ -229,5 +229,10 @@
     "musicbrainz": "0792db4a-d0ea-48b9-bf37-9537db84ccdd",
     "sourceUrl": "https://musicbrainz.org/artist/0792db4a-d0ea-48b9-bf37-9537db84ccdd",
     "note": "Cached primary MusicBrainz credits on Sushi (JM Remix) and Carnival Gang explicitly identify Korean rapper Jimmy Paige with Goretexx and Park Sung-jin/박성진 aliases, establishing Just Music collaboration context."
+  },
+  "lee-young-ji": {
+    "musicbrainz": "0433e75d-70b6-4118-9ff8-9b6f7e534093",
+    "sourceUrl": "https://musicbrainz.org/artist/0433e75d-70b6-4118-9ff8-9b6f7e534093",
+    "note": "Cached primary MusicBrainz artist profile explicitly identifies 이영지 as a female South Korean rapper born 2002-09-10, with English alias Lee Young Ji and rap/hip-hop tags. This is distinct from singer 영지 (61945c36-1c1c-4219-9657-22e9209be07a); the shared short Korean alias is never an identity key."
   }
 }

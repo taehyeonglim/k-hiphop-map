@@ -4,12 +4,16 @@
     "candidateIds": []
   },
   "a-jo": {
-    "reason": "artist-not-matched",
-    "candidateIds": []
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "f35d8709-75ea-445d-96dd-1c8b12b9c7f9"
+    ]
   },
   "kuan": {
-    "reason": "artist-not-matched",
-    "candidateIds": []
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "85739bf0-4077-4af6-8b04-f8489d60d5b7"
+    ]
   },
   "mac-k": {
     "reason": "artist-not-matched",
@@ -20,8 +24,11 @@
     "candidateIds": []
   },
   "oddy": {
-    "reason": "artist-not-matched",
-    "candidateIds": []
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "e6edfe4e-d570-425f-ab3d-8ffb226de3df",
+      "ecf91dd0-6382-4ebb-87a9-58a06bfe5c78"
+    ]
   },
   "small-t": {
     "reason": "artist-not-matched",
@@ -32,19 +39,40 @@
     "candidateIds": []
   },
   "olive": {
-    "reason": "artist-not-matched",
-    "candidateIds": []
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "37826133-5f51-4a46-a157-718137ae8ae2",
+      "9dc095d9-44af-4176-826c-8868a51c3bf9",
+      "9fe5b71e-cc8e-4a1c-8ca6-a0e738e8b05f",
+      "4e0a17d5-b8bb-4696-8222-2a454bb1161c"
+    ]
   },
   "haru": {
     "reason": "artist-match-ambiguous",
     "candidateIds": [
       "1268b203-6934-4142-a578-30bea16068d1",
       "bd117cf4-35ad-4e54-be4a-d637bf1cc4d9",
-      "fda7a807-a4e2-491f-858f-2cff355997f0"
+      "e257d1de-f650-42df-a32b-314e8f440ca6",
+      "9b3e4e04-6216-47e2-9a47-2ffcc3e1211d",
+      "1d62d12b-94de-4b54-8a5b-fe81edfd10c6",
+      "fda7a807-a4e2-491f-858f-2cff355997f0",
+      "9d7510c9-25a4-4fbf-8834-927155c1bc69",
+      "fca1e700-b31d-4087-b072-5fa9261bed06",
+      "84a4d8b6-0a69-4210-b9a9-5ca7a4d4e385",
+      "7b5ae619-ebec-472e-ace7-8b3aa39d93e4"
     ]
   },
   "psycho": {
-    "reason": "artist-not-matched",
-    "candidateIds": []
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "d37a05ea-f56b-41b3-8590-111609def6fe",
+      "45692125-4881-4c3b-8dbc-3fbcead878a3",
+      "e6e89bd2-19af-43df-9d63-74f22e25aed2",
+      "72161f34-8f9b-4c98-871f-0f45bd5aa519",
+      "42208727-f4ac-41ae-a422-75818590b2c3",
+      "93624212-e058-45ef-94c5-5d2465b1b2be",
+      "2dd56287-cac1-420f-9d6d-5dfd1100064a",
+      "5abcd8bb-c5ee-4c4d-9b57-f9bbebb2c566"
+    ]
   }
 }
