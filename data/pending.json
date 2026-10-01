@@ -1,0 +1,50 @@
+{
+  "song-rapper": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "a-jo": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "kuan": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "mac-k": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "lucigang": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "oddy": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "small-t": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "kim-mono": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "olive": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  },
+  "haru": {
+    "reason": "artist-match-ambiguous",
+    "candidateIds": [
+      "1268b203-6934-4142-a578-30bea16068d1",
+      "bd117cf4-35ad-4e54-be4a-d637bf1cc4d9",
+      "fda7a807-a4e2-491f-858f-2cff355997f0"
+    ]
+  },
+  "psycho": {
+    "reason": "artist-not-matched",
+    "candidateIds": []
+  }
+}

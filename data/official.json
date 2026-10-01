@@ -1,0 +1,4038 @@
+{
+  "artists": [
+    {
+      "id": "rm",
+      "name": "알엠",
+      "nameEn": "RM",
+      "aliases": [
+        "Rap Monster",
+        "랩몬스터",
+        "Kim Nam Jun",
+        "RM"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9"
+      },
+      "sources": [
+        {
+          "id": "src-6ae38ddb46b8519e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-eacc6d9c-199e-45fb-960b-e21fa503f82b",
+      "name": "Krizz Kaliko",
+      "nameEn": "Krizz Kaliko",
+      "aliases": [
+        "Big Krizz Kaliko",
+        "Christopher Watson",
+        "Kaliko",
+        "Krizz Kalico",
+        "Krizz Kalliko",
+        "Samuel W.C. Watson",
+        "Samuel Watson"
+      ],
+      "kind": "person",
+      "core": false,
+      "country": "US",
+      "externalIds": {
+        "musicbrainz": "eacc6d9c-199e-45fb-960b-e21fa503f82b"
+      },
+      "sources": [
+        {
+          "id": "src-eda2db9229b5b664",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/eacc6d9c-199e-45fb-960b-e21fa503f82b",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-d81842a4-bae0-429f-9e81-28ee99bd3602",
+      "name": "J.U",
+      "nameEn": "J.U",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d81842a4-bae0-429f-9e81-28ee99bd3602"
+      },
+      "sources": [
+        {
+          "id": "src-4813d7bd2a46a112",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d81842a4-bae0-429f-9e81-28ee99bd3602",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mc-meta",
+      "name": "MC 메타",
+      "nameEn": "MC Meta",
+      "aliases": [
+        "MC Meta"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e9c5a7a9-f127-4672-88d3-d6f36cb25501"
+      },
+      "sources": [
+        {
+          "id": "src-8fa4ae94546af419",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e9c5a7a9-f127-4672-88d3-d6f36cb25501",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "naachal",
+      "name": "나찰",
+      "nameEn": "Naachal",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "ec6cae58-8ec6-4faf-975f-4b8817db76e3"
+      },
+      "sources": [
+        {
+          "id": "src-672df961fd304e89",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ec6cae58-8ec6-4faf-975f-4b8817db76e3",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "nuck",
+      "name": "넋업샨",
+      "nameEn": "Nuck",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "ff5d417a-6de7-430e-ad7b-136c5ccbc0e3"
+      },
+      "sources": [
+        {
+          "id": "src-b252df4d384461b4",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ff5d417a-6de7-430e-ad7b-136c5ccbc0e3",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-48f44e14-4158-4b8f-b95b-bd4abc9f0572",
+      "name": "Young GM",
+      "nameEn": "Young GM",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": null,
+      "externalIds": {
+        "musicbrainz": "48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      },
+      "sources": [
+        {
+          "id": "src-99849d2e2060cc7a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/48f44e14-4158-4b8f-b95b-bd4abc9f0572",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "topbob",
+      "name": "톱밥",
+      "nameEn": "TopBob",
+      "aliases": [
+        "Topbob"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "43430a03-9f2c-49d2-9869-34fd523a168b"
+      },
+      "sources": [
+        {
+          "id": "src-cb34eb77f6c730c3",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/43430a03-9f2c-49d2-9869-34fd523a168b",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "yankie",
+      "name": "얀키",
+      "nameEn": "Yankie",
+      "aliases": [
+        "Yankie"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "f0b635c0-4886-4f2b-8754-1092b9028525"
+      },
+      "sources": [
+        {
+          "id": "src-1ce4ba145fc3fe9b",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/f0b635c0-4886-4f2b-8754-1092b9028525",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mithra-jin",
+      "name": "미쓰라",
+      "nameEn": "Mithra Jin",
+      "aliases": [
+        "Mithra 眞"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "9e0346de-34fc-4ec6-bcb7-c5b6c72340f4"
+      },
+      "sources": [
+        {
+          "id": "src-26583cdec0de96da",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9e0346de-34fc-4ec6-bcb7-c5b6c72340f4",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-043bc28816d0a5cc",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9e0346de-34fc-4ec6-bcb7-c5b6c72340f4?all=1&va=1",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "MusicBrainz primary artist page: Mithra 眞, sort name Mithra Jin, born 1983-01-06, South Korea, official @realmithrajin profiles and hip-hop releases MP Hip-Hop 2001/Thunderground. Epik High [e] credits independently name this entity."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "tablo",
+      "name": "타블로",
+      "nameEn": "Tablo",
+      "aliases": [
+        "Tablo"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "0fad358b-6147-46fc-be41-032500786ed1"
+      },
+      "sources": [
+        {
+          "id": "src-77ebb5721ae04558",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0fad358b-6147-46fc-be41-032500786ed1",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-e3b65f52-c41a-479c-94e5-371902acd2a8",
+      "name": "DJ Tukutz",
+      "nameEn": "DJ Tukutz",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e3b65f52-c41a-479c-94e5-371902acd2a8"
+      },
+      "sources": [
+        {
+          "id": "src-d076a7accb088bef",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e3b65f52-c41a-479c-94e5-371902acd2a8",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-edbffd33-6a69-42ff-ac34-7d9c970638a2",
+      "name": "Micki Eyes",
+      "nameEn": "Micki Eyes",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "US",
+      "externalIds": {
+        "musicbrainz": "edbffd33-6a69-42ff-ac34-7d9c970638a2"
+      },
+      "sources": [
+        {
+          "id": "src-17648f7ceed2121e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/edbffd33-6a69-42ff-ac34-7d9c970638a2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "dj-shine",
+      "name": "DJ 샤인",
+      "nameEn": "DJ Shine",
+      "aliases": [
+        "DJ Shine"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "03df1b98-7a57-474a-8e3a-bc2f2db47042"
+      },
+      "sources": [
+        {
+          "id": "src-90ee39044d96d7b1",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/03df1b98-7a57-474a-8e3a-bc2f2db47042",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "tiger-jk",
+      "name": "타이거 JK",
+      "nameEn": "Tiger JK",
+      "aliases": [
+        "Tiger JK"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e6ac2d77-315e-4f92-9513-8b277342534e"
+      },
+      "sources": [
+        {
+          "id": "src-8a8478b7cffe3c17",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e6ac2d77-315e-4f92-9513-8b277342534e",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-6b49aa5d-9d2d-4ddd-86ad-8d5ec1d192a5",
+      "name": "DJ James JHIG",
+      "nameEn": "DJ James JHIG",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": null,
+      "externalIds": {
+        "musicbrainz": "6b49aa5d-9d2d-4ddd-86ad-8d5ec1d192a5"
+      },
+      "sources": [
+        {
+          "id": "src-03acadd5856a91f8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6b49aa5d-9d2d-4ddd-86ad-8d5ec1d192a5",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-32ee077b-c2c3-4b59-8cfb-8847e7c492b6",
+      "name": "Roscoe Umali",
+      "nameEn": "Roscoe Umali",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "US",
+      "externalIds": {
+        "musicbrainz": "32ee077b-c2c3-4b59-8cfb-8847e7c492b6"
+      },
+      "sources": [
+        {
+          "id": "src-183e820eb24552a1",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/32ee077b-c2c3-4b59-8cfb-8847e7c492b6",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "gil",
+      "name": "길",
+      "nameEn": "Gil",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "197311da-acef-42b2-97b0-015533778bc3"
+      },
+      "sources": [
+        {
+          "id": "src-51d84256d3a7eab8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/197311da-acef-42b2-97b0-015533778bc3",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "gary",
+      "name": "개리",
+      "nameEn": "Gary",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "cec6ecc6-dfe2-46f0-9382-8a6eede03716"
+      },
+      "sources": [
+        {
+          "id": "src-cce76692a19ae301",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/cec6ecc6-dfe2-46f0-9382-8a6eede03716",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "choiza",
+      "name": "최자",
+      "nameEn": "Choiza",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "dda1c5e2-e18e-40c8-a464-84014011ec65"
+      },
+      "sources": [
+        {
+          "id": "src-00258e24d1ce10e4",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/dda1c5e2-e18e-40c8-a464-84014011ec65",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "gaeko",
+      "name": "개코",
+      "nameEn": "Gaeko",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "0911a2dd-1e8f-4c63-8c93-e5b853298383"
+      },
+      "sources": [
+        {
+          "id": "src-cf289b0a7ae54e1c",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0911a2dd-1e8f-4c63-8c93-e5b853298383",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-6c5cba46-630e-44d5-9255-4bffcac10ec7",
+      "name": "정재용",
+      "nameEn": "정재용",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "6c5cba46-630e-44d5-9255-4bffcac10ec7"
+      },
+      "sources": [
+        {
+          "id": "src-0b9199e984c36902",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6c5cba46-630e-44d5-9255-4bffcac10ec7",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "kim-chang-yeol",
+      "name": "김창열",
+      "nameEn": "Kim Chang-yeol",
+      "aliases": [
+        "김창렬"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "480358ff-5127-4fca-b7e6-2257fe3ab610"
+      },
+      "sources": [
+        {
+          "id": "src-cf8e007ed8c3dbd8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/480358ff-5127-4fca-b7e6-2257fe3ab610",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-3af07424910e643b",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/502e4ed1-eb37-44ac-bf95-84fbc5315ae5/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Cached primary MusicBrainz DJ DOC relationship lookup explicitly identifies 김창렬/Kim Chang-Yeol MBID480... as original member of South Korean hip-hop trio DJ DOC. Same ID appears on 이것봐! and 힙합구조대 credits. Sparse individual profile is corroborated by group membership."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-d6caf1ea-96c7-4651-a357-dd018a6391c1",
+      "name": "Curbin",
+      "nameEn": "Curbin",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d6caf1ea-96c7-4651-a357-dd018a6391c1"
+      },
+      "sources": [
+        {
+          "id": "src-09dd82d9aba62672",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d6caf1ea-96c7-4651-a357-dd018a6391c1",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-c4186cfa-f8a2-4b14-a379-524ed7a50c9c",
+      "name": "디기리",
+      "nameEn": "디기리",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "c4186cfa-f8a2-4b14-a379-524ed7a50c9c"
+      },
+      "sources": [
+        {
+          "id": "src-e6ae44dddf8bd34f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c4186cfa-f8a2-4b14-a379-524ed7a50c9c",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-3642752a-85c4-48f7-8e83-a77f8c93eb4f",
+      "name": "주라",
+      "nameEn": "주라",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "3642752a-85c4-48f7-8e83-a77f8c93eb4f"
+      },
+      "sources": [
+        {
+          "id": "src-d291379536ca2c7f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3642752a-85c4-48f7-8e83-a77f8c93eb4f",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-334f9c23-cc2b-4021-837a-f4335fcb58d2",
+      "name": "박명호",
+      "nameEn": "박명호",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "334f9c23-cc2b-4021-837a-f4335fcb58d2"
+      },
+      "sources": [
+        {
+          "id": "src-9ca98afcec724e4a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/334f9c23-cc2b-4021-837a-f4335fcb58d2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-347fbd56-62a6-4804-b717-703be4fea8a5",
+      "name": "교주박",
+      "nameEn": "교주박",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "347fbd56-62a6-4804-b717-703be4fea8a5"
+      },
+      "sources": [
+        {
+          "id": "src-67b1cf77963e7541",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/347fbd56-62a6-4804-b717-703be4fea8a5",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-672d25a8-8f6c-4fdd-a26e-bf8da2f76bec",
+      "name": "써니",
+      "nameEn": "써니",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": null,
+      "externalIds": {
+        "musicbrainz": "672d25a8-8f6c-4fdd-a26e-bf8da2f76bec"
+      },
+      "sources": [
+        {
+          "id": "src-001fb7a451dc5a51",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/672d25a8-8f6c-4fdd-a26e-bf8da2f76bec",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-84f46141-a54c-46d4-ba2c-e5ef73ae4520",
+      "name": "창진",
+      "nameEn": "창진",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "84f46141-a54c-46d4-ba2c-e5ef73ae4520"
+      },
+      "sources": [
+        {
+          "id": "src-13a0c64236b04e62",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/84f46141-a54c-46d4-ba2c-e5ef73ae4520",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "jung-yeon-jun",
+      "name": "정연준",
+      "nameEn": "Jung Yeon-jun",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "18e6f7d1-e6f5-4d0c-aa7d-095ac03f56ef"
+      },
+      "sources": [
+        {
+          "id": "src-25e2076a167627a5",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/18e6f7d1-e6f5-4d0c-aa7d-095ac03f56ef",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "yoon-mi-rae",
+      "name": "윤미래",
+      "nameEn": "Yoon Mi-rae",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d2faa4dd-f3fc-4aa9-aa9e-001826d6fdd2"
+      },
+      "sources": [
+        {
+          "id": "src-183f1ad2bd0d83f8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d2faa4dd-f3fc-4aa9-aa9e-001826d6fdd2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-12e64ac3-0bf0-4795-a9a7-0aa7cf83434c",
+      "name": "Carlos",
+      "nameEn": "Carlos",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "12e64ac3-0bf0-4795-a9a7-0aa7cf83434c"
+      },
+      "sources": [
+        {
+          "id": "src-70eb53849e426a5b",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/12e64ac3-0bf0-4795-a9a7-0aa7cf83434c",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-232b4bb7-2049-4930-b6d5-323dc3f75ff4",
+      "name": "Steve",
+      "nameEn": "Steve",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "232b4bb7-2049-4930-b6d5-323dc3f75ff4"
+      },
+      "sources": [
+        {
+          "id": "src-d2095b2500f70857",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/232b4bb7-2049-4930-b6d5-323dc3f75ff4",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "sangchu",
+      "name": "상추",
+      "nameEn": "Sangchu",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d105db16-bf7e-4a06-86c9-e9370dbf13a1"
+      },
+      "sources": [
+        {
+          "id": "src-60bf81f16f27e759",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d105db16-bf7e-4a06-86c9-e9370dbf13a1",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "shorry-j",
+      "name": "쇼리",
+      "nameEn": "Shorry J",
+      "aliases": [
+        "쇼리 J"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "cc933659-45be-4af3-82c6-58656fab8785"
+      },
+      "sources": [
+        {
+          "id": "src-77a54ceea3fa9843",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/cc933659-45be-4af3-82c6-58656fab8785",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-54742568-b134-4f3a-97de-957b2d9debe7",
+      "name": "GR",
+      "nameEn": "GR",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "54742568-b134-4f3a-97de-957b2d9debe7"
+      },
+      "sources": [
+        {
+          "id": "src-3fe396830d57a572",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/54742568-b134-4f3a-97de-957b2d9debe7",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "j-kwondo",
+      "name": "J-Kwondo",
+      "nameEn": "J-Kwondo",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "24ee524b-5c4f-4c9d-adba-e350ecc7e35e"
+      },
+      "sources": [
+        {
+          "id": "src-1d7a59390088ac2f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/24ee524b-5c4f-4c9d-adba-e350ecc7e35e",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "lee-hyun-bae",
+      "name": "이현배",
+      "nameEn": "Lee Hyun-bae",
+      "aliases": [
+        "Smash"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "0ec6c8f1-624f-44d4-8473-0548e20f04c5"
+      },
+      "sources": [
+        {
+          "id": "src-5b2441757576d8e9",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0ec6c8f1-624f-44d4-8473-0548e20f04c5",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-7205e96db6f46b05",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0ec6c8f1-624f-44d4-8473-0548e20f04c5/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Shared-rate-limit primary MusicBrainz lookup by music_data confirms Smash, Korean emcee, legal 이현배, born 1973, died 2021-04-17, member of 45RPM, sibling of 이하늘; maniadb artist135112 and Wikidata Q12613131 relations corroborate identity."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "simon-dominic",
+      "name": "사이먼 도미닉",
+      "nameEn": "Simon Dominic",
+      "aliases": [
+        "쌈디",
+        "Simon Dominic"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "6304678e-2d4b-4b1c-9f78-5444bace44b6"
+      },
+      "sources": [
+        {
+          "id": "src-c4dacbf096de4c7f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6304678e-2d4b-4b1c-9f78-5444bace44b6",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "e-sens",
+      "name": "이센스",
+      "nameEn": "E SENS",
+      "aliases": [
+        "E SENS"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "52b43c7e-b974-4d1e-9c7a-dfd21a0970b2"
+      },
+      "sources": [
+        {
+          "id": "src-927f7e4e62195106",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/52b43c7e-b974-4d1e-9c7a-dfd21a0970b2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "gan-d",
+      "name": "간디",
+      "nameEn": "Gan-D",
+      "aliases": [
+        "Gan-D"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "1f4655f7-1e38-44ad-97c1-0fc828738e39"
+      },
+      "sources": [
+        {
+          "id": "src-94fa392e6bcbd435",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/1f4655f7-1e38-44ad-97c1-0fc828738e39",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-5d9ac6437bd13ed8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/deb96d52-0bf3-4744-89bc-4d9d4e198533/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Cached primary MusicBrainz Buga Kingz relationship lookup explicitly lists Gan-D MBID1f465... as group member alongside Juvie Train and Bobby Kim. Primary Bugs8009613 confirms Korean solo Gan-D/간디 member of 부가킹즈, matching Reload and 헝그리정신 context; exclude foreign same-name Gan D profiles."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "juvie-train",
+      "name": "주비트레인",
+      "nameEn": "Juvie Train",
+      "aliases": [
+        "Juvie Train"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "68b256a6-41cd-4165-8187-1da4c94af1e2"
+      },
+      "sources": [
+        {
+          "id": "src-1b3f116b71715cc4",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/68b256a6-41cd-4165-8187-1da4c94af1e2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "bobby-kim",
+      "name": "바비킴",
+      "nameEn": "Bobby Kim",
+      "aliases": [
+        "Bobby Kim"
+      ],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "37e8e3b5-94e9-413d-92d9-0af6e8b7ea65"
+      },
+      "sources": [
+        {
+          "id": "src-f68a925d6dd58c9d",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/37e8e3b5-94e9-413d-92d9-0af6e8b7ea65",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "boi-b",
+      "name": "보이비",
+      "nameEn": "Boi B",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "8d235776-51a8-446b-ba81-11e9de55dcb8"
+      },
+      "sources": [
+        {
+          "id": "src-a2657f5b7bb3e719",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/8d235776-51a8-446b-ba81-11e9de55dcb8",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-a919ab6bcde970ef",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Primary Rhythm Power relationship page explicitly links Boi B to this artist MBID as a group member; followed primary profile confirms Boi B."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "geegooin",
+      "name": "지구인",
+      "nameEn": "Geegooin",
+      "aliases": [
+        "Geegooin"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "07e78331-884c-4c94-988f-1424da3b94d2"
+      },
+      "sources": [
+        {
+          "id": "src-2bbb9fe40c1603ab",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/07e78331-884c-4c94-988f-1424da3b94d2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "MusicBrainz primary artist page: Geegooin, person, South Korea; Unpretty Rapstar 2 Track 5 alongside Hyolyn/Jay Park, official @geegooin profile links."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "hangzoo",
+      "name": "행주",
+      "nameEn": "Hangzoo",
+      "aliases": [
+        "Hangzoo"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "15b381b5-a02d-4d5e-af0a-4a1b0bf0cd4c"
+      },
+      "sources": [
+        {
+          "id": "src-019301dff44dd8ba",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/15b381b5-a02d-4d5e-af0a-4a1b0bf0cd4c",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-a919ab6bcde970ef",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Primary Rhythm Power relationship page explicitly links Hangzoo/행주 to this artist MBID as a group member; followed primary profile confirms Hangzoo."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "kebee",
+      "name": "키비",
+      "nameEn": "Kebee",
+      "aliases": [
+        "Kebee"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e96e7912-3ab5-4d05-a5e1-94589c5b8c8b"
+      },
+      "sources": [
+        {
+          "id": "src-92c2457e9599802e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e96e7912-3ab5-4d05-a5e1-94589c5b8c8b",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "minos",
+      "name": "마이노스",
+      "nameEn": "MINOS",
+      "aliases": [
+        "Minos"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "7208bff9-ca52-4b88-a0e1-cb1a16df34ac"
+      },
+      "sources": [
+        {
+          "id": "src-d41f993b629febac",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/7208bff9-ca52-4b88-a0e1-cb1a16df34ac",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "huckleberry-p",
+      "name": "허클베리피",
+      "nameEn": "Huckleberry P",
+      "aliases": [
+        "Huckleberry P"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "8774220b-26c1-4776-8b31-b850a6873eff"
+      },
+      "sources": [
+        {
+          "id": "src-e117cf4363b780b2",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/8774220b-26c1-4776-8b31-b850a6873eff",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-7475dfdf-b942-4223-9f91-6924cd85a79a",
+      "name": "Soul Fish",
+      "nameEn": "Soul Fish",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "7475dfdf-b942-4223-9f91-6924cd85a79a"
+      },
+      "sources": [
+        {
+          "id": "src-24995ec34a0e713a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/7475dfdf-b942-4223-9f91-6924cd85a79a",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "moowoong",
+      "name": "무웅",
+      "nameEn": "Moowoong",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "54f4e5ec-176b-499f-91e3-28429337adea"
+      },
+      "sources": [
+        {
+          "id": "src-17c338a0b53de1bd",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/54f4e5ec-176b-499f-91e3-28429337adea",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "tak",
+      "name": "탁",
+      "nameEn": "Tak",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "3d9738d8-8dff-4b8b-9ff2-a5d8f5e397ff"
+      },
+      "sources": [
+        {
+          "id": "src-810d2e2f3974b5cf",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3d9738d8-8dff-4b8b-9ff2-a5d8f5e397ff",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "Cached primary MusicBrainz artist search explicitly disambiguates 탁/Tak as BaeChiGi, born 1983-09-10, alias 탁탁. Exclude ad8b42fd-e001-4946-ba7f-fdea2462062c, a distinct Korean composer born 1991-08-27. Country alone must not override group context."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-a7f26ee2-d970-400e-b6b9-e960ce783cae",
+      "name": "KUSH",
+      "nameEn": "KUSH",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "a7f26ee2-d970-400e-b6b9-e960ce783cae"
+      },
+      "sources": [
+        {
+          "id": "src-1da00a492b55858a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/a7f26ee2-d970-400e-b6b9-e960ce783cae",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "skull",
+      "name": "스컬",
+      "nameEn": "Skull",
+      "aliases": [
+        "Skull"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "4503247e-5ff1-440e-a8a1-425f518cfe9a",
+        "musicbrainzAlias:5765ee3c-4cc7-431a-b6a4-e3851a8f601f": "5765ee3c-4cc7-431a-b6a4-e3851a8f601f"
+      },
+      "sources": [
+        {
+          "id": "src-1c4bbb19daecd8f0",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4503247e-5ff1-440e-a8a1-425f518cfe9a",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-03f0917dd889f942",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/106118?o=g",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "Noncommercial API use",
+          "note": "Primary maniadb106118 identifies solo Skull/스컬, legal조성진, born1979-11-02, and Stony Skunk lineup2003/2005 as the same Skull plus Kush. Cached primary MusicBrainz canonical450... matches legal name/birthdate and is member of Stony Skunk ed6f2106-648b-4bea-a04b-df92652dd3ed; shared primary lookup of alternate576... is male KR person explicitly disambiguated of Stony Skunk with the same group-member relation. The official artist-activity context identifies the sole Skull slot, so these MBIDs are reviewed as one person, not merged by generic name."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "chin",
+      "name": "친",
+      "nameEn": "Chin",
+      "aliases": [
+        "Chin"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d3de5109-d329-4e06-ac9d-aacb4da81840"
+      },
+      "sources": [
+        {
+          "id": "src-9c0826e2fcd68ca4",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d3de5109-d329-4e06-ac9d-aacb4da81840",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "ck",
+      "name": "씨케이",
+      "nameEn": "CK",
+      "aliases": [
+        "CK"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d0f0f336-3714-4462-82a1-395343414422"
+      },
+      "sources": [
+        {
+          "id": "src-fbaf2a2565302e39",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d0f0f336-3714-4462-82a1-395343414422",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "louie-homies",
+      "name": "루이 (호미들)",
+      "nameEn": "Louie (Homies)",
+      "aliases": [
+        "루이",
+        "Louie"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "121f82d5-051b-494a-993e-284a837fae7a"
+      },
+      "sources": [
+        {
+          "id": "src-441c2b05ab2eb48e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/121f82d5-051b-494a-993e-284a837fae7a",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "bizzy",
+      "name": "비지",
+      "nameEn": "Bizzy",
+      "aliases": [
+        "Bizzy"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "5ca9e3fe-93e1-451e-8616-f5427b9cfbf5"
+      },
+      "sources": [
+        {
+          "id": "src-22be27f4f4823384",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/5ca9e3fe-93e1-451e-8616-f5427b9cfbf5",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "lil-boi",
+      "name": "릴보이",
+      "nameEn": "Lil Boi",
+      "aliases": [
+        "lIlBOI"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "9727b9b2-5e0e-4b2d-a62a-2999a9b3996f"
+      },
+      "sources": [
+        {
+          "id": "src-3b3883d00db24728",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9727b9b2-5e0e-4b2d-a62a-2999a9b3996f",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "MusicBrainz primary artist page: lIlBOI (Korean rapper), legal name 오승택, born 1991-06-07, Good Time For The Team, HEAT and Basick X Lil Boi. Geeks member relationship also confirms."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "louie",
+      "name": "루이 (긱스)",
+      "nameEn": "Louie",
+      "aliases": [
+        "루이"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "b4f51145-3d43-4fb0-b983-289d7e3ede1f"
+      },
+      "sources": [
+        {
+          "id": "src-7153456d454d1e1e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/b4f51145-3d43-4fb0-b983-289d7e3ede1f",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-2ed4b5cb78048217",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/80ab91cb-3b46-4f38-92e4-f8f68518596b/relationships",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata",
+          "note": "MusicBrainz Geeks relationships directly links this artist as original member from 2011. Individual page identifies 루이/Louie, born 1990-04-30. Not Homies member Louie."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-d09d0468-c421-4e9f-83fd-cbfa661a79cb",
+      "name": "Munchman",
+      "nameEn": "Munchman",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "d09d0468-c421-4e9f-83fd-cbfa661a79cb"
+      },
+      "sources": [
+        {
+          "id": "src-91e135f9b365ea10",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d09d0468-c421-4e9f-83fd-cbfa661a79cb",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-e52497e8-a2e1-4e55-ac3d-aba2d27b03c5",
+      "name": "Anngyeungjaebee",
+      "nameEn": "Anngyeungjaebee",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e52497e8-a2e1-4e55-ac3d-aba2d27b03c5"
+      },
+      "sources": [
+        {
+          "id": "src-e7770a143d959228",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e52497e8-a2e1-4e55-ac3d-aba2d27b03c5",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "bigone",
+      "name": "빅원",
+      "nameEn": "BIGONE",
+      "aliases": [
+        "BIGONE"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "988b93e2-1c97-40db-b1f3-58bdae3fb1c8"
+      },
+      "sources": [
+        {
+          "id": "src-bb1f9dec35b4dc4e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/988b93e2-1c97-40db-b1f3-58bdae3fb1c8",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-955ce797-e00a-4835-af84-1cde7e937f68",
+      "name": "BOLA",
+      "nameEn": "BOLA",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "955ce797-e00a-4835-af84-1cde7e937f68"
+      },
+      "sources": [
+        {
+          "id": "src-736d8881862de2f2",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/955ce797-e00a-4835-af84-1cde7e937f68",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-8168f2e2-607b-4d14-bad8-be0fca4d3d1b",
+      "name": "COVA",
+      "nameEn": "COVA",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "8168f2e2-607b-4d14-bad8-be0fca4d3d1b"
+      },
+      "sources": [
+        {
+          "id": "src-86e25ce2b64a5cc8",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/8168f2e2-607b-4d14-bad8-be0fca4d3d1b",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "ek",
+      "name": "이케이",
+      "nameEn": "EK",
+      "aliases": [
+        "EK"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "aced9319-1020-4caa-93cd-4023b039a52f"
+      },
+      "sources": [
+        {
+          "id": "src-f24eea404e406acf",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/aced9319-1020-4caa-93cd-4023b039a52f",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-2805bc74-5a07-4823-a18b-a447c7127a74",
+      "name": "GV",
+      "nameEn": "GV",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "2805bc74-5a07-4823-a18b-a447c7127a74"
+      },
+      "sources": [
+        {
+          "id": "src-b09ed8d0def2df06",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/2805bc74-5a07-4823-a18b-a447c7127a74",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-45abdd80-1552-425f-991f-ed82214b3659",
+      "name": "Make A Movie",
+      "nameEn": "Make A Movie",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "45abdd80-1552-425f-991f-ed82214b3659"
+      },
+      "sources": [
+        {
+          "id": "src-d65dd5a1511973df",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/45abdd80-1552-425f-991f-ed82214b3659",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-f173dda9-f2dd-4418-8d39-6c19ea9de9cb",
+      "name": "Neal",
+      "nameEn": "Neal",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "f173dda9-f2dd-4418-8d39-6c19ea9de9cb"
+      },
+      "sources": [
+        {
+          "id": "src-642b006502294c07",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/f173dda9-f2dd-4418-8d39-6c19ea9de9cb",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-c5906c4c-d5d2-411c-86c7-84eca4e53c36",
+      "name": "SEMI",
+      "nameEn": "SEMI",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "c5906c4c-d5d2-411c-86c7-84eca4e53c36"
+      },
+      "sources": [
+        {
+          "id": "src-31e46460f9666b63",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c5906c4c-d5d2-411c-86c7-84eca4e53c36",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-34d2d86f-aeee-49a4-adc1-2e41b765694e",
+      "name": "Yellow D",
+      "nameEn": "Yellow D",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "34d2d86f-aeee-49a4-adc1-2e41b765694e"
+      },
+      "sources": [
+        {
+          "id": "src-c31cfcdc3fd5f00d",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/34d2d86f-aeee-49a4-adc1-2e41b765694e",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-8927fc90-0ed6-4687-806f-0c0cb7b0efb9",
+      "name": "FRNK",
+      "nameEn": "FRNK",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "8927fc90-0ed6-4687-806f-0c0cb7b0efb9"
+      },
+      "sources": [
+        {
+          "id": "src-f9e5aa1e1699f188",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/8927fc90-0ed6-4687-806f-0c0cb7b0efb9",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "kim-ximya",
+      "name": "김심야",
+      "nameEn": "Kim Ximya",
+      "aliases": [
+        "Kim Ximya"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "778c8a6b-8ab2-4dc2-9866-11a15547c489"
+      },
+      "sources": [
+        {
+          "id": "src-f54413508114f264",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/778c8a6b-8ab2-4dc2-9866-11a15547c489",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "bassagong",
+      "name": "뱃사공",
+      "nameEn": "Bassagong",
+      "aliases": [
+        "Bassagong"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "c9cd4f60-1177-4adb-8f24-340fae86a9bc"
+      },
+      "sources": [
+        {
+          "id": "src-9be289e2f72dbada",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c9cd4f60-1177-4adb-8f24-340fae86a9bc",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "blnk",
+      "name": "블랭",
+      "nameEn": "Blnk",
+      "aliases": [
+        "BLNK"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "3b29e453-11e4-45bf-a3e9-4922d257b400"
+      },
+      "sources": [
+        {
+          "id": "src-12bb1164f548eacd",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3b29e453-11e4-45bf-a3e9-4922d257b400",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-bb1b90a4-1374-4e6b-94c8-eda8d951f4cd",
+      "name": "Code Kunst",
+      "nameEn": "Code Kunst",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "bb1b90a4-1374-4e6b-94c8-eda8d951f4cd"
+      },
+      "sources": [
+        {
+          "id": "src-2b00f02efadea96e",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/bb1b90a4-1374-4e6b-94c8-eda8d951f4cd",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "jayho",
+      "name": "제이호",
+      "nameEn": "Jayho",
+      "aliases": [],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "3c110a6e-977d-427f-8ee5-8265d9f5c097"
+      },
+      "sources": [
+        {
+          "id": "src-1d81600c39842459",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3c110a6e-977d-427f-8ee5-8265d9f5c097",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "mb-b8340898-9c3e-4167-afb2-bcaa53b3d4a4",
+      "name": "Yosi",
+      "nameEn": "Yosi",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "b8340898-9c3e-4167-afb2-bcaa53b3d4a4"
+      },
+      "sources": [
+        {
+          "id": "src-fe1bdf01aef83a15",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/b8340898-9c3e-4167-afb2-bcaa53b3d4a4",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "deepflow",
+      "name": "딥플로우",
+      "nameEn": "Deepflow",
+      "aliases": [
+        "Deepflow"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "6fc7a6a3-8f88-4369-bd52-e1be04313b3e"
+      },
+      "sources": [
+        {
+          "id": "src-4fb3b3a48f0f8e20",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6fc7a6a3-8f88-4369-bd52-e1be04313b3e",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "dsel",
+      "name": "디젤",
+      "nameEn": "DSEL",
+      "aliases": [
+        "D-SEL",
+        "DSEL",
+        "dsel"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "c175bbb7-84e3-4b11-84dd-9ac5d1cb8ab2"
+      },
+      "sources": [
+        {
+          "id": "src-8d83a41ff547fc7f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c175bbb7-84e3-4b11-84dd-9ac5d1cb8ab2",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "khundi-panda",
+      "name": "쿤디판다",
+      "nameEn": "Khundi Panda",
+      "aliases": [
+        "Khundi Panda"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "30cea1d2-62f5-446d-8c98-c0427b43df85"
+      },
+      "sources": [
+        {
+          "id": "src-dec4eaf71973be50",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/30cea1d2-62f5-446d-8c98-c0427b43df85",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    },
+    {
+      "id": "son-simba",
+      "name": "손심바",
+      "nameEn": "Son Simba",
+      "aliases": [
+        "Son Simba"
+      ],
+      "kind": "person",
+      "core": true,
+      "country": "KR",
+      "externalIds": {
+        "musicbrainz": "e1a3868a-8a48-47f9-82a2-f61b7172bc8f"
+      },
+      "sources": [
+        {
+          "id": "src-c5ed8efa068c8c12",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e1a3868a-8a48-47f9-82a2-f61b7172bc8f",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "MusicBrainz 녹음별 아티스트 크레딧 확인; 전체 디스코그래피 수록률은 보증하지 않습니다."
+      }
+    }
+  ],
+  "releases": [
+    {
+      "id": "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263",
+      "title": "RM",
+      "artistIds": [
+        "rm"
+      ],
+      "date": "2015-03-20",
+      "year": 2015,
+      "type": "mixtape",
+      "source": {
+        "id": "src-4b9db770dfba864c",
+        "provider": "official",
+        "url": "https://bangtan.tistory.com/285",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+      },
+      "recordingIds": [
+        "mb-c305d82f-55df-48f3-811a-689a7a6baea6",
+        "mb-d5536940-a364-464e-aeb8-5a29612514ce",
+        "mb-47ffb908-8f2c-40e0-aa09-dd39bffe85e1",
+        "mb-b7367b82-6a52-4d24-ab8e-8c00f5ff0733",
+        "mb-5b4d71fb-db20-4d20-afb7-9e08d1bc825a",
+        "mb-98327e35-73c6-4af3-be41-7e9393f7249c",
+        "mb-3a4ad6f4-3570-4d6d-81e2-486795577752",
+        "mb-186e4ae6-6413-4465-8405-ce8d6c509f24",
+        "mb-d8e026dd-0196-4e0d-acfc-dacf749b7cfa",
+        "mb-98d57cfd-38ff-4d32-9fc7-bd3981c463a9",
+        "mb-a3b590dc-bb87-4eb3-9268-22cb4f536eac"
+      ],
+      "url": "https://bangtan.tistory.com/285"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "mb-c305d82f-55df-48f3-811a-689a7a6baea6",
+      "title": "목소리",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-ff4741b232085f8b"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-ff4741b232085f8b",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/c305d82f-55df-48f3-811a-689a7a6baea6",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-d5536940-a364-464e-aeb8-5a29612514ce",
+      "title": "Do You",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-b684211e324ff079"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-b684211e324ff079",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/d5536940-a364-464e-aeb8-5a29612514ce",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-47ffb908-8f2c-40e0-aa09-dd39bffe85e1",
+      "title": "각성 (覺醒)",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-0ff01917cd2ba7cc"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-0ff01917cd2ba7cc",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/47ffb908-8f2c-40e0-aa09-dd39bffe85e1",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-b7367b82-6a52-4d24-ab8e-8c00f5ff0733",
+      "title": "Monster",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-b43e425a11531a7a"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-b43e425a11531a7a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/b7367b82-6a52-4d24-ab8e-8c00f5ff0733",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-5b4d71fb-db20-4d20-afb7-9e08d1bc825a",
+      "title": "버려",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-2fd8c7112a846f3a"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-2fd8c7112a846f3a",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/5b4d71fb-db20-4d20-afb7-9e08d1bc825a",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-98327e35-73c6-4af3-be41-7e9393f7249c",
+      "title": "농담",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-3b758f49a16ccde0"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-3b758f49a16ccde0",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/98327e35-73c6-4af3-be41-7e9393f7249c",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-3a4ad6f4-3570-4d6d-81e2-486795577752",
+      "title": "God Rap",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-bec8a3d4030a76b9"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-bec8a3d4030a76b9",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/3a4ad6f4-3570-4d6d-81e2-486795577752",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-186e4ae6-6413-4465-8405-ce8d6c509f24",
+      "title": "Rush",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-4aaa73e1ab070be3"
+          ]
+        },
+        {
+          "artistId": "mb-eacc6d9c-199e-45fb-960b-e21fa503f82b",
+          "role": "featured",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-4aaa73e1ab070be3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-4aaa73e1ab070be3",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/186e4ae6-6413-4465-8405-ce8d6c509f24",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-d8e026dd-0196-4e0d-acfc-dacf749b7cfa",
+      "title": "Life",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-86167a826b607c96"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-86167a826b607c96",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/d8e026dd-0196-4e0d-acfc-dacf749b7cfa",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-98d57cfd-38ff-4d32-9fc7-bd3981c463a9",
+      "title": "표류",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-027315a7ac53bb3f"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-027315a7ac53bb3f",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/98d57cfd-38ff-4d32-9fc7-bd3981c463a9",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    },
+    {
+      "id": "mb-a3b590dc-bb87-4eb3-9268-22cb4f536eac",
+      "title": "I Believe",
+      "year": 2015,
+      "date": "2015-03-20",
+      "releaseIds": [
+        "mb-ddd2a171-0ddd-40b6-afc9-fbd1b2185263"
+      ],
+      "credits": [
+        {
+          "artistId": "rm",
+          "role": "main",
+          "verification": "source-confirmed",
+          "sourceIds": [
+            "src-4b9db770dfba864c",
+            "src-8cc34fa3790ca521"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-8cc34fa3790ca521",
+          "provider": "MusicBrainz",
+          "url": "https://musicbrainz.org/recording/a3b590dc-bb87-4eb3-9268-22cb4f536eac",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "license": "CC0 core metadata"
+        },
+        {
+          "id": "src-4b9db770dfba864c",
+          "provider": "official",
+          "url": "https://bangtan.tistory.com/285",
+          "fetchedAt": "2026-10-01T14:14:27.590643Z",
+          "note": "Artist/label blog, 2015-03-20. Explicit free download and track list; Rush features Krizz Kaliko. Original-beat producers are not performance credits."
+        }
+      ],
+      "isrcs": [],
+      "kind": "free",
+      "verification": "source-confirmed",
+      "listenUrl": "https://soundcloud.com/bangtan/sets/rm-rap-monster/s-FJEew"
+    }
+  ],
+  "memberships": [
+    {
+      "groupId": "garion",
+      "artistId": "mb-d81842a4-bae0-429f-9e81-28ee99bd3602",
+      "source": {
+        "id": "src-07504e6eeb68b6ed",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/a6cc73c6-926d-466e-8235-745e2d94feee",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 1998,
+      "endYear": 2004
+    },
+    {
+      "groupId": "garion",
+      "artistId": "mc-meta",
+      "source": {
+        "id": "src-07504e6eeb68b6ed",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/a6cc73c6-926d-466e-8235-745e2d94feee",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "garion",
+      "artistId": "naachal",
+      "source": {
+        "id": "src-07504e6eeb68b6ed",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/a6cc73c6-926d-466e-8235-745e2d94feee",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "infinite-flow",
+      "artistId": "nuck",
+      "source": {
+        "id": "src-9b662bf10c36cbd5",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c39bffa0-7515-4f65-86f5-040df27f51fb",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "infinite-flow",
+      "artistId": "mb-48f44e14-4158-4b8f-b95b-bd4abc9f0572",
+      "source": {
+        "id": "src-9b662bf10c36cbd5",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c39bffa0-7515-4f65-86f5-040df27f51fb",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "tbny",
+      "artistId": "topbob",
+      "source": {
+        "id": "src-1612a72aecc10197",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f8316cff-2973-4f49-970c-f240e270fbe1",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "tbny",
+      "artistId": "yankie",
+      "source": {
+        "id": "src-1612a72aecc10197",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f8316cff-2973-4f49-970c-f240e270fbe1",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "epik-high",
+      "artistId": "mithra-jin",
+      "source": {
+        "id": "src-0068bf8f1efd504d",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/57f1cdd6-cf32-4004-a095-3ef043c91b61",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "epik-high",
+      "artistId": "tablo",
+      "source": {
+        "id": "src-0068bf8f1efd504d",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/57f1cdd6-cf32-4004-a095-3ef043c91b61",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "epik-high",
+      "artistId": "mb-e3b65f52-c41a-479c-94e5-371902acd2a8",
+      "source": {
+        "id": "src-0068bf8f1efd504d",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/57f1cdd6-cf32-4004-a095-3ef043c91b61",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "drunken-tiger",
+      "artistId": "mb-edbffd33-6a69-42ff-ac34-7d9c970638a2",
+      "source": {
+        "id": "src-557705bcc72f16bc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2000,
+      "endYear": 2002
+    },
+    {
+      "groupId": "drunken-tiger",
+      "artistId": "dj-shine",
+      "source": {
+        "id": "src-557705bcc72f16bc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "endYear": 2005
+    },
+    {
+      "groupId": "drunken-tiger",
+      "artistId": "tiger-jk",
+      "source": {
+        "id": "src-557705bcc72f16bc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "drunken-tiger",
+      "artistId": "mb-6b49aa5d-9d2d-4ddd-86ad-8d5ec1d192a5",
+      "source": {
+        "id": "src-557705bcc72f16bc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "drunken-tiger",
+      "artistId": "mb-32ee077b-c2c3-4b59-8cfb-8847e7c492b6",
+      "source": {
+        "id": "src-557705bcc72f16bc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "leessang",
+      "artistId": "gil",
+      "source": {
+        "id": "src-49469b280c9439bb",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/003cd25f-0bc2-4187-8584-363fe6c7cf28",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "leessang",
+      "artistId": "gary",
+      "source": {
+        "id": "src-49469b280c9439bb",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/003cd25f-0bc2-4187-8584-363fe6c7cf28",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "dynamic-duo",
+      "artistId": "choiza",
+      "source": {
+        "id": "src-456f492e776afded",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/9f92f1e5-7b25-4be2-ab61-76b6db556887",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "dynamic-duo",
+      "artistId": "gaeko",
+      "source": {
+        "id": "src-456f492e776afded",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/9f92f1e5-7b25-4be2-ab61-76b6db556887",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "dj-doc",
+      "artistId": "mb-6c5cba46-630e-44d5-9255-4bffcac10ec7",
+      "source": {
+        "id": "src-154f35f4e0ae5a39",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/502e4ed1-eb37-44ac-bf95-84fbc5315ae5",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "dj-doc",
+      "artistId": "kim-chang-yeol",
+      "source": {
+        "id": "src-154f35f4e0ae5a39",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/502e4ed1-eb37-44ac-bf95-84fbc5315ae5",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "cb-mass",
+      "artistId": "choiza",
+      "source": {
+        "id": "src-cafff564aaa6ffa4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/4032b6fa-4044-4000-a392-05f35c5c7b17",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "cb-mass",
+      "artistId": "mb-d6caf1ea-96c7-4651-a357-dd018a6391c1",
+      "source": {
+        "id": "src-cafff564aaa6ffa4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/4032b6fa-4044-4000-a392-05f35c5c7b17",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "cb-mass",
+      "artistId": "gaeko",
+      "source": {
+        "id": "src-cafff564aaa6ffa4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/4032b6fa-4044-4000-a392-05f35c5c7b17",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-c4186cfa-f8a2-4b14-a379-524ed7a50c9c",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-3642752a-85c4-48f7-8e83-a77f8c93eb4f",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-334f9c23-cc2b-4021-837a-f4335fcb58d2",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-347fbd56-62a6-4804-b717-703be4fea8a5",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-672d25a8-8f6c-4fdd-a26e-bf8da2f76bec",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "honey-family",
+      "artistId": "mb-84f46141-a54c-46d4-ba2c-e5ef73ae4520",
+      "source": {
+        "id": "src-5ff61552afe2cbdc",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bd11e00a-0a0a-45e1-8813-6e2169b6b283",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "uptown",
+      "artistId": "jung-yeon-jun",
+      "source": {
+        "id": "src-1f5fb824dd8fef66",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bfbe89c8-6cd6-4023-88e6-c9936b554f14",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 1996,
+      "endYear": 1997
+    },
+    {
+      "groupId": "uptown",
+      "artistId": "yoon-mi-rae",
+      "source": {
+        "id": "src-1f5fb824dd8fef66",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bfbe89c8-6cd6-4023-88e6-c9936b554f14",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 1996,
+      "endYear": 2000
+    },
+    {
+      "groupId": "uptown",
+      "artistId": "mb-12e64ac3-0bf0-4795-a9a7-0aa7cf83434c",
+      "source": {
+        "id": "src-1f5fb824dd8fef66",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bfbe89c8-6cd6-4023-88e6-c9936b554f14",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 1996,
+      "endYear": 2006
+    },
+    {
+      "groupId": "uptown",
+      "artistId": "mb-232b4bb7-2049-4930-b6d5-323dc3f75ff4",
+      "source": {
+        "id": "src-1f5fb824dd8fef66",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/bfbe89c8-6cd6-4023-88e6-c9936b554f14",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 1996,
+      "endYear": 2006
+    },
+    {
+      "groupId": "mighty-mouth",
+      "artistId": "sangchu",
+      "source": {
+        "id": "src-ddc53e4bf91588bd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/30342954-a1fa-4f8f-8032-b0429334d829",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mighty-mouth",
+      "artistId": "shorry-j",
+      "source": {
+        "id": "src-ddc53e4bf91588bd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/30342954-a1fa-4f8f-8032-b0429334d829",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "45rpm",
+      "artistId": "mb-54742568-b134-4f3a-97de-957b2d9debe7",
+      "source": {
+        "id": "src-19de315573524959",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/05a42ebb-b91b-47d8-88e3-78754d0a232a",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "endYear": 2009
+    },
+    {
+      "groupId": "45rpm",
+      "artistId": "j-kwondo",
+      "source": {
+        "id": "src-19de315573524959",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/05a42ebb-b91b-47d8-88e3-78754d0a232a",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "45rpm",
+      "artistId": "lee-hyun-bae",
+      "source": {
+        "id": "src-19de315573524959",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/05a42ebb-b91b-47d8-88e3-78754d0a232a",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "supreme-team",
+      "artistId": "simon-dominic",
+      "source": {
+        "id": "src-88da47ed2ab3ab2a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/4ffa1b2b-5ef1-4441-8dc1-f7e51a7852e4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2009,
+      "endYear": 2013
+    },
+    {
+      "groupId": "supreme-team",
+      "artistId": "e-sens",
+      "source": {
+        "id": "src-88da47ed2ab3ab2a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/4ffa1b2b-5ef1-4441-8dc1-f7e51a7852e4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2009,
+      "endYear": 2013
+    },
+    {
+      "groupId": "buga-kingz",
+      "artistId": "gan-d",
+      "source": {
+        "id": "src-47488436272393fd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/deb96d52-0bf3-4744-89bc-4d9d4e198533",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "buga-kingz",
+      "artistId": "juvie-train",
+      "source": {
+        "id": "src-47488436272393fd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/deb96d52-0bf3-4744-89bc-4d9d4e198533",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "buga-kingz",
+      "artistId": "bobby-kim",
+      "source": {
+        "id": "src-47488436272393fd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/deb96d52-0bf3-4744-89bc-4d9d4e198533",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "rhythm-power",
+      "artistId": "boi-b",
+      "source": {
+        "id": "src-aa5fbcb402116f07",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "rhythm-power",
+      "artistId": "geegooin",
+      "source": {
+        "id": "src-aa5fbcb402116f07",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "rhythm-power",
+      "artistId": "hangzoo",
+      "source": {
+        "id": "src-aa5fbcb402116f07",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "eluphant",
+      "artistId": "kebee",
+      "source": {
+        "id": "src-6560b7e2f672482b",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/057ae199-16e5-473b-8e9b-284e5d9c18f4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "eluphant",
+      "artistId": "minos",
+      "source": {
+        "id": "src-6560b7e2f672482b",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/057ae199-16e5-473b-8e9b-284e5d9c18f4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "pinodyne",
+      "artistId": "huckleberry-p",
+      "source": {
+        "id": "src-85a654d7e6135bcd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/45481dad-8c61-483a-8004-fab5dd920e6c",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "pinodyne",
+      "artistId": "mb-7475dfdf-b942-4223-9f91-6924cd85a79a",
+      "source": {
+        "id": "src-85a654d7e6135bcd",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/45481dad-8c61-483a-8004-fab5dd920e6c",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "baechigi",
+      "artistId": "moowoong",
+      "source": {
+        "id": "src-156e45cfa30a082c",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/47f939a0-3548-4932-bd8b-77c2aab9a86d",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "baechigi",
+      "artistId": "tak",
+      "source": {
+        "id": "src-156e45cfa30a082c",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/47f939a0-3548-4932-bd8b-77c2aab9a86d",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "stony-skunk",
+      "artistId": "mb-a7f26ee2-d970-400e-b6b9-e960ce783cae",
+      "source": {
+        "id": "src-7a61726f8392b209",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/ed6f2106-648b-4bea-a04b-df92652dd3ed",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "stony-skunk",
+      "artistId": "skull",
+      "source": {
+        "id": "src-7a61726f8392b209",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/ed6f2106-648b-4bea-a04b-df92652dd3ed",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "stony-skunk",
+      "artistId": "skull",
+      "source": {
+        "id": "src-7a61726f8392b209",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/ed6f2106-648b-4bea-a04b-df92652dd3ed",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "homies",
+      "artistId": "chin",
+      "source": {
+        "id": "src-ac1a60446f4f19e8",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/cbc010f0-f910-4009-a4d8-e096d5e41f34",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "homies",
+      "artistId": "ck",
+      "source": {
+        "id": "src-ac1a60446f4f19e8",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/cbc010f0-f910-4009-a4d8-e096d5e41f34",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "homies",
+      "artistId": "louie-homies",
+      "source": {
+        "id": "src-ac1a60446f4f19e8",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/cbc010f0-f910-4009-a4d8-e096d5e41f34",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mfbty",
+      "artistId": "bizzy",
+      "source": {
+        "id": "src-673361aea48a5627",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/034b4ba9-1f70-412a-8cac-ed8591f8a583",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mfbty",
+      "artistId": "tiger-jk",
+      "source": {
+        "id": "src-673361aea48a5627",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/034b4ba9-1f70-412a-8cac-ed8591f8a583",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mfbty",
+      "artistId": "yoon-mi-rae",
+      "source": {
+        "id": "src-673361aea48a5627",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/034b4ba9-1f70-412a-8cac-ed8591f8a583",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "geeks",
+      "artistId": "lil-boi",
+      "source": {
+        "id": "src-72e960fe58e714b4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/80ab91cb-3b46-4f38-92e4-f8f68518596b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2011
+    },
+    {
+      "groupId": "geeks",
+      "artistId": "louie",
+      "source": {
+        "id": "src-72e960fe58e714b4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/80ab91cb-3b46-4f38-92e4-f8f68518596b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2011
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-d09d0468-c421-4e9f-83fd-cbfa661a79cb",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2019,
+      "endYear": 2021
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-e52497e8-a2e1-4e55-ac3d-aba2d27b03c5",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2019
+    },
+    {
+      "groupId": "mba",
+      "artistId": "bigone",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-955ce797-e00a-4835-af84-1cde7e937f68",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-8168f2e2-607b-4d14-bad8-be0fca4d3d1b",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "ek",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-2805bc74-5a07-4823-a18b-a447c7127a74",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-45abdd80-1552-425f-991f-ed82214b3659",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-f173dda9-f2dd-4418-8d39-6c19ea9de9cb",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-c5906c4c-d5d2-411c-86c7-84eca4e53c36",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "mba",
+      "artistId": "mb-34d2d86f-aeee-49a4-adc1-2e41b765694e",
+      "source": {
+        "id": "src-41f047214f4c726e",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/f7f1614e-4fda-4074-824e-949c44d65122",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "xxx",
+      "artistId": "mb-8927fc90-0ed6-4687-806f-0c0cb7b0efb9",
+      "source": {
+        "id": "src-da153e646e7b56d4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/48f987de-4924-48da-8eb0-e3228f7657b4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "xxx",
+      "artistId": "kim-ximya",
+      "source": {
+        "id": "src-da153e646e7b56d4",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/48f987de-4924-48da-8eb0-e3228f7657b4",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "legit-goons",
+      "artistId": "bassagong",
+      "source": {
+        "id": "src-6e58f27f7eef945f",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "legit-goons",
+      "artistId": "blnk",
+      "source": {
+        "id": "src-6e58f27f7eef945f",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "legit-goons",
+      "artistId": "mb-bb1b90a4-1374-4e6b-94c8-eda8d951f4cd",
+      "source": {
+        "id": "src-6e58f27f7eef945f",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "legit-goons",
+      "artistId": "jayho",
+      "source": {
+        "id": "src-6e58f27f7eef945f",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "legit-goons",
+      "artistId": "mb-b8340898-9c3e-4167-afb2-bcaa53b3d4a4",
+      "source": {
+        "id": "src-6e58f27f7eef945f",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/c1e2c27a-e5ff-44f3-a57f-1baa67b25a9b",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "30",
+      "artistId": "deepflow",
+      "source": {
+        "id": "src-8292fb0c69b63b5a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/55dfb458-b42e-4e72-b654-47429e3b7fa6",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      },
+      "startYear": 2023
+    },
+    {
+      "groupId": "30",
+      "artistId": "dsel",
+      "source": {
+        "id": "src-8292fb0c69b63b5a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/55dfb458-b42e-4e72-b654-47429e3b7fa6",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "30",
+      "artistId": "khundi-panda",
+      "source": {
+        "id": "src-8292fb0c69b63b5a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/55dfb458-b42e-4e72-b654-47429e3b7fa6",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    },
+    {
+      "groupId": "30",
+      "artistId": "son-simba",
+      "source": {
+        "id": "src-8292fb0c69b63b5a",
+        "provider": "MusicBrainz",
+        "url": "https://musicbrainz.org/artist/55dfb458-b42e-4e72-b654-47429e3b7fa6",
+        "fetchedAt": "2026-10-01T14:14:27.590643Z",
+        "license": "CC0 core metadata",
+        "note": "Explicit member-of-band relationships; no recording performance is inferred."
+      }
+    }
+  ],
+  "notes": [
+    "공식 무료 공개 믹스테이프 RM(2015)은 아티스트·레이블 블로그에서 발매일·트랙·무료 배포·피처링을 추가 확인했습니다. 비트 원작자·샘플 아티스트는 참여자로 취급하지 않습니다.",
+    "그룹 멤버십은 MusicBrainz의 명시된 member-of-band 관계로 별도 보관하며, 그룹 곡을 멤버 개인의 협업으로 전환하지 않습니다."
+  ]
+}

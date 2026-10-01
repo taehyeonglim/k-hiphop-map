@@ -1,0 +1,233 @@
+{
+  "jay-park": {
+    "musicbrainz": "3dda8202-ce15-4031-862a-77bc6759d15e",
+    "sourceUrl": "https://musicbrainz.org/artist/3dda8202-ce15-4031-862a-77bc6759d15e",
+    "note": "MusicBrainz primary artist page: legal name 박재범, born 1987-04-25, South Korea, hip hop/pop rap tags, albums New Breed and Worldwide. Not the BoRi Music namesake."
+  },
+  "woo": {
+    "musicbrainz": "b22efa02-ca72-4aa7-a81d-838e60dc81c7",
+    "sourceUrl": "https://musicbrainz.org/artist/b22efa02-ca72-4aa7-a81d-838e60dc81c7",
+    "note": "MusicBrainz primary artist page: 우원재/Woo Won Jae, born 1996-12-23, BLACK OUT/af/comma/We Are and official @munchinthepool profile. Do not merge the differently dated WOO entity without evidence. Shared primary lookup of a6e2312e identifies a female Korean rapper/singer born1996-12-31 with no corroborating links; it is not merged with male Woo Wonjae."
+  },
+  "geeks": {
+    "musicbrainz": "80ab91cb-3b46-4f38-92e4-f8f68518596b",
+    "sourceUrl": "https://musicbrainz.org/artist/80ab91cb-3b46-4f38-92e4-f8f68518596b/relationships",
+    "note": "MusicBrainz primary page identifies South Korean hip-hop duo founded 2011; original members lilBOI and 루이. Not the Korean funk band 긱스 founded 1999."
+  },
+  "louie": {
+    "musicbrainz": "b4f51145-3d43-4fb0-b983-289d7e3ede1f",
+    "sourceUrl": "https://musicbrainz.org/artist/80ab91cb-3b46-4f38-92e4-f8f68518596b/relationships",
+    "note": "MusicBrainz Geeks relationships directly links this artist as original member from 2011. Individual page identifies 루이/Louie, born 1990-04-30. Not Homies member Louie."
+  },
+  "lil-boi": {
+    "musicbrainz": "9727b9b2-5e0e-4b2d-a62a-2999a9b3996f",
+    "sourceUrl": "https://musicbrainz.org/artist/9727b9b2-5e0e-4b2d-a62a-2999a9b3996f",
+    "note": "MusicBrainz primary artist page: lIlBOI (Korean rapper), legal name 오승택, born 1991-06-07, Good Time For The Team, HEAT and Basick X Lil Boi. Geeks member relationship also confirms."
+  },
+  "dean": {
+    "musicbrainz": "2b983abf-ef53-483e-a5f0-356e745008bd",
+    "sourceUrl": "https://musicbrainz.org/artist/2b983abf-ef53-483e-a5f0-356e745008bd",
+    "note": "MusicBrainz primary artist page: DEAN (South Korean singer), legal name Kwon Hyuk/권혁, born 1992-11-10, 130 mood : TRBL; officialdean.com and @deantrbl external links."
+  },
+  "gray": {
+    "musicbrainz": "3d8084a9-656e-497b-a368-04b59fd75ce0",
+    "sourceUrl": "https://musicbrainz.org/artist/3d8084a9-656e-497b-a368-04b59fd75ce0",
+    "note": "MusicBrainz primary artist page confirms GRAY (Korean rapper/producer), legal name 이성화, born 1986-12-08, albums Call Me Gray and grayground., official @callmegray external profile. Cached primary recording credit agrees."
+  },
+  "mithra-jin": {
+    "musicbrainz": "9e0346de-34fc-4ec6-bcb7-c5b6c72340f4",
+    "sourceUrl": "https://musicbrainz.org/artist/9e0346de-34fc-4ec6-bcb7-c5b6c72340f4?all=1&va=1",
+    "note": "MusicBrainz primary artist page: Mithra 眞, sort name Mithra Jin, born 1983-01-06, South Korea, official @realmithrajin profiles and hip-hop releases MP Hip-Hop 2001/Thunderground. Epik High [e] credits independently name this entity."
+  },
+  "mc-gree": {
+    "musicbrainz": "6e82b864-0723-4830-a834-d63d4fa63358",
+    "sourceUrl": "https://musicbrainz.org/artist/6e82b864-0723-4830-a834-d63d4fa63358",
+    "note": "MusicBrainz primary page says MC Gree (Korean rapper), born 1998-11-10, South Korea, OfficialGREE external link and BRANDNEW releases. Shares legal name 김동현 with Kim Ximya but is a distinct person."
+  },
+  "mino": {
+    "musicbrainz": "2650741e-908c-4cae-ba98-0717da3c3ce0",
+    "sourceUrl": "https://musicbrainz.org/artist/2650741e-908c-4cae-ba98-0717da3c3ce0",
+    "note": "MusicBrainz primary page identifies MINO (South Korean rapper), albums XX, TAKE, TO INFINITY and Show Me the Money 4 collaboration with Zico/Paloalto. Cached credits include legal name 송민호. Distinct from MINOS."
+  },
+  "sumin": {
+    "musicbrainz": "16f456c9-e23b-4675-ab6a-fd295712c256",
+    "sourceUrl": "https://musicbrainz.org/artist/16f456c9-e23b-4675-ab6a-fd295712c256",
+    "note": "MusicBrainz primary artist page identifies SUMIN (Korean singer/producer), legal Park Soo-min/박수민, Your Home and MINISERIES with Slom."
+  },
+  "northfacegawd": {
+    "musicbrainz": "5aeba76e-d77e-4463-a202-7d964086f54d",
+    "sourceUrl": "https://musicbrainz.org/artist/5aeba76e-d77e-4463-a202-7d964086f54d",
+    "note": "MusicBrainz primary artist page: Northfacegawd, person, South Korea, 700 EP (2020) and northfacegawd EP (2021); specific artist entity linked from Show Me the Money 10 release."
+  },
+  "a-chess": {
+    "musicbrainz": "1380a0d4-0e0b-48d2-a755-cd7107021d0a",
+    "sourceUrl": "https://musicbrainz.org/artist/1380a0d4-0e0b-48d2-a755-cd7107021d0a",
+    "note": "MusicBrainz primary artist page: A-Chess, legal Seo Hyung-suk/서형석, born 1994-05-17, South Korea; Show Me the Money 10 Episode 1 and Snacky Chan collaborations."
+  },
+  "ourealgoat": {
+    "musicbrainz": "0d2f9a5b-b578-4e79-85bb-8f3e01ad296f",
+    "sourceUrl": "https://musicbrainz.org/artist/0d2f9a5b-b578-4e79-85bb-8f3e01ad296f",
+    "note": "MusicBrainz primary artist page: Ourealgoat, person, South Korea; BROTHERHOOD with Owen and Running Shit with Takuwa. Linked from Show Me the Money 10 release."
+  },
+  "since": {
+    "musicbrainz": "0b7a9b4c-2ee1-4b6c-ad31-4732d2b781b4",
+    "sourceUrl": "https://musicbrainz.org/artist/0b7a9b4c-2ee1-4b6c-ad31-4732d2b781b4",
+    "note": "MusicBrainz primary artist page identifies SINCE (Korean rapper), legal Shin Soo Jin; albums SINCE 16 and THE SOLOEST, official Dingo X SINCE release."
+  },
+  "unofficialboyy": {
+    "musicbrainz": "78d32ee5-5b35-444f-8f64-2d00516ef805",
+    "sourceUrl": "https://musicbrainz.org/artist/78d32ee5-5b35-444f-8f64-2d00516ef805",
+    "note": "MusicBrainz primary artist page: unofficialboyy, legal Lee Su-rin/이수린, South Korea, 1998 birth, official @unofficialboyy profile, drugonline gate collaboration with Yanghongwon."
+  },
+  "geegooin": {
+    "musicbrainz": "07e78331-884c-4c94-988f-1424da3b94d2",
+    "sourceUrl": "https://musicbrainz.org/artist/07e78331-884c-4c94-988f-1424da3b94d2",
+    "note": "MusicBrainz primary artist page: Geegooin, person, South Korea; Unpretty Rapstar 2 Track 5 alongside Hyolyn/Jay Park, official @geegooin profile links."
+  },
+  "bobby": {
+    "musicbrainz": "de461f00-89b7-46e2-b6ba-550ef383fb8e",
+    "sourceUrl": "https://musicbrainz.org/artist/de461f00-89b7-46e2-b6ba-550ef383fb8e",
+    "note": "Primary MusicBrainz profile identifies South Korean-American rapper Bobby, legal Kim Ji-won/김지원, born 1995-12-21; LOVE AND FALL, LUCKY MAN, Sir. Robert and Show Me the Money 3 releases establish the Korean rapper context."
+  },
+  "blase": {
+    "musicbrainz": "2f96c1ae-0671-4d48-9507-670892a2ac67",
+    "sourceUrl": "https://musicbrainz.org/artist/2f96c1ae-0671-4d48-9507-670892a2ac67/releases",
+    "note": "Primary MusicBrainz profile explicitly identifies Korean rapper Blase, Korean releases on FA/Mine Field/AT AREA including MultrillVerse and Another Verse, and official @shinyoungduck account."
+  },
+  "rhythm-power": {
+    "musicbrainz": "91075f86-a5f7-4d9a-878a-7380b905953e",
+    "sourceUrl": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e/relationships",
+    "note": "Primary MusicBrainz relationship page identifies Korean group Rhythm Power with Boi B, Geegooin and Hangzoo as members, and Teamplay/Amoeba Culture context."
+  },
+  "boi-b": {
+    "musicbrainz": "8d235776-51a8-446b-ba81-11e9de55dcb8",
+    "sourceUrl": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e/relationships",
+    "note": "Primary Rhythm Power relationship page explicitly links Boi B to this artist MBID as a group member; followed primary profile confirms Boi B."
+  },
+  "hangzoo": {
+    "musicbrainz": "15b381b5-a02d-4d5e-af0a-4a1b0bf0cd4c",
+    "sourceUrl": "https://musicbrainz.org/artist/91075f86-a5f7-4d9a-878a-7380b905953e/relationships",
+    "note": "Primary Rhythm Power relationship page explicitly links Hangzoo/행주 to this artist MBID as a group member; followed primary profile confirms Hangzoo."
+  },
+  "lee-hyun-bae": {
+    "musicbrainz": "0ec6c8f1-624f-44d4-8473-0548e20f04c5",
+    "sourceUrl": "https://musicbrainz.org/artist/0ec6c8f1-624f-44d4-8473-0548e20f04c5/relationships",
+    "note": "Shared-rate-limit primary MusicBrainz lookup by music_data confirms Smash, Korean emcee, legal 이현배, born 1973, died 2021-04-17, member of 45RPM, sibling of 이하늘; maniadb artist135112 and Wikidata Q12613131 relations corroborate identity."
+  },
+  "ph-1": {
+    "musicbrainz": "aace796b-0569-49b6-a144-64ea24031962",
+    "sourceUrl": "https://musicbrainz.org/artist/aace796b-0569-49b6-a144-64ea24031962",
+    "note": "Primary profile explicitly identifies Korean rapper pH-1, legal Harry Park/박준원, born 1989-07-23; HALO, The Island Kid and official @ph1boyyy establish identity."
+  },
+  "sik-k": {
+    "musicbrainz": "bbf6aa09-987b-46b6-8dd9-89c6ade3c00f",
+    "sourceUrl": "https://musicbrainz.org/artist/bbf6aa09-987b-46b6-8dd9-89c6ade3c00f",
+    "note": "Primary profile explicitly identifies South Korean rapper Sik-K, legal Kwon Min-sik/권민식, born 1994-02-26, FL1P/HEADLINER/TRAPART and official @younghotyellow94."
+  },
+  "woodie-gochild": {
+    "musicbrainz": "adc8b0d8-874b-4e10-be9f-82d52582b310",
+    "sourceUrl": "https://musicbrainz.org/artist/adc8b0d8-874b-4e10-be9f-82d52582b310",
+    "note": "Primary profile explicitly identifies Korean rapper Woodie Gochild, legal 곽우재, #Gochild/SWOOP! and H1GHR collaborations with HAON, Sik-K and pH-1."
+  },
+  "haon": {
+    "musicbrainz": "8cb31f1b-645a-4c9e-ab9e-06aa8cb08949",
+    "sourceUrl": "https://musicbrainz.org/artist/8cb31f1b-645a-4c9e-ab9e-06aa8cb08949",
+    "note": "Primary artist link from Jay Park release page plus cached primary MusicBrainz artist search explicitly identify Korean rapper HAON, legal 김하온, born 2000-07-07; distinct generic Haon entity is excluded."
+  },
+  "rohann": {
+    "musicbrainz": "cde885e9-4d2f-4247-a17e-d207594eaa74",
+    "sourceUrl": "https://musicbrainz.org/artist/cde885e9-4d2f-4247-a17e-d207594eaa74",
+    "note": "Cached primary MusicBrainz artist search explicitly identifies Korean rapper Rohann, South Korea, born 2000-06-04, Webster B/이로한 and 로한 aliases. Cached primary CODE CLEAR credits use this same MBID. Do not silently merge sparse 이로한 entity 17ec2097-1b12-4955-a037-93344f0069dd."
+  },
+  "lee-hyun-jun": {
+    "musicbrainz": "5bad2471-f9bc-4cb6-929e-ebbda9f40780",
+    "sourceUrl": "https://musicbrainz.org/artist/5bad2471-f9bc-4cb6-929e-ebbda9f40780",
+    "note": "Cached primary MusicBrainz artist search explicitly identifies 이현준 as South Korean rapper, born 1994-01-19 in Incheon, alias Lee Hyun Jun. Distinct drummer c7dfb37e-47d6-44ce-a952-f289e86ea134 and engineer f17e4d1e-4fe2-4812-9b86-fedd9f0ada1d are excluded."
+  },
+  "vince": {
+    "musicbrainz": "eb3b506f-da9a-4c4f-a0e9-7612597751f3",
+    "sourceUrl": "https://musicbrainz.org/artist/eb3b506f-da9a-4c4f-a0e9-7612597751f3",
+    "note": "Cached primary MusicBrainz artist credits on Emergency recording 68bb9ffd-e69d-4e81-8d80-17b016e99f76 explicitly identify Korean singer/rapper Vince, legal 이준석, aliases 빈스 and Joe Rhee; verified alongside Zion.T context, not alias alone."
+  },
+  "los": {
+    "musicbrainz": "b80c6a8c-4689-41d2-a467-dc8a3a8e1c20",
+    "sourceUrl": "https://musicbrainz.org/artist/b80c6a8c-4689-41d2-a467-dc8a3a8e1c20",
+    "note": "Cached primary MusicBrainz credits on Love Peace Movement (호심술 HypeerTime Remix), CODE CLEAR and 호심술 Remix explicitly identify Korean rapper Los with 로스/Los Moonwalker aliases; use this contextual MBID rather than an international same-name artist."
+  },
+  "suga": {
+    "musicbrainz": "b629da42-c668-49d2-be67-498605ee2a13",
+    "alternateMusicbrainz": [
+      "f09d2950-e3c6-47b2-b21c-2bad2cd3f616"
+    ],
+    "sourceUrl": "https://bts.ibighit.com/kor/discography/suga/detail/d-day/",
+    "note": "BIGHIT MUSIC official D-DAY page explicitly states BTS SUGA released the album under Agust D. Both primary MusicBrainz profiles link through performance name 민윤기 and also-performs-as relationships. Canonical SUGA b629... and alternate Agust D f09... are the same person; preserve original recording credit spelling."
+  },
+  "bill-stax": {
+    "musicbrainz": "4bb2e755-5017-475f-8295-fc6e59038cf3",
+    "sourceUrl": "https://musicbrainz.org/artist/4bb2e755-5017-475f-8295-fc6e59038cf3",
+    "note": "Cached primary MusicBrainz artist data explicitly identifies Korean rapper BILL STAX, fka Vasco, legal 신동열, born 1980-12-18, with Vasco/바스코 and 빌스택스 aliases. Existing cached records use this single MBID; no separate Vasco MBID has been verified."
+  },
+  "tak": {
+    "musicbrainz": "3d9738d8-8dff-4b8b-9ff2-a5d8f5e397ff",
+    "sourceUrl": "https://musicbrainz.org/artist/3d9738d8-8dff-4b8b-9ff2-a5d8f5e397ff",
+    "note": "Cached primary MusicBrainz artist search explicitly disambiguates 탁/Tak as BaeChiGi, born 1983-09-10, alias 탁탁. Exclude ad8b42fd-e001-4946-ba7f-fdea2462062c, a distinct Korean composer born 1991-08-27. Country alone must not override group context."
+  },
+  "pinodyne": {
+    "musicbrainz": "45481dad-8c61-483a-8004-fab5dd920e6c",
+    "sourceUrl": "https://www.genie.co.kr/detail/artistInfo?xxnm=79927636",
+    "note": "Primary Genie artist page identifies Korean duo Pinodyne as Huckleberry P and Soul Fish. Cached primary MusicBrainz artist relationship lookup for454... explicitly lists those same two members and links that same Genie79927636 artist page. Sparse alternate 피노다인 f577... remains separate until proven."
+  },
+  "choi-sam": {
+    "musicbrainz": "2a8a1d2a-08b6-4178-b7df-210f4db6b137",
+    "sourceUrl": "https://musicbrainz.org/recording/1ead1beb-fa10-4617-b003-dab19195771c",
+    "note": "Cached primary MusicBrainz Run recording credits identify Choi Sam as Korean rapper with primary artist aliases 최삼 and Choi Sam. Apple Music793025365 confirms KR Korean Hip-Hop artist Choi Sam; do not merge sparse 최삼8f4... solely on same name."
+  },
+  "nuol": {
+    "musicbrainz": "e44a0006-fb27-4064-a1de-91790ed2cc07",
+    "sourceUrl": "https://musicbrainz.org/recording/a13683eb-6792-4b85-b3a8-1f2c32645332",
+    "note": "Cached primary MusicBrainz artist search identifies Nuol, South Korea, legal Sung-Bum Choi, born1982-03-24, aliases Nuoliunce/뉴올리언스/뉴올. Primary Keep your love recording credits use this MBID alongside Korean hip-hop context. Sparse 뉴올99a... not silently merged."
+  },
+  "h2adin": {
+    "musicbrainz": "e4c6c6bf-0ec6-46f0-979d-f5658afdad23",
+    "sourceUrl": "https://www.genie.co.kr/detail/artistInfo?xxnm=80570213",
+    "note": "Primary Genie page identifies 조원우 (Jowonu) as the High School Rapper participant 조원우 (H2ADIN). Cached primary MusicBrainz Hi-Lite Sign credits give Jowonu MBIDe4c... with H2ADIN alias; same official release context appears on Apple Music1360206650. This is confirmed stage-name change, not generic alias matching."
+  },
+  "noh-yun-ha": {
+    "musicbrainz": "f6605fb3-30c6-4f74-a699-cef595a11f7a",
+    "sourceUrl": "https://www.genie.co.kr/detail/songInfo?xgnm=99610768",
+    "note": "Primary Genie Vroom (Feat. lilBOI & Swings) credits identify 노윤하 and Show Me the Money11 Semi Final hip-hop context. Cached primary MusicBrainz Vroom recording504aa1c2... identifies Roh Yunha MBIDf660... with legal 노윤하/Noh Yoon-ha aliases."
+  },
+  "kim-chang-yeol": {
+    "musicbrainz": "480358ff-5127-4fca-b7e6-2257fe3ab610",
+    "sourceUrl": "https://musicbrainz.org/artist/502e4ed1-eb37-44ac-bf95-84fbc5315ae5/relationships",
+    "note": "Cached primary MusicBrainz DJ DOC relationship lookup explicitly identifies 김창렬/Kim Chang-Yeol MBID480... as original member of South Korean hip-hop trio DJ DOC. Same ID appears on 이것봐! and 힙합구조대 credits. Sparse individual profile is corroborated by group membership."
+  },
+  "one-sun": {
+    "musicbrainz": "e8a2c58e-a912-4f47-87a2-701d06c43ea1",
+    "sourceUrl": "https://musicbrainz.org/recording/dfafa767-cedb-483e-8db2-41ef4b71816d",
+    "note": "Cached primary MusicBrainz profile names Onesun with 원선 alias; recording credits identify this exact MBID on 다시/Again from MP Hip-Hop2001, 니닐리 from MP Hiphop2002 and 飛上 from2000대한민국. Primary Apple Music337472941 lists KR Hip-Hop/Rap Onesun and Again from MP Hip Hop2001; MusicBrainz Korean Artists documentation also explicitly lists Onesun(원선). Exclude generic One Sun18e... and New York artist0TSzPy... rather than resolving by name alone."
+  },
+  "gan-d": {
+    "musicbrainz": "1f4655f7-1e38-44ad-97c1-0fc828738e39",
+    "sourceUrl": "https://musicbrainz.org/artist/deb96d52-0bf3-4744-89bc-4d9d4e198533/relationships",
+    "note": "Cached primary MusicBrainz Buga Kingz relationship lookup explicitly lists Gan-D MBID1f465... as group member alongside Juvie Train and Bobby Kim. Primary Bugs8009613 confirms Korean solo Gan-D/간디 member of 부가킹즈, matching Reload and 헝그리정신 context; exclude foreign same-name Gan D profiles."
+  },
+  "rock-punkman": {
+    "musicbrainz": "4f0b05b2-b44d-4342-b537-b6ebe9df8a4f",
+    "sourceUrl": "https://www.genie.co.kr/magazine/subMain?mgz_seq=4675",
+    "note": "Primary Genie editorial identifies 록스 펑크맨 as Loxx Punkman, winner of Street Rap Shit2016, with Unbreakable. Cached primary MusicBrainz Conscious - Remix credits use MBID4f0... explicitly disambiguated Korean rapper. Seed English Rock$ Punkman is a misspelling; canonical artist spelling should be Loxx Punkman."
+  },
+  "skull": {
+    "musicbrainz": "4503247e-5ff1-440e-a8a1-425f518cfe9a",
+    "alternateMusicbrainz": [
+      "5765ee3c-4cc7-431a-b6a4-e3851a8f601f"
+    ],
+    "sourceUrl": "https://www.maniadb.com/artist/106118?o=g",
+    "note": "Primary maniadb106118 identifies solo Skull/스컬, legal조성진, born1979-11-02, and Stony Skunk lineup2003/2005 as the same Skull plus Kush. Cached primary MusicBrainz canonical450... matches legal name/birthdate and is member of Stony Skunk ed6f2106-648b-4bea-a04b-df92652dd3ed; shared primary lookup of alternate576... is male KR person explicitly disambiguated of Stony Skunk with the same group-member relation. The official artist-activity context identifies the sole Skull slot, so these MBIDs are reviewed as one person, not merged by generic name."
+  },
+  "jimmy-paige": {
+    "musicbrainz": "0792db4a-d0ea-48b9-bf37-9537db84ccdd",
+    "sourceUrl": "https://musicbrainz.org/artist/0792db4a-d0ea-48b9-bf37-9537db84ccdd",
+    "note": "Cached primary MusicBrainz credits on Sushi (JM Remix) and Carnival Gang explicitly identify Korean rapper Jimmy Paige with Goretexx and Park Sung-jin/박성진 aliases, establishing Just Music collaboration context."
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "checkedAt": "2026-10-01T13:55:38.718066Z",
+  "meaning": "Candidate search availability; not complete repertoire coverage or recall. Era labels are sampling strata, not sourced debut claims.",
+  "artists": [
+    {
+      "era": "1995–2004",
+      "id": "dj-doc",
+      "name": "DJ DOC",
+      "musicbrainzId": "502e4ed1-eb37-44ac-bf95-84fbc5315ae5",
+      "collectedRecordings": 147,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/DJ%20DOC/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/DJ%20DOC/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "103442"
+      ],
+      "maniadbAlbumSearchCount": 1
+    },
+    {
+      "era": "1995–2004",
+      "id": "drunken-tiger",
+      "name": "드렁큰 타이거",
+      "musicbrainzId": "69aa17d9-b9b0-433b-b81d-0033e6f9b7fd",
+      "collectedRecordings": 194,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%93%9C%EB%A0%81%ED%81%B0%20%ED%83%80%EC%9D%B4%EA%B1%B0/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%93%9C%EB%A0%81%ED%81%B0%20%ED%83%80%EC%9D%B4%EA%B1%B0/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "103412"
+      ],
+      "maniadbAlbumSearchCount": 18
+    },
+    {
+      "era": "1995–2004",
+      "id": "garion",
+      "name": "가리온",
+      "musicbrainzId": "a6cc73c6-926d-466e-8235-745e2d94feee",
+      "collectedRecordings": 79,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EA%B0%80%EB%A6%AC%EC%98%A8/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EA%B0%80%EB%A6%AC%EC%98%A8/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "100055"
+      ],
+      "maniadbAlbumSearchCount": 56
+    },
+    {
+      "era": "1995–2004",
+      "id": "cb-mass",
+      "name": "CB Mass",
+      "musicbrainzId": "4032b6fa-4044-4000-a392-05f35c5c7b17",
+      "collectedRecordings": 58,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/CB%20Mass/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/CB%20Mass/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "113719"
+      ],
+      "maniadbAlbumSearchCount": 1
+    },
+    {
+      "era": "1995–2004",
+      "id": "kim-jin-pyo",
+      "name": "김진표",
+      "musicbrainzId": "552d3421-4b3d-403b-82b1-a30e0d9dbcbc",
+      "collectedRecordings": 98,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EA%B9%80%EC%A7%84%ED%91%9C/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EA%B9%80%EC%A7%84%ED%91%9C/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 45
+    },
+    {
+      "era": "2005–2009",
+      "id": "dok2",
+      "name": "도끼",
+      "musicbrainzId": "425afcd0-0db2-41d0-a0fa-10af97ee1f77",
+      "collectedRecordings": 245,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%8F%84%EB%81%BC/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%8F%84%EB%81%BC/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 99
+    },
+    {
+      "era": "2005–2009",
+      "id": "the-quiett",
+      "name": "더 콰이엇",
+      "musicbrainzId": "e9966d7d-8ded-4c65-97c1-f984a2efcea0",
+      "collectedRecordings": 282,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%8D%94%20%EC%BD%B0%EC%9D%B4%EC%97%87/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%8D%94%20%EC%BD%B0%EC%9D%B4%EC%97%87/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "133427"
+      ],
+      "maniadbAlbumSearchCount": 47
+    },
+    {
+      "era": "2005–2009",
+      "id": "paloalto",
+      "name": "팔로알토",
+      "musicbrainzId": "be3b8476-48d4-4ff9-9916-757638e8355d",
+      "collectedRecordings": 317,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%ED%8C%94%EB%A1%9C%EC%95%8C%ED%86%A0/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%ED%8C%94%EB%A1%9C%EC%95%8C%ED%86%A0/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 63
+    },
+    {
+      "era": "2005–2009",
+      "id": "verbal-jint",
+      "name": "버벌진트",
+      "musicbrainzId": "02631a80-5a17-40af-b3fc-eb1aeeffc55d",
+      "collectedRecordings": 188,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B2%84%EB%B2%8C%EC%A7%84%ED%8A%B8/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B2%84%EB%B2%8C%EC%A7%84%ED%8A%B8/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "114885"
+      ],
+      "maniadbAlbumSearchCount": 88
+    },
+    {
+      "era": "2005–2009",
+      "id": "basick",
+      "name": "베이식",
+      "musicbrainzId": "4aeb4915-b7de-4b12-a601-063176996ee6",
+      "collectedRecordings": 23,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B2%A0%EC%9D%B4%EC%8B%9D/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B2%A0%EC%9D%B4%EC%8B%9D/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "149918"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2010–2014",
+      "id": "swings",
+      "name": "스윙스",
+      "musicbrainzId": "b24471a9-d826-48f6-bf7c-03b251bcc284",
+      "collectedRecordings": 209,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%8A%A4%EC%9C%99%EC%8A%A4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%8A%A4%EC%9C%99%EC%8A%A4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2010–2014",
+      "id": "e-sens",
+      "name": "이센스",
+      "musicbrainzId": "52b43c7e-b974-4d1e-9c7a-dfd21a0970b2",
+      "collectedRecordings": 70,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%9D%B4%EC%84%BC%EC%8A%A4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%9D%B4%EC%84%BC%EC%8A%A4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "152367"
+      ],
+      "maniadbAlbumSearchCount": 72
+    },
+    {
+      "era": "2010–2014",
+      "id": "supreme-team",
+      "name": "슈프림팀",
+      "musicbrainzId": "4ffa1b2b-5ef1-4441-8dc1-f7e51a7852e4",
+      "collectedRecordings": 41,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%8A%88%ED%94%84%EB%A6%BC%ED%8C%80/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%8A%88%ED%94%84%EB%A6%BC%ED%8C%80/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "152811"
+      ],
+      "maniadbAlbumSearchCount": 9
+    },
+    {
+      "era": "2010–2014",
+      "id": "beenzino",
+      "name": "빈지노",
+      "musicbrainzId": "ff2f225e-a49e-47ee-866a-d4606c4e3fea",
+      "collectedRecordings": 112,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B9%88%EC%A7%80%EB%85%B8/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B9%88%EC%A7%80%EB%85%B8/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "157023"
+      ],
+      "maniadbAlbumSearchCount": 54
+    },
+    {
+      "era": "2010–2014",
+      "id": "jay-park",
+      "name": "박재범",
+      "musicbrainzId": "3dda8202-ce15-4031-862a-77bc6759d15e",
+      "collectedRecordings": 306,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B0%95%EC%9E%AC%EB%B2%94/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B0%95%EC%9E%AC%EB%B2%94/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "200550",
+        "507122"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2015–2019",
+      "id": "bewhy",
+      "name": "비와이",
+      "musicbrainzId": "b043d091-9c31-44c4-b646-c79d0c97840f",
+      "collectedRecordings": 131,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B9%84%EC%99%80%EC%9D%B4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B9%84%EC%99%80%EC%9D%B4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "422830"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2015–2019",
+      "id": "c-jamm",
+      "name": "씨잼",
+      "musicbrainzId": "5a3a8fd2-fc67-4d79-b598-cd6c06604ba5",
+      "collectedRecordings": 81,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%94%A8%EC%9E%BC/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%94%A8%EC%9E%BC/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "422831"
+      ],
+      "maniadbAlbumSearchCount": 23
+    },
+    {
+      "era": "2015–2019",
+      "id": "changmo",
+      "name": "창모",
+      "musicbrainzId": "93ed67ff-2ab4-4fb3-9e3c-b971b8481e1a",
+      "collectedRecordings": 187,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%B0%BD%EB%AA%A8/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%B0%BD%EB%AA%A8/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "427160"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2015–2019",
+      "id": "kid-milli",
+      "name": "키드밀리",
+      "musicbrainzId": "767638aa-d3f1-49ab-8112-348ac99b82eb",
+      "collectedRecordings": 192,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%ED%82%A4%EB%93%9C%EB%B0%80%EB%A6%AC/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%ED%82%A4%EB%93%9C%EB%B0%80%EB%A6%AC/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "431314"
+      ],
+      "maniadbAlbumSearchCount": 3
+    },
+    {
+      "era": "2015–2019",
+      "id": "yanghongwon",
+      "name": "영비",
+      "musicbrainzId": "b1c58e6a-2e9a-4502-8724-5571b47292ad",
+      "collectedRecordings": 100,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%98%81%EB%B9%84/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%98%81%EB%B9%84/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "430593"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2020–현재",
+      "id": "lee-young-ji",
+      "name": "영지",
+      "musicbrainzId": "0433e75d-70b6-4118-9ff8-9b6f7e534093",
+      "collectedRecordings": 7,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%98%81%EC%A7%80/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%98%81%EC%A7%80/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2020–현재",
+      "id": "since",
+      "name": "신스",
+      "musicbrainzId": "0b7a9b4c-2ee1-4b6c-ad31-4732d2b781b4",
+      "collectedRecordings": 7,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EC%8B%A0%EC%8A%A4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EC%8B%A0%EC%8A%A4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2020–현재",
+      "id": "be-o",
+      "name": "비오",
+      "musicbrainzId": "2228765c-f236-4db5-b576-cbad758dfc12",
+      "collectedRecordings": 16,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%EB%B9%84%EC%98%A4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%EB%B9%84%EC%98%A4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "424786",
+        "456588",
+        "478778"
+      ],
+      "maniadbAlbumSearchCount": 100
+    },
+    {
+      "era": "2020–현재",
+      "id": "homies",
+      "name": "호미들",
+      "musicbrainzId": "cbc010f0-f910-4009-a4d8-e096d5e41f34",
+      "collectedRecordings": 24,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%ED%98%B8%EB%AF%B8%EB%93%A4/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%ED%98%B8%EB%AF%B8%EB%93%A4/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [
+        "470936"
+      ],
+      "maniadbAlbumSearchCount": 31
+    },
+    {
+      "era": "2020–현재",
+      "id": "fleeky-bang",
+      "name": "플리키뱅",
+      "musicbrainzId": "ad3dfedc-33bb-43a1-82e4-0fb155bab681",
+      "collectedRecordings": 4,
+      "maniadbArtistUrl": "https://www.maniadb.com/api/search/%ED%94%8C%EB%A6%AC%ED%82%A4%EB%B1%85/?sr=artist&display=5&key=example&v=0.5",
+      "maniadbAlbumUrl": "https://www.maniadb.com/api/search/%ED%94%8C%EB%A6%AC%ED%82%A4%EB%B1%85/?sr=album&display=100&key=example&v=0.5",
+      "maniadbExactArtistCandidates": [],
+      "maniadbAlbumSearchCount": 0
+    }
+  ]
+}

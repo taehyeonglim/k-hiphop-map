@@ -1,0 +1,57 @@
+{
+  "mb-9d5b0162-6724-4bd8-a787-7857e19478dd": {
+    "verification": "pending",
+    "reason": "Upstream MusicBrainz artist identity conflict: 2006 US Young B is not Korean YANGHONGWON (born1999). Official Apple Music Webstar biography identifies the US guest.",
+    "sourceUrl": "https://music.apple.com/us/artist/webstar/179515468"
+  },
+  "mb-6d2d03f6-6d9e-4161-ba54-fbded748de05": {
+    "verification": "pending",
+    "reason": "Italian 2015 Young B billing was attached to Korean YANGHONGWON MBID without Korean artist evidence; source identity requires review.",
+    "sourceUrl": "https://music.apple.com/it/song/1122570002"
+  },
+  "mb-f87a43ea-a6c8-40e4-8947-dc6bfc39af7d": {
+    "verification": "pending",
+    "reason": "Possible re-release of confirmed2012 HotterThanSummerremix; 2013record lacks duration/ISRC, so secondperformance not established.",
+    "sourceUrl": "https://musicbrainz.org/recording/7af7c369-7ed2-4afb-9606-17ba4d06da44"
+  },
+  "mb-bebc253f-611c-4e1a-a0f4-120369cceefc": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/bebc253f-611c-4e1a-a0f4-120369cceefc"
+  },
+  "mb-333bb38a-c215-47c3-a76a-8bb57973560c": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/333bb38a-c215-47c3-a76a-8bb57973560c"
+  },
+  "mb-f05e64b5-8034-4a87-bc19-89c41ce34bdc": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/f05e64b5-8034-4a87-bc19-89c41ce34bdc"
+  },
+  "mb-75409195-36c2-438f-be54-86f6d8580342": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/75409195-36c2-438f-be54-86f6d8580342"
+  },
+  "mb-511411a6-8ef1-4382-857c-3444f5a613b1": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/511411a6-8ef1-4382-857c-3444f5a613b1"
+  },
+  "mb-6e565cff-a7ee-4619-a65f-e26dac98b7e9": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/6e565cff-a7ee-4619-a65f-e26dac98b7e9"
+  },
+  "mb-76a91bfe-3c2f-43cb-8a6c-a77a8a1d7644": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/76a91bfe-3c2f-43cb-8a6c-a77a8a1d7644"
+  },
+  "mb-19b0dc04-e023-4c92-ba2e-5b1295965624": {
+    "verification": "pending",
+    "reason": "MusicBrainz assigns foreign bass-music YDG billing to the Korean actor/rapper identity. No independent Korean YDG participation evidence; held for review.",
+    "sourceUrl": "https://musicbrainz.org/recording/19b0dc04-e023-4c92-ba2e-5b1295965624"
+  }
+}

@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "garion",
+    "name": "가리온",
+    "nameEn": "Garion",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "가리온"
+  },
+  {
+    "id": "mc-meta",
+    "name": "MC 메타",
+    "nameEn": "MC Meta",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "MC 메타"
+  },
+  {
+    "id": "naachal",
+    "name": "나찰",
+    "nameEn": "Naachal",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "나찰"
+  },
+  {
+    "id": "tiger-jk",
+    "name": "타이거 JK",
+    "nameEn": "Tiger JK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "타이거 JK"
+  },
+  {
+    "id": "yoon-mi-rae",
+    "name": "윤미래",
+    "nameEn": "Yoon Mi-rae",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "윤미래"
+  },
+  {
+    "id": "drunken-tiger",
+    "name": "드렁큰 타이거",
+    "nameEn": "Drunken Tiger",
+    "aliases": [
+      "드렁큰 타이거"
+    ],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "드렁큰 타이거"
+  },
+  {
+    "id": "dj-doc",
+    "name": "DJ DOC",
+    "nameEn": "DJ DOC",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "DJ DOC"
+  },
+  {
+    "id": "kim-jin-pyo",
+    "name": "김진표",
+    "nameEn": "Kim Jin-pyo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김진표"
+  },
+  {
+    "id": "kim-chang-yeol",
+    "name": "김창열",
+    "nameEn": "Kim Chang-yeol",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김창열"
+  },
+  {
+    "id": "lee-ha-neul",
+    "name": "이하늘",
+    "nameEn": "Lee Ha-neul",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이하늘"
+  },
+  {
+    "id": "honey-family",
+    "name": "허니 패밀리",
+    "nameEn": "Honey Family",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "허니 패밀리"
+  },
+  {
+    "id": "leessang",
+    "name": "리쌍",
+    "nameEn": "Leessang",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "리쌍"
+  },
+  {
+    "id": "gary",
+    "name": "개리",
+    "nameEn": "Gary",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "개리"
+  },
+  {
+    "id": "gil",
+    "name": "길",
+    "nameEn": "Gil",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "길"
+  },
+  {
+    "id": "cb-mass",
+    "name": "CB Mass",
+    "nameEn": "CB Mass",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "CB Mass"
+  },
+  {
+    "id": "dynamic-duo",
+    "name": "다이나믹 듀오",
+    "nameEn": "Dynamic Duo",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "다이나믹 듀오"
+  },
+  {
+    "id": "gaeko",
+    "name": "개코",
+    "nameEn": "Gaeko",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "개코"
+  },
+  {
+    "id": "choiza",
+    "name": "최자",
+    "nameEn": "Choiza",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "최자"
+  },
+  {
+    "id": "joosuc",
+    "name": "주석",
+    "nameEn": "Joosuc",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "주석"
+  },
+  {
+    "id": "defconn",
+    "name": "데프콘",
+    "nameEn": "Defconn",
+    "aliases": [
+      "데프콘"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "데프콘"
+  },
+  {
+    "id": "p-type",
+    "name": "피타입",
+    "nameEn": "P-Type",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "피타입"
+  },
+  {
+    "id": "verbal-jint",
+    "name": "버벌진트",
+    "nameEn": "Verbal Jint",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "버벌진트"
+  },
+  {
+    "id": "kim-ban-jang",
+    "name": "김반장",
+    "nameEn": "Kim Ban-jang",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김반장"
+  },
+  {
+    "id": "infinite-flow",
+    "name": "인피닛 플로우",
+    "nameEn": "Infinite Flow",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "인피닛 플로우"
+  },
+  {
+    "id": "nuck",
+    "name": "넋업샨",
+    "nameEn": "Nuck",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "넋업샨"
+  },
+  {
+    "id": "bizniz",
+    "name": "비즈니즈",
+    "nameEn": "Bizniz",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비즈니즈"
+  },
+  {
+    "id": "one-sun",
+    "name": "원썬",
+    "nameEn": "One Sun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "원썬"
+  },
+  {
+    "id": "deegie",
+    "name": "디지",
+    "nameEn": "Deegie",
+    "aliases": [
+      "디지"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디지"
+  },
+  {
+    "id": "bill-stax",
+    "name": "바스코",
+    "nameEn": "Bill Stax",
+    "aliases": [
+      "빌스택스"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "바스코"
+  },
+  {
+    "id": "skull",
+    "name": "스컬",
+    "nameEn": "Skull",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스컬"
+  },
+  {
+    "id": "stony-skunk",
+    "name": "스토니스컹크",
+    "nameEn": "Stony Skunk",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "스토니스컹크"
+  },
+  {
+    "id": "dok2",
+    "name": "도끼",
+    "nameEn": "Dok2",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "도끼"
+  },
+  {
+    "id": "the-quiett",
+    "name": "더 콰이엇",
+    "nameEn": "The Quiett",
+    "aliases": [
+      "더 콰이엇"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "더 콰이엇"
+  },
+  {
+    "id": "beenzino",
+    "name": "빈지노",
+    "nameEn": "Beenzino",
+    "aliases": [
+      "노비츠키"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "빈지노"
+  },
+  {
+    "id": "illinit",
+    "name": "일리닛",
+    "nameEn": "Illinit",
+    "aliases": [
+      "일리닛"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "일리닛"
+  },
+  {
+    "id": "paloalto",
+    "name": "팔로알토",
+    "nameEn": "Paloalto",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "팔로알토"
+  },
+  {
+    "id": "san-e",
+    "name": "산이",
+    "nameEn": "San E",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "산이"
+  },
+  {
+    "id": "swings",
+    "name": "스윙스",
+    "nameEn": "Swings",
+    "aliases": [
+      "스윙스"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스윙스"
+  },
+  {
+    "id": "e-sens",
+    "name": "이센스",
+    "nameEn": "E SENS",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이센스"
+  },
+  {
+    "id": "simon-dominic",
+    "name": "사이먼 도미닉",
+    "nameEn": "Simon Dominic",
+    "aliases": [
+      "쌈디"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "사이먼 도미닉"
+  },
+  {
+    "id": "supreme-team",
+    "name": "슈프림팀",
+    "nameEn": "Supreme Team",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "슈프림팀"
+  },
+  {
+    "id": "epik-high",
+    "name": "에픽하이",
+    "nameEn": "Epik High",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "에픽하이"
+  },
+  {
+    "id": "tablo",
+    "name": "타블로",
+    "nameEn": "Tablo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "타블로"
+  },
+  {
+    "id": "mithra-jin",
+    "name": "미쓰라",
+    "nameEn": "Mithra Jin",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "미쓰라"
+  },
+  {
+    "id": "kebee",
+    "name": "키비",
+    "nameEn": "Kebee",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "키비"
+  },
+  {
+    "id": "jerry-k",
+    "name": "제리케이",
+    "nameEn": "Jerry.k",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제리케이"
+  },
+  {
+    "id": "soul-dive",
+    "name": "소울 다이브",
+    "nameEn": "Soul Dive",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "소울 다이브"
+  },
+  {
+    "id": "d-theo",
+    "name": "디테오",
+    "nameEn": "D.Theo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디테오"
+  },
+  {
+    "id": "zito",
+    "name": "지토",
+    "nameEn": "Zito",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지토"
+  },
+  {
+    "id": "minos",
+    "name": "마이노스",
+    "nameEn": "MINOS",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "마이노스"
+  },
+  {
+    "id": "eluphant",
+    "name": "이루펀트",
+    "nameEn": "Eluphant",
+    "aliases": [
+      "엘루펀트"
+    ],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "엘루이"
+  },
+  {
+    "id": "mad-clown",
+    "name": "매드클라운",
+    "nameEn": "Mad Clown",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "매드클라운"
+  },
+  {
+    "id": "loopy",
+    "name": "루피",
+    "nameEn": "Loopy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "루피"
+  },
+  {
+    "id": "yanghongwon",
+    "name": "양홍원",
+    "nameEn": "YANGHONGWON",
+    "aliases": [
+      "영비",
+      "Young B"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "영비"
+  },
+  {
+    "id": "justhis",
+    "name": "저스디스",
+    "nameEn": "JUSTHIS",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "저스디스"
+  },
+  {
+    "id": "superbee",
+    "name": "수퍼비",
+    "nameEn": "SUPERBEE",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "수퍼비"
+  },
+  {
+    "id": "uneducated-kid",
+    "name": "언에듀케이티드 키드",
+    "nameEn": "UNEDUCATED KID",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "언에듀케이티드 키드"
+  },
+  {
+    "id": "homies",
+    "name": "호미들",
+    "nameEn": "Homies",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "호미들"
+  },
+  {
+    "id": "chin",
+    "name": "친",
+    "nameEn": "Chin",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "친"
+  },
+  {
+    "id": "ck",
+    "name": "씨케이",
+    "nameEn": "CK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "씨케이"
+  },
+  {
+    "id": "louie",
+    "name": "루이 (긱스)",
+    "nameEn": "Louie",
+    "aliases": [
+      "루이"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "Louie"
+  },
+  {
+    "id": "lil-boi",
+    "name": "릴보이",
+    "nameEn": "Lil Boi",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "릴보이"
+  },
+  {
+    "id": "geeks",
+    "name": "긱스",
+    "nameEn": "Geeks",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "긱스"
+  },
+  {
+    "id": "takeone",
+    "name": "테이크원",
+    "nameEn": "TAKEONE",
+    "aliases": [
+      "김태균"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "테이크원"
+  },
+  {
+    "id": "ugly-duck",
+    "name": "어글리덕",
+    "nameEn": "Ugly Duck",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "어글리덕"
+  },
+  {
+    "id": "loco",
+    "name": "로꼬",
+    "nameEn": "Loco",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "로꼬"
+  },
+  {
+    "id": "jay-park",
+    "name": "박재범",
+    "nameEn": "Jay Park",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "박재범"
+  },
+  {
+    "id": "gray",
+    "name": "그레이",
+    "nameEn": "GRAY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "그레이"
+  },
+  {
+    "id": "woo",
+    "name": "우원재",
+    "nameEn": "Woo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "우원재"
+  },
+  {
+    "id": "coogie",
+    "name": "쿠기",
+    "nameEn": "Coogie",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "쿠기"
+  },
+  {
+    "id": "punchnello",
+    "name": "펀치넬로",
+    "nameEn": "punchnello",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "펀치넬로"
+  },
+  {
+    "id": "meenoi",
+    "name": "미노이",
+    "nameEn": "meenoi",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "미노이"
+  },
+  {
+    "id": "hoody",
+    "name": "후디",
+    "nameEn": "Hoody",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "후디"
+  },
+  {
+    "id": "elo",
+    "name": "엘로",
+    "nameEn": "ELO",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "엘로"
+  },
+  {
+    "id": "crush",
+    "name": "크러쉬",
+    "nameEn": "Crush",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "크러쉬"
+  },
+  {
+    "id": "dean",
+    "name": "딘",
+    "nameEn": "DEAN",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "딘"
+  },
+  {
+    "id": "zion-t",
+    "name": "자이언티",
+    "nameEn": "Zion.T",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "자이언티"
+  },
+  {
+    "id": "owen",
+    "name": "오왼",
+    "nameEn": "Owen",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오왼"
+  },
+  {
+    "id": "bloo",
+    "name": "블루",
+    "nameEn": "BLOO",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "블루"
+  },
+  {
+    "id": "nafla",
+    "name": "나플라",
+    "nameEn": "nafla",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "나플라"
+  },
+  {
+    "id": "niahn",
+    "name": "니안",
+    "nameEn": "Niahn",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "니안"
+  },
+  {
+    "id": "paul-blanco",
+    "name": "폴블랑코",
+    "nameEn": "Paul Blanco",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "폴블랑코"
+  },
+  {
+    "id": "ash-island",
+    "name": "애쉬 아일랜드",
+    "nameEn": "ASH ISLAND",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "애쉬 아일랜드"
+  },
+  {
+    "id": "changmo",
+    "name": "창모",
+    "nameEn": "CHANGMO",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "창모"
+  },
+  {
+    "id": "keem-hyo-eun",
+    "name": "김효은",
+    "nameEn": "Keem Hyo-eun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김효은"
+  },
+  {
+    "id": "hash-swan",
+    "name": "해쉬스완",
+    "nameEn": "Hash Swan",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "해쉬스완"
+  },
+  {
+    "id": "leellamarz",
+    "name": "릴러말즈",
+    "nameEn": "Leellamarz",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "릴러말즈"
+  },
+  {
+    "id": "gist",
+    "name": "지스트",
+    "nameEn": "Gist",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지스트"
+  },
+  {
+    "id": "polodared",
+    "name": "폴로다레드",
+    "nameEn": "Polodared",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "폴로다레드"
+  },
+  {
+    "id": "huh",
+    "name": "허성현",
+    "nameEn": "Huh",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "허성현"
+  },
+  {
+    "id": "don-malik",
+    "name": "던말릭",
+    "nameEn": "DON MALIK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "던말릭"
+  },
+  {
+    "id": "khundi-panda",
+    "name": "쿤디판다",
+    "nameEn": "Khundi Panda",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "쿤디판다"
+  },
+  {
+    "id": "son-simba",
+    "name": "손심바",
+    "nameEn": "Son Simba",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "손심바"
+  },
+  {
+    "id": "bewhy",
+    "name": "비와이",
+    "nameEn": "BewhY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비와이"
+  },
+  {
+    "id": "c-jamm",
+    "name": "씨잼",
+    "nameEn": "C JAMM",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "씨잼"
+  },
+  {
+    "id": "giriboy",
+    "name": "기리보이",
+    "nameEn": "GIRIBOY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "기리보이"
+  },
+  {
+    "id": "black-nut",
+    "name": "블랙넛",
+    "nameEn": "Black Nut",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "블랙넛"
+  },
+  {
+    "id": "han-yo-han",
+    "name": "한요한",
+    "nameEn": "Han Yo-han",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "한요한"
+  },
+  {
+    "id": "kid-milli",
+    "name": "키드밀리",
+    "nameEn": "Kid Milli",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "키드밀리"
+  },
+  {
+    "id": "jvcki-wai",
+    "name": "재키와이",
+    "nameEn": "Jvcki Wai",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "재키와이"
+  },
+  {
+    "id": "no-el",
+    "name": "노엘",
+    "nameEn": "NO:EL",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "노엘"
+  },
+  {
+    "id": "osshun-gum",
+    "name": "오션검",
+    "nameEn": "Osshun Gum",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오션검"
+  },
+  {
+    "id": "jimmy-paige",
+    "name": "지미 페이지",
+    "nameEn": "Jimmy Paige",
+    "aliases": [
+      "Goretexx",
+      "고어텍스"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지미페이지"
+  },
+  {
+    "id": "jinbo",
+    "name": "진보",
+    "nameEn": "Jinbo",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "진보"
+  },
+  {
+    "id": "vince",
+    "name": "빈스",
+    "nameEn": "Vince",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "빈스"
+  },
+  {
+    "id": "penomeco",
+    "name": "페노메코",
+    "nameEn": "PENOMECO",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "페노메코"
+  },
+  {
+    "id": "zico",
+    "name": "지코",
+    "nameEn": "ZICO",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지코"
+  },
+  {
+    "id": "park-kyung",
+    "name": "박경",
+    "nameEn": "Park Kyung",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "박경"
+  },
+  {
+    "id": "p-o",
+    "name": "피오",
+    "nameEn": "P.O",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "피오"
+  },
+  {
+    "id": "mino",
+    "name": "송민호",
+    "nameEn": "MINO",
+    "aliases": [
+      "MINO",
+      "민호"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "민호"
+  },
+  {
+    "id": "bobby",
+    "name": "바비",
+    "nameEn": "BOBBY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "바비"
+  },
+  {
+    "id": "b-i",
+    "name": "비아이",
+    "nameEn": "B.I",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비아이"
+  },
+  {
+    "id": "rm",
+    "name": "알엠",
+    "nameEn": "RM",
+    "aliases": [
+      "Rap Monster",
+      "랩몬스터"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "알엠",
+    "musicbrainz": "58f1e354-ecbc-4fd3-aa25-97eb1d9bd8b9"
+  },
+  {
+    "id": "suga",
+    "name": "슈가",
+    "nameEn": "SUGA",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "슈가"
+  },
+  {
+    "id": "j-hope",
+    "name": "제이홉",
+    "nameEn": "j-hope",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제이홉"
+  },
+  {
+    "id": "g-dragon",
+    "name": "지드래곤",
+    "nameEn": "G-Dragon",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지드래곤"
+  },
+  {
+    "id": "t-o-p",
+    "name": "탑",
+    "nameEn": "T.O.P",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "탑"
+  },
+  {
+    "id": "cl",
+    "name": "CL",
+    "nameEn": "CL",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "CL"
+  },
+  {
+    "id": "cheetah",
+    "name": "치타",
+    "nameEn": "Cheetah",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "치타"
+  },
+  {
+    "id": "jessi",
+    "name": "제시",
+    "nameEn": "Jessi",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제시"
+  },
+  {
+    "id": "kisum",
+    "name": "키썸",
+    "nameEn": "Kisum",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "키썸"
+  },
+  {
+    "id": "yezi",
+    "name": "예지",
+    "nameEn": "Yezi",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "예지"
+  },
+  {
+    "id": "truedy",
+    "name": "트루디",
+    "nameEn": "Truedy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "트루디"
+  },
+  {
+    "id": "tymee",
+    "name": "타이미",
+    "nameEn": "Tymee",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "타이미"
+  },
+  {
+    "id": "nada",
+    "name": "나다",
+    "nameEn": "Nada",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "나다"
+  },
+  {
+    "id": "jeon-soyeon",
+    "name": "전소연",
+    "nameEn": "Jeon Soyeon",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "전소연"
+  },
+  {
+    "id": "lee-young-ji",
+    "name": "이영지",
+    "nameEn": "Lee Young-ji",
+    "aliases": [
+      "영지"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "영지"
+  },
+  {
+    "id": "bryn",
+    "name": "브린",
+    "nameEn": "Bryn",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "브린"
+  },
+  {
+    "id": "queen-wa-abii",
+    "name": "퀸 와사비",
+    "nameEn": "Queen WA$ABII",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "퀸 와사비"
+  },
+  {
+    "id": "swervy",
+    "name": "스월비",
+    "nameEn": "Swervy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스월비"
+  },
+  {
+    "id": "yunhway",
+    "name": "윤훼이",
+    "nameEn": "YUNHWAY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "윤훼이"
+  },
+  {
+    "id": "sleeq",
+    "name": "슬릭",
+    "nameEn": "SLEEQ",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "슬릭"
+  },
+  {
+    "id": "chin-chilla",
+    "name": "오담률",
+    "nameEn": "CHIN CHILLA",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오담률"
+  },
+  {
+    "id": "haon",
+    "name": "김하온",
+    "nameEn": "HAON",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김하온"
+  },
+  {
+    "id": "rohann",
+    "name": "이로한",
+    "nameEn": "Rohann",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이로한"
+  },
+  {
+    "id": "vinxen",
+    "name": "빈첸",
+    "nameEn": "VINXEN",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "빈첸"
+  },
+  {
+    "id": "a-mond",
+    "name": "방재민",
+    "nameEn": "a.mond",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "방재민"
+  },
+  {
+    "id": "h2adin",
+    "name": "조원우",
+    "nameEn": "H2ADIN",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "조원우"
+  },
+  {
+    "id": "mc-gree",
+    "name": "그리",
+    "nameEn": "GREE",
+    "aliases": [
+      "MC Gree",
+      "MC그리",
+      "김동현"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김동현"
+  },
+  {
+    "id": "pluma",
+    "name": "플루마",
+    "nameEn": "PLUMA",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "플루마"
+  },
+  {
+    "id": "d-ark",
+    "name": "디아크",
+    "nameEn": "D.Ark",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디아크"
+  },
+  {
+    "id": "big-naughty",
+    "name": "빅나티",
+    "nameEn": "BIG Naughty",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "빅나티"
+  },
+  {
+    "id": "trade-l",
+    "name": "트레이드엘",
+    "nameEn": "TRADE L",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "트레이드엘"
+  },
+  {
+    "id": "noh-yun-ha",
+    "name": "노윤하",
+    "nameEn": "Noh Yun-ha",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "노윤하"
+  },
+  {
+    "id": "anandelight",
+    "name": "아넌딜라이트",
+    "nameEn": "Anandelight",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "아넌딜라이트"
+  },
+  {
+    "id": "sokodomo",
+    "name": "소코도모",
+    "nameEn": "sokodomo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "소코도모"
+  },
+  {
+    "id": "ja-mezz",
+    "name": "자메즈",
+    "nameEn": "Ja Mezz",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "자메즈"
+  },
+  {
+    "id": "andup",
+    "name": "앤덥",
+    "nameEn": "Andup",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "앤덥"
+  },
+  {
+    "id": "song-rapper",
+    "name": "송래퍼",
+    "nameEn": "Song Rapper",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "송래퍼"
+  },
+  {
+    "id": "olltii",
+    "name": "올티",
+    "nameEn": "Olltii",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "올티"
+  },
+  {
+    "id": "zizo",
+    "name": "지조",
+    "nameEn": "ZIZO",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지조"
+  },
+  {
+    "id": "b-free",
+    "name": "비프리",
+    "nameEn": "B-Free",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비프리"
+  },
+  {
+    "id": "okasian",
+    "name": "오케이션",
+    "nameEn": "Okasian",
+    "aliases": [
+      "오케이션"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오케이션"
+  },
+  {
+    "id": "reddy",
+    "name": "레디",
+    "nameEn": "Reddy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "레디"
+  },
+  {
+    "id": "huckleberry-p",
+    "name": "허클베리피",
+    "nameEn": "Huckleberry P",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "허클베리피"
+  },
+  {
+    "id": "suda",
+    "name": "수다쟁이",
+    "nameEn": "Suda",
+    "aliases": [
+      "수다"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "수다쟁이"
+  },
+  {
+    "id": "odee",
+    "name": "오디",
+    "nameEn": "Odee",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오디"
+  },
+  {
+    "id": "deepflow",
+    "name": "딥플로우",
+    "nameEn": "Deepflow",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "딥플로우"
+  },
+  {
+    "id": "nucksal",
+    "name": "넉살",
+    "nameEn": "Nucksal",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "넉살"
+  },
+  {
+    "id": "don-mills",
+    "name": "던밀스",
+    "nameEn": "Don Mills",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "던밀스"
+  },
+  {
+    "id": "wutan",
+    "name": "우탄",
+    "nameEn": "Wutan",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "우탄"
+  },
+  {
+    "id": "los",
+    "name": "로스",
+    "nameEn": "Los",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "로스"
+  },
+  {
+    "id": "qm",
+    "name": "QM",
+    "nameEn": "QM",
+    "aliases": [
+      "QM"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "QM"
+  },
+  {
+    "id": "sleepy",
+    "name": "슬리피",
+    "nameEn": "Sleepy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "슬리피"
+  },
+  {
+    "id": "untouchable",
+    "name": "언터쳐블",
+    "nameEn": "Untouchable",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "언터쳐블"
+  },
+  {
+    "id": "d-action",
+    "name": "디액션",
+    "nameEn": "D.Action",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디액션"
+  },
+  {
+    "id": "basick",
+    "name": "베이식",
+    "nameEn": "Basick",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "베이식"
+  },
+  {
+    "id": "black-nine",
+    "name": "블랙나인",
+    "nameEn": "BLACK NINE",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "블랙나인"
+  },
+  {
+    "id": "ignito",
+    "name": "이그니토",
+    "nameEn": "Ignito",
+    "aliases": [
+      "이그니토"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이그니토"
+  },
+  {
+    "id": "dead-p",
+    "name": "데드피",
+    "nameEn": "Dead'P",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "데드피"
+  },
+  {
+    "id": "dj-shine",
+    "name": "DJ 샤인",
+    "nameEn": "DJ Shine",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "DJ 샤인"
+  },
+  {
+    "id": "buga-kingz",
+    "name": "부가킹즈",
+    "nameEn": "Buga Kingz",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "부가킹즈"
+  },
+  {
+    "id": "bobby-kim",
+    "name": "바비킴",
+    "nameEn": "Bobby Kim",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "바비킴"
+  },
+  {
+    "id": "gan-d",
+    "name": "간디",
+    "nameEn": "Gan-D",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "간디"
+  },
+  {
+    "id": "juvie-train",
+    "name": "주비트레인",
+    "nameEn": "Juvie Train",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "주비트레인"
+  },
+  {
+    "id": "uptown",
+    "name": "업타운",
+    "nameEn": "Uptown",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "업타운"
+  },
+  {
+    "id": "jung-yeon-jun",
+    "name": "정연준",
+    "nameEn": "Jung Yeon-jun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "정연준"
+  },
+  {
+    "id": "tbny",
+    "name": "TBNY",
+    "nameEn": "TBNY",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "TBNY"
+  },
+  {
+    "id": "yankie",
+    "name": "얀키",
+    "nameEn": "Yankie",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "얀키"
+  },
+  {
+    "id": "topbob",
+    "name": "톱밥",
+    "nameEn": "TopBob",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "톱밥"
+  },
+  {
+    "id": "baechigi",
+    "name": "배치기",
+    "nameEn": "Baechigi",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "배치기"
+  },
+  {
+    "id": "tak",
+    "name": "탁",
+    "nameEn": "Tak",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "탁"
+  },
+  {
+    "id": "moowoong",
+    "name": "무웅",
+    "nameEn": "Moowoong",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "무웅"
+  },
+  {
+    "id": "mighty-mouth",
+    "name": "마이티 마우스",
+    "nameEn": "Mighty Mouth",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "마이티 마우스"
+  },
+  {
+    "id": "sangchu",
+    "name": "상추",
+    "nameEn": "Sangchu",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "상추"
+  },
+  {
+    "id": "shorry-j",
+    "name": "쇼리",
+    "nameEn": "Shorry J",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "쇼리"
+  },
+  {
+    "id": "45rpm",
+    "name": "45RPM",
+    "nameEn": "45RPM",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "45RPM"
+  },
+  {
+    "id": "lee-hyun-bae",
+    "name": "이현배",
+    "nameEn": "Lee Hyun-bae",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이현배"
+  },
+  {
+    "id": "j-kwondo",
+    "name": "J-Kwondo",
+    "nameEn": "J-Kwondo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "J-Kwondo"
+  },
+  {
+    "id": "a-jo",
+    "name": "에이조",
+    "nameEn": "A-Jo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "에이조"
+  },
+  {
+    "id": "outsider",
+    "name": "아웃사이더",
+    "nameEn": "Outsider",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "아웃사이더"
+  },
+  {
+    "id": "mc-sniper",
+    "name": "MC 스나이퍼",
+    "nameEn": "MC Sniper",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "MC 스나이퍼"
+  },
+  {
+    "id": "room9",
+    "name": "룸나인",
+    "nameEn": "Room9",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "룸나인"
+  },
+  {
+    "id": "fatdoo",
+    "name": "팻두",
+    "nameEn": "Fatdoo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "팻두"
+  },
+  {
+    "id": "rhyme-a",
+    "name": "라임어택",
+    "nameEn": "Rhyme-A-",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "라임어택"
+  },
+  {
+    "id": "crucial-star",
+    "name": "크루셜 스타",
+    "nameEn": "Crucial Star",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "크루셜 스타"
+  },
+  {
+    "id": "fana",
+    "name": "화나",
+    "nameEn": "Fana",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "화나"
+  },
+  {
+    "id": "jjangyou",
+    "name": "짱유",
+    "nameEn": "Jjangyou",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "짱유"
+  },
+  {
+    "id": "sapo",
+    "name": "사포",
+    "nameEn": "Sapo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "사포"
+  },
+  {
+    "id": "dbo",
+    "name": "디보",
+    "nameEn": "Dbo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디보"
+  },
+  {
+    "id": "choilb",
+    "name": "최엘비",
+    "nameEn": "CHOILB",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "최엘비"
+  },
+  {
+    "id": "kim-ximya",
+    "name": "김심야",
+    "nameEn": "Kim Ximya",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김심야"
+  },
+  {
+    "id": "xxx",
+    "name": "XXX",
+    "nameEn": "XXX",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "XXX"
+  },
+  {
+    "id": "kirin",
+    "name": "기린",
+    "nameEn": "KIRIN",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "기린"
+  },
+  {
+    "id": "sumin",
+    "name": "수민",
+    "nameEn": "SUMIN",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "수민"
+  },
+  {
+    "id": "chaboom",
+    "name": "차붐",
+    "nameEn": "Chaboom",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "차붐"
+  },
+  {
+    "id": "legit-goons",
+    "name": "리짓군즈",
+    "nameEn": "Legit Goons",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "리짓군즈"
+  },
+  {
+    "id": "blnk",
+    "name": "블랭",
+    "nameEn": "Blnk",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "블랭"
+  },
+  {
+    "id": "bassagong",
+    "name": "뱃사공",
+    "nameEn": "Bassagong",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "뱃사공"
+  },
+  {
+    "id": "jayho",
+    "name": "제이호",
+    "nameEn": "Jayho",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제이호"
+  },
+  {
+    "id": "jaedal",
+    "name": "재달",
+    "nameEn": "JaeDal",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "재달"
+  },
+  {
+    "id": "ra-d",
+    "name": "라디",
+    "nameEn": "Ra.D",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "라디"
+  },
+  {
+    "id": "dopesun",
+    "name": "돕선",
+    "nameEn": "Dopesun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "돕선"
+  },
+  {
+    "id": "soma",
+    "name": "소마",
+    "nameEn": "SOMA",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "소마"
+  },
+  {
+    "id": "olnl",
+    "name": "오르내림",
+    "nameEn": "OLNL",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오르내림"
+  },
+  {
+    "id": "samuel-seo",
+    "name": "서사무엘",
+    "nameEn": "Samuel Seo",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "서사무엘"
+  },
+  {
+    "id": "g2",
+    "name": "지투",
+    "nameEn": "G2",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지투"
+  },
+  {
+    "id": "myundo",
+    "name": "면도",
+    "nameEn": "myunDo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "면도"
+  },
+  {
+    "id": "bizzy",
+    "name": "비지",
+    "nameEn": "Bizzy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비지"
+  },
+  {
+    "id": "mfbty",
+    "name": "MFBTY",
+    "nameEn": "MFBTY",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "MFBTY"
+  },
+  {
+    "id": "new-champ",
+    "name": "뉴챔프",
+    "nameEn": "New Champ",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "뉴챔프"
+  },
+  {
+    "id": "jung-sang-soo",
+    "name": "정상수",
+    "nameEn": "Jung Sang-soo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "정상수"
+  },
+  {
+    "id": "beatbox-dg",
+    "name": "비트박스 DG",
+    "nameEn": "Beatbox DG",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비트박스 DG"
+  },
+  {
+    "id": "futuristic-swaver",
+    "name": "퓨처리스틱 스웨버",
+    "nameEn": "Futuristic Swaver",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "퓨처리스틱 스웨버"
+  },
+  {
+    "id": "lil-cherry",
+    "name": "릴체리",
+    "nameEn": "Lil Cherry",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "릴체리"
+  },
+  {
+    "id": "goldbuuda",
+    "name": "골드부다",
+    "nameEn": "GOLDBUUDA",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "골드부다"
+  },
+  {
+    "id": "mckdaddy",
+    "name": "맥대디",
+    "nameEn": "Mckdaddy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "맥대디"
+  },
+  {
+    "id": "koonta",
+    "name": "쿤타",
+    "nameEn": "Koonta",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "쿤타"
+  },
+  {
+    "id": "layone",
+    "name": "래원",
+    "nameEn": "Layone",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "래원"
+  },
+  {
+    "id": "mushvenom",
+    "name": "머쉬베놈",
+    "nameEn": "MUSHVENOM",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "머쉬베놈"
+  },
+  {
+    "id": "chillin-homie",
+    "name": "칠린호미",
+    "nameEn": "Chillin Homie",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "칠린호미"
+  },
+  {
+    "id": "lil-tachi",
+    "name": "릴타치",
+    "nameEn": "Lil tachi",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "릴타치"
+  },
+  {
+    "id": "bully-da-ba-tard",
+    "name": "불리 다 바스타드",
+    "nameEn": "Bully Da Ba$tard",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "불리 다 바스타드"
+  },
+  {
+    "id": "kuan",
+    "name": "콴",
+    "nameEn": "Kuan",
+    "aliases": [
+      "Kuan A.K.A K-Proud"
+    ],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "쿠앤"
+  },
+  {
+    "id": "j-kyun",
+    "name": "제이켠",
+    "nameEn": "J'Kyun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제이켠"
+  },
+  {
+    "id": "jjk",
+    "name": "제이제이케이",
+    "nameEn": "JJK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "제이제이케이"
+  },
+  {
+    "id": "tarae",
+    "name": "타래",
+    "nameEn": "Tarae",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "타래"
+  },
+  {
+    "id": "be-o",
+    "name": "비오",
+    "nameEn": "BE'O",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "비오"
+  },
+  {
+    "id": "since",
+    "name": "신스",
+    "nameEn": "SINCE",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "신스"
+  },
+  {
+    "id": "blase",
+    "name": "블라세",
+    "nameEn": "BLASÉ",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "블라세"
+  },
+  {
+    "id": "unofficialboyy",
+    "name": "언오피셜보이",
+    "nameEn": "Unofficialboyy",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "언오피셜보이"
+  },
+  {
+    "id": "chamane",
+    "name": "차메인",
+    "nameEn": "ChaMane",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "차메인"
+  },
+  {
+    "id": "mac-k",
+    "name": "맥케이",
+    "nameEn": "Mac K",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "맥케이"
+  },
+  {
+    "id": "northfacegawd",
+    "name": "노스페이스갓",
+    "nameEn": "Northfacegawd",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "노스페이스갓"
+  },
+  {
+    "id": "lucigang",
+    "name": "루시갱",
+    "nameEn": "Lucigang",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "루시갱"
+  },
+  {
+    "id": "ek",
+    "name": "이케이",
+    "nameEn": "EK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이케이"
+  },
+  {
+    "id": "mba",
+    "name": "MBA",
+    "nameEn": "MBA",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "MBA"
+  },
+  {
+    "id": "boi-b",
+    "name": "보이비",
+    "nameEn": "Boi B",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "보이비"
+  },
+  {
+    "id": "hangzoo",
+    "name": "행주",
+    "nameEn": "Hangzoo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "행주"
+  },
+  {
+    "id": "rhythm-power",
+    "name": "리듬파워",
+    "nameEn": "Rhythm Power",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "리듬파워"
+  },
+  {
+    "id": "geegooin",
+    "name": "지구인",
+    "nameEn": "Geegooin",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "지구인"
+  },
+  {
+    "id": "iron",
+    "name": "아이언",
+    "nameEn": "IRON",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "아이언"
+  },
+  {
+    "id": "rock-punkman",
+    "name": "록스 펑크맨",
+    "nameEn": "Loxx Punkman",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "록스 펑크맨"
+  },
+  {
+    "id": "choi-sam",
+    "name": "최삼",
+    "nameEn": "Choi Sam",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "최삼"
+  },
+  {
+    "id": "oddy",
+    "name": "오두희",
+    "nameEn": "OddY",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오두희"
+  },
+  {
+    "id": "a-chess",
+    "name": "아체",
+    "nameEn": "A-Chess",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "아체"
+  },
+  {
+    "id": "pinodyne",
+    "name": "피노다인",
+    "nameEn": "Pinodyne",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "피노다인"
+  },
+  {
+    "id": "ted-park",
+    "name": "테드 박",
+    "nameEn": "Ted Park",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "테드 박"
+  },
+  {
+    "id": "ph-1",
+    "name": "pH-1",
+    "nameEn": "pH-1",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "pH-1"
+  },
+  {
+    "id": "sik-k",
+    "name": "식케이",
+    "nameEn": "Sik-K",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "식케이"
+  },
+  {
+    "id": "woodie-gochild",
+    "name": "우디 고차일드",
+    "nameEn": "Woodie Gochild",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "우디 고차일드"
+  },
+  {
+    "id": "small-t",
+    "name": "스몰티",
+    "nameEn": "Small-T",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스몰티"
+  },
+  {
+    "id": "kim-mono",
+    "name": "김모노",
+    "nameEn": "Kim Mono",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김모노"
+  },
+  {
+    "id": "lee-hyun-jun",
+    "name": "이현준",
+    "nameEn": "Lee Hyun-jun",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "이현준"
+  },
+  {
+    "id": "30",
+    "name": "서리",
+    "nameEn": "30",
+    "aliases": [],
+    "kind": "group",
+    "core": true,
+    "country": "KR",
+    "search": "서리"
+  },
+  {
+    "id": "olive",
+    "name": "올리브",
+    "nameEn": "OLiVE",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "올리브"
+  },
+  {
+    "id": "fleeky-bang",
+    "name": "플리키뱅",
+    "nameEn": "Fleeky Bang",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "플리키뱅"
+  },
+  {
+    "id": "street-baby",
+    "name": "스트릿 베이비",
+    "nameEn": "Street Baby",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스트릿 베이비"
+  },
+  {
+    "id": "jambino",
+    "name": "잠비노",
+    "nameEn": "Jambino",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "잠비노"
+  },
+  {
+    "id": "damini",
+    "name": "다민이",
+    "nameEn": "DAMINI",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "다민이"
+  },
+  {
+    "id": "haru",
+    "name": "하루",
+    "nameEn": "Haru",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "하루"
+  },
+  {
+    "id": "dsel",
+    "name": "디젤",
+    "nameEn": "DSEL",
+    "aliases": [
+      "D-SEL",
+      "DSEL"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "디젤"
+  },
+  {
+    "id": "psycho",
+    "name": "사이키",
+    "nameEn": "Psycho",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "사이키"
+  },
+  {
+    "id": "wonstein",
+    "name": "원슈타인",
+    "nameEn": "Wonstein",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "원슈타인"
+  },
+  {
+    "id": "ourealgoat",
+    "name": "오우릴고트",
+    "nameEn": "Ourealgoat",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "오우릴고트"
+  },
+  {
+    "id": "nuol",
+    "name": "뉴올",
+    "nameEn": "Nuol",
+    "aliases": [],
+    "kind": "person",
+    "core": false,
+    "country": "KR",
+    "search": "뉴올"
+  },
+  {
+    "id": "louie-homies",
+    "name": "루이 (호미들)",
+    "nameEn": "Louie (Homies)",
+    "aliases": [
+      "루이"
+    ],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "Louie",
+    "musicbrainz": "121f82d5-051b-494a-993e-284a837fae7a"
+  },
+  {
+    "id": "ydg",
+    "name": "양동근",
+    "nameEn": "YDG",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "양동근",
+    "musicbrainz": "2ad44958-8c20-4473-8210-1e665c45b3b7"
+  },
+  {
+    "id": "mommy-son",
+    "name": "마미손",
+    "nameEn": "Mommy Son",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "마미손"
+  },
+  {
+    "id": "gwangil-jo",
+    "name": "조광일",
+    "nameEn": "Gwangil Jo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "조광일"
+  },
+  {
+    "id": "kim-seungmin",
+    "name": "김승민",
+    "nameEn": "Kim Seungmin",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "김승민"
+  },
+  {
+    "id": "bigone",
+    "name": "빅원",
+    "nameEn": "BIGONE",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "빅원"
+  },
+  {
+    "id": "sway-d",
+    "name": "스웨이디",
+    "nameEn": "SWAY D",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스웨이디"
+  },
+  {
+    "id": "microdot",
+    "name": "마이크로닷",
+    "nameEn": "Microdot",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "마이크로닷"
+  },
+  {
+    "id": "maniac",
+    "name": "매니악",
+    "nameEn": "Maniac",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "매니악"
+  },
+  {
+    "id": "sean2slow",
+    "name": "션이슬로우",
+    "nameEn": "Sean2Slow",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "션이슬로우"
+  },
+  {
+    "id": "leo-kekoa",
+    "name": "레오케코아",
+    "nameEn": "Leo Kekoa",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "레오케코아"
+  },
+  {
+    "id": "myk",
+    "name": "MYK",
+    "nameEn": "MYK",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "MYK"
+  },
+  {
+    "id": "snacky-chan",
+    "name": "스낵키챈",
+    "nameEn": "Snacky Chan",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "스낵키챈"
+  },
+  {
+    "id": "takuwa",
+    "name": "타쿠와",
+    "nameEn": "Takuwa",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "타쿠와"
+  },
+  {
+    "id": "ahn-byeong-woong",
+    "name": "안병웅",
+    "nameEn": "Ahn Byeong Woong",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "안병웅"
+  },
+  {
+    "id": "seo-chul-goo",
+    "name": "서출구",
+    "nameEn": "Xitsuh",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "서출구"
+  },
+  {
+    "id": "kittib",
+    "name": "키디비",
+    "nameEn": "KittiB",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "키디비"
+  },
+  {
+    "id": "miryo",
+    "name": "미료",
+    "nameEn": "Miryo",
+    "aliases": [],
+    "kind": "person",
+    "core": true,
+    "country": "KR",
+    "search": "미료"
+  }
+]
