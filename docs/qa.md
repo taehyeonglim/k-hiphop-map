@@ -96,4 +96,12 @@ PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 PLAYWRIGHT_OUTPUT_DIR=test-results/foc
 
 Final artifacts: `test-results/focus-interaction-final-static/` and `playwright-report/focus-interaction-final-static/`. The `e2e-selected-neighborhoods-...` directories contain `neighborhood-desktop.png` / `neighborhood-mobile.png`; `e2e-dragging-a-collaborato-...` contains `drag-held-desktop.png` / `drag-held-mobile.png`.
 
-Public verification of this interaction revision is pending deployment. The earlier public loading and stress measurements above describe the initial release and do not measure the new dragging interaction.
+Public interaction verification at [the main service](https://k-hiphop-map.vercel.app/map/) passed **13 applicable checks with one intentional desktop touch skip, from 14 scheduled cases, in 43.2 seconds**. Runtime commit: `7045dd6`; ready production deployment: `dpl_7pgg7fBH73Tw4RJ7NVrR6KXYDZUC` ([deployment URL](https://k-hiphop-labui5tn9-taehyeong-lims-projects.vercel.app/map/)). This targeted public run covered focused geometry, shared filtered/path URLs, mouse dragging, reduced motion, trusted touch, and cancellation on the same native Metal browser configuration. Focus checks recorded no page exceptions, HTTP failures, or horizontal overflow. Public desktop/mobile focused screenshots were inspected and show the neighbors clear of the banner. The full source/archive/bootstrap/fallback scenarios passed in the preceding final static run.
+
+[Linux/Node 22 CI for the interaction commit](https://github.com/taehyeonglim/k-hiphop-map/actions/runs/36883521159) also passed: 27 unit tests and all 33 applicable browser scenarios, with the same intentional desktop touch skip. The browser suite completed in 4.3 minutes using software WebGL; no failures or flaky retries were reported.
+
+```sh
+PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/focus-interaction-public PLAYWRIGHT_REPORT_DIR=playwright-report/focus-interaction-public npx playwright test tests/e2e.spec.ts --grep 'selected neighborhoods|shared filtered URL|dragging a collaborator|reduced motion|real touch gesture|cancelled mouse|shortest-path'
+```
+
+Public artifacts are in `test-results/focus-interaction-public/` and `playwright-report/focus-interaction-public/`, using the same focused/held screenshot filenames. The earlier public loading and stress measurements above describe the initial release and do not measure the new dragging interaction. No physical-mobile performance claim follows from the touch-input verification.
