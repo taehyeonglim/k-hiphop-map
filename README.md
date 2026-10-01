@@ -65,7 +65,7 @@ The 30-second **한국힙합 연결고리** intro connects generations through l
 
 With the local site running on port 3000, `npm run trailer:render` prepares attributed assets, synthesizes the score, captures the product and renders independent landscape/portrait films. The 720p web outputs are each under 8 MB; optional 1080p masters stay in ignored `.cache/trailer/masters/`. See [the storyboard, dependencies and reproduction guide](docs/trailer.md).
 
-Downloads: [landscape MP4](public/media/trailer/v1/landscape.mp4), [portrait MP4](public/media/trailer/v1/portrait.mp4). [Asset-specific video/music credits](https://k-hiphop-map.vercel.app/credits/#trailer) preserve photograph, data and font conditions separately.
+Downloads: [landscape MP4](public/media/trailer/v2/landscape.mp4), [portrait MP4](public/media/trailer/v2/portrait.mp4). [Asset-specific video/music credits](https://k-hiphop-map.vercel.app/credits/#trailer) preserve photograph, data and font conditions separately.
 
 ## Deployment
 

@@ -60,13 +60,15 @@ The font input is pinned to the [Google Fonts revision recorded in the manifest]
 
 | Asset | Format and purpose | Repository file |
 | --- | --- | --- |
-| Landscape web film | 1280×720, 30 fps, 30 seconds; each MP4 under 8 MB | [landscape.mp4](../public/media/trailer/v1/landscape.mp4) |
-| Portrait web film | 720×1280, 30 fps, 30 seconds; each MP4 under 8 MB | [portrait.mp4](../public/media/trailer/v1/portrait.mp4) |
-| Landscape poster | Static WebP fallback | [poster-landscape.webp](../public/media/trailer/v1/poster-landscape.webp) |
-| Portrait poster | Static WebP fallback | [poster-portrait.webp](../public/media/trailer/v1/poster-portrait.webp) |
-| Source receipt | Authors, source links, licenses and transformations | [credits.json](../public/media/trailer/v1/credits.json) |
+| Landscape web film | 1280×720, 30 fps, 30 seconds; each MP4 under 8 MB | [landscape.mp4](../public/media/trailer/v2/landscape.mp4) |
+| Portrait web film | 720×1280, 30 fps, 30 seconds; each MP4 under 8 MB | [portrait.mp4](../public/media/trailer/v2/portrait.mp4) |
+| Landscape poster | Static WebP fallback | [poster-landscape.webp](../public/media/trailer/v2/poster-landscape.webp) |
+| Portrait poster | Static WebP fallback | [poster-portrait.webp](../public/media/trailer/v2/poster-portrait.webp) |
+| Source receipt | Authors, source links, licenses and transformations | [credits.json](../public/media/trailer/v2/credits.json) |
 
-Public downloads: [landscape MP4](https://k-hiphop-map.vercel.app/media/trailer/v1/landscape.mp4) and [portrait MP4](https://k-hiphop-map.vercel.app/media/trailer/v1/portrait.mp4). Attribution and the accessible text description are available at [/credits/#trailer](https://k-hiphop-map.vercel.app/credits/#trailer).
+Public downloads: [landscape MP4](https://k-hiphop-map.vercel.app/media/trailer/v2/landscape.mp4) and [portrait MP4](https://k-hiphop-map.vercel.app/media/trailer/v2/portrait.mp4). Attribution and the accessible text description are available at [/credits/#trailer](https://k-hiphop-map.vercel.app/credits/#trailer).
+
+Revision 2 centers both `가리온` and `GARION` on the Garion portrait in the roots scene, with clear space between the name and circle. The versioned URL prevents an immutable cached revision 1 movie from hiding the correction. Revision 1 remains available for existing links; the seen-visit storage key stays unchanged so a typography correction does not reopen the introduction for returning visitors.
 
 ## Original score
 

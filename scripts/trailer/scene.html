@@ -77,12 +77,12 @@ function roots(t) {
   const mx=portrait?48:72;
   const r1=portrait?155:158,r2=portrait?138:126;
   const a={x:portrait?235:774,y:portrait?671:365},b={x:portrait?494:1054,y:portrait?859:429};
-  rect(portrait?30:622,portrait?490:98,portrait?660:607,portrait?560:553,C.ink,.96);
+  rect(portrait?30:622,portrait?470:98,portrait?660:607,portrait?580:553,C.ink,.96);
   const reveal=ease(u/.45);ctx.save();ctx.translate((1-reveal)*65,0);
   face('garion',a.x,a.y,r1,{mono:true,zoom:1.02+u*.011,border:C.paper,width:5});
   face('drunken-tiger',b.x,b.y,r2,{mono:true,zoom:1.06+u*.009,border:C.lime,width:5});ctx.restore();
-  text('GARION',a.x-r1,a.y+r1+44,portrait?54:58,C.paper,400,display);
-  text('가리온',a.x-r1,a.y-r1+(portrait?2:-21),portrait?22:20,C.lime,700);
+  text('GARION',a.x,a.y+r1+56,portrait?54:58,C.paper,400,display,'center');
+  text('가리온',a.x,a.y-r1-17,portrait?22:20,C.lime,700,serif,'center');
   text('DRUNKEN TIGER',b.x,b.y+r2+39,portrait?31:34,C.paper,500,condensed,'center');
   text('드렁큰 타이거',b.x,b.y-r2-17,portrait?20:18,C.lime,700,serif,'center');
   chapter('02','THE VOICES THAT BUILT A SCENE',mx,portrait?180:146,C.red);
@@ -100,7 +100,7 @@ function connections(t) {
   const positions=graphPositions(ids,box,1);
   const reveal=ease((u-.15)/.9);
   config.closeupEdges.forEach((edge,i)=>{const a=positions.get(edge.source),b=positions.get(edge.target);const p=ease((u-.35-i*.18)/.55);line(a.x,a.y,lerp(a.x,b.x,p),lerp(a.y,b.y,p),C.lime,1.7+Math.log2(edge.count)*1.2,.80);});
-  positions.forEach((p,id)=>{face(id,p.x,p.y,(id==='garion'?40:26)*reveal,{mono:false,border:id==='garion'?C.lime:'#97b576',width:id==='garion'?4:2,alpha:reveal});const name=artistMap.get(id)?.name??nodeMap.get(id)?.name;const left=p.x>box.x+box.w*.65;ctx.textAlign=left?'right':'left';text(name,p.x+(left?-34:34),p.y+7,portrait?18:16,id==='garion'?C.lime:C.paper,700,serif,left?'right':'left');});
+  positions.forEach((p,id)=>{const radius=id==='garion'?40:26;face(id,p.x,p.y,radius*reveal,{mono:false,border:id==='garion'?C.lime:'#97b576',width:id==='garion'?4:2,alpha:reveal});const name=artistMap.get(id)?.name??nodeMap.get(id)?.name;const left=p.x>box.x+box.w*.65;const labelGap=radius+8;ctx.textAlign=left?'right':'left';text(name,p.x+(left?-labelGap:labelGap),p.y+7,portrait?18:16,id==='garion'?C.lime:C.paper,700,serif,left?'right':'left');});
   const active=config.closeupEdges[Math.min(config.closeupEdges.length-1,Math.floor(Math.max(0,u-1)*1.4))];
   const card=portrait?{x:48,y:1127,w:624,h:64}:{x:64,y:465,w:440,h:132};
   rect(card.x,card.y,card.w,card.h,'#26301f');rect(card.x,card.y,4,card.h,C.lime);

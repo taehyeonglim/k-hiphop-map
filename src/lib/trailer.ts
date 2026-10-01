@@ -1,5 +1,5 @@
 export const TRAILER_SEEN_KEY = 'khiphopmap:trailer:v1:seen';
-export const TRAILER_MEDIA_ROOT = '/media/trailer/v1';
+export const TRAILER_MEDIA_ROOT = '/media/trailer/v2';
 export type TrailerVisit = 'show' | 'skip';
 
 declare global {

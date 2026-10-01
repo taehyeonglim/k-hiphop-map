@@ -16,7 +16,7 @@ const OUT = path.join(ROOT, '.cache/trailer/portraits');
 const FONT_CACHE = path.join(ROOT, '.cache/trailer/fonts');
 const FONT_OUT = path.join(ROOT, 'public/fonts/noto-sans-kr-trailer.woff2');
 const FONT_LICENSE = path.join(ROOT, 'public/fonts/noto-sans-kr-trailer-OFL.txt');
-const CREDITS = path.join(ROOT, 'public/media/trailer/v1/credits.json');
+const CREDITS = path.join(ROOT, 'public/media/trailer/v2/credits.json');
 const IDS = ['garion', 'drunken-tiger', 'dynamic-duo', 'e-sens', 'beenzino',
   'changmo', 'bewhy', 'lee-young-ji', 'paloalto', 'dok2', 'verbal-jint',
   'deepflow', 'tablo', 'tiger-jk'];

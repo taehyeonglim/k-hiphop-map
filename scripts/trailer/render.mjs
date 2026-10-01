@@ -9,7 +9,7 @@ import sharp from 'sharp';
 
 const root = resolve(import.meta.dirname, '../..');
 const cache = join(root, '.cache/trailer');
-const output = join(root, 'public/media/trailer/v1');
+const output = join(root, 'public/media/trailer/v2');
 const args = process.argv.slice(2);
 const preview = args.includes('--preview');
 const master = args.includes('--master');
@@ -82,7 +82,7 @@ await once(server, 'listening');
 const port = server.address().port;
 const localChrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const browser = await chromium.launch({ headless: true, executablePath: existsSync(localChrome) ? localChrome : undefined, args: ['--enable-gpu', ...(process.platform === 'darwin' ? ['--use-angle=metal'] : [])] });
-const report = { version: 1, fps, frames, duration: 30, asOf: dataset.asOf, sourceNodes: nodes.length, sourceEdges: edges.length, portraitIds: config.artists.map((artist) => artist.id), outputs: [] };
+const report = { version: 2, fps, frames, duration: 30, asOf: dataset.asOf, sourceNodes: nodes.length, sourceEdges: edges.length, portraitIds: config.artists.map((artist) => artist.id), outputs: [] };
 
 try {
   for (const format of formats) {

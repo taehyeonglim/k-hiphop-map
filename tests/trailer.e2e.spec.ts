@@ -1,7 +1,7 @@
 import { test, expect, type Page, type Locator } from '@playwright/test';
 
 const SEEN = 'khiphopmap:trailer:v1:seen';
-const MEDIA_REQUEST = /\/media\/trailer\/v1\/(?:landscape|portrait)\.mp4(?:\?.*)?$/;
+const MEDIA_REQUEST = /\/media\/trailer\/v2\/(?:landscape|portrait)\.mp4(?:\?.*)?$/;
 const MAP_REQUEST = /\/data\/map\.json(?:\?.*)?$/;
 const dialog = (page: Page) => page.getByRole('dialog', { name: '한국힙합 연결고리', exact: true });
 const video = (page: Page) => page.getByTestId('trailer-video');
