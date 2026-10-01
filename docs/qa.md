@@ -74,3 +74,26 @@ Preliminary public latency on the superseded `1753171e` version remains preserve
 Local artifacts are in ignored `test-results/` and `playwright-report/`: screenshots, failure traces, the HTML report, and performance JSON. They can be regenerated with the commands above.
 
 The suite establishes UI behavior, source-to-view consistency, and operation of the corrected public release. It does not establish complete discography coverage, the truth of every third-party music credit, or physical mobile performance. Dataset validation and manual source review are separate evidence.
+
+## Neighborhood focus and elastic dragging — 2026-10-02
+
+This interaction revision uses the unchanged catalog `2026.10.01-73d5c2c3-c92fd5a3`. Selecting an artist shows its center and credited direct collaborators, with only center-incident ties. An explicitly chosen route shows only its participating nodes and consecutive ties. Background, full-view control, and the visible reset action restore the overview.
+
+The final visual-corrected static export at `http://127.0.0.1:3100` passed **33 applicable scenarios, with one intentional desktop touch skip, from 34 scheduled cases**, in about one minute. The mobile project dispatches trusted Chromium touch input; it remains device emulation on the Apple M4, rather than physical mobile hardware.
+
+New verification compares actual Sigma hidden-cache node/edge IDs to independently counted, approved catalog credits. It checks stranger hover, neighbor switching, a filtered shared URL, an isolated selected center after minimum-count filtering, and source-supported path-only visibility after URL restoration. Mouse dragging a real collaborator moves the pinned node and its connected neighborhood, follows the actual pointer, keeps the camera stationary, and returns finite coordinates to the pre-gesture layout within the bounded settling period. Reduced motion moves only the pin, retains its released position through a repeat tap, schedules no release oscillation, and restores the baseline on reset.
+
+Cancellation checks hold the physical mouse button after a dispatched blur or pointer-cancel signal, then issue further trusted mouse movements before normal mouseup. Interaction remains inactive, the layout restores, and the camera stays still. Mobile additionally verifies trusted touch start/move/end and touch cancellation.
+
+Pixel inspection found that the first functional-passing mobile build placed upper neighbors behind the opaque focus banner. Camera fitting now reserves the banner/search area and lower controls; mobile labels use collision priority. A geometry regression checks every focused node center against the actual opaque interface rectangles, in addition to no page exceptions, HTTP failures, or horizontal overflow. Final desktop/mobile focused and held-node screenshots were inspected after this correction. The earlier `focus-interaction-static` screenshots are superseded visual evidence.
+
+```sh
+npm run build
+npm start -- --listen 3100
+# Run in another terminal after the static server is ready:
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 PLAYWRIGHT_OUTPUT_DIR=test-results/focus-interaction-final-static PLAYWRIGHT_REPORT_DIR=playwright-report/focus-interaction-final-static npm run test:e2e
+```
+
+Final artifacts: `test-results/focus-interaction-final-static/` and `playwright-report/focus-interaction-final-static/`. The `e2e-selected-neighborhoods-...` directories contain `neighborhood-desktop.png` / `neighborhood-mobile.png`; `e2e-dragging-a-collaborato-...` contains `drag-held-desktop.png` / `drag-held-mobile.png`.
+
+Public verification of this interaction revision is pending deployment. The earlier public loading and stress measurements above describe the initial release and do not measure the new dragging interaction.

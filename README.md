@@ -54,6 +54,8 @@ The initial HTML carries a small versioned summary. The browser loads the map da
 - Scope: rap/vocal artist credits; groups are separate entities, membership does not infer individual performances.
 - First-release years drive timeline filters; repeat releases do not add ties.
 - Core Korean hip-hop nodes plus optional one-hop collaborators.
+- Selecting a face shows only that artist and direct collaborators under the current filters, with ties from the selected artist. An explicit shortest-path search shows only the route. Click the background or the full-network control to return to the overview.
+- Hold and drag a face to pull its connected network with damped springs. The network settles back to its pre-gesture positions; reduced-motion mode moves only the held node without oscillation. Mouse and touch dragging preserve the camera.
 - No audio or lyrics are hosted. Listening links point to external services.
 - Coverage counts describe collected evidence, not exhaustive discography completeness.
 

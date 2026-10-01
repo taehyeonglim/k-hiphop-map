@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowRight, Check, ChevronDown, HelpCircle, Link2, List, LoaderCircle, Map as MapIcon, Pause, Play, RefreshCw, Search, Share2, SlidersHorizontal, Users, X } from 'lucide-react';
 import type { Dataset, GraphEdge, GraphSnapshot, MapFilters, Recording, Release } from '@/lib/types';
 import { deriveGraph, shortestPath } from '@/lib/graph';
+import { visibleNeighborhoodIds, visibleNeighborhoodEdgeIds } from '@/lib/graph-view';
 import ArtistPanel, { fetchArtistDetail, Portrait } from './ArtistPanel';
 import GraphCanvas from './GraphCanvas';
 import RecordingList from './RecordingList';
@@ -38,6 +39,9 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
     return dataset.artists.filter((artist) => [artist.name, artist.nameEn, ...artist.aliases].some((name) => name.toLocaleLowerCase().replace(/\s/g, '').includes(query))).sort((a,b) => Number(visibleIds.has(b.id)) - Number(visibleIds.has(a.id))).slice(0, 9);
   }, [search, dataset.artists, visibleIds]);
   const path = useMemo(() => selectedArtist && target ? shortestPath(graph, selectedArtist, target) : [], [graph, selectedArtist, target]);
+  const focusedIds = useMemo(() => visibleNeighborhoodIds(graph, selectedArtist, path), [graph, selectedArtist, path]);
+  const focusedEdgeIds = useMemo(() => visibleNeighborhoodEdgeIds(graph, selectedArtist, path), [graph, selectedArtist, path]);
+  const displayedArtists = useMemo(() => rankedArtists.filter((node) => focusedIds.has(node.id)), [rankedArtists, focusedIds]);
   const artist = selectedArtist ? artistsById.get(selectedArtist) : undefined;
   const edge = selectedEdge ? graph.edges.find((entry) => entry.id === selectedEdge) : undefined;
   const yearlyCounts = useMemo(() => {
@@ -119,8 +123,12 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
   }, [showLegend]);
 
   const selectArtist = (id: string) => {
-    setSelectedArtist(id); setSelectedEdge(undefined); setSearch(''); setSearchFocused(false); setMobileFilters(false);
-    setFilters((previous) => ({ ...previous, artist: id, extended: previous.extended || !artistsById.get(id)?.core }));
+    setSelectedArtist(id); setSelectedEdge(undefined); setTarget(''); setSearch(''); setSearchFocused(false); setMobileFilters(false);
+    setFilters((previous) => ({ ...previous, artist: id, target: undefined, extended: previous.extended || !artistsById.get(id)?.core }));
+  };
+  const clearSelection = () => {
+    setSelectedArtist(undefined); setSelectedEdge(undefined); setTarget('');
+    setFilters((previous) => ({ ...previous, artist: undefined, target: undefined }));
   };
   const selectEdge = (id: string) => { setSelectedEdge(id); setMobileFilters(false); };
   const changeMode = (nextMode: PeriodMode) => {
@@ -153,7 +161,8 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
     <main className="map-main">
       <section className="map-workspace" aria-label="힙합 아티스트 협업 지도">
         <div className="graph-stage">
-          {!listView ? <GraphCanvas dataset={dataset} snapshot={graph} filters={filters} selectedArtistId={selectedArtist} selectedEdgeId={selectedEdge} path={path} onSelectArtist={selectArtist} onSelectEdge={selectEdge} /> : <div className="artist-grid-view"><div className="grid-view-heading"><span>THE ARTIST INDEX</span><h1>연결을 만든 얼굴들<span>{graph.nodes.length}</span></h1><p>현재 기간과 필터에 해당하는 아티스트입니다. 얼굴을 눌러 협업을 탐험하세요.</p></div><div className="artist-grid">{rankedArtists.map(({ artist: entry, degree, count }) => <button key={entry.id} className={`artist-grid-card ${selectedArtist === entry.id ? 'selected' : ''}`} onClick={() => selectArtist(entry.id)}><Portrait artist={entry} /><strong>{entry.name}</strong><span>{entry.nameEn}</span><small>협업자 {degree} · {count}곡</small></button>)}</div>{!rankedArtists.length && <p className="empty-copy">이 조건에 해당하는 아티스트가 없습니다. 기간이나 필터를 바꿔보세요.</p>}</div>}
+          {!listView ? <GraphCanvas dataset={dataset} snapshot={graph} filters={filters} selectedArtistId={selectedArtist} selectedEdgeId={selectedEdge} path={path} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClearSelection={clearSelection} /> : <div className="artist-grid-view"><div className="grid-view-heading"><span>THE ARTIST INDEX</span><h1>연결을 만든 얼굴들<span>{displayedArtists.length}</span></h1><p>{selectedArtist ? path.length ? '선택한 연결 경로에 참여한 아티스트입니다.' : '선택한 아티스트와 직접 공동 작업한 아티스트입니다.' : '현재 기간과 필터에 해당하는 아티스트입니다.'} 얼굴을 눌러 협업을 탐험하세요.</p>{selectedArtist && <button className="index-clear-focus" onClick={clearSelection}>전체 네트워크 보기<ArrowRight size={13} /></button>}</div><div className="artist-grid">{displayedArtists.map(({ artist: entry, degree, count }) => <button key={entry.id} className={`artist-grid-card ${selectedArtist === entry.id ? 'selected' : ''}`} onClick={() => selectArtist(entry.id)}><Portrait artist={entry} /><strong>{entry.name}</strong><span>{entry.nameEn}</span><small>협업자 {degree} · {count}곡</small></button>)}</div>{!displayedArtists.length && <p className="empty-copy">이 조건에 해당하는 아티스트가 없습니다. 기간이나 필터를 바꿔보세요.</p>}</div>}
+          {!listView && artist && <div className="network-focus" role="region" aria-label="선택한 협업 네트워크"><div><strong>{path.length ? '연결 경로' : artist.name}</strong><span>{path.length ? `${path.length - 1}단계 · ${focusedIds.size}명` : `직접 협업자 ${Math.max(0, focusedIds.size - (focusedIds.has(artist.id) ? 1 : 0))}명`}</span><small>{focusedIds.has(artist.id) ? '얼굴을 누른 채 움직여 연결을 당겨보세요' : '선택한 기간과 조건에 참여 기록이 없습니다'}</small></div><button onClick={clearSelection} title="선택을 해제하고 전체 네트워크 보기">전체 네트워크 보기<X size={12} /></button></div>}
         </div>
         <div className={`discovery-panel ${mobileFilters ? 'mobile-open' : ''}`}>
           <div className="discovery-title"><span><span className="live-dot" /> CONNECTION ARCHIVE</span><button className="icon-button mobile-filter-close" aria-label="필터 닫기" onClick={() => setMobileFilters(false)}><X size={15} /></button></div>
@@ -162,7 +171,7 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
           <div className="search-wrap"><Search size={17} /><input aria-label="아티스트 검색" placeholder="이름으로 연결 찾기" value={search} onFocus={() => setSearchFocused(true)} onChange={(event) => setSearch(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter' && searchResults[0]) selectArtist(searchResults[0].id); if (event.key === 'Escape') { setSearch(''); setSearchFocused(false); } }} />{search && <button className="icon-button" aria-label="검색어 지우기" onClick={() => setSearch('')}><X size={13} /></button>}
             {searchFocused && search && <div className="search-results" role="region" aria-label="검색 결과">{searchResults.length ? searchResults.map((result) => <button key={result.id} onClick={() => selectArtist(result.id)}><Portrait artist={result} /><span><strong>{result.name}</strong><small>{result.nameEn}{!visibleIds.has(result.id) ? ' · 현재 조건 밖' : ''}</small></span><ArrowRight size={13} /></button>) : <p>일치하는 아티스트가 없습니다.</p>}</div>}
           </div>
-          <div className="map-numbers"><div><strong>{graph.stats.artists.toLocaleString()}</strong><span>ARTISTS</span></div><div><strong>{graph.edges.length.toLocaleString()}</strong><span>CONNECTIONS</span></div></div>
+          <div className="map-numbers"><div><strong>{focusedIds.size.toLocaleString()}</strong><span>ARTISTS</span></div><div><strong>{focusedEdgeIds.size.toLocaleString()}</strong><span>CONNECTIONS</span></div></div>
           <div className="filter-heading"><SlidersHorizontal size={13} /><span>지도 설정</span><button onClick={() => {setFilters({from:1995,to:lastYear,cumulative:false,extended:false,minCount:1,artist:selectedArtist});setMode('range');setTarget('');setPlaying(false);}}>초기화</button></div>
           <div className="filter-block"><label htmlFor="minimum-tracks">최소 공동 작업곡</label><div className="filter-input-row"><input id="minimum-tracks" type="range" min="1" max="10" step="1" value={Math.min(filters.minCount,10)} onChange={(event) => setFilters((previous) => ({ ...previous, minCount: Number(event.target.value) }))} /><span>{filters.minCount}<small>곡</small></span></div></div>
           <label className="toggle-row" htmlFor="extend-artists"><span><strong>협업자 확장</strong><small>R&B · 아이돌 · 해외 아티스트</small></span><input id="extend-artists" type="checkbox" checked={filters.extended} onChange={(event) => setFilters((previous) => ({ ...previous, extended: event.target.checked }))} /><span className="toggle-track" aria-hidden="true" /></label>
@@ -174,7 +183,7 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
         <div className="map-caption"><div className="legend-node" /><span>협업자 수가 많을수록 큰 노드</span><span className="caption-separator" /><span className="legend-edge" /><span>공동곡이 많을수록 굵은 선</span><button aria-label="지도 범례 보기" onClick={() => setShowLegend(true)}><HelpCircle size={13} /></button></div>
       </section>
       <div className={`detail-panel-wrap ${(artist || edge) ? 'has-selection' : ''}`}>
-        {edge ? <EdgePanel edge={edge} dataset={dataset} onSelectArtist={selectArtist} onClose={() => setSelectedEdge(undefined)} /> : artist ? <ArtistPanel key={artist.id} dataset={dataset} snapshot={graph} artist={artist} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClose={() => { setSelectedArtist(undefined); setSelectedEdge(undefined); }} /> : <aside className="explore-empty-panel"><span>FIND YOUR CONNECTION</span><h2>하나의 곡에서,<br />하나의 장면으로.</h2><p>지도에서 얼굴을 선택하세요.<br />함께 만든 곡과 아티스트를<br />만날 수 있습니다.</p><div className="empty-portrait-stack">{rankedArtists.filter(({artist:entry}) => Boolean(entry.image)).slice(0,3).map(({artist:entry}) => <button key={entry.id} onClick={() => selectArtist(entry.id)} aria-label={`${entry.name} 살펴보기`}><Portrait artist={entry} /></button>)}</div><button className="empty-start-button" onClick={() => rankedArtists[0] && selectArtist(rankedArtists[0].id)}>연결 탐험 시작<ArrowRight size={16} /></button></aside>}
+        {edge ? <EdgePanel edge={edge} dataset={dataset} onSelectArtist={selectArtist} onClose={() => setSelectedEdge(undefined)} /> : artist ? <ArtistPanel key={artist.id} dataset={dataset} snapshot={graph} artist={artist} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClose={clearSelection} /> : <aside className="explore-empty-panel"><span>FIND YOUR CONNECTION</span><h2>하나의 곡에서,<br />하나의 장면으로.</h2><p>지도에서 얼굴을 선택하세요.<br />함께 만든 곡과 아티스트를<br />만날 수 있습니다.</p><div className="empty-portrait-stack">{rankedArtists.filter(({artist:entry}) => Boolean(entry.image)).slice(0,3).map(({artist:entry}) => <button key={entry.id} onClick={() => selectArtist(entry.id)} aria-label={`${entry.name} 살펴보기`}><Portrait artist={entry} /></button>)}</div><button className="empty-start-button" onClick={() => rankedArtists[0] && selectArtist(rankedArtists[0].id)}>연결 탐험 시작<ArrowRight size={16} /></button></aside>}
       </div>
     </main>
 
