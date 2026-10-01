@@ -56,8 +56,16 @@ The initial HTML carries a small versioned summary. The browser loads the map da
 - Core Korean hip-hop nodes plus optional one-hop collaborators.
 - Selecting a face shows only that artist and direct collaborators under the current filters, with ties from the selected artist. An explicit shortest-path search shows only the route. Click the background or the full-network control to return to the overview.
 - Hold and drag a face to pull its connected network with damped springs. The network settles back to its pre-gesture positions; reduced-motion mode moves only the held node without oscillation. Mouse and touch dragging preserve the camera.
-- No audio or lyrics are hosted. Listening links point to external services.
+- Released artist audio and lyrics are not hosted; listening links point to external services. The trailer includes an original instrumental composed for this project.
 - Coverage counts describe collected evidence, not exhaustive discography completeness.
+
+## Trailer
+
+The 30-second **한국힙합 연결고리** intro connects generations through licensed artist photos, the real collaboration graph and captured product interactions. Its original 96 BPM, twelve-bar instrumental and project credit name **임태형 a.k.a. Lyricist**. The first ordinary visit opens a muted intro; skipping or finishing remembers the choice. Shared map links go directly to their state, and **트레일러 다시 보기** remains available.
+
+With the local site running on port 3000, `npm run trailer:render` prepares attributed assets, synthesizes the score, captures the product and renders independent landscape/portrait films. The 720p web outputs are each under 8 MB; optional 1080p masters stay in ignored `.cache/trailer/masters/`. See [the storyboard, dependencies and reproduction guide](docs/trailer.md).
+
+Downloads: [landscape MP4](public/media/trailer/v1/landscape.mp4), [portrait MP4](public/media/trailer/v1/portrait.mp4). [Asset-specific video/music credits](https://k-hiphop-map.vercel.app/credits/#trailer) preserve photograph, data and font conditions separately.
 
 ## Deployment
 

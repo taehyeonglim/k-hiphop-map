@@ -8,11 +8,12 @@ import { visibleNeighborhoodIds, visibleNeighborhoodEdgeIds } from '@/lib/graph-
 import ArtistPanel, { fetchArtistDetail, Portrait } from './ArtistPanel';
 import GraphCanvas from './GraphCanvas';
 import RecordingList from './RecordingList';
+import CreatorCredit from './CreatorCredit';
 
-interface MapExplorerProps { dataset: Dataset; snapshot: GraphSnapshot }
+interface MapExplorerProps { dataset: Dataset; snapshot: GraphSnapshot; onReplayTrailer?: () => void; trailerOpen?: boolean }
 type PeriodMode = 'range' | 'cumulative' | 'year';
 
-export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
+export default function MapExplorer({ dataset, snapshot, onReplayTrailer, trailerOpen = false }: MapExplorerProps) {
   const currentYear = new Date(dataset.asOf).getUTCFullYear();
   const lastYear = Number.isFinite(currentYear) ? currentYear : new Date().getFullYear();
   const [filters, setFilters] = useState<MapFilters>({ from: 1995, to: lastYear, cumulative: false, extended: false, minCount: 1 });
@@ -106,6 +107,10 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
   }, [playing, mode, lastYear]);
 
   useEffect(() => {
+    if (trailerOpen) { setPlaying(false); setShowLegend(false); }
+  }, [trailerOpen]);
+
+  useEffect(() => {
     if (!showLegend) return;
     const previousFocus = document.activeElement as HTMLElement | null;
     const focusables = () => Array.from(legendDialog.current?.querySelectorAll<HTMLElement>('button, a[href], [tabindex="0"]') ?? []);
@@ -155,7 +160,7 @@ export default function MapExplorer({ dataset, snapshot }: MapExplorerProps) {
       <a href="/map/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
       <div className="masthead-description"><span>대한민국 힙합, 연결의 기록.</span><p>음악이 만든 관계를 탐험하다</p></div>
       <nav className="main-nav" aria-label="주 메뉴"><button onClick={() => setListView(false)} className={!listView ? 'active' : ''}>지도</button><button onClick={() => setListView(true)} className={listView ? 'active' : ''}>아티스트</button><a href="/methodology/">제작 원칙</a></nav>
-      <button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={14} /><span>지도 공유</span></button>
+      <div className="masthead-actions"><div className="masthead-utilities"><CreatorCredit />{onReplayTrailer && <button className="trailer-replay" data-trailer-replay aria-label="트레일러 다시 보기" onClick={() => { setPlaying(false); setShowLegend(false); onReplayTrailer(); }}><Play size={13} aria-hidden="true" /><span>소개 다시 보기</span></button>}</div><button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={14} /><span>지도 공유</span></button></div>
     </header>
 
     <main className="map-main">

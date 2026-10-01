@@ -1,6 +1,12 @@
 import { test, expect } from '@playwright/test';
 import { writeFileSync } from 'node:fs';
 
+test.beforeEach(async ({ context }) => {
+  await context.addInitScript(() => {
+    try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Map performance excludes the separately tested first-visit trailer. */ }
+  });
+});
+
 type PerformanceGraph = {
   nodes: number; edges: number;
   injectTestGraph: (size: { nodes: number; edges: number }) => Promise<void>;
@@ -49,6 +55,9 @@ test('five fresh contexts expose an interactive initial map within three seconds
   for (let index = 0; index < 5; index++) {
     const use = testInfo.project.use;
     const context = await browser.newContext({ viewport: use.viewport, isMobile: use.isMobile, hasTouch: use.hasTouch, deviceScaleFactor: use.deviceScaleFactor, userAgent: use.userAgent });
+    await context.addInitScript(() => {
+      try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Preserve the established map-ready measurement. */ }
+    });
     const page = await context.newPage();
     page.on('pageerror', error => errors.push(error.message));
     page.on('response', response => { if (response.status() >= 400 && response.url().startsWith(baseURL!)) statuses.push({ url: response.url(), status: response.status() }); });
@@ -77,7 +86,7 @@ test('five fresh contexts expose an interactive initial map within three seconds
   }
   const sorted = [...samples].sort((a,b) => a-b);
   const p95 = sorted[Math.ceil(sorted.length * 0.95) - 1];
-  const result = { project: testInfo.project.name, url: baseURL, versions, renderer, samplesMs: samples, medianMs: sorted[2], empiricalP95Ms: p95, nodes: visibleNodes, targetMs: 3000, conditions: 'Five fresh browser contexts, browser process reused, native network without throttling; map-ready means a positive Sigma node count after renderer initialization. Portrait completion is not part of this timing.', navigationDetails, errors, failedResponses: statuses };
+  const result = { project: testInfo.project.name, url: baseURL, versions, renderer, samplesMs: samples, medianMs: sorted[2], empiricalP95Ms: p95, nodes: visibleNodes, targetMs: 3000, conditions: 'Five fresh HTTP-cache contexts with the trailer already marked seen, browser process reused, native network without throttling; map-ready means a positive Sigma node count after renderer initialization. Portrait completion and first-visit trailer viewing are not part of this timing.', navigationDetails, errors, failedResponses: statuses };
   const reportPath = testInfo.outputPath('initial-map-performance.json');
   writeFileSync(reportPath, JSON.stringify(result, null, 2));
   await testInfo.attach('initial-map-performance.json', { path: reportPath, contentType: 'application/json' });

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>한국힙합 연결고리 — film renderer</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#171c18}canvas{display:block;width:100vw;height:100vh}</style></head>
+<body><canvas id="film"></canvas><script>
+const canvas = document.getElementById('film');
+const ctx = canvas.getContext('2d', { alpha: false });
+const C = { ink:'#171c18', paper:'#eeeada', lime:'#caff40', red:'#e94a32', muted:'#8d9985' };
+const serif = '"NotoFilm",sans-serif';
+const condensed = '"BarlowFilm",sans-serif';
+const display = '"AntonFilm",sans-serif';
+let config, W, H, portrait, assets, nodeAssets, artistMap, nodeMap, grain;
+const imageCache = new Map();
+const clamp = (x,a=0,b=1) => Math.min(b,Math.max(a,x));
+const ease = (x) => 1-Math.pow(1-clamp(x),3);
+const lerp = (a,b,t) => a+(b-a)*t;
+const pulse = (t) => Math.pow(Math.max(0,1-(t*1.6%1)*5),2);
+const rng = (seed) => { let s=seed>>>0; return () => {s=(s*1664525+1013904223)>>>0;return s/4294967296;}; };
+const loadImage = (url) => new Promise((resolve,reject) => {const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(new Error('Missing scene image: '+url));image.src=url;});
+const font = (size,weight=900,family=serif) => `${weight} ${size}px ${family}`;
+function text(value,x,y,size,color=C.paper,weight=900,family=serif,align='left') {
+  ctx.font=font(size,weight,family);ctx.fillStyle=color;ctx.textAlign=align;ctx.textBaseline='alphabetic';ctx.fillText(value,x,y);
+}
+function fittedText(value,x,y,size,maxWidth,color=C.paper,weight=900,family=serif) {
+  ctx.font=font(size,weight,family);const fitted=Math.min(size,size*maxWidth/ctx.measureText(value).width);text(value,x,y,fitted,color,weight,family);
+}
+function line(x1,y1,x2,y2,color,width=1,alpha=1) {ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();ctx.restore();}
+function rect(x,y,w,h,color,alpha=1) {ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=color;ctx.fillRect(x,y,w,h);ctx.restore();}
+function circle(x,y,r,color,width=0) {ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);if(width){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.stroke();}else{ctx.fillStyle=color;ctx.fill();}}
+function cover(image,x,y,w,h,zoom=1) {const scale=Math.max(w/image.width,h/image.height)*zoom;ctx.drawImage(image,x+(w-image.width*scale)/2,y+(h-image.height*scale)/2,image.width*scale,image.height*scale);}
+function face(id,x,y,r,{mono=false,zoom=1,border=C.lime,width=3,alpha=1}={}) {
+  if(r<=width) return;
+  const original=assets.get(id);const crop=r>=70?artistMap.get(id)?.faceCrop:null;const image=r<70 || (!crop&&original?.height>original?.width*1.35) ? nodeAssets.get(id) : original;ctx.save();ctx.globalAlpha=alpha;circle(x,y,r,border);ctx.beginPath();ctx.arc(x,y,r-width,0,Math.PI*2);ctx.clip();
+  if(image){ctx.filter=mono?'grayscale(1) contrast(1.12)':'none';if(crop){const size=r*2*zoom;ctx.drawImage(image,crop.x,crop.y,crop.width,crop.height,x-size/2,y-size/2,size,size);}else cover(image,x-r,y-r,r*2,r*2,zoom);ctx.filter='none';}else{circle(x,y,r,C.ink);const name=artistMap.get(id)?.name??id;text(name.slice(0,2),x,y+8,r*.5,C.paper,900,serif,'center');}ctx.restore();
+}
+function header(t,{paper=false,section='THE CONNECTION ARCHIVE'}={}) {
+  const color=paper?C.ink:C.paper;const m=portrait?42:54;
+  text('K—HIPHOP / MAP',m,portrait?61:49,portrait?23:20,color,700,condensed);
+  if(!portrait) text(section,W-m,47,12,paper?'#66705f':C.muted,600,condensed,'right');
+  line(m,portrait?85:66,W-m,portrait?85:66,paper?'#adae9c':'#566047',1,.65);
+  const sec=String(Math.floor(t)).padStart(2,'0');text(`00:${sec} / 00:30`,m,H-(portrait?35:25),13,paper?'#707563':C.muted,600,condensed);
+  text('1995 — NOW',W-m,H-(portrait?35:25),13,paper?'#707563':C.muted,600,condensed,'right');
+}
+function texture(t,paper=false) {
+  ctx.save();ctx.globalAlpha=paper?.12:.17;ctx.globalCompositeOperation=paper?'multiply':'screen';
+  const jitter=Math.floor(t*12)%4;ctx.drawImage(grain,-jitter*3,-jitter*2,W+12,H+8);ctx.restore();
+  const n=Math.floor(t*30);if(n%7===0){line(W*.06,0,W*.065,H,paper?'#958f79':'#81916d',.7,.15);line(W*.88,0,W*.89,H,paper?'#958f79':'#81916d',.7,.09);}
+}
+function chapter(number,label,x,y,color=C.lime) {text(`${number} / ${label}`,x,y,portrait?17:15,color,600,condensed);}
+function revealLines(lines,x,y,size,time,{color=C.paper,gap=1.15,maxWidth=W-x*2}={}) {
+  lines.forEach((value,index)=>{const p=ease((time-index*.1)/.55);ctx.save();ctx.beginPath();ctx.rect(x-4,y-size+index*size*gap,maxWidth+8,size*gap+10);ctx.clip();fittedText(value,x,y+index*size*gap+(1-p)*size,size,maxWidth,color);ctx.restore();});
+}
+function graphPositions(ids,box,zoom=1,panX=0,panY=0) {
+  const nodes=ids.map(id=>nodeMap.get(id)).filter(Boolean);const xs=nodes.map(n=>n.x),ys=nodes.map(n=>n.y);
+  const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+  const scale=Math.min(box.w/(maxX-minX||1),box.h/(maxY-minY||1))*zoom;
+  return new Map(nodes.map(n=>[n.id,{x:box.x+box.w/2+(n.x-(minX+maxX)/2)*scale+panX,y:box.y+box.h/2+(n.y-(minY+maxY)/2)*scale+panY}]));
+}
+function network(t,{box={x:30,y:90,w:W-60,h:H-160},alpha=.28,zoom=1,faces=false}={}) {
+  const ids=config.nodes.map(n=>n.id),positions=graphPositions(ids,box,zoom);
+  ctx.save();ctx.globalAlpha=alpha;ctx.beginPath();ctx.rect(box.x-60,box.y-60,box.w+120,box.h+120);ctx.clip();
+  for(const edge of config.edges){const a=positions.get(edge.source),b=positions.get(edge.target);line(a.x,a.y,b.x,b.y,C.lime,.3+Math.min(1.5,Math.log2(edge.count+1)*.22),.18);}
+  for(const node of config.nodes){const p=positions.get(node.id);if(faces&&assets.has(node.id)){face(node.id,p.x,p.y,8+Math.min(7,Math.sqrt(node.degree)),{border:C.lime,width:1});}else circle(p.x,p.y,1.6+Math.min(3.5,Math.sqrt(node.degree)*.28),node.community%3===0?C.lime:'#acb597');}
+  ctx.restore();return positions;
+}
+function intro(t) {
+  rect(0,0,W,H,C.ink);const local=t, m=portrait?48:72;
+  const cx=portrait?W*.70:W*.76,cy=portrait?H*.67:H*.49,r=portrait?290:260;
+  for(let i=0;i<26;i++){circle(cx,cy,r-i*8,'#748563',.7);}
+  const length=ease((local-.25)/1.35);line(m,portrait?1010:586,lerp(m,cx,length),lerp(portrait?1010:586,cy,length),C.lime,3);
+  circle(cx,cy,14+8*pulse(t),C.lime);circle(cx,cy,30,C.lime,1.5);
+  chapter('01','ONE TRACK. MANY VOICES.',m,portrait?180:148);
+  revealLines(['한 곡에서','시작된 연결.'],m,portrait?338:284,portrait?85:90,local-.15,{maxWidth:portrait?630:880});
+  if(local>1.35){rect(m,portrait?500:413,portrait?326:355,5,C.red,ease((local-1.35)/.3));text('음악이 만든 관계를 탐험하다',m,portrait?566:473,portrait?22:18,C.muted,500);}
+  texture(t);header(t);
+}
+function roots(t) {
+  const u=t-2.5;rect(0,0,W,H,C.paper);
+  const mx=portrait?48:72;
+  const r1=portrait?155:158,r2=portrait?138:126;
+  const a={x:portrait?235:774,y:portrait?671:365},b={x:portrait?494:1054,y:portrait?859:429};
+  rect(portrait?30:622,portrait?490:98,portrait?660:607,portrait?560:553,C.ink,.96);
+  const reveal=ease(u/.45);ctx.save();ctx.translate((1-reveal)*65,0);
+  face('garion',a.x,a.y,r1,{mono:true,zoom:1.02+u*.011,border:C.paper,width:5});
+  face('drunken-tiger',b.x,b.y,r2,{mono:true,zoom:1.06+u*.009,border:C.lime,width:5});ctx.restore();
+  text('GARION',a.x-r1,a.y+r1+44,portrait?54:58,C.paper,400,display);
+  text('가리온',a.x-r1,a.y-r1+(portrait?2:-21),portrait?22:20,C.lime,700);
+  text('DRUNKEN TIGER',b.x,b.y+r2+39,portrait?31:34,C.paper,500,condensed,'center');
+  text('드렁큰 타이거',b.x,b.y-r2-17,portrait?20:18,C.lime,700,serif,'center');
+  chapter('02','THE VOICES THAT BUILT A SCENE',mx,portrait?180:146,C.red);
+  revealLines(['씬을 만든','목소리들.'],mx,portrait?291:294,portrait?83:86,u-.08,{color:C.ink,maxWidth:portrait?630:520});
+  if(portrait){text('시대를 넘어 남은 목소리.',mx,453,22,'#68715f',500);text('FROM THE ROOTS',48,1150,37,C.ink,600,condensed);line(48,1170,672,1170,C.red,3);}
+  else{line(mx,486,500,486,C.ink,1);text('씬의 시작부터, 지금의 목소리까지.',mx,531,21,'#63705c',500);text('FROM THE ROOTS',mx,596,45,C.ink,600,condensed);}
+  texture(t,true);header(t,{paper:true,section:'FROM THE ROOTS'});
+}
+function connections(t) {
+  const u=t-7.5;rect(0,0,W,H,C.ink);const m=portrait?48:64;
+  chapter('03','TRACKS BECOME CONNECTIONS',m,portrait?174:132);
+  revealLines(portrait?['함께 만든 곡이,','연결을 만든다.']:['함께 만든 곡이,','연결을 만든다.'],m,portrait?274:258,portrait?69:58,u-.1,{maxWidth:portrait?624:450});
+  const ids=['garion',...config.closeupEdges.map(e=>e.source==='garion'?e.target:e.source)];
+  const box=portrait?{x:95,y:509,w:530,h:570}:{x:558,y:150,w:566,h:435};
+  const positions=graphPositions(ids,box,1);
+  const reveal=ease((u-.15)/.9);
+  config.closeupEdges.forEach((edge,i)=>{const a=positions.get(edge.source),b=positions.get(edge.target);const p=ease((u-.35-i*.18)/.55);line(a.x,a.y,lerp(a.x,b.x,p),lerp(a.y,b.y,p),C.lime,1.7+Math.log2(edge.count)*1.2,.80);});
+  positions.forEach((p,id)=>{face(id,p.x,p.y,(id==='garion'?40:26)*reveal,{mono:false,border:id==='garion'?C.lime:'#97b576',width:id==='garion'?4:2,alpha:reveal});const name=artistMap.get(id)?.name??nodeMap.get(id)?.name;const left=p.x>box.x+box.w*.65;ctx.textAlign=left?'right':'left';text(name,p.x+(left?-34:34),p.y+7,portrait?18:16,id==='garion'?C.lime:C.paper,700,serif,left?'right':'left');});
+  const active=config.closeupEdges[Math.min(config.closeupEdges.length-1,Math.floor(Math.max(0,u-1)*1.4))];
+  const card=portrait?{x:48,y:1127,w:624,h:64}:{x:64,y:465,w:440,h:132};
+  rect(card.x,card.y,card.w,card.h,'#26301f');rect(card.x,card.y,4,card.h,C.lime);
+  if(portrait){text('공동 작업 기록',card.x+18,card.y+23,13,C.muted,500);fittedText(active.song,card.x+18,card.y+50,24,card.w-36,C.paper,700);}
+  else{text('실제 발매곡의 공동 크레딧',card.x+22,card.y+33,14,C.muted,500);fittedText(active.song,card.x+22,card.y+73,29,card.w-40,C.paper,700);text('가리온 + '+(artistMap.get(active.source==='garion'?active.target:active.source)?.name??''),card.x+22,card.y+105,16,C.lime,500);}
+  texture(t);header(t,{section:'SOURCE-BACKED COLLABORATIONS'});
+}
+async function product(t) {
+  const u=t-12.5;rect(0,0,W,H,C.ink);const m=portrait?42:64;
+  const dragging=u>=3.55;
+  chapter('04','THE LIVE NETWORK',m,portrait?167:107);
+  const copy=dragging?'당기면 씬이 움직인다.':'한 명을 누르면 연결이 보인다.';
+  if(portrait){revealLines(dragging?['당기면','씬이 움직인다.']:['한 명을 누르면','연결이 보인다.'],m,267,64,dragging?u-3.55:u,{maxWidth:636});}
+  else fittedText(copy,m,167,51,W-m*2,C.paper);
+  const box=portrait?{x:42,y:401,w:636,h:742}:{x:64,y:210,w:1152,h:423};
+  rect(box.x-3,box.y-3,box.w+6,box.h+6,C.lime);rect(box.x,box.y,box.w,box.h,'#10150f');
+  const frame=Math.min(224,Math.floor(clamp(u,0,7.49)*30));
+  let image=imageCache.get(frame);if(!image){const url=config.demoFrameRoot.replace('FRAME',String(frame+1).padStart(5,'0'));image=await loadImage(url);imageCache.set(frame,image);if(imageCache.size>8) imageCache.delete(imageCache.keys().next().value);}
+  // Reframe the real browser capture around its graph and detail panel. The
+  // recorded node movement is untouched; only header/footer chrome is trimmed.
+  const source={x:0,y:portrait?160:120,w:image.width,h:portrait?960:500};
+  const scale=Math.min(box.w/source.w,box.h/source.h);const iw=source.w*scale,ih=source.h*scale;
+  ctx.drawImage(image,source.x,source.y,source.w,source.h,box.x+(box.w-iw)/2,box.y+(box.h-ih)/2,iw,ih);
+  // The moving halo is part of the actual browser capture, driven by input.
+  rect(box.x,box.y,portrait?132:158,25,C.lime);text('ACTUAL PRODUCT',box.x+10,box.y+18,portrait?13:14,C.ink,600,condensed);
+  text('클릭 → 선택   /   드래그 → 연결의 움직임',m,portrait?1192:670,portrait?19:16,C.muted,500);
+  texture(t);header(t,{section:'REAL CLICK. REAL DRAG.'});
+}
+function generations(t) {
+  const u=t-20;rect(0,0,W,H,C.ink);
+  network(t,{box:portrait?{x:0,y:210,w:720,h:900}:{x:350,y:60,w:980,h:640},alpha:.32,zoom:lerp(1.7,.85,ease(u/5)),faces:true});
+  const m=portrait?48:64;chapter('05','ACROSS GENERATIONS',m,portrait?174:139);
+  revealLines(['1995—지금.','세대를 잇다.'],m,portrait?311:279,portrait?83:73,u-.08,{maxWidth:portrait?624:610});
+  const heads=portrait?[{id:'changmo',x:193,y:645,r:121},{id:'bewhy',x:526,y:645,r:121},{id:'lee-young-ji',x:360,y:978,r:127}]:[{id:'changmo',x:646,y:489,r:104},{id:'bewhy',x:875,y:430,r:113},{id:'lee-young-ji',x:1122,y:490,r:103}];
+  heads.forEach((head,i)=>{const p=ease((u-.32-i*.23)/.55);const dy=(1-p)*90;face(head.id,head.x,head.y+dy,head.r,{zoom:1.02+u*.012,border:i===1?C.red:C.lime,width:4,alpha:p});text(artistMap.get(head.id)?.name??head.id,head.x,head.y+head.r+dy+33,portrait?29:26,C.paper,900,serif,'center');});
+  if(!portrait){line(m,470,483,470,C.red,3);text('세대가 달라도, 음악으로 이어진다.',m,512,20,C.muted,500);}
+  else text('세대가 달라도, 음악으로 이어진다.',m,1181,22,C.muted,500);
+  texture(t);header(t,{section:'1995 — NOW'});
+}
+function finale(t) {
+  const u=t-25;rect(0,0,W,H,C.paper);
+  network(t,{box:{x:-100,y:-100,w:W+200,h:H+200},alpha:.10,zoom:1.18,faces:false});
+  const m=portrait?48:72;chapter('06','EXPLORE THE CONNECTION',m,portrait?178:137,C.red);
+  revealLines(['한국힙합','연결고리'],m,portrait?404:313,portrait?148:160,u-.08,{color:C.ink,gap:1.12,maxWidth:W-m*2});
+  const y=portrait?806:567;
+  rect(m,y-39,portrait?585:604,portrait?66:68,C.lime);
+  fittedText('지금, 연결을 탐험해.',m+22,y+10,portrait?42:45,portrait?541:560,C.ink);
+  text(config.website,m,portrait?970:655,portrait?33:31,C.ink,600,condensed);
+  text(config.credits,m,portrait?1015:681,portrait?20:16,'#69715d',500,condensed);
+  if(portrait){line(m,1090,W-m,1090,'#858e78',1);text('ORIGINAL BEAT',m,1134,16,'#6f7862',600,condensed);text('임태형 a.k.a. Lyricist',m,1168,23,C.ink,700);}
+  texture(t,true);header(t,{paper:true,section:'YOUR NEXT CONNECTION STARTS HERE'});
+}
+function cut(t) {
+  const cuts=[2.5,7.5,12.5,20,25];for(const mark of cuts){const dt=t-mark;if(dt>=0&&dt<.16){const p=dt/.16;ctx.save();ctx.translate(W*(1-p)*1.25,0);ctx.rotate(-.045);rect(-W*.2,-30,W*.46,H+100,C.lime);rect(W*.26,-30,W*.10,H+100,C.red);ctx.restore();}}
+}
+window.__trailerReady=(async()=>{
+  config=await(await fetch('/config')).json();portrait=config.portrait;W=portrait?720:1280;H=portrait?1280:720;
+  canvas.width=window.innerWidth;canvas.height=window.innerHeight;
+  const faces=await Promise.all(config.artists.map(async artist=>[artist.id,await loadImage(artist.image)]));assets=new Map(faces);nodeAssets=new Map(await Promise.all(config.artists.map(async artist=>[artist.id,await loadImage(artist.nodeImage)])));artistMap=new Map(config.artists.map(a=>[a.id,a]));nodeMap=new Map(config.nodes.map(n=>[n.id,n]));
+  for(const [name,url] of [['NotoFilm',config.fonts.noto],['AntonFilm',config.fonts.anton],['BarlowFilm',config.fonts.barlow]]){const face=new FontFace(name,`url("${url}")`,{weight:name==='NotoFilm'?'100 900':'400'});await face.load();document.fonts.add(face);}await document.fonts.ready;
+  grain=document.createElement('canvas');grain.width=480;grain.height=480;const g=grain.getContext('2d'),data=g.createImageData(480,480),random=rng(7045);for(let i=0;i<data.data.length;i+=4){const v=80+random()*160;data.data[i]=data.data[i+1]=data.data[i+2]=v;data.data[i+3]=255;}g.putImageData(data,0,0);
+  return {assets:assets.size,nodes:config.nodes.length,edges:config.edges.length};
+})();
+window.__trailerRender=async(t)=>{
+  await window.__trailerReady;t=clamp(t,0,29.999);ctx.resetTransform();ctx.scale(canvas.width/W,canvas.height/H);ctx.clearRect(0,0,W,H);ctx.lineCap='round';ctx.textAlign='left';
+  let scene;if(t<2.5){scene='intro';intro(t);}else if(t<7.5){scene='roots';roots(t);}else if(t<12.5){scene='connections';connections(t);}else if(t<20){scene='product';await product(t);}else if(t<25){scene='generations';generations(t);}else{scene='finale';finale(t);}cut(t);return{time:t,scene,portraits:[...assets.keys()],sourceNodes:config.nodes.length,sourceEdges:config.edges.length};
+};
+</script></body></html>

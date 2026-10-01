@@ -105,3 +105,26 @@ PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-r
 ```
 
 Public artifacts are in `test-results/focus-interaction-public/` and `playwright-report/focus-interaction-public/`, using the same focused/held screenshot filenames. The earlier public loading and stress measurements above describe the initial release and do not measure the new dragging interaction. No physical-mobile performance claim follows from the touch-input verification.
+
+## First-visit trailer — 2026-10-02
+
+The final built-static export at `http://127.0.0.1:3100` passed **59 applicable checks, with one intentional desktop touch skip, from 60 scheduled cases, in 1.9 minutes**. This consists of all 26 new trailer scenarios (13 for each viewport) plus the existing 33 applicable map scenarios. The source catalog remains `2026.10.01-73d5c2c3-c92fd5a3`. Native Chrome uses the Apple M4 ANGLE Metal renderer; mobile results are browser viewport/touch emulation.
+
+The first-visit tests hold the map JSON download while the actual muted MP4 decodes and its playback clock advances. The overlay stays open when the real map becomes ready underneath. Immediate close works before map download, pauses the video, removes its source, records the visit, and allows a subsequent visit with zero MP4 requests. A real seek/play operation reaches the browser's `ended` event and closes the introduction; no synthetic media event is used.
+
+Replay preserves the selected artists, visible ties, world coordinates, camera, filters, and shared URL while supporting sound, pause, resume, and immediate map entry. Keyboard tests exercise background `inert`, Tab/Shift+Tab containment, Escape closure, and focus restoration. Artist, period, and list URLs enter the map without requesting media; an empty artist or unrelated campaign query still receives the unseen introduction. A same-document Next link from credits verifies the first client-side return to the map. Restricted storage reads and writes skip automatic playback while preserving manual replay.
+
+Reduced motion shows a poster with **zero MP4 requests before explicit Play**. The manual state leaves the video source unassigned, since `preload="none"` alone did not prevent a browser request in the initial diagnostic run. A real aborted media download exposes a usable map exit and successfully retries playback. Rotation swaps the real landscape/portrait MP4 while retaining a paused position at seven seconds and the unmuted preference, then resumes correctly. All trailer scenarios completed without uncaught page errors.
+
+```sh
+npm run build
+npm start -- --listen 3100
+# Run in another terminal after the static server is ready:
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 PLAYWRIGHT_OUTPUT_DIR=test-results/trailer-static PLAYWRIGHT_REPORT_DIR=playwright-report/trailer-static npm run test:e2e
+```
+
+Functional artifacts are in `test-results/trailer-static/` and `playwright-report/trailer-static/`. Separate visual checks inspected the decoded final slogan at approximately 26 seconds and the closed map at 1600×1000, 390×844, 320×700, and 844×390 CSS pixels. The exact creator link `임태형 a.k.a. Lyricist` and its GitHub destination, non-overlapping 44px close control, complete frame, and map header remain visible. These checks recorded no horizontal overflow, page exceptions, or same-origin HTTP failures. Captures and geometry are in `test-results/trailer-visual-static/`: `{desktop,mobile,narrow,landscape}-finale-26s.png`, the corresponding `-map-closed.png`, and `visual-evidence.json`. The intro captures use viewport screenshots so the fixed overlay is represented at the actual visible screen size.
+
+Separate built-static WebKit checks at 1440×900 and 390×844 verified advancing muted inline playback, explicit sound, actual ended closure, paused/source-cleared cleanup, stored visit, and zero MP4 requests on revisit. WebKit also verified the reduced-motion poster without a media request and the paused/unmuted seven-second position after rotation to 844×390. Evidence is `.cache/trailer/webkit-qa.json`; no page errors were recorded. This validates the WebKit engine on this computer and does not certify physical iPhone Safari.
+
+Both shipped films are exactly 30 seconds / 900 frames at 30fps, using H.264 yuv420p video and AAC 48kHz audio, with fast-start metadata before media data. Landscape is 5,032,863 bytes; portrait is 4,996,723 bytes. The browser suite verifies media behavior and frame delivery; film content, asset sources, and audio were separately reviewed by the production agents. Existing map/performance contexts now explicitly mark the trailer as seen. Their readiness measurement excludes first-visit viewing, and the older loading/FPS measurements above are not new trailer performance measurements.

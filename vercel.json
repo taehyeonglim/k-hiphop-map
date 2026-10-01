@@ -1,5 +1,11 @@
 {
   "framework": null,
   "buildCommand": "npm run build",
-  "outputDirectory": "out"
+  "outputDirectory": "out",
+  "headers": [
+    {
+      "source": "/media/trailer/v1/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
 }

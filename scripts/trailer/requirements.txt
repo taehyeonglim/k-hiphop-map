@@ -1,0 +1,3 @@
+# Only needed to reproduce the original soundtrack, not to build the website.
+numpy==2.4.6
+scipy==1.17.1

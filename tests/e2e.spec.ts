@@ -2,6 +2,12 @@ import { test, expect, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import type { Artist, Dataset } from '../src/lib/types';
 
+test.beforeEach(async ({ context }) => {
+  await context.addInitScript(() => {
+    try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Map behavior remains testable when storage is unavailable. */ }
+  });
+});
+
 type GraphMetrics = {
   nodes: number; edges: number;
   visibleNodes: number; visibleEdges: number;
