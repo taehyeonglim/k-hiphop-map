@@ -3,6 +3,8 @@ import { readFileSync } from 'node:fs';
 import type { Artist, Dataset } from '../src/lib/types';
 
 test.beforeEach(async ({ context }) => {
+  // Keep unrelated map checks independent of the external counter service.
+  await context.route('**/api/visitors', route => route.fulfill({ json: { count: 0, counted: false } }));
   await context.addInitScript(() => {
     try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Map behavior remains testable when storage is unavailable. */ }
   });

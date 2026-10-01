@@ -7,6 +7,7 @@ import { markTrailerSeen, readTrailerVisit } from '@/lib/trailer';
 import MapExplorer from './MapExplorer';
 import CreatorCredit from './CreatorCredit';
 import TrailerOverlay from './TrailerOverlay';
+import VisitorCounter from './VisitorCounter';
 
 interface MapBootstrapProps { summary: GraphSnapshot }
 interface LoadFailure { message: string; refresh: boolean }
@@ -65,7 +66,7 @@ export default function MapBootstrap({ summary }: MapBootstrapProps) {
     <header className="masthead bootstrap-masthead">
       <a href="/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
       <nav className="bootstrap-nav" aria-label="자료 안내"><a href="/methodology/">제작 원칙</a><a href="/credits/">이미지 크레딧</a></nav>
-      <div className="masthead-utilities"><CreatorCredit /><button className="trailer-replay" data-trailer-replay onClick={replayTrailer} aria-label="트레일러 다시 보기"><Play size={13} aria-hidden="true" /><span>소개 다시 보기</span></button></div>
+      <div className="masthead-utilities"><CreatorCredit /><div className="masthead-secondary"><VisitorCounter /><button className="trailer-replay" data-trailer-replay onClick={replayTrailer} aria-label="트레일러 다시 보기"><Play size={13} aria-hidden="true" /><span>소개 다시 보기</span></button></div></div>
     </header>
     <main className="bootstrap-main" aria-busy={!failure}>
       <section className="bootstrap-copy" aria-labelledby="bootstrap-title">

@@ -67,9 +67,17 @@ With the local site running on port 3000, `npm run trailer:render` prepares attr
 
 Downloads: [landscape MP4](public/media/trailer/v2/landscape.mp4), [portrait MP4](public/media/trailer/v2/portrait.mp4). [Asset-specific video/music credits](https://k-hiphop-map.vercel.app/credits/#trailer) preserve photograph, data and font conditions separately.
 
+## Visitor counter
+
+The header shows cumulative browser visits since this feature was enabled, counting each browser once per Korean calendar day. A local day marker, cross-tab Web Lock, and signed HttpOnly first-party cookie avoid counting refreshes and normal repeated visits. This measures browser visits rather than unique people; cleared storage, different browsers, or an ambiguous network failure can affect the total. Development, previews, and identifiable crawlers do not increment it.
+
+`api/visitors.ts` is a separate Vercel Node.js Function alongside the static export. `GET /api/visitors` reads the persistent total; same-origin production `POST` records a visit and returns a signed receipt only on success. The upstream [CountAPI service](https://countapi.mileshilliard.com/) uses an atomic Redis increment. Its private random counter key is held only in the secret production environment variable `VISITOR_COUNTER_KEY` (48–64 hex characters); never put it in `NEXT_PUBLIC_*`, the repository, or frontend code. The provider receives the server's counter request, not visitor identifiers or IP addresses from the application. This community service does not provide a storage/availability SLA. Errors show `—` with a retry control rather than an invented total. Preserve the key when redeploying; changing it starts a different counter.
+
+`npm run dev` and `npm start` serve the static application without the standalone API, so local counter checks mock its responses. Use `vercel dev` with an appropriately configured environment to exercise the actual function, and use `npm test` for signed-cookie, date-boundary, storage-failure, and origin behavior.
+
 ## Deployment
 
-The application exports to out/. `vercel --prod` publishes with the authenticated Vercel account. vercel.json runs the full npm build lifecycle, including snapshot generation and launch validation. NEXT_PUBLIC_SITE_URL sets absolute metadata URLs at build time. Every production update runs data validation, typechecking, unit tests, build and browser smoke checks. To revert, promote the previous ready Vercel deployment; catalog.json is versioned separately from generated snapshots.
+The application exports to out/, with the visitor API in the root api/ directory deployed separately by Vercel. `vercel --prod` publishes with the authenticated Vercel account. vercel.json runs the full npm build lifecycle, including snapshot generation and launch validation. NEXT_PUBLIC_SITE_URL sets absolute metadata URLs at build time. Every production update runs data validation, typechecking, unit tests, build and browser smoke checks. To revert, promote the previous ready Vercel deployment; catalog.json is versioned separately from generated snapshots.
 
 ## Attribution
 

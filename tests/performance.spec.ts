@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { writeFileSync } from 'node:fs';
 
 test.beforeEach(async ({ context }) => {
+  await context.route('**/api/visitors', route => route.fulfill({ json: { count: 0, counted: false } }));
   await context.addInitScript(() => {
     try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Map performance excludes the separately tested first-visit trailer. */ }
   });
@@ -55,6 +56,7 @@ test('five fresh contexts expose an interactive initial map within three seconds
   for (let index = 0; index < 5; index++) {
     const use = testInfo.project.use;
     const context = await browser.newContext({ viewport: use.viewport, isMobile: use.isMobile, hasTouch: use.hasTouch, deviceScaleFactor: use.deviceScaleFactor, userAgent: use.userAgent });
+    await context.route('**/api/visitors', route => route.fulfill({ json: { count: 0, counted: false } }));
     await context.addInitScript(() => {
       try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Preserve the established map-ready measurement. */ }
     });

@@ -7,7 +7,8 @@ const dialog = (page: Page) => page.getByRole('dialog', { name: '한국힙합 �
 const video = (page: Page) => page.getByTestId('trailer-video');
 const errors = new WeakMap<Page, string[]>();
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ page, context }) => {
+  await context.route('**/api/visitors', route => route.fulfill({ json: { count: 0, counted: false } }));
   const collected: string[] = [];
   errors.set(page, collected);
   page.on('pageerror', error => collected.push(error.message));
