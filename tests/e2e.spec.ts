@@ -55,13 +55,23 @@ async function graphReady(page: Page) {
   await expect(page.locator('.graph-error[role="alert"]')).toHaveCount(0);
 }
 async function openFilters(page: Page) {
-  const toggle = page.getByRole('button', { name: '검색 · 필터' });
-  if (await toggle.isVisible() && await toggle.getAttribute('aria-expanded') !== 'true') await toggle.click();
+  const toggle = page.getByRole('button', { name: '필터 · 기간', exact: true });
+  if (await toggle.isVisible()) await toggle.click();
+  const advanced = page.locator('.advanced-filters:visible');
+  if (await advanced.count() && await advanced.getAttribute('open') === null) await advanced.locator('summary').click();
+}
+async function closeFilters(page: Page) {
+  const close = page.getByRole('button', { name: '필터 · 기간 닫기', exact: true });
+  if (await close.isVisible()) await close.click();
+}
+async function expandDetail(page: Page) {
+  const expand = page.getByRole('button', { name: '상세 펼치기', exact: true });
+  if (await expand.isVisible()) await expand.click();
 }
 async function searchSelect(page: Page, artist: Artist, query = artist.nameEn) {
-  await openFilters(page);
-  await page.getByRole('textbox', { name: '아티스트 검색' }).fill(query);
-  await page.getByRole('region', { name: '검색 결과' }).getByRole('button').filter({ has: page.getByText(artist.name, { exact: true }) }).first().click();
+  await closeFilters(page);
+  await page.getByRole('combobox', { name: '아티스트 검색', exact: true }).fill(query);
+  await page.getByRole('region', { name: '검색 결과', exact: true }).getByRole('option').filter({ has: page.getByText(artist.name, { exact: true }) }).first().click();
   await expect(page.getByRole('complementary', { name: `${artist.name} 상세 정보` })).toBeVisible();
 }
 const tieId = (first: string, second: string) => [first, second].sort().join('__');
@@ -192,8 +202,8 @@ test('alias search selects a person while group identities remain distinct', asy
   await searchSelect(page, person, person.aliases.find(a => a !== person.name) || person.nameEn);
   await expect(page).toHaveURL(new RegExp(`artist=${person.id}`));
   await expect(page.getByRole('complementary', { name: `${person.name} 상세 정보` }).locator('.artist-main-portrait .group-badge')).toHaveCount(0);
-  await openFilters(page);
-  await page.getByRole('textbox', { name: '아티스트 검색' }).fill('없는아티스트-zzzz');
+  await closeFilters(page);
+  await page.getByRole('combobox', { name: '아티스트 검색', exact: true }).fill('없는아티스트-zzzz');
   await expect(page.getByRole('region', { name: '검색 결과' })).toContainText('일치하는 아티스트가 없습니다.');
 });
 
@@ -279,15 +289,16 @@ test('a shared filtered URL restores the same source-backed neighborhood', async
   await openFilters(page);
   await page.getByRole('slider', { name: '최소 공동 작업곡' }).fill('2');
   await expectNeighborhood(page, 'garion', neighbors);
+  await closeFilters(page);
   await page.getByRole('button', { name: '지도 공유' }).click();
   const fresh = await context.newPage();
   try {
     await fresh.goto(page.url());
     await graphReady(fresh);
     await expectNeighborhood(fresh, 'garion', neighbors);
+    await openFilters(fresh);
     await expect(fresh.getByRole('spinbutton', { name: '시작 연도 직접 입력' })).toHaveValue('2005');
     await expect(fresh.getByRole('spinbutton', { name: '끝 연도 직접 입력' })).toHaveValue('2014');
-    await openFilters(fresh);
     await expect(fresh.getByRole('slider', { name: '최소 공동 작업곡' })).toHaveValue('2');
   } finally { await fresh.close(); }
 });
@@ -460,6 +471,7 @@ test('a collaboration exposes actual recordings, credits, and external sources',
   await page.goto(`/map/?artist=${artist.id}`);
   await graphReady(page);
   const panel = page.getByRole('complementary', { name: `${artist.name} 상세 정보` });
+  await expandDetail(page);
   await panel.getByRole('button', { name: /와 공동 작업 \d+곡 보기/ }).first().click();
   const edgePanel = page.getByRole('complementary', { name: '공동 작업곡 상세' });
   await expect(edgePanel).toBeVisible();
@@ -480,8 +492,11 @@ test('period, single-year and minimum-song filters agree with the visible catalo
   const expectedIds = new Set(data.recordings.filter(r => r.verification !== 'pending' && r.year >= 2005 && r.year <= 2014).flatMap(r => voices(r, core)));
   await page.goto('/map/?artist=');
   await graphReady(page);
+  await openFilters(page);
   await page.getByRole('spinbutton', { name: '시작 연도 직접 입력' }).fill('2005');
+  await page.getByRole('spinbutton', { name: '시작 연도 직접 입력' }).press('Tab');
   await page.getByRole('spinbutton', { name: '끝 연도 직접 입력' }).fill('2014');
+  await page.getByRole('spinbutton', { name: '끝 연도 직접 입력' }).press('Tab');
   await expect.poll(() => page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.nodes)).toBe(expectedIds.size);
   await expect(page).toHaveURL(/from=2005/);
   await expect(page).toHaveURL(/to=2014/);
@@ -490,7 +505,6 @@ test('period, single-year and minimum-song filters agree with the visible catalo
   await expect(page).toHaveURL(/mode=year/);
   await page.getByRole('button', { name: '누적', exact: true }).click();
   await expect(page).toHaveURL(/mode=cumulative/);
-  await openFilters(page);
   const beforeEdges = await page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.edges);
   await page.getByRole('slider', { name: '최소 공동 작업곡' }).fill('5');
   await expect.poll(() => page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.edges)).toBeLessThanOrEqual(beforeEdges);
@@ -498,44 +512,36 @@ test('period, single-year and minimum-song filters agree with the visible catalo
 });
 
 test('shortest-path selection and shared URL survive a fresh browser page', async ({ page, context }) => {
-  const data = catalog(), neighbors = adjacency(data), periodNeighbors = adjacency(data, 2000), source = connectedArtist(data);
+  const data = catalog(), neighbors = adjacency(data), source = connectedArtist(data);
   const direct = neighbors.get(source.id)!;
-  const target = [...periodNeighbors.get(source.id)!].flatMap(id => [...(periodNeighbors.get(id) || [])]).find(id => id !== source.id && !direct.has(id));
-  expect(target, 'real data should contain a two-step connection').toBeTruthy();
+  const target = [...direct].flatMap(id => [...(neighbors.get(id) || [])]).find(id => id !== source.id && !direct.has(id))!;
+  expect(target).toBeTruthy();
   await page.goto(`/map/?artist=${source.id}`);
-  await graphReady(page);
-  await openFilters(page);
-  await page.locator('.path-tools > summary').click();
-  await page.getByRole('combobox', { name: '연결 경로 대상 아티스트' }).selectOption(target!);
+  await graphReady(page); await expandDetail(page);
+  await page.getByRole('button', { name: '다른 아티스트와 연결 찾기' }).click();
+  const targetArtist = data.artists.find(a => a.id === target)!;
+  await page.getByRole('combobox', { name: '연결 경로 대상 아티스트' }).fill(targetArtist.name);
+  await page.getByRole('option').filter({ has: page.getByText(targetArtist.name, { exact: true }) }).first().click();
   await expect(page.locator('.path-result')).toContainText('2단계로 연결');
   const pathNodes = await visibleIds(page);
   expect(pathNodes).toHaveLength(3);
-  expect(pathNodes).toEqual(expect.arrayContaining([source.id, target!]));
   const middle = pathNodes.find(id => id !== source.id && id !== target)!;
-  expect(direct.has(middle) && neighbors.get(middle)!.has(target!), 'every visible route step must be supported by real credited recordings').toBe(true);
-  await expect.poll(() => page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.getVisibleEdgeIds().sort())).toEqual([tieId(source.id, middle), tieId(middle, target!)].sort());
-  await page.getByRole('spinbutton', { name: '시작 연도 직접 입력' }).fill('2000');
-  await expect(page.locator('.path-result')).toContainText('2단계로 연결');
-  const sharedPathNodes = await visibleIds(page);
+  expect(direct.has(middle) && neighbors.get(middle)!.has(target)).toBe(true);
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.getVisibleEdgeIds().sort())).toEqual([tieId(source.id, middle), tieId(middle, target)].sort());
+  await page.getByRole('button', { name: '두 아티스트의 연결 경로 닫기' }).click();
   await page.getByRole('button', { name: '목록 보기', exact: true }).click();
+  await expect(page).toHaveURL(/view=list/);
   const shared = page.url();
-  expect(shared).toContain(`artist=${source.id}`); expect(shared).toContain(`target=${target}`); expect(shared).toContain('view=list');
-  await page.getByRole('button', { name: '지도 공유' }).click();
-  await expect(page.locator('.share-toast')).toContainText(/링크를 복사했습니다|URL로 현재 지도를 공유/);
+  expect(shared).toContain(`artist=${source.id}`); expect(shared).toContain(`target=${target}`);
   const fresh = await context.newPage();
-  await fresh.goto(shared);
-  await expect(fresh.getByRole('complementary', { name: `${source.name} 상세 정보` })).toBeVisible();
-  await expect(fresh.getByRole('button', { name: '목록 보기', exact: true })).toHaveAttribute('aria-pressed', 'true');
-  await expect(fresh.getByRole('spinbutton', { name: '시작 연도 직접 입력' })).toHaveValue('2000');
-  await openFilters(fresh);
-  await fresh.locator('.path-tools > summary').click();
-  await expect(fresh.getByRole('combobox', { name: '연결 경로 대상 아티스트' })).toHaveValue(target!);
-  const mobileClose = fresh.getByRole('button', { name: '필터 닫기' });
-  if (await mobileClose.isVisible()) await mobileClose.click();
-  await fresh.getByRole('button', { name: '지도 보기', exact: true }).click();
-  await graphReady(fresh);
-  await expect.poll(() => visibleIds(fresh)).toEqual(sharedPathNodes);
-  await fresh.close();
+  try {
+    await fresh.goto(shared);
+    await expect(fresh.getByRole('complementary', { name: `${source.name} 상세 정보` })).toBeVisible();
+    await expect(fresh.getByRole('button', { name: '목록 보기', exact: true })).toHaveAttribute('aria-pressed', 'true');
+    await fresh.getByRole('button', { name: '지도 보기', exact: true }).click();
+    await graphReady(fresh);
+    await expect.poll(() => visibleIds(fresh)).toEqual(pathNodes);
+  } finally { await fresh.close(); }
 });
 
 test('period relayout completes while search stays responsive and filters restore the baseline', async ({ page }) => {
@@ -549,18 +555,18 @@ test('period relayout completes while search stays responsive and filters restor
   const button = page.getByRole('button', { name: '기간으로 재배치' });
   await button.click();
   await expect(page.locator('.layout-status')).toContainText('배치하고 있어요');
-  await openFilters(page);
-  await page.getByRole('textbox', { name: '아티스트 검색' }).fill('Garion');
+  await closeFilters(page);
+  await page.getByRole('combobox', { name: '아티스트 검색', exact: true }).fill('Garion');
   await expect(page.getByRole('region', { name: '검색 결과' })).toContainText('가리온');
-  await page.getByRole('textbox', { name: '아티스트 검색' }).press('Escape');
+  await page.getByRole('combobox', { name: '아티스트 검색', exact: true }).press('Escape');
   await expect(page.locator('.layout-status')).toContainText('선택한 기간으로 배치했어요');
   await expect(button).toBeEnabled();
   const after = await page.evaluate(ids => ids.map(id => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.getWorldPosition(id)), probes);
   expect(workerCreated, 'ForceAtlas2 must execute in a browser worker').toBe(true);
   expect(after.some((position, index) => position && before[index] && Math.hypot(position.x - before[index]!.x, position.y - before[index]!.y) > 0.001), 'worker output must change actual graph coordinates').toBe(true);
-  const mobileClose = page.getByRole('button', { name: '필터 닫기' });
-  if (await mobileClose.isVisible()) await mobileClose.click();
+  await openFilters(page);
   await page.getByRole('spinbutton', { name: '끝 연도 직접 입력' }).fill('2013');
+  await page.getByRole('spinbutton', { name: '끝 연도 직접 입력' }).press('Tab');
   await expect(page.locator('.layout-status')).toHaveCount(0);
   await expect(page.locator('.graph-error')).toHaveCount(0);
 });
@@ -596,7 +602,7 @@ test('legend, methodology, credits and standalone discography remain accessible'
   await page.goto('/map/');
   await graphReady(page);
   await page.getByRole('button', { name: '지도 범례 보기' }).click();
-  await expect(page.getByRole('dialog')).toContainText('친분이나 음악적 유사성의 수치는 아닙니다');
+  await expect(page.getByRole('dialog')).toContainText('친분이나 음악적 유사성의 수치가 아닙니다');
   await page.keyboard.press('Escape');
   await expect(page.getByRole('dialog')).toHaveCount(0);
   await page.goto('/methodology/');

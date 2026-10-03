@@ -1,6 +1,6 @@
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
-import type { Dataset } from '../src/lib/types';
+import type { Dataset, MapDataset, ArtistDetail, RecordingDetail } from '../src/lib/types';
 import { deriveGraph, defaultFilters, performerIds } from '../src/lib/graph';
 const enriched = join(process.cwd(), 'data/catalog.enriched.json');
 const dataset: Dataset = JSON.parse(readFileSync(existsSync(enriched) ? enriched : 'data/catalog.json', 'utf8'));
@@ -60,6 +60,28 @@ for (const edge of snapshot.edges) {
   for (const id of edge.recordingIds) {
     const r = recordings.get(id)!; const participants = performerIds(r);
     if (!participants.includes(edge.source) || !participants.includes(edge.target)) errors.push(`Unproven edge ${edge.id}/${id}`);
+  }
+}
+// Validate the actual generated transport, not only its full source catalog.
+if (existsSync('public/data/map.json')) {
+  const map: MapDataset = JSON.parse(readFileSync('public/data/map.json', 'utf8'));
+  if (map.version !== dataset.version) errors.push('Map dataset version differs from source snapshot');
+  for (const extended of [false, true]) for (const [from, to] of [[1995, Number(dataset.asOf.slice(0, 4))], [2005, 2014], [2020, Number(dataset.asOf.slice(0, 4))]]) {
+    const filters = { from, to, extended, cumulative: false, minCount: 2 };
+    const original = deriveGraph(dataset, filters), compact = deriveGraph(map, filters);
+    if (JSON.stringify(original.nodes) !== JSON.stringify(compact.nodes) || JSON.stringify(original.edges) !== JSON.stringify(compact.edges)) errors.push(`Compact map changes source-backed graph: ${from}-${to}, extended=${extended}`);
+  }
+  for (const artist of dataset.artists) {
+    const path = join('public/data/artists', `${artist.id}.json`);
+    if (!existsSync(path)) { errors.push(`Missing artist chunk: ${artist.id}`); continue; }
+    const detail: ArtistDetail = JSON.parse(readFileSync(path, 'utf8'));
+    if (detail.version !== dataset.version || detail.artist?.id !== artist.id) errors.push(`Invalid artist chunk version/identity: ${artist.id}`);
+  }
+  for (const recording of dataset.recordings) {
+    const path = join('public/data/recordings', `${recording.id}.json`);
+    if (!existsSync(path)) { errors.push(`Missing recording chunk: ${recording.id}`); continue; }
+    const detail: RecordingDetail = JSON.parse(readFileSync(path, 'utf8'));
+    if (detail.version !== dataset.version || detail.recording?.id !== recording.id) errors.push(`Invalid recording chunk version/identity: ${recording.id}`);
   }
 }
 const eras = [[1995, 2004], [2005, 2009], [2010, 2014], [2015, 2019], [2020, 2026]];

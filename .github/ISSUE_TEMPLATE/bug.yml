@@ -1,0 +1,23 @@
+name: 화면·기능 오류 / Bug
+description: 화면·기능 문제와 재현 방법 / UI issue and reproduction
+labels: []
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법 / Steps
+      description: 방문 URL과 순서, 기대한 결과와 실제 결과를 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 환경 / Environment
+      placeholder: iPhone Safari / Android Chrome / desktop browser
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 화면·추가 정보 / Evidence
+      description: 개인정보나 비밀키가 없는 화면을 첨부해 주세요.

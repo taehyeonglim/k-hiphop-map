@@ -1,41 +1,36 @@
 'use client';
 
-import { useCallback, useEffect, useLayoutEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowRight, LoaderCircle, Play, RefreshCw } from 'lucide-react';
-import type { Dataset, GraphSnapshot } from '@/lib/types';
-import { markTrailerSeen, readTrailerVisit } from '@/lib/trailer';
+import type { MapDataset, GraphSnapshot } from '@/lib/types';
+import dynamic from 'next/dynamic';
 import MapExplorer from './MapExplorer';
 import CreatorCredit from './CreatorCredit';
-import TrailerOverlay from './TrailerOverlay';
+const TrailerOverlay = dynamic(() => import('./TrailerOverlay'), { ssr: false });
 import VisitorCounter from './VisitorCounter';
 
 interface MapBootstrapProps { summary: GraphSnapshot }
 interface LoadFailure { message: string; refresh: boolean }
 
-function isDataset(value: unknown): value is Dataset {
+function isDataset(value: unknown): value is MapDataset {
   if (!value || typeof value !== 'object') return false;
-  const data = value as Partial<Dataset>;
+  const data = value as Partial<MapDataset>;
   return typeof data.version === 'string' && typeof data.asOf === 'string'
     && Array.isArray(data.artists) && Array.isArray(data.recordings)
-    && Array.isArray(data.releases) && Array.isArray(data.memberships) && Array.isArray(data.notes);
+    && Array.isArray(data.notes);
 }
 
 export default function MapBootstrap({ summary }: MapBootstrapProps) {
-  const [dataset, setDataset] = useState<Dataset>();
+  const [dataset, setDataset] = useState<MapDataset>();
   const [failure, setFailure] = useState<LoadFailure>();
   const [retry, setRetry] = useState(0);
-  const [trailerState, setTrailerState] = useState<'pending' | 'open' | 'closed'>('pending');
+  const [trailerOpen, setTrailerOpen] = useState(false);
+  const [trailerLoaded, setTrailerLoaded] = useState(false);
   const currentDataset = dataset?.version === summary.version ? dataset : undefined;
   const lastYear = summary.asOf.slice(0, 4);
-  const trailerOpen = trailerState === 'open';
-  const closeTrailer = useCallback(() => { markTrailerSeen(); setTrailerState('closed'); }, []);
-  const replayTrailer = useCallback(() => setTrailerState('open'), []);
-
-  useLayoutEffect(() => {
-    const visit = readTrailerVisit();
-    document.documentElement.dataset.trailerVisit = visit;
-    setTrailerState(visit === 'show' ? 'open' : 'closed');
-  }, []);
+  const trailerTrigger = useRef<HTMLElement | null>(null);
+  const closeTrailer = useCallback(() => { setTrailerOpen(false); requestAnimationFrame(() => { const trigger = trailerTrigger.current; if (trigger?.isConnected) trigger.focus(); else document.querySelector<HTMLElement>('[data-trailer-replay]')?.focus(); }); }, []);
+  const replayTrailer = useCallback(() => { trailerTrigger.current = document.activeElement as HTMLElement; setTrailerLoaded(true); setTrailerOpen(true); }, []);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -66,7 +61,7 @@ export default function MapBootstrap({ summary }: MapBootstrapProps) {
     <header className="masthead bootstrap-masthead">
       <a href="/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
       <nav className="bootstrap-nav" aria-label="자료 안내"><a href="/methodology/">제작 원칙</a><a href="/credits/">이미지 크레딧</a></nav>
-      <div className="masthead-utilities"><CreatorCredit /><div className="masthead-secondary"><VisitorCounter /><button className="trailer-replay" data-trailer-replay onClick={replayTrailer} aria-label="트레일러 다시 보기"><Play size={13} aria-hidden="true" /><span>소개 다시 보기</span></button></div></div>
+      <div className="masthead-utilities"><CreatorCredit /><div className="masthead-secondary"><VisitorCounter /><button className="trailer-replay" data-trailer-replay onClick={replayTrailer} aria-label="30초 소개 영상"><Play size={13} aria-hidden="true" /><span>30초 소개</span></button></div></div>
     </header>
     <main className="bootstrap-main" aria-busy={!failure}>
       <section className="bootstrap-copy" aria-labelledby="bootstrap-title">
@@ -83,5 +78,5 @@ export default function MapBootstrap({ summary }: MapBootstrapProps) {
     </main>
     <footer className="bootstrap-footer"><span>발매곡의 크레딧에서 시작하는 연결.</span><a href="/methodology/">데이터와 시각화 원칙<ArrowRight size={13} /></a></footer>
   </div>}
-  </div><TrailerOverlay open={trailerOpen} pending={trailerState === 'pending'} onClose={closeTrailer} /></>;
+  </div>{trailerLoaded && <TrailerOverlay open={trailerOpen} pending={false} onClose={closeTrailer} />}</>;
 }

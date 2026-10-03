@@ -18,11 +18,11 @@ async function graphReady(page: Page) {
   await expect.poll(() => page.evaluate(() => (window as unknown as { __hiphopGraph?: { nodes: number } }).__hiphopGraph?.nodes || 0)).toBeGreaterThan(0);
 }
 async function headerGeometry(page: Page, share = true) {
-  await expect(page.locator('.masthead .creator-credit')).toHaveText(/임태형 a\.k\.a\. Lyricist/);
-  await expect(page.getByRole('button', { name: '트레일러 다시 보기', exact: true })).toBeVisible();
+  await expect(page.locator('.creator-credit')).toHaveText(/임태형 a\.k\.a\. Lyricist/);
+  await expect(page.getByRole('button', { name: '30초 소개 영상', exact: true })).toBeVisible();
   if (share) await expect(page.getByRole('button', { name: '지도 공유', exact: true })).toBeVisible();
   const state = await page.evaluate(({ share }) => {
-    const selectors = ['.masthead .creator-credit', '.masthead .visitor-counter', '.masthead .trailer-replay', ...(share ? ['.masthead .share-button'] : [])];
+    const selectors = ['.creator-credit', '.visitor-counter', '.masthead .trailer-replay', ...(share ? ['.masthead .share-button'] : [])];
     const header = document.querySelector('.masthead')!.getBoundingClientRect();
     const boxes = selectors.map(selector => {
       const element = document.querySelector<HTMLElement>(selector)!;
@@ -36,8 +36,8 @@ async function headerGeometry(page: Page, share = true) {
     expect(box.width, box.selector).toBeGreaterThan(0);
     expect(box.left, box.selector).toBeGreaterThanOrEqual(0);
     expect(box.right, box.selector).toBeLessThanOrEqual(state.width + 1);
-    expect(box.top, box.selector).toBeGreaterThanOrEqual(state.header.top);
-    expect(box.bottom, box.selector).toBeLessThanOrEqual(Math.min(state.header.bottom, state.height));
+    expect(box.top, box.selector).toBeGreaterThanOrEqual(0);
+    expect(box.bottom, box.selector).toBeLessThanOrEqual(state.height);
     expect(box.clipped, box.selector).toBe(false);
   }
   for (let first = 0; first < state.boxes.length; first++) for (let second = first + 1; second < state.boxes.length; second++) {
@@ -147,7 +147,7 @@ test('unavailable browser storage still shows a valid preview GET count without 
   expect(methods).toEqual(['GET']);
 });
 
-test('confirmed five-digit and ten-million totals fit header controls at desktop, mobile and breakpoints', async ({ page }, testInfo) => {
+test('confirmed five-digit and ten-million totals fit utility and header controls at desktop, mobile and breakpoints', async ({ page }, testInfo) => {
   test.setTimeout(90_000); // Eight real-map navigations also run on software-WebGL CI workers.
   let count = 12345;
   await page.route(API, route => route.fulfill({ json: { count } }));

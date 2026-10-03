@@ -5,7 +5,7 @@ import { UndirectedGraph } from 'graphology';
 import forceAtlas2 from 'graphology-layout-forceatlas2';
 import louvain from 'graphology-communities-louvain';
 import { deriveGraph, defaultFilters, nodeRadius } from '../src/lib/graph';
-import type { Artist, Dataset, ImageAsset } from '../src/lib/types';
+import type { Artist, Dataset, ImageAsset, MapDataset } from '../src/lib/types';
 
 const root = process.cwd();
 const dataset: Dataset = JSON.parse(readFileSync(join(root, 'data/catalog.json'), 'utf8'));
@@ -13,7 +13,7 @@ const portraitsPath = join(root, 'data/portraits.json');
 const portraits = existsSync(portraitsPath) ? JSON.parse(readFileSync(portraitsPath, 'utf8')) : {};
 // Image changes also invalidate detail caches and shared dataset manifests.
 const assetVersion = createHash('sha256').update(JSON.stringify(portraits)).digest('hex').slice(0, 8);
-dataset.version = `${dataset.version}-${assetVersion}`;
+dataset.version = `${dataset.version}-${assetVersion}-map2`;
 function findPortrait(artist: Artist): ImageAsset | undefined {
   const entries = portraits.images ?? portraits.portraits ?? portraits;
   const keys = [artist.id, artist.externalIds.musicbrainz, artist.externalIds.musicbrainz && `mb-${artist.externalIds.musicbrainz}`, artist.externalIds.mbid, artist.name, artist.nameEn, ...artist.aliases].filter(Boolean);
@@ -96,7 +96,11 @@ mkdirSync(join(output, 'artists'), { recursive: true }); mkdirSync(join(output, 
 const full = deriveGraph(dataset, { ...defaultFilters(dataset.asOf), extended: true });
 writeFileSync(join(output, 'graph.json'), JSON.stringify(full));
 writeFileSync(join(root, 'data/catalog.enriched.json'), JSON.stringify(dataset));
-const lean: Dataset = { ...dataset, releases: [], memberships: [], recordings: dataset.recordings.map(r => ({ ...r, credits: r.credits.map(c => ({ ...c, sourceIds: [] })), sources: [], isrcs: [], releaseIds: [], listenUrl: undefined })), artists: dataset.artists.map(a => ({ ...a, sources: [] })) };
+const lean: MapDataset = {
+  version: dataset.version, asOf: dataset.asOf, notes: dataset.notes,
+  artists: dataset.artists.map(({ id, name, nameEn, aliases, kind, core, image, community, x, y }) => ({ id, name, nameEn, aliases, kind, core, image, community, x, y })),
+  recordings: dataset.recordings.map(({ id, year, verification, credits }) => ({ id, year, verification, credits: credits.map(({ artistId, role, verification }) => ({ artistId, role, verification })) })),
+};
 writeFileSync(join(output, 'map.json'), JSON.stringify(lean));
 const recordingsByArtist = new Map<string, typeof dataset.recordings>();
 const ownedReleases = new Map<string, Set<string>>();
@@ -112,8 +116,8 @@ for (const artist of dataset.artists) {
   const releaseIds = new Set([...(ownedReleases.get(artist.id) ?? []), ...recordings.flatMap(r => r.releaseIds)]);
   const releases = [...releaseIds].map(id => releaseLookup.get(id)).filter((r): r is Dataset['releases'][number] => Boolean(r));
   const memberships = dataset.memberships.filter(m => m.groupId === artist.id || m.artistId === artist.id);
-  writeFileSync(join(output, 'artists', `${artist.id}.json`), JSON.stringify({ artist, recordings, releases, memberships }));
+  writeFileSync(join(output, 'artists', `${artist.id}.json`), JSON.stringify({ version: dataset.version, artist, recordings, releases, memberships }));
 }
-for (const r of dataset.recordings) writeFileSync(join(output, 'recordings', `${r.id}.json`), JSON.stringify(r));
+for (const r of dataset.recordings) writeFileSync(join(output, 'recordings', `${r.id}.json`), JSON.stringify({ version: dataset.version, recording: r }));
 writeFileSync(join(output, 'manifest.json'), JSON.stringify({ version: dataset.version, asOf: dataset.asOf, stats: full.stats, files: { graph: '/data/graph.json', map: '/data/map.json' }, notes: dataset.notes }));
 console.log(JSON.stringify({ ...full.stats, edges: full.edges.length, communities: communities.size, mapBytes: Buffer.byteLength(JSON.stringify(lean)) }, null, 2));

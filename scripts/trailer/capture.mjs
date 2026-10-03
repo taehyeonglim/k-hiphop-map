@@ -20,17 +20,14 @@ try {
     const label = portrait ? 'portrait-demo' : 'demo';
     const viewport = portrait ? { width: 540, height: 960 } : { width: 1600, height: 900 };
     const context = await browser.newContext({ viewport, deviceScaleFactor: 1, recordVideo: { dir: output, size: viewport } });
-    await context.addInitScript(() => localStorage.setItem('khiphopmap:trailer:v1:seen', '1'));
     const page = await context.newPage();
     await page.goto(`${baseURL}/map/`, { waitUntil: 'networkidle' });
     await page.waitForFunction(() => window.__hiphopGraph?.nodes > 0);
     await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].filter(image => image.complete && image.getClientRects().length > 0).map(image => image.decode().catch(() => {}))); });
     await page.screenshot({ path: path.join(output, `${label}-full.png`) });
-    const filters = page.getByRole('button', { name: '검색 · 필터' });
-    if (await filters.isVisible() && await filters.getAttribute('aria-expanded') !== 'true') await filters.click();
-    const search = page.getByRole('textbox', { name: '아티스트 검색' });
+    const search = page.getByRole('combobox', { name: '아티스트 검색', exact: true });
     await search.fill('가리온');
-    const artist = page.getByRole('region', { name: '검색 결과' }).getByRole('button').filter({ has: page.getByText('가리온', { exact: true }) }).first();
+    const artist = page.getByRole('region', { name: '검색 결과' }).getByRole('option').filter({ has: page.getByText('가리온', { exact: true }) }).first();
     await artist.waitFor();
     // Pointer halo is a filming aid. Selection and spring motion remain native.
     await page.addStyleTag({ content: '.trailer-pointer{position:fixed;z-index:90;pointer-events:none;width:28px;height:28px;border:2px solid #d5f765;border-radius:50%;transform:translate(-50%,-50%);box-shadow:0 0 0 7px #d5f76525;opacity:0;transition:opacity .1s}.trailer-pointer.down{background:#d5f76565;box-shadow:0 0 0 12px #d5f76530}' });
@@ -44,7 +41,6 @@ try {
     const at = async seconds => { const remaining = started + seconds * 1000 - Date.now(); if (remaining > 0) await page.waitForTimeout(remaining); };
     await at(0.5);
     await artist.click();
-    if (portrait && await filters.isVisible() && await filters.getAttribute('aria-expanded') === 'true') await filters.click();
     await at(3.3);
     const stage = await page.locator('.sigma-container').boundingBox();
     const node = await page.evaluate(() => window.__hiphopGraph.getPosition('garion'));

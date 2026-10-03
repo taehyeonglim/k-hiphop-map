@@ -1,240 +1,119 @@
 'use client';
-
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowRight, Check, ChevronDown, HelpCircle, Link2, List, LoaderCircle, Map as MapIcon, Pause, Play, RefreshCw, Search, Share2, SlidersHorizontal, Users, X } from 'lucide-react';
-import type { Dataset, GraphEdge, GraphSnapshot, MapFilters, Recording, Release } from '@/lib/types';
-import { deriveGraph, shortestPath } from '@/lib/graph';
+import { ArrowRight, Check, ChevronDown, ChevronUp, HelpCircle, Link2, List, Map as MapIcon, Play, Share2, SlidersHorizontal, X } from 'lucide-react';
+import type { GraphSnapshot, MapDataset, MapRecording } from '@/lib/types';
+import { deriveGraph, edgeId, shortestPath } from '@/lib/graph';
 import { visibleNeighborhoodIds, visibleNeighborhoodEdgeIds } from '@/lib/graph-view';
-import ArtistPanel, { fetchArtistDetail, Portrait } from './ArtistPanel';
+import { lastDatasetYear, type MapState } from '@/lib/map-state';
+import { useMapState } from '@/hooks/useMapState';
+import ArtistPanel from './ArtistPanel';
+import Portrait from './Portrait';
+import ArtistSearch from './ArtistSearch';
+import EdgePanel from './EdgePanel';
 import GraphCanvas from './GraphCanvas';
-import RecordingList from './RecordingList';
 import CreatorCredit from './CreatorCredit';
 import VisitorCounter from './VisitorCounter';
+import MapFilters from './MapFilters';
+import Timeline from './Timeline';
+import Modal from './Modal';
 
-interface MapExplorerProps { dataset: Dataset; snapshot: GraphSnapshot; onReplayTrailer?: () => void; trailerOpen?: boolean }
-type PeriodMode = 'range' | 'cumulative' | 'year';
-
-export default function MapExplorer({ dataset, snapshot, onReplayTrailer, trailerOpen = false }: MapExplorerProps) {
-  const currentYear = new Date(dataset.asOf).getUTCFullYear();
-  const lastYear = Number.isFinite(currentYear) ? currentYear : new Date().getFullYear();
-  const [filters, setFilters] = useState<MapFilters>({ from: 1995, to: lastYear, cumulative: false, extended: false, minCount: 1 });
-  const [mode, setMode] = useState<PeriodMode>('range');
-  const [selectedArtist, setSelectedArtist] = useState<string | undefined>();
+interface MapExplorerProps { dataset: MapDataset; snapshot: GraphSnapshot; onReplayTrailer?: () => void; trailerOpen?: boolean }
+export default function MapExplorer({ dataset, onReplayTrailer, trailerOpen = false }: MapExplorerProps) {
+  const lastYear = lastDatasetYear(dataset.asOf);
+  const [state, update] = useMapState(dataset);
   const [selectedEdge, setSelectedEdge] = useState<string>();
-  const [target, setTarget] = useState('');
-  const [search, setSearch] = useState('');
-  const [searchFocused, setSearchFocused] = useState(false);
-  const [listView, setListView] = useState(false);
   const [playing, setPlaying] = useState(false);
-  const [showLegend, setShowLegend] = useState(false);
-  const [mobileFilters, setMobileFilters] = useState(false);
+  const [modal, setModal] = useState<'filters' | 'legend' | 'path'>();
+  const modalTrigger = useRef<HTMLElement | null>(null);
+  const openModal = (value: 'filters' | 'legend' | 'path') => { modalTrigger.current = document.activeElement as HTMLElement; setModal(value); };
+  const [expanded, setExpanded] = useState(false);
   const [shareMessage, setShareMessage] = useState('');
-  const [hydrated, setHydrated] = useState(false);
-  const legendDialog = useRef<HTMLElement>(null);
-  const graph = useMemo(() => deriveGraph(dataset, filters), [dataset, filters.from, filters.to, filters.cumulative, filters.extended, filters.minCount]);
-  const artistsById = useMemo(() => new Map(dataset.artists.map((artist) => [artist.id, artist])), [dataset.artists]);
-  const visibleIds = useMemo(() => new Set(graph.nodes.map((node) => node.id)), [graph.nodes]);
-  const rankedArtists = useMemo(() => [...graph.nodes].sort((a,b) => b.degree - a.degree || b.count - a.count).map((node) => ({ ...node, artist: artistsById.get(node.id)! })).filter((node) => node.artist), [graph.nodes, artistsById]);
-  const searchResults = useMemo(() => {
-    const query = search.toLocaleLowerCase().trim().replace(/\s/g, '');
-    if (!query) return [];
-    return dataset.artists.filter((artist) => [artist.name, artist.nameEn, ...artist.aliases].some((name) => name.toLocaleLowerCase().replace(/\s/g, '').includes(query))).sort((a,b) => Number(visibleIds.has(b.id)) - Number(visibleIds.has(a.id))).slice(0, 9);
-  }, [search, dataset.artists, visibleIds]);
-  const path = useMemo(() => selectedArtist && target ? shortestPath(graph, selectedArtist, target) : [], [graph, selectedArtist, target]);
-  const focusedIds = useMemo(() => visibleNeighborhoodIds(graph, selectedArtist, path), [graph, selectedArtist, path]);
-  const focusedEdgeIds = useMemo(() => visibleNeighborhoodEdgeIds(graph, selectedArtist, path), [graph, selectedArtist, path]);
-  const displayedArtists = useMemo(() => rankedArtists.filter((node) => focusedIds.has(node.id)), [rankedArtists, focusedIds]);
-  const artist = selectedArtist ? artistsById.get(selectedArtist) : undefined;
-  const edge = selectedEdge ? graph.edges.find((entry) => entry.id === selectedEdge) : undefined;
-  const yearlyCounts = useMemo(() => {
-    const recordingsByYear = new Map<number, Recording[]>();
-    for (const recording of dataset.recordings) {
-      const recordings = recordingsByYear.get(recording.year) ?? [];
-      recordings.push(recording);
-      recordingsByYear.set(recording.year, recordings);
-    }
-    return Array.from({ length: lastYear - 1995 + 1 }, (_, index) => {
-      const year = 1995 + index;
-      // Reuse the map's eligibility and one-hop rules for each annual scope.
-      const annualGraph = deriveGraph({ ...dataset, recordings: recordingsByYear.get(year) ?? [] }, {
-        from: year, to: year, cumulative: false, extended: filters.extended, minCount: filters.minCount,
-      });
-      return { year, count: annualGraph.stats.collaborations };
-    });
-  }, [dataset, filters.extended, filters.minCount, lastYear]);
-  const maxYearCount = Math.max(1, ...yearlyCounts.map((entry) => entry.count));
-
-  useEffect(() => {
-    const restore = () => {
-      const query = new URLSearchParams(window.location.search);
-      const clamp = (value: string | null, fallback: number) => value !== null && Number.isFinite(Number(value)) ? Math.min(lastYear, Math.max(1995, Math.round(Number(value)))) : fallback;
-      const nextMode: PeriodMode = query.get('mode') === 'year' ? 'year' : query.get('mode') === 'cumulative' ? 'cumulative' : 'range';
-      const nextTo = clamp(query.get('to'), lastYear);
-      const nextFrom = nextMode === 'cumulative' ? 1995 : nextMode === 'year' ? nextTo : Math.min(nextTo, clamp(query.get('from'), 1995));
-      const nextArtist = query.has('artist') ? (artistsById.has(query.get('artist') ?? '') ? query.get('artist')! : undefined) : undefined;
-      const nextTarget = artistsById.has(query.get('target') ?? '') ? query.get('target')! : '';
-      setFilters({ from: nextFrom, to: nextTo, cumulative: nextMode === 'cumulative', extended: query.get('extended') === '1', minCount: Math.min(20, Math.max(1, Number(query.get('min')) || 1)), artist: nextArtist });
-      setMode(nextMode); setSelectedArtist(nextArtist); setTarget(nextTarget); setListView(query.get('view') === 'list'); setSelectedEdge(undefined);
-      setHydrated(true);
-    };
-    restore();
-    window.addEventListener('popstate', restore);
-    return () => window.removeEventListener('popstate', restore);
-  }, [lastYear, artistsById]);
-
-  useEffect(() => {
-    if (!hydrated) return;
-    const query = new URLSearchParams();
-    if (filters.from !== 1995) query.set('from', String(filters.from));
-    if (filters.to !== lastYear) query.set('to', String(filters.to));
-    if (mode !== 'range') query.set('mode', mode);
-    if (filters.minCount > 1) query.set('min', String(filters.minCount));
-    if (filters.extended) query.set('extended', '1');
-    if (selectedArtist) query.set('artist', selectedArtist); else query.set('artist', '');
-    if (target) query.set('target', target);
-    if (listView) query.set('view', 'list');
-    const value = query.toString();
-    window.history.replaceState(null, '', `${window.location.pathname}${value ? `?${value}` : ''}`);
-  }, [hydrated, filters.from, filters.to, filters.minCount, filters.extended, mode, selectedArtist, target, listView, lastYear]);
-
+  const [listLimit, setListLimit] = useState(30);
+  const graph = useMemo(() => deriveGraph(dataset, state), [dataset, state.from, state.to, state.extended, state.minCount, state.cumulative]);
+  const artists = useMemo(() => new Map(dataset.artists.map(artist => [artist.id, artist])), [dataset.artists]);
+  const visibleIds = useMemo(() => new Set(graph.nodes.map(node => node.id)), [graph]);
+  const path = useMemo(() => state.artist && state.target ? shortestPath(graph, state.artist, state.target) : [], [graph, state.artist, state.target]);
+  const focusedIds = useMemo(() => visibleNeighborhoodIds(graph, state.artist, path), [graph, state.artist, path]);
+  const focusedEdges = useMemo(() => visibleNeighborhoodEdgeIds(graph, state.artist, path), [graph, state.artist, path]);
+  const rankedArtists = useMemo(() => [...graph.nodes].filter(node => focusedIds.has(node.id)).sort((a, b) => b.degree - a.degree || b.count - a.count || a.id.localeCompare(b.id)).map(node => ({ ...node, artist: artists.get(node.id)! })), [graph, focusedIds, artists]);
+  const artist = state.artist ? artists.get(state.artist) : undefined;
+  const edge = graph.edges.find(entry => entry.id === selectedEdge);
+  const listView = state.view === 'list';
+  const byYear = useMemo(() => {
+    const index = new Map<number, MapRecording[]>();
+    for (const recording of dataset.recordings) { const bucket = index.get(recording.year) ?? []; bucket.push(recording); index.set(recording.year, bucket); }
+    return index;
+  }, [dataset]);
+  const yearlyCounts = useMemo(() => Array.from({ length: lastYear - 1995 + 1 }, (_, index) => {
+    const year = 1995 + index;
+    return { year, count: deriveGraph({ ...dataset, recordings: byYear.get(year) ?? [] }, { from: year, to: year, extended: state.extended, minCount: state.minCount, cumulative: false }).stats.collaborations };
+  }), [dataset, byYear, lastYear, state.extended, state.minCount]);
+  useEffect(() => { setSelectedEdge(undefined); setPlaying(false); }, [state.artist, state.target]);
+  useEffect(() => { const restore = () => { setSelectedEdge(undefined); setPlaying(false); setModal(undefined); }; window.addEventListener('popstate', restore); return () => window.removeEventListener('popstate', restore); }, []);
+  useEffect(() => { setListLimit(30); }, [state.view, state.artist, state.target, state.from, state.to, state.minCount, state.extended]);
   useEffect(() => {
     if (!playing) return;
-    const timer = window.setInterval(() => setFilters((previous) => {
-      if (previous.to >= lastYear) { setPlaying(false); return previous; }
-      const to = previous.to + 1;
-      return { ...previous, to, from: mode === 'year' ? to : mode === 'cumulative' ? 1995 : previous.from };
-    }), 1300);
-    return () => window.clearInterval(timer);
-  }, [playing, mode, lastYear]);
-
-  useEffect(() => {
-    if (trailerOpen) { setPlaying(false); setShowLegend(false); }
-  }, [trailerOpen]);
-
-  useEffect(() => {
-    if (!showLegend) return;
-    const previousFocus = document.activeElement as HTMLElement | null;
-    const focusables = () => Array.from(legendDialog.current?.querySelectorAll<HTMLElement>('button, a[href], [tabindex="0"]') ?? []);
-    focusables()[0]?.focus();
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setShowLegend(false);
-      if (event.key !== 'Tab') return;
-      const elements = focusables();
-      const first = elements[0], last = elements[elements.length - 1];
-      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
-      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
-    };
-    window.addEventListener('keydown', onKey);
-    return () => { window.removeEventListener('keydown', onKey); previousFocus?.focus(); };
-  }, [showLegend]);
-
+    if (state.to >= lastYear) { setPlaying(false); return; }
+    const timer = window.setTimeout(() => update({ type: 'change', patch: { to: state.to + 1 } }), 1300);
+    return () => window.clearTimeout(timer);
+  }, [playing, state.to, lastYear, update]);
+  useEffect(() => { if (trailerOpen) { setPlaying(false); setModal(undefined); } }, [trailerOpen]);
+  useEffect(() => { if (!shareMessage) return; const timer = window.setTimeout(() => setShareMessage(''), 5000); return () => window.clearTimeout(timer); }, [shareMessage]);
+  const changeFilters = (patch: Partial<MapState>) => { setPlaying(false); setSelectedEdge(undefined); update({ type: 'change', patch }); };
   const selectArtist = (id: string) => {
-    setSelectedArtist(id); setSelectedEdge(undefined); setTarget(''); setSearch(''); setSearchFocused(false); setMobileFilters(false);
-    setFilters((previous) => ({ ...previous, artist: id, target: undefined, extended: previous.extended || !artistsById.get(id)?.core }));
+    setSelectedEdge(undefined); setModal(undefined); setExpanded(false);
+    update({ type: 'change', patch: { artist: id, target: undefined, extended: state.extended || !artists.get(id)?.core } }, 'push');
   };
-  const clearSelection = () => {
-    setSelectedArtist(undefined); setSelectedEdge(undefined); setTarget('');
-    setFilters((previous) => ({ ...previous, artist: undefined, target: undefined }));
-  };
-  const selectEdge = (id: string) => { setSelectedEdge(id); setMobileFilters(false); };
-  const changeMode = (nextMode: PeriodMode) => {
-    setMode(nextMode); setPlaying(false);
-    setFilters((previous) => ({ ...previous, cumulative: nextMode === 'cumulative', from: nextMode === 'cumulative' ? 1995 : nextMode === 'year' ? previous.to : previous.from }));
-  };
-  const changeTo = (to: number) => {
-    setPlaying(false); setFilters((previous) => ({ ...previous, to, from: mode === 'year' ? to : mode === 'cumulative' ? 1995 : Math.min(previous.from, to) }));
-  };
-  const togglePlaying = () => {
-    if (!playing && filters.to >= lastYear) {
-      setMode('cumulative'); setFilters((previous) => ({ ...previous, from: 1995, to: 1995, cumulative: true }));
-    }
-    setPlaying(!playing);
-  };
+  const clearSelection = () => { setSelectedEdge(undefined); setExpanded(false); update({ type: 'clear-selection' }, 'push'); };
+  const selectEdge = (id: string) => { setSelectedEdge(id); setExpanded(true); setModal(undefined); };
+  const openFilters = () => { setExpanded(false); setPlaying(false); openModal('filters'); };
+  const resetFilters = () => { setPlaying(false); setSelectedEdge(undefined); update({ type: 'reset-filters' }); };
   const share = async () => {
-    try { await navigator.clipboard.writeText(window.location.href); setShareMessage('현재 지도 링크를 복사했습니다'); }
-    catch { setShareMessage('주소창의 URL로 현재 지도를 공유할 수 있습니다'); }
-    window.setTimeout(() => setShareMessage(''), 3500);
+    const url = new URL(window.location.href); url.pathname = '/';
+    try {
+      if (window.matchMedia('(max-width: 767px)').matches && navigator.share) await navigator.share({ title: '한국힙합지도', url: url.href });
+      else { await navigator.clipboard.writeText(url.href); setShareMessage('현재 지도 링크를 복사했습니다'); }
+    } catch (error) { if ((error as Error).name !== 'AbortError') setShareMessage('주소창의 URL로 현재 지도를 공유할 수 있습니다'); }
   };
+  const filters = <MapFilters state={state} lastYear={lastYear} onChange={changeFilters} onReset={resetFilters} />;
+  const togglePlaying = () => { if (!playing && state.to >= lastYear) update({ type: 'change', patch: { mode: 'cumulative', from: 1995, to: 1995 } }); setPlaying(!playing); };
+  const showAllYears = () => changeFilters({ from: 1995, to: lastYear, mode: 'range' });
 
-  return <div className="map-app">
-    <header className="masthead">
-      <a href="/map/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
-      <div className="masthead-description"><span>대한민국 힙합, 연결의 기록.</span><p>음악이 만든 관계를 탐험하다</p></div>
-      <nav className="main-nav" aria-label="주 메뉴"><button onClick={() => setListView(false)} className={!listView ? 'active' : ''}>지도</button><button onClick={() => setListView(true)} className={listView ? 'active' : ''}>아티스트</button><a href="/methodology/">제작 원칙</a></nav>
-      <div className="masthead-actions"><div className="masthead-utilities"><CreatorCredit /><div className="masthead-secondary"><VisitorCounter />{onReplayTrailer && <button className="trailer-replay" data-trailer-replay aria-label="트레일러 다시 보기" onClick={() => { setPlaying(false); setShowLegend(false); onReplayTrailer(); }}><Play size={13} aria-hidden="true" /><span>소개 다시 보기</span></button>}</div></div><button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={14} /><span>지도 공유</span></button></div>
+  return <><div className="map-app" inert={Boolean(modal)}>
+    <a className="skip-link" href="#artist-search-area">아티스트 검색으로 건너뛰기</a>
+    <header className="masthead"><a href="/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
+      <p className="masthead-description">대한민국 힙합,<br />연결의 기록.</p>
+      <nav className="main-nav" aria-label="주 메뉴"><a href="/methodology/">제작 원칙</a>{onReplayTrailer && <button className="trailer-replay" data-trailer-replay aria-label="30초 소개 영상" onClick={() => { setPlaying(false); onReplayTrailer(); }}><Play size={17} />30초 소개</button>}<button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={18} /><span>공유</span></button></nav>
     </header>
-
-    <main className="map-main">
-      <section className="map-workspace" aria-label="힙합 아티스트 협업 지도">
-        <div className="graph-stage">
-          {!listView ? <GraphCanvas dataset={dataset} snapshot={graph} filters={filters} selectedArtistId={selectedArtist} selectedEdgeId={selectedEdge} path={path} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClearSelection={clearSelection} /> : <div className="artist-grid-view"><div className="grid-view-heading"><span>THE ARTIST INDEX</span><h1>연결을 만든 얼굴들<span>{displayedArtists.length}</span></h1><p>{selectedArtist ? path.length ? '선택한 연결 경로에 참여한 아티스트입니다.' : '선택한 아티스트와 직접 공동 작업한 아티스트입니다.' : '현재 기간과 필터에 해당하는 아티스트입니다.'} 얼굴을 눌러 협업을 탐험하세요.</p>{selectedArtist && <button className="index-clear-focus" onClick={clearSelection}>전체 네트워크 보기<ArrowRight size={13} /></button>}</div><div className="artist-grid">{displayedArtists.map(({ artist: entry, degree, count }) => <button key={entry.id} className={`artist-grid-card ${selectedArtist === entry.id ? 'selected' : ''}`} onClick={() => selectArtist(entry.id)}><Portrait artist={entry} /><strong>{entry.name}</strong><span>{entry.nameEn}</span><small>협업자 {degree} · {count}곡</small></button>)}</div>{!displayedArtists.length && <p className="empty-copy">이 조건에 해당하는 아티스트가 없습니다. 기간이나 필터를 바꿔보세요.</p>}</div>}
-          {!listView && artist && <div className="network-focus" role="region" aria-label="선택한 협업 네트워크"><div><strong>{path.length ? '연결 경로' : artist.name}</strong><span>{path.length ? `${path.length - 1}단계 · ${focusedIds.size}명` : `직접 협업자 ${Math.max(0, focusedIds.size - (focusedIds.has(artist.id) ? 1 : 0))}명`}</span><small>{focusedIds.has(artist.id) ? '얼굴을 누른 채 움직여 연결을 당겨보세요' : '선택한 기간과 조건에 참여 기록이 없습니다'}</small></div><button onClick={clearSelection} title="선택을 해제하고 전체 네트워크 보기">전체 네트워크 보기<X size={12} /></button></div>}
+    <main className={`map-main ${artist || edge ? 'with-detail' : ''} ${expanded ? 'detail-expanded' : ''}`}>
+      <section className="discovery-panel" aria-label="아티스트 찾기"><div className="discovery-heading"><span className="eyebrow">CONNECTION ARCHIVE</span><h1>누가 누구와<br />음악을 만들었을까<span>?</span></h1><p>이름 검색 → 협업자 선택 →<br />함께 만든 곡 확인</p></div>
+        <div id="artist-search-area" tabIndex={-1}><ArtistSearch artists={dataset.artists} visibleIds={visibleIds} onSelect={selectArtist} /></div>
+        <div className="search-actions"><button className="mobile-filter-toggle" aria-haspopup="dialog" aria-expanded={modal === 'filters'} onClick={openFilters}><SlidersHorizontal size={17} />필터 · 기간</button><div className="view-switch" aria-label="보기 방식"><button aria-label="지도 보기" aria-pressed={!listView} onClick={() => update({ type: 'change', patch: { view: 'map' } }, 'push')}><MapIcon size={17} />지도</button><button aria-label="목록 보기" aria-pressed={listView} onClick={() => update({ type: 'change', patch: { view: 'list' } }, 'push')}><List size={18} />목록</button></div></div>
+        <p className="filter-summary">{state.from}–{state.to} · {state.minCount}곡 이상 · {state.extended ? '협업자 포함' : '핵심 아티스트'}</p>
+        <div className="desktop-discovery"><div className="map-numbers"><div><strong>{focusedIds.size.toLocaleString()}</strong><span>아티스트</span></div><div><strong>{focusedEdges.size.toLocaleString()}</strong><span>협업 관계</span></div></div>{filters}
+          {!artist && <div className="starter-artists"><h2>이 아티스트부터 시작해 보세요</h2>{['garion', 'verbal-jint', 'lee-young-ji'].filter(id => artists.has(id)).map(id => <button key={id} onClick={() => selectArtist(id)}>{artists.get(id)!.name}<ArrowRight size={16} /></button>)}</div>}
+          <button className="path-trigger" onClick={() => openModal('path')}><Link2 size={17} />두 아티스트의 연결 경로</button>
+          <button className="legend-trigger" onClick={() => openModal('legend')}><HelpCircle size={17} />지도는 어떻게 읽나요?</button>
         </div>
-        <div className={`discovery-panel ${mobileFilters ? 'mobile-open' : ''}`}>
-          <div className="discovery-title"><span><span className="live-dot" /> CONNECTION ARCHIVE</span><button className="icon-button mobile-filter-close" aria-label="필터 닫기" onClick={() => setMobileFilters(false)}><X size={15} /></button></div>
-          <h1>누가 누구와<br />음악을 만들었을까<span>?</span></h1>
-          <p className="discovery-intro">발매곡으로 읽는<br />한국 힙합의 소셜 네트워크.</p>
-          <div className="search-wrap"><Search size={17} /><input aria-label="아티스트 검색" placeholder="이름으로 연결 찾기" value={search} onFocus={() => setSearchFocused(true)} onChange={(event) => setSearch(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter' && searchResults[0]) selectArtist(searchResults[0].id); if (event.key === 'Escape') { setSearch(''); setSearchFocused(false); } }} />{search && <button className="icon-button" aria-label="검색어 지우기" onClick={() => setSearch('')}><X size={13} /></button>}
-            {searchFocused && search && <div className="search-results" role="region" aria-label="검색 결과">{searchResults.length ? searchResults.map((result) => <button key={result.id} onClick={() => selectArtist(result.id)}><Portrait artist={result} /><span><strong>{result.name}</strong><small>{result.nameEn}{!visibleIds.has(result.id) ? ' · 현재 조건 밖' : ''}</small></span><ArrowRight size={13} /></button>) : <p>일치하는 아티스트가 없습니다.</p>}</div>}
-          </div>
-          <div className="map-numbers"><div><strong>{focusedIds.size.toLocaleString()}</strong><span>ARTISTS</span></div><div><strong>{focusedEdgeIds.size.toLocaleString()}</strong><span>CONNECTIONS</span></div></div>
-          <div className="filter-heading"><SlidersHorizontal size={13} /><span>지도 설정</span><button onClick={() => {setFilters({from:1995,to:lastYear,cumulative:false,extended:false,minCount:1,artist:selectedArtist});setMode('range');setTarget('');setPlaying(false);}}>초기화</button></div>
-          <div className="filter-block"><label htmlFor="minimum-tracks">최소 공동 작업곡</label><div className="filter-input-row"><input id="minimum-tracks" type="range" min="1" max="10" step="1" value={Math.min(filters.minCount,10)} onChange={(event) => setFilters((previous) => ({ ...previous, minCount: Number(event.target.value) }))} /><span>{filters.minCount}<small>곡</small></span></div></div>
-          <label className="toggle-row" htmlFor="extend-artists"><span><strong>협업자 확장</strong><small>R&B · 아이돌 · 해외 아티스트</small></span><input id="extend-artists" type="checkbox" checked={filters.extended} onChange={(event) => setFilters((previous) => ({ ...previous, extended: event.target.checked }))} /><span className="toggle-track" aria-hidden="true" /></label>
-          <details className="path-tools"><summary><Link2 size={14} /><span>두 아티스트의 연결 경로</span><ChevronDown size={13} /></summary><div className="path-tool-body"><p>{artist ? <><strong>{artist.name}</strong>에서 시작하는 협업 경로</> : '먼저 지도에서 아티스트를 선택하세요.'}</p><select aria-label="연결 경로 대상 아티스트" value={target} disabled={!selectedArtist} onChange={(event) => { setTarget(event.target.value); setFilters((previous) => ({ ...previous, target:event.target.value })); }}><option value="">어떤 아티스트까지?</option>{rankedArtists.filter((node) => node.id !== selectedArtist).sort((a,b) => a.artist.name.localeCompare(b.artist.name,'ko')).map((node) => <option key={node.id} value={node.id}>{node.artist.name}</option>)}</select>{target && <div className="path-result" aria-live="polite">{path.length ? <><strong>{path.length - 1}단계로 연결</strong><div>{path.map((id, index) => <span key={id}>{index > 0 && <ArrowRight size={10} />}<button onClick={() => selectArtist(id)}>{artistsById.get(id)?.name}</button></span>)}</div><small>각 연결선을 눌러 근거 곡을 확인하세요.</small></> : <p>현재 조건에서 연결 경로가 없습니다.</p>}</div>}</div></details>
-          <button className="legend-trigger" onClick={() => setShowLegend(true)}><HelpCircle size={14} />지도는 어떻게 읽나요?<ArrowRight size={13} /></button>
-        </div>
-        <div className="canvas-topline"><span>THE SOUND OF CONNECTION</span><div className="view-switch" aria-label="보기 방식"><button aria-label="지도 보기" aria-pressed={!listView} className={!listView ? 'active' : ''} onClick={() => setListView(false)}><MapIcon size={14} /></button><button aria-label="목록 보기" aria-pressed={listView} className={listView ? 'active' : ''} onClick={() => setListView(true)}><List size={15} /></button></div></div>
-        <button className="mobile-filter-toggle" onClick={() => setMobileFilters(!mobileFilters)} aria-expanded={mobileFilters}><Search size={15} />검색 · 필터<SlidersHorizontal size={14} /></button>
-        <div className="map-caption"><div className="legend-node" /><span>협업자 수가 많을수록 큰 노드</span><span className="caption-separator" /><span className="legend-edge" /><span>공동곡이 많을수록 굵은 선</span><button aria-label="지도 범례 보기" onClick={() => setShowLegend(true)}><HelpCircle size={13} /></button></div>
       </section>
-      <div className={`detail-panel-wrap ${(artist || edge) ? 'has-selection' : ''}`}>
-        {edge ? <EdgePanel edge={edge} dataset={dataset} onSelectArtist={selectArtist} onClose={() => setSelectedEdge(undefined)} /> : artist ? <ArtistPanel key={artist.id} dataset={dataset} snapshot={graph} artist={artist} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClose={clearSelection} /> : <aside className="explore-empty-panel"><span>FIND YOUR CONNECTION</span><h2>하나의 곡에서,<br />하나의 장면으로.</h2><p>지도에서 얼굴을 선택하세요.<br />함께 만든 곡과 아티스트를<br />만날 수 있습니다.</p><div className="empty-portrait-stack">{rankedArtists.filter(({artist:entry}) => Boolean(entry.image)).slice(0,3).map(({artist:entry}) => <button key={entry.id} onClick={() => selectArtist(entry.id)} aria-label={`${entry.name} 살펴보기`}><Portrait artist={entry} /></button>)}</div><button className="empty-start-button" onClick={() => rankedArtists[0] && selectArtist(rankedArtists[0].id)}>연결 탐험 시작<ArrowRight size={16} /></button></aside>}
+      <section className="map-workspace" aria-label="힙합 아티스트 협업 지도">
+        {artist && <div className="network-focus" role="region" aria-label="선택한 협업 네트워크"><div><strong>{path.length ? '연결 경로' : artist.name}</strong><span>{path.length ? `${path.length - 1}단계 · ${focusedIds.size}명` : `직접 협업자 ${Math.max(0, focusedIds.size - (focusedIds.has(artist.id) ? 1 : 0))}명`}</span></div><button onClick={clearSelection}>전체 네트워크 보기<X size={16} /></button></div>}
+        {artist && !visibleIds.has(artist.id) && <div className="outside-period" role="status">현재 조건에 참여 기록이 없습니다.{!artist.core && !state.extended && <button onClick={() => changeFilters({ extended: true })}>협업자 포함해 보기</button>}<button onClick={showAllYears}>전체 기간으로 보기</button><button onClick={resetFilters}>필터 초기화</button></div>}
+        <div className="graph-stage">{!listView ? <GraphCanvas dataset={dataset} snapshot={graph} filters={state} selectedArtistId={state.artist} selectedEdgeId={selectedEdge} path={path} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClearSelection={clearSelection} onListView={() => update({ type: 'change', patch: { view: 'list' } }, 'push')} /> : <div className="artist-grid-view"><div className="grid-view-heading"><span className="eyebrow">THE ARTIST INDEX</span><h2>연결을 만든 얼굴들 <span>{rankedArtists.length}</span></h2><p>{artist ? '선택한 아티스트의 협업 관계를 살펴보세요.' : '현재 기간과 필터에 해당하는 아티스트입니다.'}</p></div><div className="artist-grid">{rankedArtists.slice(0, listLimit).map(({ artist: entry, degree, count }) => <button key={entry.id} className="artist-grid-card" onClick={() => selectArtist(entry.id)}><Portrait artist={entry} /><strong>{entry.name}</strong><span>{entry.nameEn}</span><small>협업자 {degree} · {count}곡</small></button>)}</div>{rankedArtists.length > listLimit && <button className="load-more" onClick={() => setListLimit(count => count + 30)}>아티스트 더 보기</button>}{!rankedArtists.length && <div className="empty-copy">이 조건에 해당하는 아티스트가 없습니다.<button onClick={resetFilters}>필터 초기화</button></div>}</div>}</div>
+        {!artist && <div className="mobile-starters">{['garion', 'verbal-jint', 'lee-young-ji'].filter(id => artists.has(id)).map(id => <button key={id} onClick={() => selectArtist(id)}>{artists.get(id)!.name}<ArrowRight size={13} /></button>)}</div>}
+        <div className="map-caption"><span>선은 함께 만든 곡 · 색은 협업 군집</span><button aria-label="지도 범례 보기" onClick={() => openModal('legend')}><HelpCircle size={19} /></button></div>
+      </section>
+      <div className={`detail-panel-wrap ${artist || edge ? 'has-selection' : ''} ${expanded ? 'expanded' : ''}`}>
+        {(artist || edge) && <button className="sheet-toggle" aria-expanded={expanded} aria-controls="detail-sheet" onClick={() => setExpanded(!expanded)}>{expanded ? <ChevronDown size={17} /> : <ChevronUp size={17} />}{expanded ? '상세 접기' : '상세 펼치기'}</button>}
+        <div id="detail-sheet">{edge ? <EdgePanel key={`${dataset.version}-${edge.id}`} edge={edge} dataset={dataset} onSelectArtist={selectArtist} onClose={() => setSelectedEdge(undefined)} /> : artist ? <ArtistPanel key={`${dataset.version}-${artist.id}`} dataset={dataset} snapshot={graph} filters={state} artist={artist} onSelectArtist={selectArtist} onSelectEdge={selectEdge} onClose={clearSelection} onFindPath={() => openModal('path')} /> : null}</div>
       </div>
     </main>
-
-    <footer className="timeline">
-      <div className="timeline-heading"><div><span>TIME TRAVEL</span><strong>{mode === 'year' ? filters.to : `${filters.from} — ${filters.to}`}</strong></div><button className={`play-button ${playing ? 'playing' : ''}`} onClick={togglePlaying} aria-label={playing ? '연도 재생 일시정지' : '연도별 변화 재생'}>{playing ? <Pause size={16} fill="currentColor" /> : <Play size={16} fill="currentColor" />}</button></div>
-      <div className="timeline-track"><div className="timeline-bars" aria-hidden="true">{yearlyCounts.map(({ year, count }) => <span key={year} className={year >= filters.from && year <= filters.to ? 'in-range' : ''} style={{ height:`${4 + (count / maxYearCount) * 33}px` }} title={`${year}: ${count}곡`} />)}</div><div className="timeline-slider"><div className="timeline-range-fill" style={{left:`${((filters.from - 1995) / (lastYear - 1995)) * 100}%`,right:`${100 - ((filters.to - 1995) / (lastYear - 1995)) * 100}%`}} />{mode === 'range' && <input aria-label="시작 연도" className="range-start" type="range" min="1995" max={lastYear} value={filters.from} onChange={(event) => { setPlaying(false); setFilters((previous) => ({ ...previous, from: Math.min(Number(event.target.value), previous.to) })); }} />}<input aria-label="끝 연도" className="range-end" type="range" min="1995" max={lastYear} value={filters.to} onChange={(event) => changeTo(Number(event.target.value))} /></div><div className="timeline-year-labels"><span>1995</span><span>2000</span><span>2005</span><span>2010</span><span>2015</span><span>2020</span><span>{lastYear}</span></div></div>
-      <div className="timeline-mode"><div className="mode-switch">{([['range','기간'],['cumulative','누적'],['year','한 해']] as const).map(([value,label]) => <button key={value} aria-pressed={mode === value} className={mode === value ? 'active' : ''} onClick={() => changeMode(value)}>{label}</button>)}</div><div className="year-fields">{mode === 'range' && <><input aria-label="시작 연도 직접 입력" type="number" min="1995" max={filters.to} value={filters.from} onChange={(event) => setFilters((previous) => ({...previous,from: Math.max(1995,Math.min(previous.to,Number(event.target.value)||1995))}))} /><span>—</span></>}<input aria-label="끝 연도 직접 입력" type="number" min="1995" max={lastYear} value={filters.to} onChange={(event) => changeTo(Math.max(1995,Math.min(lastYear,Number(event.target.value)||1995)))} /></div></div>
-    </footer>
-    <div className="site-bottomline"><span><span className="live-dot" />자료 확인 {dataset.asOf.slice(0,10)}<span className="bottomline-separator">/</span>수집된 기록 기준</span><span>{graph.stats.recordings.toLocaleString()} TRACKS<span className="bottomline-separator">/</span><a href="/credits/">데이터 · 사진 출처<ArrowRight size={10} /></a></span></div>
-    {shareMessage && <div className="share-toast" role="status"><Check size={16} />{shareMessage}</div>}
-    {showLegend && <div className="modal-backdrop" onClick={() => setShowLegend(false)}><section ref={legendDialog} className="legend-dialog" role="dialog" aria-modal="true" aria-labelledby="legend-title" onClick={(event) => event.stopPropagation()}><div className="dialog-eyebrow"><span>HOW TO READ THE MAP</span><button className="icon-button" onClick={() => setShowLegend(false)} aria-label="범례 닫기"><X size={20} /></button></div><h2 id="legend-title">연결을 읽는 방법.</h2><div className="legend-explainer"><div><div className="legend-demo-nodes"><span /><span /><span /></div><h3>얼굴은 아티스트</h3><p>노드가 클수록 선택 기간에 함께한 아티스트가 많습니다. 그룹은 별도 노드로 표시합니다.</p></div><div><div className="legend-demo-edges"><span /><span /><span /></div><h3>선은 함께 만든 곡</h3><p>같은 녹음에 랩·가창으로 참여하면 연결됩니다. 곡이 많을수록 선이 굵어지며, 재발매된 같은 곡은 한 번만 셉니다.</p></div><div><div className="legend-demo-community"><span /><span /><span /></div><h3>색은 협업 군집</h3><p>협업 구조를 바탕으로 묶은 커뮤니티입니다. 실제 레이블이나 크루를 뜻하지 않습니다.</p></div><div><Users size={29} /><h3>가까움은 관계의 구조</h3><p>협업 가중치로 배치한 거리입니다. 친분이나 음악적 유사성의 수치는 아닙니다. 기간을 바꿔도 기본 위치는 유지됩니다.</p></div></div><a href="/methodology/" className="dialog-methodology">데이터와 알고리즘 자세히 보기<ArrowRight size={15} /></a></section></div>}
-  </div>;
-}
-
-function EdgePanel({ edge, dataset, onSelectArtist, onClose }: { edge: GraphEdge; dataset: Dataset; onSelectArtist: (id:string) => void; onClose: () => void }) {
-  const [details, setDetails] = useState<{ edgeId: string; recordings: Recording[]; releases: Release[] }>();
-  const [error, setError] = useState(false);
-  const [retry, setRetry] = useState(0);
-  const first = dataset.artists.find((artist) => artist.id === edge.source)!;
-  const second = dataset.artists.find((artist) => artist.id === edge.target)!;
-  const baseRecordings = dataset.recordings.filter((recording) => edge.recordingIds.includes(recording.id));
-  const needsDetail = baseRecordings.some((recording) => !recording.sources.length);
-  const currentDetails = details?.edgeId === edge.id ? details : undefined;
-  const recordings = currentDetails?.recordings ?? baseRecordings;
-  const detailDataset = currentDetails ? { ...dataset, releases: currentDetails.releases } : dataset;
-  useEffect(() => {
-    if (!needsDetail) return;
-    const controller = new AbortController();
-    setError(false);
-    const load = async () => {
-      const artistDetail = await fetchArtistDetail(edge.source, dataset.version, controller.signal);
-      const byId = new globalThis.Map(artistDetail.recordings.map((recording) => [recording.id, recording]));
-      const loaded = await Promise.all(edge.recordingIds.map(async (id) => {
-        const cached = byId.get(id);
-        if (cached) return cached;
-        const response = await fetch(`/data/recordings/${encodeURIComponent(id)}.json`, { signal: controller.signal });
-        if (!response.ok) throw new Error('공동 작업곡 자료를 불러오지 못했습니다.');
-        const recording = await response.json() as Recording;
-        if (recording.id !== id || !Array.isArray(recording.sources)) throw new Error('공동 작업곡 자료 형식을 확인할 수 없습니다.');
-        return recording;
-      }));
-      setDetails({ edgeId: edge.id, recordings: loaded, releases: artistDetail.releases });
-    };
-    load().catch((failure) => { if (failure.name !== 'AbortError') setError(true); });
-    return () => controller.abort();
-  }, [edge.id, edge.source, dataset.version, needsDetail, retry]);
-  return <aside className="artist-panel edge-panel" aria-label="공동 작업곡 상세"><div className="panel-eyebrow"><span>THE CONNECTION</span><button className="icon-button" onClick={onClose} aria-label="공동 작업곡 닫기"><X size={17} /></button></div><div className="connection-hero"><div className="connection-portraits"><button aria-label={`${first.name} 살펴보기`} onClick={() => onSelectArtist(first.id)}><Portrait artist={first} /></button><span>×</span><button aria-label={`${second.name} 살펴보기`} onClick={() => onSelectArtist(second.id)}><Portrait artist={second} /></button></div><h2><button onClick={() => onSelectArtist(first.id)}>{first.name}</button><span>×</span><button onClick={() => onSelectArtist(second.id)}>{second.name}</button></h2><p>함께 만든 <strong>{edge.count}곡</strong>의 기록</p></div><div className="connection-period"><span>FIRST CONNECTION</span><strong>{Math.min(...edge.years)}</strong><ArrowRight size={15} /><strong>{Math.max(...edge.years)}</strong></div><div className="panel-body"><div className="section-heading"><h3>공동 작업곡</h3><span>{edge.count} TRACKS</span></div>{needsDetail && !currentDetails ? <div className="detail-loading" role="status">{error ? <><p>자료를 불러오지 못했습니다.</p><button onClick={() => setRetry((value) => value + 1)}><RefreshCw size={13} />다시 불러오기</button></> : <><LoaderCircle className="spin" size={17} /><p>공동 작업곡과 출처를 불러오는 중…</p></>}</div> : <RecordingList dataset={detailDataset} recordings={recordings} />}</div><div className="edge-panel-note"><Check size={13} /><span>각 곡에서 출처와 참여 크레딧을 확인하세요.</span></div></aside>;
+    <Timeline state={state} lastYear={lastYear} counts={yearlyCounts} playing={playing} onPlay={togglePlaying} onChange={changeFilters} onOpenFilters={openFilters} />
+    <div className="site-bottomline"><span>자료 확인 {dataset.asOf.slice(0, 10)} · 수집된 기록 기준</span><div className="site-credits"><VisitorCounter /><CreatorCredit /></div><a href="/credits/">데이터 · 사진 출처 ↗</a></div>
+    {shareMessage && <div className="share-toast" role="status"><Check size={18} />{shareMessage}</div>}
+  </div>
+  {modal === 'filters' && <Modal returnFocus={modalTrigger.current} title="필터 · 기간" onClose={() => setModal(undefined)}>{filters}<button className="dialog-primary" onClick={() => setModal(undefined)}>지도에 적용된 조건 보기<ArrowRight size={17} /></button></Modal>}
+  {modal === 'legend' && <Modal returnFocus={modalTrigger.current} title="연결을 읽는 방법." className="legend-dialog" onClose={() => setModal(undefined)}><div className="legend-explainer"><section><h3>얼굴은 아티스트</h3><p>크기가 클수록 현재 기간에 협업한 아티스트가 많습니다. 그룹은 별도 노드입니다.</p></section><section><h3>선은 함께 만든 곡</h3><p>같은 녹음에 랩·가창으로 참여하면 연결됩니다. 곡이 많을수록 선이 굵어집니다. 같은 녹음의 재발매는 한 번만 셉니다.</p></section><section><h3>색은 협업 군집</h3><p>협업 구조로 묶은 커뮤니티입니다. 실제 레이블이나 크루를 뜻하지 않습니다.</p></section><section><h3>가까움은 관계의 구조</h3><p>친분이나 음악적 유사성의 수치가 아닙니다. 얼굴을 선택해 직접 협업을 살펴보고, 목록에서도 같은 정보를 확인할 수 있습니다.</p></section></div><a className="dialog-methodology" href="/methodology/">데이터와 알고리즘 자세히 보기<ArrowRight size={17} /></a></Modal>}
+  {modal === 'path' && <Modal returnFocus={modalTrigger.current} title="두 아티스트의 연결 경로" onClose={() => setModal(undefined)}>{artist ? <><p><strong>{artist.name}</strong>에서 시작합니다. 도착 아티스트를 검색하세요.</p><ArtistSearch artists={dataset.artists} visibleIds={visibleIds} exclude={artist.id} label="연결 경로 대상 아티스트" onSelect={id => { setSelectedEdge(undefined); update({ type: 'change', patch: { target: id, extended: state.extended || !artists.get(id)?.core } }, 'push'); }} />{state.target && <div className="path-result" aria-live="polite"><h3>{path.length ? `${path.length - 1}단계로 연결` : '현재 수집 자료와 필터에서 경로를 찾지 못했습니다.'}</h3>{path.length ? <ol>{path.map((id, index) => <li key={id}><button onClick={() => selectArtist(id)}>{artists.get(id)?.name}</button>{index < path.length - 1 && <button className="path-evidence" onClick={() => selectEdge(edgeId(id, path[index + 1]))}>{graph.edges.find(edge => edge.id === edgeId(id, path[index + 1]))?.count}곡 · 근거 보기<ArrowRight size={16} /></button>}</li>)}</ol> : <button onClick={showAllYears}>전체 기간으로 보기</button>}</div>}</> : <><p>먼저 출발 아티스트를 선택하세요.</p><ArtistSearch artists={dataset.artists} visibleIds={visibleIds} label="출발 아티스트 검색" onSelect={id => { update({ type: 'change', patch: { artist: id, target: undefined, extended: state.extended || !artists.get(id)?.core } }, 'push'); }} /></>}</Modal>}
+  </>;
 }

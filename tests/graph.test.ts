@@ -44,7 +44,7 @@ describe('source-derived collaboration graph', () => {
   });
   it('keeps logarithmic widths stable and caps extreme values', () => { expect(edgeThickness(1)).toBeCloseTo(2); expect(edgeThickness(100)).toBe(6); });
   it('round-trips share state and sanitizes invalid input', () => {
-    const state = { ...filters, from: 2005, to: 2024, artist: 'a', target: 'c', extended: true, minCount: 3, cumulative: true };
+    const state = { ...filters, from: 1995, to: 2024, artist: 'a', target: 'c', extended: true, minCount: 3, cumulative: true };
     expect(parseFilters(new URLSearchParams(serializeFilters(state)), data([]))).toEqual(state);
     expect(parseFilters(new URLSearchParams('from=1900&to=3000&min=-2&artist=nope'), data([]))).toMatchObject({ from: 1995, to: 2026, minCount: 1, artist: undefined });
   });

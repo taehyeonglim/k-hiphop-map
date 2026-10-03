@@ -11,3 +11,13 @@ export interface GraphEdge { id: string; source: string; target: string; count: 
 export interface GraphNode { id: string; degree: number; count: number; community: number; x: number; y: number }
 export interface GraphSnapshot { version: string; asOf: string; nodes: GraphNode[]; edges: GraphEdge[]; stats: { artists: number; coreArtists: number; recordings: number; collaborations: number; releases: number; portraits: number } }
 export interface MapFilters { from: number; to: number; cumulative: boolean; extended: boolean; minCount: number; artist?: string; target?: string }
+
+/** Deliberately excludes discography and evidence, which load on selection. */
+export type MapArtist = Pick<Artist, 'id' | 'name' | 'nameEn' | 'aliases' | 'kind' | 'core' | 'image' | 'community' | 'x' | 'y'>;
+export type MapRecording = Pick<Recording, 'id' | 'year' | 'verification'> & {
+  credits: Pick<Credit, 'artistId' | 'role' | 'verification'>[];
+};
+export interface MapDataset { version: string; asOf: string; artists: MapArtist[]; recordings: MapRecording[]; notes: string[] }
+export type GraphDataset = MapDataset & { releases?: Release[] };
+export interface ArtistDetail { version: string; artist: Artist; releases: Release[]; recordings: Recording[]; memberships: Membership[] }
+export interface RecordingDetail { version: string; recording: Recording }

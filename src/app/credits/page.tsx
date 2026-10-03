@@ -39,7 +39,7 @@ export const metadata = { title: '사진·영상·음악과 데이터 크레딧'
 export default function Credits() {
   const data: Dataset = JSON.parse(readFileSync('data/catalog.enriched.json', 'utf8'));
   const photographed = data.artists.filter((artist) => artist.image);
-  const trailerPath = 'public/media/trailer/v2/credits.json';
+  const trailerPath = 'public/media/trailer/v3/credits.json';
   const trailer: TrailerCredits | undefined = existsSync(trailerPath)
     ? JSON.parse(readFileSync(trailerPath, 'utf8'))
     : undefined;
@@ -65,7 +65,7 @@ export default function Credits() {
         <dt>영상·그래픽</dt>
         <dd>{trailer?.originalGraphics.description ?? '한국 힙합의 세대와 실제 녹음 크레딧을 연결한 그래픽, 서비스 화면 캡처.'}</dd>
         <dt>영상 파일</dt>
-        <dd><a href="/media/trailer/v2/landscape.mp4" download>가로 영상 MP4</a> · <a href="/media/trailer/v2/portrait.mp4" download>세로 영상 MP4</a> · <a href="/media/trailer/v2/credits.json">자산별 크레딧 JSON</a></dd>
+        <dd><a href="/media/trailer/v3/landscape.mp4" download>가로 영상 MP4</a> · <a href="/media/trailer/v3/portrait.mp4" download>세로 영상 MP4</a> · <a href="/media/trailer/v3/credits.json">자산별 크레딧 JSON</a></dd>
       </dl>
       <p>서비스 화면에 포함된 사진의 저작자·원본·이용조건은 <a href="#artist-photos">아래 전체 사진 크레딧</a>에서 확인할 수 있습니다. 전체 목록은 서비스의 사진 목록이며, 한 장면에 모두 등장했다는 뜻은 아닙니다.{trailer?.serviceScreenCapture.changes && <> 화면 캡처 변경: {trailer.serviceScreenCapture.changes}</>}</p>
       <p className="document-note">영상은 비영리 아카이브 소개용으로 공개합니다. 음악·그래픽·데이터·사진에는 각각의 이용조건이 적용됩니다. 사진과 사진을 수정한 부분의 원본 라이선스·저작자 표기를 유지하며, CC BY-SA 사진의 수정본에는 동일하거나 호환되는 라이선스의 조건을 적용합니다. <a href="https://creativecommons.org/cc-licenses/" target="_blank" rel="noreferrer">Creative Commons 이용조건 안내</a></p>

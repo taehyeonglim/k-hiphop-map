@@ -1,0 +1,37 @@
+name: 데이터 정정 / Data correction
+description: 아티스트·녹음·크레딧의 검증 가능한 정정 / Source-backed correction
+body:
+  - type: input
+    id: artist
+    attributes:
+      label: 아티스트 이름 또는 ID / Artist
+    validations:
+      required: true
+  - type: input
+    id: recording
+    attributes:
+      label: 곡·발매작 / Recording or release
+      description: 인물 정보 정정이라면 해당 없음으로 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 현재 문제와 올바른 내용 / Correction
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 검증 가능한 출처 URL / Source URLs
+      description: 공식 크레딧, 발매 페이지 등 근거와 해당 부분을 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 데이터 버전 / Dataset version
+  - type: input
+    id: map
+    attributes:
+      label: 지도 URL / Map URL

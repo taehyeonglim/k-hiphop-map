@@ -1,17 +1,17 @@
-import type { Dataset, GraphEdge, GraphSnapshot, MapFilters, Recording } from './types';
+import type { GraphDataset, GraphEdge, GraphSnapshot, MapFilters, MapRecording } from './types';
 
 const PERFORMER_ROLES = new Set(['main', 'featured', 'vocal', 'rap']);
 export const COMMUNITY_COLORS = ['#c5f445', '#ef766d', '#6ac7d6', '#cda2f1', '#eeb969', '#8dba93', '#829cf0', '#db99b4'];
 export function edgeThickness(count: number): number { return Math.min(6, 0.7 + 1.3 * Math.log2(1 + Math.max(0, count))); }
 export function nodeRadius(degree: number): number { return Math.min(20, 6 + 1.5 * Math.sqrt(Math.max(0, degree))); }
 export function edgeId(a: string, b: string): string { return [a, b].sort().join('__'); }
-export function performerIds(recording: Recording): string[] {
+export function performerIds(recording: MapRecording): string[] {
   return [...new Set(recording.credits.filter(c => PERFORMER_ROLES.has(c.role) && c.verification !== 'pending').map(c => c.artistId))].sort();
 }
 export function defaultFilters(asOf: string): MapFilters {
   return { from: 1995, to: Number(asOf.slice(0, 4)), cumulative: false, extended: false, minCount: 1 };
 }
-export function deriveGraph(dataset: Dataset, filters: MapFilters): GraphSnapshot {
+export function deriveGraph(dataset: GraphDataset, filters: MapFilters): GraphSnapshot {
   const from = filters.cumulative ? 1995 : filters.from;
   const to = Math.max(from, filters.to);
   const coreIds = new Set(dataset.artists.filter(a => a.core).map(a => a.id));
@@ -59,7 +59,7 @@ export function deriveGraph(dataset: Dataset, filters: MapFilters): GraphSnapsho
   const nodes = artists.map(a => ({ id: a.id, degree: degree.get(a.id) ?? 0, count: counts.get(a.id) ?? 0, community: a.community ?? 0, x: a.x ?? 0, y: a.y ?? 0 }));
   const visibleIds = new Set(nodes.map(n => n.id));
   const visibleEdges = edges.filter(e => visibleIds.has(e.source) && visibleIds.has(e.target));
-  return { version: dataset.version, asOf: dataset.asOf, nodes, edges: visibleEdges, stats: { artists: nodes.length, coreArtists: artists.filter(a => a.core).length, recordings: recordings.length, collaborations, releases: dataset.releases.filter(r => r.year >= from && r.year <= to && r.artistIds.some(id => visibleIds.has(id))).length, portraits: artists.filter(a => a.image).length } };
+  return { version: dataset.version, asOf: dataset.asOf, nodes, edges: visibleEdges, stats: { artists: nodes.length, coreArtists: artists.filter(a => a.core).length, recordings: recordings.length, collaborations, releases: (dataset.releases ?? []).filter(r => r.year >= from && r.year <= to && r.artistIds.some(id => visibleIds.has(id))).length, portraits: artists.filter(a => a.image).length } };
 }
 export function shortestPath(snapshot: GraphSnapshot, source: string, target: string): string[] {
   const nodes = new Set(snapshot.nodes.map(n => n.id));
@@ -84,19 +84,4 @@ export function shortestPath(snapshot: GraphSnapshot, source: string, target: st
   }
   return [];
 }
-export function parseFilters(search: URLSearchParams, dataset: Dataset): MapFilters {
-  const defaults = defaultFilters(dataset.asOf), lastYear = defaults.to;
-  const year = (value: string | null, fallback: number) => { const n = Number(value); return value && Number.isFinite(n) ? Math.min(lastYear, Math.max(1995, Math.floor(n))) : fallback; };
-  const from = year(search.get('from'), defaults.from), to = Math.max(from, year(search.get('to'), defaults.to));
-  const ids = new Set(dataset.artists.map(a => a.id));
-  return { from, to, cumulative: search.get('mode') === 'cumulative', extended: search.get('extended') === '1', minCount: Math.min(100, Math.max(1, Math.floor(Number(search.get('min')) || 1))), artist: ids.has(search.get('artist') ?? '') ? search.get('artist')! : undefined, target: ids.has(search.get('target') ?? '') ? search.get('target')! : undefined };
-}
-export function serializeFilters(filters: MapFilters): string {
-  const search = new URLSearchParams({ from: String(filters.from), to: String(filters.to) });
-  if (filters.cumulative) search.set('mode', 'cumulative');
-  if (filters.extended) search.set('extended', '1');
-  if (filters.minCount > 1) search.set('min', String(filters.minCount));
-  if (filters.artist) search.set('artist', filters.artist);
-  if (filters.target) search.set('target', filters.target);
-  return search.toString();
-}
+export { parseFilters, serializeFilters } from './map-state';

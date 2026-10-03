@@ -5,13 +5,13 @@ import Graph from 'graphology';
 import type Sigma from 'sigma';
 import type { NodeHoverDrawingFunction, NodeLabelDrawingFunction } from 'sigma/rendering';
 import { LocateFixed, Minus, Plus, Network, LoaderCircle } from 'lucide-react';
-import type { Artist, Dataset, GraphSnapshot, MapFilters } from '@/lib/types';
+import type { MapArtist, MapDataset, GraphSnapshot, MapFilters } from '@/lib/types';
 import { COMMUNITY_COLORS, edgeThickness, nodeRadius } from '@/lib/graph';
 import { fullScopeBounds, visibleNeighborhoodEdgeIds, visibleNeighborhoodIds } from '@/lib/graph-view';
 import { DragPhysics } from '@/lib/drag-physics';
 
 export interface GraphCanvasProps {
-  dataset: Dataset;
+  dataset: MapDataset;
   snapshot: GraphSnapshot;
   filters: MapFilters;
   selectedArtistId?: string;
@@ -21,13 +21,14 @@ export interface GraphCanvasProps {
   onSelectEdge: (id: string) => void;
   onClearSelection?: () => void;
   onReady?: () => void;
+  onListView?: () => void;
 }
 
 // Sigma uses premultiplied-alpha blending (ONE, ONE_MINUS_SRC_ALPHA).
 // Keep RGB premultiplied too, so translucent ties do not produce an additive glow.
 const BASE_EDGE_COLOR = 'rgba(7,8,7,0.14)';
 
-function initialsImage(artist: Artist, color: string): string {
+function initialsImage(artist: MapArtist, color: string): string {
   const initials = artist.name.replace(/[^\p{L}\p{N}]/gu, '').slice(0, 2) || 'MC';
   return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="128" height="128" fill="#222a2a"/><text x="64" y="73" text-anchor="middle" fill="${color}" font-family="sans-serif" font-weight="700" font-size="35">${initials}</text></svg>`)}`;
 }
@@ -58,7 +59,7 @@ const drawHover: NodeHoverDrawingFunction = (context, data, settings) => {
   drawLabel(context, data, settings);
 };
 
-function updateGraph(graph: Graph, dataset: Dataset, snapshot: GraphSnapshot, failedPortraits = new Set<string>()) {
+function updateGraph(graph: Graph, dataset: MapDataset, snapshot: GraphSnapshot, failedPortraits = new Set<string>()) {
   graph.clear();
   const artists = new Map(dataset.artists.map((artist) => [artist.id, artist]));
   snapshot.nodes.forEach((node) => {
@@ -101,6 +102,9 @@ export default function GraphCanvas(props: GraphCanvasProps) {
   latest.current = props;
   const visibleNodes = useMemo(() => visibleNeighborhoodIds(props.snapshot, props.selectedArtistId, props.path), [props.snapshot, props.selectedArtistId, props.path]);
   const visibleEdges = useMemo(() => visibleNeighborhoodEdgeIds(props.snapshot, props.selectedArtistId, props.path), [props.snapshot, props.selectedArtistId, props.path]);
+  const overviewLabelIds = useMemo(() => new Set([...props.snapshot.nodes].sort((a, b) => b.degree - a.degree).slice(0, 14).map(node => node.id)), [props.snapshot]);
+  const overviewNames = useRef(overviewLabelIds);
+  overviewNames.current = overviewLabelIds;
   const visibility = useRef({ nodes: visibleNodes, edges: visibleEdges });
   visibility.current = { nodes: visibleNodes, edges: visibleEdges };
   const stopLayout = useRef<(() => void) | null>(null);
@@ -130,6 +134,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
     const imageChecks: HTMLImageElement[] = [];
     let contextLostCleanup: (() => void) | undefined;
     let interactionCleanup: (() => void) | undefined;
+    let cameraCleanup: (() => void) | undefined;
     const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
     reducedMotion.current = motionPreference.matches;
 
@@ -163,10 +168,10 @@ export default function GraphCanvas(props: GraphCanvasProps) {
           nodeProgramClasses: { portrait },
           defaultNodeType: 'portrait',
           labelFont: 'Arial, "Noto Sans KR", sans-serif',
-          labelWeight: '600', labelSize: 11,
+          labelWeight: '600', labelSize: 12,
           labelColor: { color: '#edf2e8' },
-          labelDensity: 0.8, labelGridCellSize: 90,
-          labelRenderedSizeThreshold: 10,
+          labelDensity: 0.45, labelGridCellSize: 110,
+          labelRenderedSizeThreshold: 13,
           enableEdgeEvents: true,
           hideEdgesOnMove: false,
           hideLabelsOnMove: true,
@@ -188,7 +193,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
               image: attributes.image,
               borderColor: emphasized ? '#c7ff40' : dimmed ? '#3d4941' : attributes.communityColor,
               color: dimmed ? '#1c2420' : attributes.color,
-              label: dimmed ? '' : attributes.label,
+              label: dimmed || (!benchmarkActive.current && !selectedArtistId && !emphasized && (renderer.current?.getCamera().ratio ?? 1) > 0.65 && !overviewNames.current.has(node)) ? '' : attributes.label,
               forceLabel: emphasized || Boolean(viewportScale.current === 1 && selectedArtistId && visibility.current.nodes.size <= 24 && visibility.current.nodes.has(node)),
               highlighted: false,
               zIndex: emphasized ? 10000 : attributes.zIndex,
@@ -215,6 +220,15 @@ export default function GraphCanvas(props: GraphCanvasProps) {
         });
         graph.current = g;
         renderer.current = sigma;
+        let detailedLabels = sigma.getCamera().ratio <= 0.65;
+        const updateLabelDetail = () => {
+          const next = sigma.getCamera().ratio <= 0.65;
+          if (next === detailedLabels) return;
+          detailedLabels = next;
+          sigma.refresh();
+        };
+        sigma.getCamera().on('updated', updateLabelDetail);
+        cameraCleanup = () => sigma.getCamera().removeListener('updated', updateLabelDetail);
         sigma.setCustomBBox(fullScopeBounds(latest.current.dataset.artists, latest.current.filters.extended));
         let animationFrame: number | undefined;
         let previousFrame = 0;
@@ -326,7 +340,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
           // Fit the neighborhood into the area below the search/focus banner
           // and above the controls, rather than centering it behind overlays.
           const mobile = dimensions.width < 600;
-          const inset = { top: mobile ? 130 : 140, bottom: 65, left: mobile ? 36 : 50, right: mobile ? 64 : 50 };
+          const inset = { top: 24, bottom: Math.min(64, dimensions.height * 0.18), left: mobile ? 24 : 40, right: mobile ? 110 : 150 };
           const ratio = Math.max(0.35, Math.min(2.5, Math.max(width / Math.max(80, dimensions.width - inset.left - inset.right), height / Math.max(80, dimensions.height - inset.top - inset.bottom)) * 1.12));
           const fittedState = { ...cameraState, ratio };
           const target = sigma.viewportToFramedGraph({
@@ -480,6 +494,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
           sigma.setSetting('stagePadding', viewportScale.current < 1 ? 24 : 48);
           sigma.resize();
           sigma.refresh();
+          if (!interaction.current.isDragging && !interaction.current.isSettling) fitSelection.current(latest.current.selectedArtistId, latest.current.path);
         });
         resizeObserver.observe(container.current);
         const onContextLost = (event: Event) => { event.preventDefault(); setStatus('error'); };
@@ -585,6 +600,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
       resizeObserver?.disconnect();
       contextLostCleanup?.();
       interactionCleanup?.();
+      cameraCleanup?.();
       imageChecks.forEach((check) => { check.onerror = null; });
       renderer.current?.kill();
       renderer.current = null;
@@ -661,7 +677,7 @@ export default function GraphCanvas(props: GraphCanvasProps) {
     <div className="graph-canvas" data-testid="graph-canvas" data-interaction={gesturePhase} style={{ position: 'absolute', inset: 0 }}>
       <div ref={container} className="sigma-container" style={{ position: 'absolute', inset: 0, cursor: 'grab' }} aria-label="아티스트 협업 네트워크. 아티스트를 선택하거나 목록 보기에서 탐색할 수 있습니다." role="img" />
       {status === 'loading' && <div className="graph-status" role="status"><LoaderCircle size={20} className="spin" /> 협업 지도를 준비하고 있어요</div>}
-      {status === 'error' && <div className="graph-status graph-error" role="alert"><Network size={26} /><strong>이 환경에서는 지도를 표시할 수 없어요</strong><span>WebGL을 지원하는 브라우저에서 열거나, 목록 보기로 같은 아티스트와 협업곡을 탐색하세요.</span></div>}
+      {status === 'error' && <div className="graph-status graph-error" role="alert"><Network size={26} /><strong>이 환경에서는 지도를 표시할 수 없어요</strong><span>WebGL을 지원하는 브라우저에서 열거나, 목록 보기로 같은 아티스트와 협업곡을 탐색하세요.</span><button onClick={props.onListView}>목록으로 탐색</button></div>}
       {status === 'ready' && props.snapshot.nodes.length === 0 && <div className="graph-status" role="status">선택한 조건에 맞는 아티스트가 없어요. 기간이나 최소 공동곡 수를 조정해 보세요.</div>}
       {status === 'ready' && (
         <div className="canvas-controls" aria-label="지도 조작">

@@ -2,6 +2,68 @@
 
 The browser suite exercises the real generated catalog through development, built-static, or public servers. It does not substitute a synthetic catalog for product data. The performance test temporarily injects a graph into the same Sigma renderer in development only, then restores the actual map.
 
+## 2026-10-04 UX and documentation release
+
+This section records the current working-tree redesign, based on commit `2e4a33e`, with dataset `2026.10.01-73d5c2c3-c92fd5a3-map2`. Older sections below are historical results, not certification of this working tree. No production deployment is included in this record.
+
+### Verified behavior and build
+
+- `npm run build` completed with the default Turbopack build, including snapshot generation, launch validation and **2,618 static pages**. Map transport and every artist/recording detail envelope carry the same version. The two existing shared-ISRC review warnings remain; there are no validation errors.
+- **75/75 Vitest tests**, **10/10 Python collector tests**, TypeScript and the native visitor API check passed. The API check performs no production-counter writes.
+- The built export at `http://127.0.0.1:54954` passed **67 browser tests in 2.2 minutes**, with one intentional desktop-only skip for a touch gesture. Port 3100 belonged to another project; no result from that port is used here. Evidence: `test-results/redesign-release/` and `playwright-report/redesign-release/`.
+- Coverage includes source-backed selection and edges, actual node drag and cancellation, filters and worker layout, keyboard/IME search, history and shared state, list fallback, detail retry and version mismatch, optional trailer playback/error/rotation/focus, and visitor-counter failure handling.
+- Axe found **zero violations** in the checked expanded artist and filter-dialog states on desktop and mobile emulation (`wcag2a`, `wcag2aa`, `wcag21aa`, `wcag22aa`). This is an automated check, not a complete accessibility audit.
+- Responsive captures cover **360, 390, 768, 1024 and 1440 CSS pixels**. Manual Chrome inspection also covered a **390×600** short viewport, with the lower evidence, attribution and timeline controls reachable by scrolling. Mobile expansion fills the map workspace while keeping search available at normal viewport heights.
+- Built canonical links were checked for `/`, `/map/` and `/artists/garion/`; the sitemap has one canonical map entry.
+
+The initial map JSON decreased from **6,270,746 to 3,777,055 uncompressed bytes (39.8%)**. Validation compares nodes and edges from the actual compact transport against the full catalog across three periods and both core/extended scopes. Recording titles and sources now come from validated detail chunks. This size comparison is not a network-speed measurement.
+
+### Native rendering measurement
+
+The final stress run was sequential, with no capture/render job or source edits in progress. Local environment: macOS, Node **26.0.0**, Chrome **154.0.8037.97**, Next.js **16.3.8** and **ANGLE Metal / Apple M4**. CI remains configured for Node 22; it has not run on this uncommitted change.
+
+| Viewport | Three measured runs | Median | Required median |
+| --- | --- | --- | --- |
+| Desktop 1600×1000 | 44, 59, 59 fps | 59 fps | ≥45 fps |
+| Mobile emulation 390×844 | 58, 60, 60 fps | 60 fps | ≥30 fps |
+
+All six measurements retained exactly 1,000 nodes and 10,000 ties. The desktop's first run was below 45 fps; the defined acceptance criterion is the three-run median, not every frame or run. This establishes the local renderer check only. Evidence: `test-results/redesign-stress-final/` and `playwright-report/redesign-stress-final/`.
+
+### Initial loading and throttled diagnostic
+
+Five fresh HTTP-cache contexts per viewport used the built static server, empty storage, the same reused browser process and no network throttling. Readiness means a positive Sigma node count after initialization; all portraits need not have finished loading. The trailer was never opened.
+
+| Viewport | Five map-ready samples (ms) | Median | Empirical p95 / maximum |
+| --- | --- | --- | --- |
+| Desktop | 518, 550, 468, 488, 481 | 488 ms | 550 ms |
+| Mobile emulation | 486, 498, 487, 532, 559 | 498 ms | 559 ms |
+
+Both passed the existing 3,000 ms local readiness check, with zero page errors or failed same-origin responses. Evidence: `test-results/redesign-loading-final/` and the matching Playwright report. These are local-server measurements, not public-network or field percentiles.
+
+One separate mobile diagnostic applied **1.6 Mbps download, 150 ms latency and 4× CPU slowdown**. Map readiness was **6,526 ms**; filling a search and waiting for a visible result took **494 ms including automation overhead**. The latter is not a pure input-to-paint or search-algorithm measurement. This diagnostic has no pass/fail performance threshold and must not be presented as a physical-phone result. Its JSON receipt is in `test-results/redesign-artifacts-final/`; the same run generated the final README images.
+
+Reproduce the browser evidence after building and starting the static export on an available port:
+
+```sh
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:54954 npm run test:e2e
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:54954 npx playwright test tests/performance.spec.ts --grep 'five fresh'
+PLAYWRIGHT_BASE_URL=http://127.0.0.1:54954 npx playwright test tests/artifacts.performance.spec.ts
+```
+
+### Media and documentation
+
+Revision 3 uses new recordings of native selection and node dragging from the redesigned service. Both encoded MP4s passed delivery validation: **30 seconds, 900 frames, H.264/yuv420p, 30 fps and 48 kHz AAC**. Landscape is **4,936,905 bytes** at 1280×720; portrait is **4,967,268 bytes** at 720×1280. Contact sheets were visually inspected in both orientations. The existing original score was reused; this release did not perform a new subjective listening audit.
+
+Encoding evidence is committed in `public/media/trailer/v3/manifest.json`; capture receipts and contact sheets remain in ignored `.cache/trailer/captures/` and `.cache/trailer/renders/`. The browser suite checks actual video decoding and completion. Earlier versioned assets remain available.
+
+README screenshots show the real built interface and an unavailable visitor API, with no invented visitor total. Local documentation links and Korean/English shell-command parity pass `npm run docs:check`. Documentation images are in `docs/images/`; screenshot generation and throttled diagnostics are reproducible with `tests/artifacts.performance.spec.ts`.
+
+### Remaining human and device checks
+
+Physical iOS/Android hardware, Safari, VoiceOver/TalkBack and actual browser zoom at 200% remain **unverified**. Responsive and touch emulation on the development computer must not be described as physical-device testing. Public-network performance and production deployment are also outside this evidence.
+
+A five-person usability session remains to be run. Give each person the same five tasks without procedural hints: find an artist, open a collaboration's source, inspect a specified year range, find a two-step path, and restore a shared view. Record completion, time, assistance and the point of failure for each task. Use anonymous participant codes, and report observed results rather than marking this session complete from automated tests.
+
 ## Reproduction
 
 ```sh

@@ -60,15 +60,15 @@ The font input is pinned to the [Google Fonts revision recorded in the manifest]
 
 | Asset | Format and purpose | Repository file |
 | --- | --- | --- |
-| Landscape web film | 1280×720, 30 fps, 30 seconds; each MP4 under 8 MB | [landscape.mp4](../public/media/trailer/v2/landscape.mp4) |
-| Portrait web film | 720×1280, 30 fps, 30 seconds; each MP4 under 8 MB | [portrait.mp4](../public/media/trailer/v2/portrait.mp4) |
-| Landscape poster | Static WebP fallback | [poster-landscape.webp](../public/media/trailer/v2/poster-landscape.webp) |
-| Portrait poster | Static WebP fallback | [poster-portrait.webp](../public/media/trailer/v2/poster-portrait.webp) |
-| Source receipt | Authors, source links, licenses and transformations | [credits.json](../public/media/trailer/v2/credits.json) |
+| Landscape web film | 1280×720, 30 fps, 30 seconds; each MP4 under 8 MB | [landscape.mp4](../public/media/trailer/v3/landscape.mp4) |
+| Portrait web film | 720×1280, 30 fps, 30 seconds; each MP4 under 8 MB | [portrait.mp4](../public/media/trailer/v3/portrait.mp4) |
+| Landscape poster | Static WebP fallback | [poster-landscape.webp](../public/media/trailer/v3/poster-landscape.webp) |
+| Portrait poster | Static WebP fallback | [poster-portrait.webp](../public/media/trailer/v3/poster-portrait.webp) |
+| Source receipt | Authors, source links, licenses and transformations | [credits.json](../public/media/trailer/v3/credits.json) |
 
-Public downloads: [landscape MP4](https://k-hiphop-map.vercel.app/media/trailer/v2/landscape.mp4) and [portrait MP4](https://k-hiphop-map.vercel.app/media/trailer/v2/portrait.mp4). Attribution and the accessible text description are available at [/credits/#trailer](https://k-hiphop-map.vercel.app/credits/#trailer).
+Public downloads: [landscape MP4](https://k-hiphop-map.vercel.app/media/trailer/v3/landscape.mp4) and [portrait MP4](https://k-hiphop-map.vercel.app/media/trailer/v3/portrait.mp4). Attribution and the accessible text description are available at [/credits/#trailer](https://k-hiphop-map.vercel.app/credits/#trailer).
 
-Revision 2 centers both `가리온` and `GARION` on the Garion portrait in the roots scene, with clear space between the name and circle. The versioned URL prevents an immutable cached revision 1 movie from hiding the correction. Revision 1 remains available for existing links; the seen-visit storage key stays unchanged so a typography correction does not reopen the introduction for returning visitors.
+Revision 2 centers both `가리온` and `GARION` on the Garion portrait in the roots scene, with clear space between the name and circle. The versioned URL prevents an immutable cached revision 1 movie from hiding the correction. Revisions 1 and 2 remain available for existing links. Revision 3 uses explicit playback and ignores the old seen-visit storage key.
 
 ## Original score
 
@@ -76,18 +76,13 @@ Revision 2 centers both `가리온` and `GARION` on the Garion portrait in the r
 
 The intermediate `.cache/trailer/beat.wav` is stereo 48 kHz, 24-bit PCM. The script writes `.cache/trailer/beat-analysis.json`, including the source seed, section markers, duration, loudness, true peak and clipping count. The score is normalized around −14 LUFS with peak headroom; the encoded MP4 audio must be checked separately because encoding can change the measured peak.
 
-## First-visit playback
+## Optional playback
 
-The UI stores `khiphopmap:trailer:v1:seen = '1'` after the video ends or the user dismisses it with ×, Escape or **지도 탐험하기**. The first ordinary visit to `/` or `/map/` opens the intro; later visits go directly to the map. Recognized artist, route or filter state in a shared map URL skips the automatic intro without marking it as viewed. Unavailable local storage also skips automatic opening.
+The map opens immediately, including first visits and shared links. **30초 소개 영상** is the only way to open the introduction. The overlay, poster and MP4 are lazy-loaded after that request. The previous `khiphopmap:trailer:v1:seen` value is ignored, and no storage probing or first-paint script controls the experience.
 
-Playback starts muted and inline. **소리 켜기/끄기**, pause, manual play, close and direct entry remain available. Autoplay rejection displays the poster and **영상 재생**; media failure offers replay or immediate map entry. With `prefers-reduced-motion: reduce`, the first visit displays the poster and waits for a manual play action. Orientation changes select the corresponding film and restore the playback position.
+Playback starts muted and inline after opening. Sound, pause, close and direct map entry remain available. Autoplay rejection displays the poster and a play button; a media failure offers retry. Reduced motion waits for an additional explicit play action. Orientation changes choose the matching film and preserve playback position and sound preference. Closing or completing the video restores the trigger's keyboard focus and preserves the map's selection and filters.
 
-**트레일러 다시 보기** reopens the film while preserving the current map selection and filters. Closing restores keyboard focus. The overlay traps keyboard focus while open, has an accessible title, and links its video/music credit. To repeat the first-visit scenario in a development browser, remove this version's storage value and reload:
-
-```js
-localStorage.removeItem('khiphopmap:trailer:v1:seen');
-location.reload();
-```
+Revision 3 captures the redesigned search, map and mobile sheet. Rendering reads the reviewed enriched catalog for recording titles; it must not infer titles from the lean map transport. Previous version directories remain available for existing links.
 
 ## Attribution and reuse
 
@@ -116,6 +111,6 @@ In another terminal, test the built export:
 PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 npm run test:e2e
 ```
 
-Inspect both films and preview contact sheets for legible typography, complete group photographs, independent portrait composition, actual product interaction and correct credit. Probe MP4 duration, dimensions, streams and file sizes; listen through the complete score and its closing transition. Check first visit, repeat visit, manual replay, genuine completion, skip, restricted storage, blocked autoplay, media error, reduced motion, focus/keyboard operation and portrait switching.
+Inspect both films and preview contact sheets for legible typography, complete group photographs, independent portrait composition, actual product interaction and correct credit. Probe MP4 duration, dimensions, streams and file sizes; listen through the complete score and its closing transition. Check that fresh, repeated and shared visits request no trailer assets; then check manual playback, genuine completion, close, restricted storage, blocked autoplay, media error, reduced motion, focus restoration and orientation switching.
 
 This document specifies reproduction and the checks to run. It does not certify a rendered release, browser compatibility or visual QA; actual release results belong in [docs/qa.md](qa.md) with the tested commit, files and evidence paths.

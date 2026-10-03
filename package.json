@@ -12,11 +12,12 @@
     "data:collect": "python3 scripts/collect.py",
     "data:build": "tsx scripts/build-snapshot.ts",
     "data:validate": "tsx scripts/validate-data.ts",
-    "test:e2e": "playwright test tests/e2e.spec.ts tests/trailer.e2e.spec.ts tests/visitor-counter.e2e.spec.ts",
+    "test:e2e": "playwright test tests/e2e.spec.ts tests/trailer.e2e.spec.ts tests/visitor-counter.e2e.spec.ts tests/usability.e2e.spec.ts",
     "trailer:render": "node scripts/trailer/prepare-assets.mjs && python3 scripts/trailer/beat.py && node scripts/trailer/capture.mjs && node scripts/trailer/render.mjs",
     "test:performance": "playwright test tests/performance.spec.ts --grep '1000 artists'",
     "data:validate:launch": "tsx scripts/validate-data.ts --launch",
-    "prebuild": "npm run data:build && npm run data:validate:launch"
+    "prebuild": "npm run data:build && npm run data:validate:launch",
+    "docs:check": "node scripts/check-docs.mjs"
   },
   "dependencies": {
     "@sigma/node-border": "^3.0.0",
@@ -31,6 +32,7 @@
     "sigma": "^3.0.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.51.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",

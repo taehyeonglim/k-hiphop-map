@@ -58,7 +58,6 @@ export default function TrailerOverlay({ open, pending, onClose }: TrailerOverla
 
   useLayoutEffect(() => {
     if (!open) return;
-    const previousFocus = document.activeElement as HTMLElement | null;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     closeButton.current?.focus();
@@ -77,10 +76,7 @@ export default function TrailerOverlay({ open, pending, onClose }: TrailerOverla
     return () => {
       window.removeEventListener('keydown', onKey, true);
       document.body.style.overflow = previousOverflow;
-      window.requestAnimationFrame(() => {
-        if (previousFocus?.isConnected && previousFocus !== document.body) previousFocus.focus();
-        else document.querySelector<HTMLElement>('[data-trailer-replay]')?.focus();
-      });
+
     };
   }, [open, close]);
 

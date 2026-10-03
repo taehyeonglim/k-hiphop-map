@@ -9,7 +9,7 @@ import sharp from 'sharp';
 
 const root = resolve(import.meta.dirname, '../..');
 const cache = join(root, '.cache/trailer');
-const output = join(root, 'public/media/trailer/v2');
+const output = join(root, 'public/media/trailer/v3');
 const args = process.argv.slice(2);
 const preview = args.includes('--preview');
 const master = args.includes('--master');
@@ -35,7 +35,7 @@ async function command(program, parameters) {
   return output;
 }
 
-const dataset = JSON.parse(await readFile(join(root, 'public/data/map.json'), 'utf8'));
+const dataset = JSON.parse(await readFile(join(root, 'data/catalog.enriched.json'), 'utf8'));
 const graph = JSON.parse(await readFile(join(root, 'public/data/graph.json'), 'utf8'));
 const manifestPath = join(cache, 'portraits/manifest.json');
 if (!existsSync(manifestPath)) throw new Error('Missing trailer portraits; run node scripts/trailer/prepare-assets.mjs first.');
@@ -82,7 +82,7 @@ await once(server, 'listening');
 const port = server.address().port;
 const localChrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const browser = await chromium.launch({ headless: true, executablePath: existsSync(localChrome) ? localChrome : undefined, args: ['--enable-gpu', ...(process.platform === 'darwin' ? ['--use-angle=metal'] : [])] });
-const report = { version: 2, fps, frames, duration: 30, asOf: dataset.asOf, sourceNodes: nodes.length, sourceEdges: edges.length, portraitIds: config.artists.map((artist) => artist.id), outputs: [] };
+const report = { version: 3, fps, frames, duration: 30, asOf: dataset.asOf, sourceNodes: nodes.length, sourceEdges: edges.length, portraitIds: config.artists.map((artist) => artist.id), outputs: [] };
 
 try {
   for (const format of formats) {

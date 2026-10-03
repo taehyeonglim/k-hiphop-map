@@ -16,6 +16,7 @@ jobs:
       - run: npm ci
       - run: npm run data:build
       - run: npm run data:validate:launch
+      - run: npm run docs:check
       - run: npm run typecheck
       - run: npm test
       - run: npm run api:check
