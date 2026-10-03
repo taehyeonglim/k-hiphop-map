@@ -4,7 +4,34 @@ The browser suite exercises the real generated catalog through development, buil
 
 ## 2026-10-04 UX and documentation release
 
-This section records the current working-tree redesign, based on commit `2e4a33e`, with dataset `2026.10.01-73d5c2c3-c92fd5a3-map2`. Older sections below are historical results, not certification of this working tree. No production deployment is included in this record.
+This section records redesign commit `6f74539`, based on `2e4a33e`, with dataset `2026.10.01-73d5c2c3-c92fd5a3-map2`. The production-aware browser assertions are in `4b03201`; that follow-up changes tests only. Older sections below describe earlier releases.
+
+### Production deployment and verification
+
+The redesign is live at [the public service](https://k-hiphop-map.vercel.app/), and both READMEs are published on GitHub. The Vercel production build completed with Node 24.x, including **2,618 static pages** and the standalone visitor function. The public functional run checked ready deployment `dpl_92RtzLzDVJgfpbh818LT5UjqxtP6` ([deployment](https://k-hiphop-pcnwi3wjg-taehyeong-lims-projects.vercel.app/)).
+
+- The full public browser suite passed **67 applicable checks in 2.5 minutes**, with one intentional desktop touch skip. This includes the new search/history, responsive details, accessibility, retry/version handling, real trailer playback and visitor-counter scenarios. Evidence: `test-results/counter-public-final/` and `playwright-report/counter-public-final/` (the directory contains the full suite).
+- An initial public diagnostic exposed GET-only assumptions in the counter tests. The final checks distinguish production's first daily POST from preview GET, verify that a confirmed same-day reload uses GET, and preserve the prior receipt after invalid or failed responses. Automated browser scenarios intercept counter requests and do not increase the persistent total.
+- The home page, `/map/` alias and Garion profile returned HTTP 200 with the expected canonicals. Public map JSON is byte-identical to the generated transport; its SHA-256 is `f9894d1bf0874e59b62b3dcc150153cc2213185f40935bccb2165cafcff6fd45`. The API's separate GET probe returned a valid nonnegative integer with `Cache-Control: no-store`.
+- Both revision-3 MP4s returned HTTP 206 for bytes 0–1023, `video/mp4`, the expected full lengths and one-year immutable cache headers. HTTP receipts are in `.cache/redesign-production-delivery.json`. A manual Chrome visit also showed the live map and available visitor total.
+
+[Linux/Node 22 CI for the redesign commit](https://github.com/taehyeonglim/k-hiphop-map/actions/runs/37162263404) passed data and documentation validation, type checking, **75 unit tests**, **10 collector tests**, the native API check, the production build and **67 browser checks with one intentional skip in 8.5 minutes**. No flaky retries were reported. Its downloadable `browser-evidence` artifact contains the report and captures; software WebGL is used for behavior checks, not native GPU timing.
+
+Follow-up verification for test-only commit `4b03201`: [GitHub Actions run](https://github.com/taehyeonglim/k-hiphop-map/actions/runs/37162554445).
+
+Public readiness was measured separately, after functional checks, with five fresh HTTP-cache contexts per viewport, empty storage, a reused browser process and an unthrottled connection. DNS/TLS, the operating system and CDN were not reset; this is not a field percentile or physical-phone benchmark.
+
+| Viewport | Five map-ready samples (ms) | Median | Empirical p95 / maximum |
+| --- | --- | --- | --- |
+| Desktop | 763, 781, 651, 721, 748 | 748 ms | 781 ms |
+| Mobile emulation | 705, 681, 688, 760, 666 | 688 ms | 760 ms |
+
+All ten contexts initialized 268 nodes on the same dataset version, with zero page errors or failed same-origin responses. Both viewports passed the existing 3,000 ms check. Evidence: `test-results/redesign-public-loading/` and `playwright-report/redesign-public-loading/`.
+
+```sh
+PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/counter-public-final PLAYWRIGHT_REPORT_DIR=playwright-report/counter-public-final npm run test:e2e
+PLAYWRIGHT_BASE_URL=https://k-hiphop-map.vercel.app PLAYWRIGHT_OUTPUT_DIR=test-results/redesign-public-loading PLAYWRIGHT_REPORT_DIR=playwright-report/redesign-public-loading npx playwright test tests/performance.spec.ts --grep 'five fresh'
+```
 
 ### Verified behavior and build
 
@@ -20,7 +47,7 @@ The initial map JSON decreased from **6,270,746 to 3,777,055 uncompressed bytes 
 
 ### Native rendering measurement
 
-The final stress run was sequential, with no capture/render job or source edits in progress. Local environment: macOS, Node **26.0.0**, Chrome **154.0.8037.97**, Next.js **16.3.8** and **ANGLE Metal / Apple M4**. CI remains configured for Node 22; it has not run on this uncommitted change.
+The final stress run was sequential, with no capture/render job or source edits in progress. Local environment: macOS, Node **26.0.0**, Chrome **154.0.8037.97**, Next.js **16.3.8** and **ANGLE Metal / Apple M4**. CI uses Node 22 and software WebGL for functional checks, not native GPU performance.
 
 | Viewport | Three measured runs | Median | Required median |
 | --- | --- | --- | --- |
@@ -60,7 +87,7 @@ README screenshots show the real built interface and an unavailable visitor API,
 
 ### Remaining human and device checks
 
-Physical iOS/Android hardware, Safari, VoiceOver/TalkBack and actual browser zoom at 200% remain **unverified**. Responsive and touch emulation on the development computer must not be described as physical-device testing. Public-network performance and production deployment are also outside this evidence.
+Physical iOS/Android hardware, Safari, VoiceOver/TalkBack and actual browser zoom at 200% remain **unverified**. Responsive and touch emulation on the development computer must not be described as physical-device testing. Public readiness above covers one computer and connection, not field performance across users or devices.
 
 A five-person usability session remains to be run. Give each person the same five tasks without procedural hints: find an artist, open a collaboration's source, inspect a specified year range, find a two-step path, and restore a shared view. Record completion, time, assistance and the point of failure for each task. Use anonymous participant codes, and report observed results rather than marking this session complete from automated tests.
 
