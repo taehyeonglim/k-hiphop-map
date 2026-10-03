@@ -6,6 +6,14 @@ const DAY_KEY = 'khiphopmap:visitors:day';
 const counter = (page: Page) => page.getByTestId('visitor-counter');
 const exceptions = new WeakMap<Page, string[]>();
 
+function initialRequestMethod(page: Page) {
+  return new URL(page.url()).hostname === 'k-hiphop-map.vercel.app' ? 'POST' : 'GET';
+}
+
+function currentKoreanDay() {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+}
+
 test.beforeEach(async ({ page, context }) => {
   await context.addInitScript(() => { try { localStorage.setItem('khiphopmap:trailer:v1:seen', '1'); } catch { /* Restricted storage is exercised separately. */ } });
   const errors: string[] = [];
@@ -61,7 +69,7 @@ async function focusedCentersClear(page: Page) {
   }), { message: 'the added header row must leave fitted collaboration centers clear of the interface' }).toEqual([]);
 }
 
-test('one read-only API request survives loading-to-map replacement and displays the confirmed formatted count', async ({ page }, testInfo) => {
+test('one API request survives loading-to-map replacement and a reload reads the confirmed daily count', async ({ page }, testInfo) => {
   let releaseMap!: () => void, releaseApi!: () => void;
   const mapGate = new Promise<void>(resolve => { releaseMap = resolve; });
   const apiGate = new Promise<void>(resolve => { releaseApi = resolve; });
@@ -83,9 +91,15 @@ test('one read-only API request survives loading-to-map replacement and displays
     await graphReady(page);
     await page.waitForLoadState('networkidle');
     await expect(counter(page).locator('strong')).toHaveText('12,345');
-    expect(methods).toEqual(['GET']);
-    expect(await page.evaluate(key => localStorage.getItem(key), DAY_KEY)).toBeNull();
+    const initialMethod = initialRequestMethod(page);
+    expect(methods).toEqual([initialMethod]);
+    expect(await page.evaluate(key => localStorage.getItem(key), DAY_KEY)).toBe(initialMethod === 'POST' ? currentKoreanDay() : null);
     await headerGeometry(page);
+    await page.reload();
+    await graphReady(page);
+    await expect(counter(page)).toHaveAttribute('data-state', 'ready');
+    await expect(counter(page).locator('strong')).toHaveText('12,345');
+    expect(methods).toEqual([initialMethod, 'GET']);
   } finally { releaseMap(); releaseApi(); }
 });
 
@@ -108,10 +122,11 @@ test('an unavailable counter stays unknown and a user retry shows the API genuin
   await expect(counter(page)).toHaveAttribute('data-state', 'ready');
   await expect(counter(page).locator('strong')).toHaveText('0');
   expect(methods.length).toBe(failedAttempts + 1);
-  expect(methods.every(method => method === 'GET')).toBe(true);
+  expect(methods).toEqual(Array(failedAttempts + 1).fill(initialRequestMethod(page)));
+  expect(await page.evaluate(key => localStorage.getItem(key), DAY_KEY)).toBe(initialRequestMethod(page) === 'POST' ? currentKoreanDay() : null);
 });
 
-test('malformed totals never fabricate a number or overwrite the prior daily receipt', async ({ page }) => {
+test('malformed totals preserve the prior daily receipt until a valid response', async ({ page }) => {
   await page.addInitScript(key => localStorage.setItem(key, '1995-01-01'), DAY_KEY);
   let payload: unknown = { count: '12345' };
   const methods: string[] = [];
@@ -128,11 +143,11 @@ test('malformed totals never fabricate a number or overwrite the prior daily rec
   payload = { count: 4321 };
   await page.getByRole('button', { name: '방문 수 다시 불러오기' }).click();
   await expect(counter(page).locator('strong')).toHaveText('4,321');
-  expect(await page.evaluate(key => localStorage.getItem(key), DAY_KEY)).toBe('1995-01-01');
-  expect(methods.every(method => method === 'GET')).toBe(true);
+  expect(await page.evaluate(key => localStorage.getItem(key), DAY_KEY)).toBe(initialRequestMethod(page) === 'POST' ? currentKoreanDay() : '1995-01-01');
+  expect(methods.every(method => method === initialRequestMethod(page))).toBe(true);
 });
 
-test('unavailable browser storage still shows a valid preview GET count without claiming a registered day', async ({ page }) => {
+test('unavailable browser storage still displays the valid API count', async ({ page }) => {
   await page.addInitScript(() => {
     Storage.prototype.getItem = function() { throw new DOMException('Restricted storage', 'SecurityError'); };
     Storage.prototype.setItem = function() { throw new DOMException('Restricted storage', 'SecurityError'); };
@@ -144,7 +159,7 @@ test('unavailable browser storage still shows a valid preview GET count without 
   await expect(counter(page)).toHaveAttribute('data-state', 'ready');
   await expect(counter(page).locator('strong')).toHaveText('4,321');
   await expect(page.getByRole('dialog', { name: '한국힙합 연결고리', exact: true })).toBeHidden();
-  expect(methods).toEqual(['GET']);
+  expect(methods).toEqual([initialRequestMethod(page)]);
 });
 
 test('confirmed five-digit and ten-million totals fit utility and header controls at desktop, mobile and breakpoints', async ({ page }, testInfo) => {
