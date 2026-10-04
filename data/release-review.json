@@ -1,0 +1,139 @@
+{
+  "mb-808a79a6-9b81-4313-b871-60c6496bb7b1": {
+    "sources": [
+      {
+        "id": "src-review-507",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/507",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "mb-b6740a67-4c09-4efb-afa4-cb68e7935787": {
+    "sources": [
+      {
+        "id": "src-review-508",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/508",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ],
+    "editionGroup": "reviewed-2000-korea",
+    "aliases": [
+      "2000 대한민국",
+      "2000 大韓民國"
+    ],
+    "labels": [
+      "RIAK"
+    ]
+  },
+  "mb-70a083b8-2a42-46f0-9022-c984c09daa68": {
+    "sources": [
+      {
+        "id": "src-review-508",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/508",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "2000 大韓民國과 동일 음반을 가리키는 대체 등록으로 검토. 참여 명의와 인트로·아웃트로 길이가 달라, 대체 등록 녹음은 중복 집계를 막기 위해 보류하고 원문 목록을 보존."
+      }
+    ],
+    "editionGroup": "reviewed-2000-korea",
+    "aliases": [
+      "2000 대한민국",
+      "2000 大韓民國"
+    ],
+    "labels": [
+      "RIAK"
+    ]
+  },
+  "mb-093f285e-0689-44c8-a79e-6be77875c280": {
+    "sources": [
+      {
+        "id": "src-review-16414",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/16414",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "mb-738fb14a-47bf-4126-b394-7e33cbe9b80d": {
+    "sources": [
+      {
+        "id": "src-review-9104",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/9104",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "mb-e3e22e16-f6e9-479a-ae72-0f5f9ea81209": {
+    "sources": [
+      {
+        "id": "src-review-2435",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/2435",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "mb-cd513236-e02a-4378-a94e-f83b118e4c6c": {
+    "sources": [
+      {
+        "id": "src-review-34276",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/34276",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "mb-feb733a7-1a00-4ba1-bf03-e9e1e1ace63c": {
+    "sources": [
+      {
+        "id": "src-review-26355",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/26355",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "수록 목록과 발매 정보를 교차 확인. 서비스별 곡 순서·참여 크레딧이 다른 경우 원문 표기를 유지하고 해당 참여는 검토 대기."
+      }
+    ]
+  },
+  "maniadb-383980": {
+    "sources": [
+      {
+        "id": "src-review-8001153",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/8001153",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "발매일은 벅스의 2004-06-10을 사용. maniadb는 2004-06-15로 기록하여 일자 차이를 보존하고 원반 근거를 추가 확인할 예정."
+      }
+    ]
+  },
+  "mb-ca7477d6-78f1-4c00-82df-4e5611776169": {
+    "sources": [
+      {
+        "id": "src-review-157192",
+        "provider": "maniadb",
+        "url": "https://www.maniadb.com/album/157192",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "동일 음반의 별도 DB 목록을 교차 확인. maniadb의 13트랙 목록에는 MusicBrainz의 첫 Intro가 없어, 14트랙 원문 목록을 보존하고 판본 확인을 계속함."
+      }
+    ]
+  },
+  "mb-9b0abbd6-3bb4-447e-b8d3-a2b67ecd477b": {
+    "sources": [
+      {
+        "id": "src-review-157187",
+        "provider": "maniadb",
+        "url": "https://www.maniadb.com/album/157187",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "동일 음반의 별도 DB 목록을 교차 확인. 7트랙 순서와 참여 명의를 대조. 별도 녹음으로 중복 추가하지 않음."
+      }
+    ]
+  }
+}

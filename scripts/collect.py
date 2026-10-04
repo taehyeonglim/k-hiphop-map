@@ -38,11 +38,11 @@ class Client:
         self.db.execute('CREATE TABLE IF NOT EXISTS candidates (seed_id TEXT PRIMARY KEY, payload TEXT NOT NULL, checked_at TEXT NOT NULL)')
         self.db.execute('CREATE TABLE IF NOT EXISTS collection_log (id INTEGER PRIMARY KEY, seed_id TEXT, stage TEXT, message TEXT, created_at TEXT)')
         self.db.execute('CREATE TABLE IF NOT EXISTS request_clock (host TEXT PRIMARY KEY, last_at REAL NOT NULL)')
-        self.db.commit(); self.refresh=refresh
+        self.db.commit(); self.refresh=refresh; self.refreshed_urls=set()
     def get(self, url, json_response=True):
         cached=self.db.execute('SELECT body, fetched_at FROM http_cache WHERE url=?',(url,)).fetchone()
         cache_fresh=bool(cached and dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(cached[1].replace('Z','+00:00')) < dt.timedelta(days=7))
-        if cached and cache_fresh and not self.refresh:
+        if cached and cache_fresh and (not self.refresh or url in self.refreshed_urls):
             return json.loads(cached[0]) if json_response else cached[0]
         host=urllib.parse.urlparse(url).netloc
         for attempt in range(4):
@@ -56,7 +56,7 @@ class Client:
                 req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/json' if json_response else '*/*'})
                 body=urllib.request.urlopen(req,timeout=45).read().decode('utf-8-sig')
                 parsed=json.loads(body) if json_response else body
-                self.db.execute('INSERT OR REPLACE INTO http_cache VALUES (?,?,?)',(url,body,NOW));self.db.commit()
+                self.db.execute('INSERT OR REPLACE INTO http_cache VALUES (?,?,?)',(url,body,NOW));self.db.commit();self.refreshed_urls.add(url)
                 return parsed
             except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
                 if isinstance(e,urllib.error.HTTPError) and e.code not in [429,500,502,503,504]: raise
@@ -66,6 +66,35 @@ class Client:
         return self.get(MB+entity+'?'+urllib.parse.urlencode({**params,'fmt':'json'}))
     def log(self,seed,stage,msg):
         self.db.execute('INSERT INTO collection_log (seed_id,stage,message,created_at) VALUES (?,?,?,?)',(seed,stage,msg,NOW));self.db.commit()
+
+
+def browse_all(client, entity, *, max_pages=100, **params):
+    """Browse stable MB IDs; short release pages are not the last page.
+
+    Raise instead of silently publishing incomplete/overlapping pagination.
+    Callers can retry with a refreshed client and retain the previous catalog.
+    """
+    plural = {'release': 'releases', 'recording': 'recordings'}[entity]
+    count_key = entity + '-count'
+    rows, seen, offset, expected = [], set(), 0, None
+    for _ in range(max_pages):
+        result = client.mb(entity, limit=100, offset=offset, **params)
+        page = result.get(plural, [])
+        count = result.get(count_key, result.get('count'))
+        if count is None:
+            raise ValueError(f'{entity}: missing total count')
+        if expected is not None and expected != count:
+            raise ValueError(f'{entity}: total changed during pagination: {expected} -> {count}')
+        expected = count
+        ids = [row['id'] for row in page]
+        if len(set(ids)) != len(ids) or seen.intersection(ids):
+            raise ValueError(f'{entity}: overlapping pages at offset {offset}')
+        seen.update(ids); rows.extend(page); offset += len(page)
+        if offset == expected:
+            return rows
+        if not page or offset > expected:
+            raise ValueError(f'{entity}: incomplete pagination {len(seen)}/{expected}')
+    raise ValueError(f'{entity}: page cap, {len(seen)}/{expected} unique IDs')
 
 
 class Collector:
@@ -211,13 +240,32 @@ class Collector:
         total_found=0
         review=self.identity_review.get(seed['id'],{})
         for mbid in [raw['id'],*review.get('alternateMusicbrainz',[])]:
-            for page in range(max_pages):
-                result=self.client.mb('recording',query='arid:'+mbid,limit=100,offset=page*100)
-                for rec in result.get('recordings',[]):self.ingest(rec)
-                if (page+1)*100>=result.get('count',0):break
-            count=result.get('count',0);total_found+=count
-            if count>max_pages*100:self.pending[seed['id']]={'reason':'recording-pages-capped','available':count,'collectedPages':max_pages}
-        self.artists[aid]['coverage']['note']=f'MusicBrainz 아티스트 크레딧 검색 {total_found}건 확인. 중복 녹음·연도 불명·기악·영상은 제외하며, 전체 디스코그래피 수록률은 보증하지 않습니다.'
+            repertoire={}
+            for relation in ('artist','track_artist'):
+                for row in browse_all(self.client,'release',max_pages=max_pages,**{relation:mbid},inc='artist-credits+release-groups',status='official'):
+                    repertoire[row['id']]=row
+            seen=set()
+            for release_id in repertoire:
+                release=self.client.mb('release/'+release_id,inc='recordings+artist-credits+release-groups+labels+isrcs')
+                for medium in release.get('media',[]):
+                    tracks=medium.get('tracks',[])
+                    if len(tracks)!=medium.get('track-count',len(tracks)):
+                        raise ValueError('Incomplete release track list: '+release_id)
+                    for track in tracks:
+                        if not track.get('recording'):continue
+                        rec=dict(track['recording'])
+                        rec['artist-credit']=track.get('artist-credit') or rec.get('artist-credit',[])
+                        # A participating artist's compilation can contain unrelated
+                        # tracks. Full release inventories belong to the archive;
+                        # this artist browse only imports its explicit credits.
+                        if not any(isinstance(credit,dict) and credit.get('artist',{}).get('id')==mbid for credit in rec['artist-credit']):
+                            continue
+                        seen.add(rec['id'])
+                        rec['first-release-date']=rec.get('first-release-date') or release.get('date')
+                        rec['releases']=[release]
+                        self.ingest(rec)
+            total_found+=len(seen)
+        self.artists[aid]['coverage']['note']=f'MusicBrainz 명의·참여 발매의 고유 녹음 {total_found}건 확인. 전체 음반 목록과 지도 집계 대상은 구분하며 전체 디스코그래피 수록률은 보증하지 않습니다.'
     def export(self):
         coverage={aid:{'recordings':set(),'releases':set()} for aid in self.artists}
         for rec in self.recordings.values():
@@ -241,7 +289,10 @@ class Collector:
                     else:byid[item['id']]=item
                 ds[key]=list(byid.values())
             ds['notes'].extend(extra.get('notes',[]))
+        from archive_support import merge_archive, apply_track_reviews
+        ds=merge_archive(ds,ROOT)
         ds=normalize_dataset(ds)
+        ds=apply_track_reviews(ds,ROOT)
         ds['version']=dataset_version(ds)
         portraits=ROOT/'data/portraits.json'
         if portraits.exists():
@@ -273,7 +324,16 @@ def normalize_dataset(ds):
     """
     seed_path=ROOT/'data/seeds.json';seed_rows=json.loads(seed_path.read_text()) if seed_path.exists() else [];canonical_seed_ids={s['id'] for s in seed_rows}
     grouped={};artist_alias={}
-    for a in ds['artists']:grouped.setdefault(a['externalIds'].get('musicbrainz',a['id']),[]).append(a)
+    ap=ROOT/'data/artist-aliases.json';alias_reviews=json.loads(ap.read_text()) if ap.exists() else {}
+    known_artists={a['id']:a for a in ds['artists']}
+    for a in ds['artists']:
+        review=alias_reviews.get(a['id'])
+        target=known_artists.get(review['artistId']) if review else None
+        if target:
+            a['sources']=list({s['id']:s for s in a['sources']+[review['source']]}.values())
+            mbid=a['externalIds'].get('musicbrainz')
+            if mbid:a['externalIds']['musicbrainzAlias:'+mbid]=mbid
+        grouped.setdefault((target or a)['externalIds'].get('musicbrainz',(target or a)['id']),[]).append(a)
     unique_artists=[]
     for mbid,variants in grouped.items():
         chosen=min(variants,key=lambda a:(a['id'] not in canonical_seed_ids,a['id']))
@@ -284,6 +344,8 @@ def normalize_dataset(ds):
             for k,v in a['externalIds'].items():chosen['externalIds'].setdefault(k,v)
         unique_artists.append(chosen)
     ds['artists']=unique_artists
+    if alias_reviews:
+        ds['artistAliases']={old:v['artistId'] for old,v in alias_reviews.items() if v['artistId'] in {a['id'] for a in unique_artists}}
     for r in ds['recordings']:
         for c in r['credits']:c['artistId']=artist_alias[c['artistId']]
         grouped_credits={}
@@ -331,7 +393,7 @@ def normalize_dataset(ds):
                 credit['role']=policy.get('role','instrumental');credit['verification']='reviewed'
             elif any(norm(n) in PRODUCTION_ONLY for n in [a['name'],a['nameEn']]):credit['role']='producer';credit['verification']='reviewed'
             elif a['core'] or (policy and policy['eligible']):credit['verification']='source-confirmed'
-            elif not any(s['provider']=='official' for s in r['sources']):credit['verification']='pending'
+            elif credit.get('verification') != 'reviewed':credit['verification']='pending'
             if policy:
                 ps=policy['source']
                 r['sources']=list({x['id']:x for x in [*r['sources'],ps]}.values());credit['sourceIds']=sorted(set([*credit['sourceIds'],ps['id']]))
@@ -380,7 +442,10 @@ def normalize_dataset(ds):
                 else:cr[c['artistId']]['sourceIds']=sorted(set(cr[c['artistId']]['sourceIds']+c['sourceIds']))
         row['verification']='pending' if any(r['id'] in held_ids for r in variants) else 'source-confirmed' if any(r['verification']=='source-confirmed' for r in variants) else 'pending'
         row['credits']=list(cr.values());row['kind']='free' if any(r['kind']=='free' for r in variants) else 'official';merged.append(row)
-    for rel in ds['releases']:rel['recordingIds']=sorted({canonical[r] for r in rel['recordingIds'] if r in canonical})
+    for rel in ds['releases']:
+        rel['recordingIds']=sorted({canonical[r] for r in rel['recordingIds'] if r in canonical})
+        for track in rel.get('tracks',[]):
+            if track.get('recordingId') in canonical:track['recordingId']=canonical[track['recordingId']]
     ds['recordings']=merged
     for a in ds['artists']:
         if a.get('country') is None:a.pop('country',None)
@@ -403,7 +468,8 @@ def main():
     parser.add_argument('--max-pages',type=int,default=8);parser.add_argument('--refresh',action='store_true');parser.add_argument('--normalize-only',action='store_true');parser.add_argument('--export-every',type=int,default=5)
     args=parser.parse_args()
     if args.normalize_only:
-        path=ROOT/'data/catalog.json';ds=normalize_dataset(json.loads(path.read_text()));ds['version']=dataset_version(ds);path.write_text(json.dumps(ds,ensure_ascii=False,indent=2)+'\n');return
+        from archive_support import merge_archive, apply_track_reviews
+        path=ROOT/'data/catalog.json';ds=normalize_dataset(merge_archive(json.loads(path.read_text()),ROOT));ds=apply_track_reviews(ds,ROOT);ds['version']=dataset_version(ds);path.write_text(json.dumps(ds,ensure_ascii=False,indent=2)+'\n');return
     seeds=json.loads((ROOT/'data/seeds.json').read_text())
     selected=seeds[args.offset:args.offset+args.limit if args.limit else None]
     collector=Collector(Client(args.refresh),seeds)

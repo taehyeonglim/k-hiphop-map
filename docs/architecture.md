@@ -44,3 +44,11 @@ Selection, completed paths and view changes add history entries; continuous filt
 1,200px 이상은 검색/지도/선택 상세, 768–1,199px는 상단 검색과 오른쪽 상세, 767px 이하는 상단 검색과 하단 요약·확장 패널을 사용합니다. 모바일에서 펼친 상세는 검색창 아래 지도 영역을 채우며, 접으면 지도로 돌아갑니다. CSS 변수에서 색상·타입·간격·패널 크기를 관리합니다. 검색은 IME와 combobox 키보드 조작을 지원합니다. 그래프는 목록을 통한 동등한 탐색 경로를 제공합니다.
 
 The trailer loads only after an explicit request. Reduced motion retains manual playback and reduced graph motion. Modal focus is contained and restored. The browser's initial map download and subsequent details have independent recovery states.
+
+## 음반과 수집 현황
+
+`Release.tracks`는 디스크/순서·원문 명의·트랙 출처·녹음 연결·`linked/pending/excluded` 상태를 담습니다. `inventory.expectedTracks`는 출처의 전체 수록 수로, 녹음 연결 수와 다릅니다. 관련 판본은 `editionGroup`으로 묶고, 한자/한글 별칭·레이블·시리즈는 검색 인덱스에 포함합니다.
+
+`/releases/`는 별도 `/data/releases.json`을 지연 로드합니다. `q`, `from`, `to`, `type`, `label`을 URL에 보존하며 기본 기간은 1995–2009입니다. `/releases/[id]/`는 전체 트랙과 근거를 가진 정적 페이지입니다. `/coverage/`는 버전이 같은 `/data/coverage.json`으로 모든 아티스트의 사진 조사와 초기 발매 조사 상태를 보여 줍니다. 두 인덱스 모두 통신 실패·자료 버전 차이를 표시하고 재시도를 제공합니다.
+
+`artistAliases`는 검토한 이전 ID → 정규 ID 대응입니다. 이전 아티스트 정적 URL과 지도 공유 URL이 정규 아티스트로 연결되며 협업 집계에서는 한 명으로 처리합니다.

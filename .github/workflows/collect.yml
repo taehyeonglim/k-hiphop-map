@@ -6,7 +6,7 @@ on:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -14,10 +14,16 @@ jobs:
           python-version: '3.12'
       - uses: actions/cache@v4
         with:
-          path: data/catalog.sqlite
+          path: |
+            data/catalog.sqlite
+            .cache/portraits
+            .cache/archive-run/releases
           key: music-catalog-${{ github.run_id }}
           restore-keys: music-catalog-
-      - run: python3 scripts/collect.py --refresh
+      - run: python3 -m pip install -r requirements.txt
+      - run: python3 scripts/collect-releases.py --discover --refresh
+      - run: python3 scripts/survey-portraits.py --retry-days 30
+      - run: python3 scripts/survey-profile-sources.py --merge-review
       - uses: actions/upload-artifact@v4
         with:
           name: weekly-catalog-candidates
@@ -26,4 +32,10 @@ jobs:
             data/pending.json
             data/resolved-seeds.json
             docs/data-audit.md
+            data/portrait-review.json
+            data/portrait-source-candidates.json
+            .cache/archive-run/archive.json
+            .cache/archive-run/release-audit.json
+            .cache/portraits/candidates.json
+            .cache/portraits/candidates/
           retention-days: 30

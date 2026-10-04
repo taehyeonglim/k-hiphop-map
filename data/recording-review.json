@@ -63,5 +63,70 @@
     "verification": "pending",
     "reason": "Upstream MusicBrainz assigns TAKEWON 책상 to Homies Louie. Bugs track 31143769 explicitly features 황문섭 and links artist 80095509, whose group is Geeks; this contradicts the source identity. Held pending, with no global merge of the distinct Louie IDs.",
     "sourceUrl": "https://music.bugs.co.kr/track/31143769"
+  },
+  "mb-02a8c55f-9928-41a0-b9a0-3171eb9951bb": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-0cfeca41-81fc-4448-826e-3ef84526c8c4": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-119894b0-896e-47bf-9388-c3286cff054b": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-3262cbbd-20dc-4d27-bceb-09f2b59562e2": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-3ed90963-2e0f-4cce-9f09-76046a20cb79": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-67c31646-0cbe-497d-9f9c-eef578d7bfb5": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-7074043c-b5c0-45dc-bcca-cfbca57c6942": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-8213b1a4-927c-4e88-b4de-83fe52b382f9": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-8d7bc8f4-cce9-459f-bafc-c20f2224e72f": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-b033c6a2-2237-4ff8-bbcb-04c419ea6ad0": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-b27b030f-f4d8-4647-9f7a-8fa03385e2d2": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-b547a5fd-6109-4b61-9586-d468abcbba40": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
+  },
+  "mb-bdc3f08f-9314-47c7-b09a-8ed451400bb2": {
+    "verification": "pending",
+    "reason": "2000 대한민국의 두 MusicBrainz 등록에서 같은 순서·곡명·근사 재생시간이 중복되지만 참여 표기가 달라, 대체 등록의 녹음을 집계 보류. 원반/배급 크레딧으로 동일 녹음과 참여자를 확인한 뒤 정규 ID에 통합.",
+    "sourceUrl": "https://music.bugs.co.kr/album/508"
   }
 }

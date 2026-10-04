@@ -17,6 +17,9 @@ describe('map navigation contract', () => {
     expect(parseMapState(new URLSearchParams('from=2025&to=2005&min=100.2&artist=missing&target=b'), dataset)).toMatchObject({ from: 2005, to: 2005, minCount: 20, artist: undefined, target: undefined });
     expect(parseMapState(new URLSearchParams('from=oops&to=Infinity&min=Infinity'), dataset)).toMatchObject({ from: 1995, to: 2026, minCount: 1 });
   });
+  it('restores reviewed former artist IDs in shared links', () => {
+    expect(parseMapState(new URLSearchParams('artist=old-a&target=old-b'), { ...dataset, artistAliases: { 'old-a': 'a', 'old-b': 'b' } })).toMatchObject({ artist: 'a', target: 'b' });
+  });
   it('clears selection separately from filters and preserves view', () => {
     const state = normalizeMapState({ from: 2000, to: 2010, minCount: 4, artist: 'a', target: 'b', view: 'list' }, dataset);
     expect(reduceMapState(state, { type: 'clear-selection' }, dataset)).toMatchObject({ from: 2000, minCount: 4, artist: undefined, target: undefined, view: 'list' });

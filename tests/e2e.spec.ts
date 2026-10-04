@@ -111,21 +111,35 @@ async function frames(page: Page, count = 3) {
     for (let index = 0; index < count; index++) await new Promise<void>(resolve => requestAnimationFrame(() => resolve()));
   }, count);
 }
-async function interactiveNode(page: Page, ids: string[]) {
+async function interactiveNode(page: Page, ids: string[], requireHit = ids.length > 1) {
   const bounds = await page.locator('.sigma-container').boundingBox();
   expect(bounds).not.toBeNull();
-  const node = await page.evaluate(({ ids, width, height, left, top }) => {
+  const candidates = await page.evaluate(({ ids, width, height, left, top }) => {
     const metrics = (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph;
+    const candidates: { id: string; x: number; y: number }[] = [];
     for (const id of ids) {
       const point = metrics.getPosition(id);
       if (!point || point.x < 18 || point.x > width - 18 || point.y < 18 || point.y > height - 18) continue;
       const element = document.elementFromPoint(left + point.x, top + point.y);
-      if (element?.closest('.sigma-container')) return { id, ...point };
+      if (element?.closest('.sigma-container')) candidates.push({ id, ...point });
     }
-    return null;
+    return candidates;
   }, { ids, width: bounds!.width, height: bounds!.height, left: bounds!.x, top: bounds!.y });
-  expect(node, 'an actual node must be clear of search, caption, and map controls').not.toBeNull();
-  return { id: node!.id, x: bounds!.x + node!.x, y: bounds!.y + node!.y };
+  // When choosing among collaborators, reject centers covered by a larger
+  // neighbor. Single-node scenarios verify their target through actual clicks
+  // and drags; hover can be cleared after cancellation or a reduced-motion drag.
+  for (const node of candidates) {
+    const point = { id: node.id, x: bounds!.x + node.x, y: bounds!.y + node.y };
+    if (!requireHit) return point;
+    // Re-enter after a cancelled gesture, which intentionally clears hover.
+    await page.mouse.move(0, 0);
+    await frames(page, 1);
+    await page.mouse.move(point.x, point.y);
+    await frames(page, 2);
+    const hovered = await page.evaluate(() => (window as unknown as { __hiphopGraph: GraphMetrics }).__hiphopGraph.getInteractionState().hoveredId);
+    if (hovered === point.id) return point;
+  }
+  throw new Error('No requested node is hit-testable outside interface overlays and overlapping portraits.');
 }
 async function graphState(page: Page, ids: string[]) {
   return page.evaluate(ids => {
@@ -245,7 +259,8 @@ test('selected neighborhoods contain only credited direct collaborators and rese
   await expectNeighborhood(page, source.id, neighbors);
   await stableCamera(page);
   const strangers = allIds.filter(id => id !== source.id && !neighbors.get(source.id)!.has(id));
-  const stranger = await interactiveNode(page, strangers);
+  // Probe a hidden artist's coordinates specifically to verify it cannot be hit.
+  const stranger = await interactiveNode(page, strangers, false);
   await page.mouse.move(stranger.x, stranger.y);
   await frames(page);
   await expectNeighborhood(page, source.id, neighbors);
@@ -426,7 +441,9 @@ test('cancelled mouse and touch drags cannot resume camera movement or leave dis
   await graphReady(page);
   for (const signal of ['blur', 'pointercancel'] as const) {
     await searchSelect(page, source); await expectNeighborhood(page, source.id, neighbors); await stableCamera(page);
-    const node = await interactiveNode(page, [source.id]), target = await dragTarget(page, node, 32, 24);
+    // Cancellation clears hover state. The trusted drag below verifies the
+    // selected node actually accepts input, without requiring a hover event.
+    const node = await interactiveNode(page, [source.id], false), target = await dragTarget(page, node, 32, 24);
     const before = await graphState(page, ids);
     await page.mouse.move(node.x, node.y); await page.mouse.down();
     try {
@@ -448,7 +465,7 @@ test('cancelled mouse and touch drags cannot resume camera movement or leave dis
   }
   if (testInfo.project.name === 'mobile') {
     await searchSelect(page, source); await expectNeighborhood(page, source.id, neighbors); await stableCamera(page);
-    const node = await interactiveNode(page, [source.id]), target = await dragTarget(page, node, 32, 24);
+    const node = await interactiveNode(page, [source.id], false), target = await dragTarget(page, node, 32, 24);
     const before = await graphState(page, ids), session = await page.context().newCDPSession(page);
     try {
       const point = { x: node.x, y: node.y, id: 0, radiusX: 2, radiusY: 2, force: 1 };

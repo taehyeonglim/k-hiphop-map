@@ -1,0 +1,775 @@
+{
+  "mb-9b62c212-dbb5-47a1-a9dc-ed55e978b8f1": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104510",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104510",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "joosuc",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104510",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-8cf4757d-4ddf-4289-a97e-44ff33824c15": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104511",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104511",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "garion",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104511",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-50e47c78-b5e8-4198-83a3-1fb54397db85": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104512",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104512",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-990adba7-e0e2-4d71-9151-5487540ad1e5",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104512",
+          "src-review-140524"
+        ]
+      },
+      {
+        "artistId": "mb-c63da798-1360-4338-8abf-fe82c579e284",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104512",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-75d6ed0f-746d-4125-85b1-302cd8a13a0f": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104513",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104513",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-a2442dea-50a3-4292-829c-ac435a48dfdb",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104513",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-6ebe1cdd-bd04-44f1-8d6c-a8a542f4cf82": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104514",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104514",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-78a5f7a4-1923-405a-ac1b-b2f715d76b89",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104514",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-f026c39d-49a0-4fca-bab5-cf8713f08b14": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104515",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104515",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-125c5f32-0d4e-44d6-b649-35b0a030fa00",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104515",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-0c64a115-c640-4d6c-a2ed-2139053e697c": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104516",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104516",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-a2442dea-50a3-4292-829c-ac435a48dfdb",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104516",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-c056b730-b9a5-4cf9-8167-1b8874dfc4a0": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104524",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "joosuc",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104524",
+          "src-review-140524"
+        ]
+      },
+      {
+        "artistId": "mb-f2563728-0144-4b77-84cc-96890eeb3385",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104524",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-6afdc86c-e8a5-41e1-9b9a-c21f1658ea39": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104526",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104526",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-5c69bf4e-dc26-4e06-a405-1a2b476f3722",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104526",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-b67fbd82-db11-4597-9817-66f03ef679d1": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104533",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104533",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "garion",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104533",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-c703c02e-0e6d-4c48-920d-0962caf4b688": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104554",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104554",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "one-sun",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104554",
+          "src-review-140524"
+        ]
+      },
+      {
+        "artistId": "mb-5c69bf4e-dc26-4e06-a405-1a2b476f3722",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104554",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-439c851d-0440-4a61-9196-2f441e4e8187": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104507",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104507",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "판매사에 제공된 앨범 소개가 턴테이블리즘 트랙으로 명시. 서비스의 일괄 보컬 표기보다 구체적 역할 근거를 적용."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-2d4dc056-a267-42f2-9898-bd2f0ce9b2ef",
+        "role": "instrumental",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104507",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-22f3c6a8-3ef1-49f3-bef5-f36df33c9d19": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-104522",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/104522",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "스크래치 트랙으로 검토. 그룹 가리온의 개인 멤버 보컬 참여로 확장하지 않음."
+      },
+      {
+        "id": "src-review-140524",
+        "provider": "official",
+        "url": "https://m.yes24.com/goods/detail/140524",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Master Plan 제공 재발매 소개·트랙 표 대조. 같은 곡의 원발매가 2000년임을 설명. 작사자를 실연자로 확장하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-d81842a4-bae0-429f-9e81-28ee99bd3602",
+        "role": "instrumental",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-104522",
+          "src-review-140524"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-5982fa1a-a660-470f-82f9-489a4a388f0c": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-22142",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/22142",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-990adba7-e0e2-4d71-9151-5487540ad1e5",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-22142"
+        ]
+      },
+      {
+        "artistId": "leo-kekoa",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-22142"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-dfafa767-cedb-483e-8db2-41ef4b71816d": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-22157",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/22157",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "one-sun",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-22157"
+        ]
+      },
+      {
+        "artistId": "mb-aebd63fe-9e3f-4e61-89b5-a7fa64da8f29",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-22157"
+        ]
+      },
+      {
+        "artistId": "mithra-jin",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-22157"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-ff41ebc2-d425-4d95-a566-d6fa12a3deb8": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519441",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519441",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      },
+      {
+        "id": "src-review-34276",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/34276",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "앨범 소개의 다섯 래퍼 명단과 곡별 참여정보를 대조."
+      },
+      {
+        "id": "src-review-173166",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/album/173166",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Young GM에서 Bizniz로 활동명 변경을 명시."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "joosuc",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519441",
+          "src-review-34276",
+          "src-review-173166"
+        ]
+      },
+      {
+        "artistId": "bizniz",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519441",
+          "src-review-34276",
+          "src-review-173166"
+        ]
+      },
+      {
+        "artistId": "bill-stax",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519441",
+          "src-review-34276",
+          "src-review-173166"
+        ]
+      },
+      {
+        "artistId": "mb-d5afffec-916e-4c1b-82f9-84d6d0be026e",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519441",
+          "src-review-34276",
+          "src-review-173166"
+        ]
+      },
+      {
+        "artistId": "bugs-69058",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519441",
+          "src-review-34276",
+          "src-review-173166"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-c2f08955-a666-4e65-b71d-c251d15302db": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519443",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519443",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "infinite-flow",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519443"
+        ]
+      },
+      {
+        "artistId": "mb-874ca56d-68c0-4ac0-8d95-b48a5fde1dd8",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519443"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-10cbbfa8-12b6-42da-ac18-e37f63a65159": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519444",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519444",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "defconn",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519444"
+        ]
+      },
+      {
+        "artistId": "verbal-jint",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519444"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-60d8d810-1c53-4df9-b62f-069d3a98b0da": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519446",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519446",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-6affcd17-2083-4cd7-bc58-ca5dca5109a8",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519446"
+        ]
+      },
+      {
+        "artistId": "mb-a985f095-ca06-4004-810e-9fca81ba4053",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519446"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-da52c9d9-129f-4b13-98de-40ad6eb81eb1": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519458",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519458",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "벅스의 곡별 참여정보에서 실연 역할을 확인. 작사·작곡 표기는 실연 근거로 사용하지 않음."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "sangchu",
+        "role": "main",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519458"
+        ]
+      },
+      {
+        "artistId": "joosuc",
+        "role": "featured",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519458"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-32304a68-751f-483e-837f-3ad17a066d36": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519448",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519448",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Young GM의 피처링만 보컬 실연으로 승인. DJ Tactics는 기존 검토한 프로듀서 역할 유지."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-eee1e2ca-6c59-40ec-9aa1-5a2cc66ec29d",
+        "role": "producer",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519448"
+        ]
+      },
+      {
+        "artistId": "bizniz",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519448"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  },
+  "mb-dd3b7b64-0695-45ac-889f-ce90c98bf661": {
+    "reviewedAt": "2026-10-04T01:01:33.523927Z",
+    "sources": [
+      {
+        "id": "src-review-519451",
+        "provider": "Bugs",
+        "url": "https://music.bugs.co.kr/track/519451",
+        "fetchedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "Defconn·Born Kim의 피처링만 보컬 실연으로 승인. Schedule 1은 기존 검토한 프로듀서 역할 유지."
+      }
+    ],
+    "credits": [
+      {
+        "artistId": "mb-04461330-30ae-4adf-a893-e94fe6bb4f63",
+        "role": "producer",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519451"
+        ]
+      },
+      {
+        "artistId": "defconn",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519451"
+        ]
+      },
+      {
+        "artistId": "mb-e4cfe3a0-4561-4059-8f00-678c8c9dac65",
+        "role": "rap",
+        "verification": "reviewed",
+        "sourceIds": [
+          "src-review-519451"
+        ]
+      }
+    ],
+    "verification": "reviewed"
+  }
+}

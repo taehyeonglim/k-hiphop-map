@@ -1,12 +1,12 @@
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
-import type { Dataset, MapDataset, ArtistDetail, RecordingDetail } from '../src/lib/types';
+import type { Dataset, MapDataset, ArtistDetail, RecordingDetail, ReleaseIndex, CoverageData } from '../src/lib/types';
 import { deriveGraph, defaultFilters, performerIds } from '../src/lib/graph';
 const enriched = join(process.cwd(), 'data/catalog.enriched.json');
 const dataset: Dataset = JSON.parse(readFileSync(existsSync(enriched) ? enriched : 'data/catalog.json', 'utf8'));
 const errors: string[] = [], warnings: string[] = [];
 if (existsSync(enriched)) {
-  for (const input of ['data/catalog.json', 'data/portraits.json']) {
+  for (const input of ['data/catalog.json', 'data/portraits.json', 'data/portrait-review.json', 'data/release-audit.json', 'data/release-backlog.json']) {
     if (existsSync(input) && statSync(input).mtimeMs > statSync(enriched).mtimeMs) errors.push(`Stale snapshot: ${input} changed; run npm run data:build`);
   }
 }
@@ -47,6 +47,18 @@ for (const release of dataset.releases) {
   if (!validUrl(release.source.url)) errors.push(`Invalid release source URL: ${release.id}`);
   for (const id of release.recordingIds) if (!recordings.has(id)) errors.push(`Unknown recording on release: ${id}`);
   for (const id of release.artistIds) if (!artists.has(id)) errors.push(`Unknown release artist: ${id}`);
+  if (release.tracks) {
+    const positions = release.tracks.map(track => `${track.disc}:${track.position}`);
+    if (new Set(positions).size !== positions.length) errors.push(`Duplicate track positions: ${release.id}`);
+    if (release.inventory?.status === 'complete' && release.inventory.expectedTracks !== release.tracks.length) errors.push(`Incomplete track inventory: ${release.id}`);
+    for (const track of release.tracks) {
+      if (!track.sources.length || track.sources.some(source => !validUrl(source.url))) errors.push(`Missing track evidence: ${release.id}/${track.number}`);
+      if (track.recordingId) {
+        const recording = recordings.get(track.recordingId);
+        if (!recording || !release.recordingIds.includes(track.recordingId) || !recording.releaseIds.includes(release.id)) errors.push(`Broken track/recording link: ${release.id}/${track.number}`);
+      } else if (track.status === 'linked' || !track.reason) errors.push(`Unexplained missing track link: ${release.id}/${track.number}`);
+    }
+  }
 }
 for (const membership of dataset.memberships) {
   if (artists.get(membership.groupId)?.kind !== 'group') errors.push(`Membership group is not a group: ${membership.groupId}`);
@@ -66,6 +78,18 @@ for (const edge of snapshot.edges) {
 if (existsSync('public/data/map.json')) {
   const map: MapDataset = JSON.parse(readFileSync('public/data/map.json', 'utf8'));
   if (map.version !== dataset.version) errors.push('Map dataset version differs from source snapshot');
+  const index: ReleaseIndex = JSON.parse(readFileSync('public/data/releases.json', 'utf8'));
+  if (index.version !== dataset.version || index.releases.length !== dataset.releases.length || new Set(index.releases.map(row => row.id)).size !== releases.size) errors.push('Invalid release index/version');
+  const coverage: CoverageData = JSON.parse(readFileSync('public/data/coverage.json', 'utf8'));
+  if (coverage.version !== dataset.version || coverage.portraits.length !== dataset.artists.length) errors.push('Incomplete portrait survey registry');
+  const surveys = new Map(coverage.portraits.map(row => [row.id, row]));
+  if (surveys.size !== artists.size) errors.push('Duplicate or unknown portrait survey IDs');
+  for (const artist of dataset.artists) {
+    const survey = surveys.get(artist.id);
+    if (!survey || !survey.nextAction) errors.push(`Missing portrait survey: ${artist.id}`);
+    if (survey?.state === 'included' && !artist.image) errors.push(`Portrait survey falsely claims included: ${artist.id}`);
+    if (artist.image && survey?.state !== 'included') errors.push(`Published portrait absent from survey: ${artist.id}`);
+  }
   for (const extended of [false, true]) for (const [from, to] of [[1995, Number(dataset.asOf.slice(0, 4))], [2005, 2014], [2020, Number(dataset.asOf.slice(0, 4))]]) {
     const filters = { from, to, extended, cumulative: false, minCount: 2 };
     const original = deriveGraph(dataset, filters), compact = deriveGraph(map, filters);

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "candidate-blex-vol1",
+    "title": "BLEX 1집 (1997 자료)",
+    "status": "needs-source",
+    "reason": "당시 발매 기록은 확인했으나 원반의 전체 트랙 순서·참여자와 공식 공개 근거를 추가 확보해야 함.",
+    "sources": [
+      "https://www.hankyung.com/article/2000053166681"
+    ],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  },
+  {
+    "id": "candidate-snp-tragic-temple",
+    "title": "SNP / Tragic Temple",
+    "status": "needs-source",
+    "reason": "제목과 활동 이력은 조사 대상으로 보존. 공식 발매·공개 시점과 곡별 참여 근거가 부족하여 공개 앨범으로 확정하지 않음.",
+    "sources": [],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  },
+  {
+    "id": "candidate-hana-demo",
+    "title": "절정신운 한아 — 한 [demo] (1999)",
+    "status": "needs-source",
+    "reason": "maniadb에서 음반 후보를 발견. 아티스트가 공식 공개한 데모인지와 원래 트랙 크레딧을 대조한 뒤 등록.",
+    "sources": [
+      "https://www.maniadb.com/album/206704"
+    ],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  },
+  {
+    "id": "candidate-korea-2003",
+    "title": "대한민국 시리즈 — 2003년 발매 여부",
+    "status": "needs-source",
+    "reason": "1999–2002년 자료는 확인. 2003년 동명 시리즈의 신뢰할 수 있는 발매 근거를 찾지 못했으며, 연도가 이어진다고 가정해 생성하지 않음.",
+    "sources": [],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  },
+  {
+    "id": "candidate-korea-2004",
+    "title": "대한민국 시리즈 — 2004년 발매 여부",
+    "status": "needs-source",
+    "reason": "2004년 동명 시리즈의 신뢰할 수 있는 발매 근거 미확보. Master Plan 2004와 별도 계열로 조사.",
+    "sources": [],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  },
+  {
+    "id": "candidate-label-catalogs",
+    "title": "신의의지·Independent Records·한량사·가라사대 발매 목록",
+    "status": "needs-source",
+    "reason": "레이블 이름 검색만으로 MusicBrainz 식별자를 확정하지 못함. maniadb·당시 공식 공지·원반 크레딧을 대조하여 발견 후보를 확장.",
+    "sources": [],
+    "checkedAt": "2026-10-04T01:03:51.277572Z"
+  }
+]

@@ -1,0 +1,621 @@
+[
+  {
+    "artistId": "bizzy",
+    "url": "http://drunkentigerintl.com/bizzy/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://drunkentigerintl.com/wp-content/uploads/2015/03/screenshot-5910-e1425874088643.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "h2adin",
+    "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80570213",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/080/570/213/80570213_1_200x200.JPG",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "noh-yun-ha",
+    "url": "https://www.genie.co.kr/detail/songInfo?xgnm=99610768",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/083/336/859/83336859_1671761032466_1_600x600.JPG",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "pinodyne",
+    "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=79927636",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/079/927/636/79927636_1568602249235_3_200x200.JPG",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "rock-punkman",
+    "url": "https://www.genie.co.kr/magazine/subMain?mgz_seq=4675",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://image.genie.co.kr/Y/IMAGE/IMG_MUZICAT/IV2/Genie_Magazine/4674/Mgz_Main_List_20180306180428.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "hash-swan",
+    "url": "http://www.illionaire.kr/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "jerry-k",
+    "url": "http://jerrykmusic.com",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "maniadb-artist-112185",
+    "url": "https://www.maniadb.com/artist/112185",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-112544",
+    "url": "https://www.maniadb.com/artist/112544",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-112587",
+    "url": "https://www.maniadb.com/artist/112587",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-112902",
+    "url": "https://www.maniadb.com/artist/112902",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-113781",
+    "url": "https://www.maniadb.com/artist/113781",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-114660",
+    "url": "https://www.maniadb.com/artist/114660",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-114863",
+    "url": "https://www.maniadb.com/artist/114863",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-114915",
+    "url": "https://www.maniadb.com/artist/114915",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-152386",
+    "url": "https://www.maniadb.com/artist/152386",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/artist/152/152386.jpg",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-153097",
+    "url": "https://www.maniadb.com/artist/153097",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-153098",
+    "url": "https://www.maniadb.com/artist/153098",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/artist/153/153098.jpg",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-424550",
+    "url": "https://www.maniadb.com/artist/424550",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-431700",
+    "url": "https://www.maniadb.com/artist/431700",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-519418",
+    "url": "https://www.maniadb.com/artist/519418",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-519420",
+    "url": "https://www.maniadb.com/artist/519420",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/artist/519/519420.jpg",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "maniadb-artist-519421",
+    "url": "https://www.maniadb.com/artist/519421",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://i.maniadb.com/images/manialogo_2.gif",
+    "licenseHints": [
+      "http://creativecommons.org/licenses/by-nc-sa/2.0/kr/"
+    ],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-06718d1e-2ab3-44fd-a8d4-aa668cb1a3c7",
+    "url": "http://www.crayzwalz.com",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error timed out>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-0d79fe8e-ba27-4859-bb8c-2f255f346853",
+    "url": "http://bts.ibighit.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://www.ibighit.com/bts/images/bts/meta-card.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-0d79fe8e-ba27-4859-bb8c-2f255f346853",
+    "url": "https://bts-official.jp/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://officialsite.cds-jp.online/prod/site/101/b8105b754686494c90f1a0a7e6d8b30a.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-0d79fe8e-ba27-4859-bb8c-2f255f346853",
+    "url": "https://ibighit.com/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-1592ba81-f73b-4b13-b456-885630a1cfb2",
+    "url": "https://www.jordanward.world/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://www.jordanward.world/wp-content/uploads/sites/1980/2025/09/desktop-cover-compressed.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-2826485e-57e7-4cc5-a343-663a5db370d1",
+    "url": "http://curseovdialect.bandcamp.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://f4.bcbits.com/img/0010379470_23.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-39f5795e-b23a-454f-b1e2-e064bd4cf47b",
+    "url": "http://www.woolliment.com/artists_profile_joo.wol",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 404: Not Found",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-3b291501-34e5-4022-a693-70c0a4a55035",
+    "url": "http://www.mandyventrice.com/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "http://static1.squarespace.com/static/55cf8165e4b0a9dde5e85a1e/t/688535840acf8b0e4055135b/1753560452410/MV_LOGO-02.PNG?format=1500w",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-3e658ee1-e5c0-4f73-8d5f-b70ab2eb26bf",
+    "url": "http://www.jazzkantine.de/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-4cebbc8b-6ae8-4288-b183-b6f11bdd749d",
+    "url": "https://www.015b.co.kr",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-632684c5-3cf5-4420-8a34-b1e0708a6fa2",
+    "url": "http://www.flyboyent.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-67d016ff-4fd3-465d-9b4a-c074a573c870",
+    "url": "https://www.desireedawsonmusic.com/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-8158a6b6-22c5-4aee-81c8-d9674c1bf307",
+    "url": "http://muz.co.kr/girlfriends/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error timed out>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-a48bbde5-a068-48ea-b4db-d516209010b3",
+    "url": "https://gashiworld.com/",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://mumon.b-cdn.net/kayutogel/SLOT-BET-KECIL-KAYUTOGEL.webp",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-ab379015-19bd-4b57-9542-b59ccf22d415",
+    "url": "http://dspmedia.co.kr/dsp/sub/p_pop07.php",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 404: Not Found",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-b71a2d29-d52f-4bd3-8311-1144837509ec",
+    "url": "http://www.asotounion.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-c3b7ef53-5082-4606-ab6f-f500fa2c7b1c",
+    "url": "https://www.mhuncho.co.uk/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 403: Forbidden",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-cd489ebe-aeed-4cbf-9af2-10d492b038e1",
+    "url": "http://www.echogg.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://cdn.imweb.me/upload/S202311222d7aa1d414ebd/e14cc39683d68.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-f1e326c8-424f-4e86-9d77-eb632e2e81a2",
+    "url": "https://dwagie.weebly.com",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mfbty",
+    "url": "http://www.dt-love.co.kr",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "rock-punkman",
+    "url": "https://m2.melon.com/artist/detail.htm?artistId=907411",
+    "checkedAt": "2026-10-04T00:54:53.472733Z",
+    "status": "candidate",
+    "imageUrl": "https://cdnimg.melon.co.kr/cm2/artistcrop/images/009/07/411/907411_20200717111409_500.jpg?4dbceda0cdae1db0716e726c85270c89/melon/optimize/90",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "elo",
+    "url": "http://www.aomgofficial.com",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "http://static1.squarespace.com/static/59e71dccf6576e2bd65ea29d/t/59e8a34c01002787707ee916/1508418385063/AOMG+LOGO.png?format=1500w",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-0b650d70-7270-494c-8c4a-a7ed1204c263",
+    "url": "http://cafe.daum.net/insweetsorrow",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-ce6858f1-cec8-4455-a1f7-3e5f75ad74dd",
+    "url": "http://cafe.daum.net/jypglow",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-1734cbe3-967b-4ea7-92f9-b73102564aae",
+    "url": "http://rhythmzone.net/ryohei/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 403: Forbidden",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-25c1ad61-e29b-471f-988a-d6b28a107fcb",
+    "url": "https://www.ozworld-rkuma.com/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://mega288flame.info/mega288.png?optimize=low&bg-color=255,255,255&fit=bounds&height=270&width=270&canvas=270:270",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-34717d24-ee81-4e3d-bcd0-cad4b1fdde2c",
+    "url": "http://www.shawnwasabi.com",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 404: Not Found",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-4781c458-b55a-40b1-b6a4-4605a2f58ed4",
+    "url": "http://www.bandpia.com",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://bandpia.com/img/og-image.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-4f51fee1-10a5-4732-9b8f-a89fb03423ff",
+    "url": "http://www.offendum.com/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://f4.bcbits.com/img/0034996509_23.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-5b8bd2fd-7e18-4f93-81a6-a438580e0b59",
+    "url": "https://www.payaldev.com/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://www.payaldev.com/wp-content/uploads/2026/01/Baji-BD-02.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-6ff1cd15-f32a-4d8c-a176-ac0207db3351",
+    "url": "https://w-inds.jp/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://w-inds.jp/ogpimg.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-7ece6302-3210-4a82-9703-1726de9499b5",
+    "url": "http://www.hinouchiemi.com",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "http://www.hinouchiemi.com/zb_users/upload/2024/08/202408101723223089890742.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-84658dc9-433e-4683-9176-a8d73fcef580",
+    "url": "http://www.ksarang.net",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-853119cc-f5df-4bfb-9b0a-2d45521bac64",
+    "url": "http://culture.mog.kr/music/artist/2",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-859a8473-b72b-4d12-a637-aadb8efd1b26",
+    "url": "http://taichimukai.com/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-8d17b65b-8ccf-495c-8b79-1f53d6226448",
+    "url": "http://indigolaend.com/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "candidate",
+    "imageUrl": "https://indigolaend.com/assets/images/og.png",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-af264289-0f45-43b6-a9f4-8074b7575afb",
+    "url": "https://www.thetildeent.com/artist-1",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-b5ef6218-5756-48fe-9d18-feb5ed00cf40",
+    "url": "https://www.stricklive.com/",
+    "checkedAt": "2026-10-04T01:12:50.806767Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-0d8303d1-6653-43f1-a0ef-2fcd3835529f",
+    "url": "http://www.doworld.com/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "no-profile-image",
+    "imageUrl": null,
+    "licenseHints": [],
+    "nextAction": "공식 프레스킷·작가 자료 추가 확인"
+  },
+  {
+    "artistId": "mb-5057938e-596f-4478-bace-7718a0e69656",
+    "url": "http://www.1tym.com/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-8339d6d4-1679-40fd-9d53-fd1eebf0b742",
+    "url": "http://ifaveent.co.kr/?p=1601&ckattempt=1",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "candidate",
+    "imageUrl": "https://ifaveent.co.kr/wp-content/uploads/2025/07/gallery-painting-museum-decoration-2965961.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-8af2f9ac-6f7f-4910-a177-7b5d8b9a3935",
+    "url": "http://www.deenasty.fr/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  },
+  {
+    "artistId": "mb-939006b7-a390-4eef-b2ab-eeae5fad9e31",
+    "url": "http://www.brandnewmusic.co.kr/portfolio-item/taewan",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "candidate",
+    "imageUrl": "http://www.brandnewmusic.co.kr/wp-content/uploads/2018/04/brandnew_mainbg-2.jpg",
+    "licenseHints": [],
+    "nextAction": "페이지 이미지의 인물과 사진별 재사용 허용 근거 확인"
+  },
+  {
+    "artistId": "mb-e272c7df-33ba-44fa-a861-dc40c86b6a81",
+    "url": "http://soulcompany.net/xe/",
+    "checkedAt": "2026-10-04T01:20:51.386487Z",
+    "status": "retry",
+    "reason": "HTTP Error 404: Not Found",
+    "nextAction": "프로필 페이지 접근 재시도 또는 보존된 공식 페이지 확인"
+  }
+]

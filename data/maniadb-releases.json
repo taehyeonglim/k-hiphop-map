@@ -1,0 +1,530 @@
+{
+  "releases": [
+    {
+      "id": "102257",
+      "title": "검은소리 Blex - Vol.2 Compilation",
+      "date": "1999-06-08",
+      "expectedTracks": 18,
+      "type": "compilation",
+      "labels": [
+        "강아지문화예술"
+      ],
+      "aliases": [
+        "BLEX Vol.2",
+        "검은소리 2"
+      ]
+    },
+    {
+      "id": "383980",
+      "title": "The Bangerz",
+      "date": "2004-06-10",
+      "expectedTracks": 19,
+      "type": "compilation",
+      "labels": [
+        "Soul Company"
+      ],
+      "aliases": [
+        "더 뱅어즈"
+      ]
+    },
+    {
+      "id": "157186",
+      "title": "At431 Presents [折衝] Vol.1",
+      "date": "2002-11",
+      "expectedTracks": 6,
+      "type": "compilation",
+      "labels": [
+        "앳포쓰리원"
+      ],
+      "aliases": [
+        "절충 1"
+      ]
+    }
+  ],
+  "artists": {
+    "111429": "joosuc",
+    "100055": "garion",
+    "133427": "the-quiett",
+    "138058": "mb-3805ba05-09fc-496a-a47a-8de033897f9a",
+    "138135": "jerry-k",
+    "133429": "kebee",
+    "151507": "mc-meta",
+    "112552": "paloalto",
+    "136638": "minos",
+    "110488": "mc-meta",
+    "134012": "mb-965f3f44-23b1-4e95-9a7e-b8511c3104fd",
+    "114341": "mb-5c69bf4e-dc26-4e06-a405-1a2b476f3722",
+    "112587": "maniadb-artist-112587",
+    "114863": "maniadb-artist-114863",
+    "114660": "maniadb-artist-114660",
+    "112185": "maniadb-artist-112185",
+    "112544": "maniadb-artist-112544",
+    "112902": "maniadb-artist-112902",
+    "114915": "maniadb-artist-114915",
+    "113781": "maniadb-artist-113781",
+    "152386": "maniadb-artist-152386",
+    "519418": "maniadb-artist-519418",
+    "519420": "maniadb-artist-519420",
+    "153098": "maniadb-artist-153098",
+    "519421": "maniadb-artist-519421",
+    "153097": "maniadb-artist-153097",
+    "424550": "maniadb-artist-424550",
+    "431700": "maniadb-artist-431700"
+  },
+  "artistRecords": [
+    {
+      "id": "maniadb-artist-112587",
+      "name": "吠死烏",
+      "nameEn": "吠死烏",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112587"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112587",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112587",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114863",
+      "name": "Under Blades Crew",
+      "nameEn": "Under Blades Crew",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114863"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114863",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114863",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114660",
+      "name": "Spit",
+      "nameEn": "Spit",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114660"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114660",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114660",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112185",
+      "name": "최재열",
+      "nameEn": "최재열",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112185"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112185",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112185",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112544",
+      "name": "파이",
+      "nameEn": "파이",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112544"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112544",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112544",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112902",
+      "name": "한승우",
+      "nameEn": "한승우",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112902"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112902",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112902",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114915",
+      "name": "Who'S The Man?",
+      "nameEn": "Who'S The Man?",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114915"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114915",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114915",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-113781",
+      "name": "Curbin.K",
+      "nameEn": "Curbin.K",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "113781"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-113781",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/113781",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-152386",
+      "name": "소울컴퍼니",
+      "nameEn": "소울컴퍼니",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "152386"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-152386",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/152386",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519418",
+      "name": "최적화",
+      "nameEn": "최적화",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519418"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519418",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519418",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519420",
+      "name": "Syntax-Error",
+      "nameEn": "Syntax-Error",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519420"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519420",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519420",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-153098",
+      "name": "플래닛 블랙",
+      "nameEn": "플래닛 블랙",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "153098"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-153098",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/153098",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519421",
+      "name": "Masonic Trippers",
+      "nameEn": "Masonic Trippers",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519421"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519421",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519421",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-153097",
+      "name": "멕센",
+      "nameEn": "멕센",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "153097"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-153097",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/153097",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-424550",
+      "name": "Smooth Tale",
+      "nameEn": "Smooth Tale",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "424550"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-424550",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/424550",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-431700",
+      "name": "玄武 Aka Gubook",
+      "nameEn": "玄武 Aka Gubook",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "431700"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-431700",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/431700",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    }
+  ],
+  "verifiedPerformers": [
+    "maniadb-artist-519418",
+    "maniadb-artist-153098",
+    "maniadb-artist-153097",
+    "mb-3805ba05-09fc-496a-a47a-8de033897f9a"
+  ]
+}

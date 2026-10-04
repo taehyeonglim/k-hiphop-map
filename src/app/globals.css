@@ -94,3 +94,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,su
 .bootstrap-masthead{background:var(--paper);flex-wrap:wrap;min-height:88px}.bootstrap-masthead .masthead-utilities{display:flex;align-items:center;gap:16px}.bootstrap-masthead .masthead-secondary{display:flex;align-items:center;gap:16px}
 .bootstrap-intro,.bootstrap-error p,.bootstrap-loading,.bootstrap-actions button{font-size:14px}.bootstrap-footer,.bootstrap-nav,.bootstrap-footer a,.bootstrap-scope,.bootstrap-kicker{font-size:12px}
 @media(max-width:767px){.bootstrap-masthead .masthead-utilities{flex-wrap:wrap}.bootstrap-masthead .masthead-secondary{flex-wrap:wrap}.bootstrap-copy h1{font-size:36px}.bootstrap-footer{flex-wrap:wrap}.bootstrap-footer>span{max-width:none}.bootstrap-nav{font-size:12px}}
+
+@media(max-width:767px){.main-nav>a.album-nav{display:inline-flex;font-size:12px;min-width:36px}.main-nav .trailer-replay{font-size:0;width:36px;min-width:36px;gap:0}.main-nav .trailer-replay svg{width:18px;height:18px}}

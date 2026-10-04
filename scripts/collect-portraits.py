@@ -92,7 +92,7 @@ def api(host: str, **params) -> dict:
     query = urllib.parse.urlencode(sorted(params.items()))
     url = f'https://{host}/w/api.php?{query}'
     cache_path = CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.json')
-    if cache_path.exists():
+    if cache_path.exists() and time.time() - cache_path.stat().st_mtime < 30 * 24 * 60 * 60:
         return json.loads(cache_path.read_text())
     for attempt in range(6):
         try:
@@ -185,6 +185,13 @@ def eligible_entity(entity: dict, artist: dict) -> bool:
     mbid = external.get('musicbrainz') or external.get('MusicBrainz') or artist.get('mbid') or artist.get('musicbrainz')
     if mbid and mbids:
         return mbid in mbids
+    # A same-name musician in another country is still an identity conflict.
+    countries = {'KR': 'Q884', 'US': 'Q30', 'CN': 'Q148', 'PH': 'Q928', 'NZ': 'Q664', 'GB': 'Q145', 'JP': 'Q17', 'CA': 'Q16', 'AU': 'Q408'}
+    origin = [claim.get('mainsnak', {}).get('datavalue', {}).get('value', {}).get('id')
+              for prop in ('P27', 'P495') for claim in claims.get(prop, [])]
+    expected = countries.get(artist.get('country'))
+    if expected and origin and expected not in origin:
+        return False
     # Articles reached through an exact name/qualified-title redirect still need
     # a music-related entity, e.g. prevent Mino (city) and Crush (drink) matches.
     descriptions = ' '.join(row['value'] for row in entity.get('descriptions', {}).values())
@@ -291,50 +298,60 @@ def load_artists(path: Path) -> list[dict]:
 
 
 def write_audit(artists: list[dict], portraits: dict, status: dict):
-    name_registry = {str(a.get('id') or a.get('mbid')): a for a in artists}
-    for registry_path in [ROOT / 'data' / 'seeds.json', ROOT / 'data' / 'catalog.json']:
-        if registry_path.exists():
-            try:
-                registry_artists = load_artists(registry_path)
-                name_registry.update({str(a.get('id') or a.get('mbid')): a for a in registry_artists})
-                if registry_path.name == 'catalog.json':
-                    artists = registry_artists
-            except (KeyError, json.JSONDecodeError):
-                pass
-    present = [a for a in artists if str(a.get('id') or a.get('mbid')) in portraits]
+    # Report the current catalogue, not only the input seed subset.
+    catalog_path = ROOT / 'data/catalog.json'
+    if catalog_path.exists():
+        artists = load_artists(catalog_path)
+    review_path = ROOT / 'data/portrait-review.json'
+    if review_path.exists():
+        status = json.loads(review_path.read_text())
+    def asset_for(artist):
+        external = artist.get('externalIds', {})
+        keys = [artist['id'], external.get('musicbrainz'), 'mb-' + external.get('musicbrainz', ''),
+                external.get('mbid'), artist.get('name'), artist.get('nameEn'), *artist.get('aliases', [])]
+        return next((portraits[key] for key in keys if key in portraits), None)
+    present = [(artist, asset_for(artist)) for artist in artists if asset_for(artist)]
     core = [a for a in artists if a.get('core')]
-    core_present = [a for a in core if str(a.get('id') or a.get('mbid')) in portraits]
+    core_present = sum(bool(a.get('core')) for a, _ in present)
+    counts = {}
+    for artist in artists:
+        state = status.get(artist['id'], {}).get('state', 'unsearched')
+        counts[state] = counts.get(state, 0) + 1
     lines = ['# Portrait source audit', '',
-             'All included portraits were obtained from Wikimedia Commons or freely licensed Wikipedia file records. '
-             'The collector accepts only explicitly declared CC BY, CC BY-SA, CC0 or public-domain '
-             'licenses with source URL, author and license URL. It excludes local Wikipedia fair-use '
-             'images. Permission is never inferred from an artist name, an image search, or a page license.', '',
+             'This report is regenerated when reviewed candidates are published. It covers every artist in the current catalogue. '
+             'Discovery does not itself approve a portrait: identity, file-specific reuse terms and the actual crop must be reviewed.', '',
              f'- Current catalogue artists: {len(artists)}',
-             f'- Reusable portrait assets downloaded: {len(portraits)}',
-             f'- Assets matching the current catalogue: {len(present)}',
-             f'- Core artist coverage: {len(core_present)}/{len(core)} '
-             f'({len(core_present)/len(core)*100:.1f}%)' if core else '- Core artist coverage: 0',
-             '- Output: 256×256 same-origin WebP files. People are cropped; group photographs retain '
-             'the complete image with letterboxing. Crop changes are disclosed per asset.',
-             '- Portraits represent publicly documented artist images, not a claim of current appearance '
-             'or endorsement. Missing portraits use the product’s initials fallback.', '',
-             '## Reproduction', '', '`python3 scripts/collect-portraits.py --input data/seeds.json`', '',
-             'Python 3 and Pillow are required; optional OpenCV enables face-centred crops. API responses and downloaded inputs are cached under '
-             '`.cache/portraits`; reruns skip already downloaded assets. Requests are sequential and '
-             'retry transient errors. `--retry-missing` permits reconsidering unresolved artists.', '',
-             '## Included assets', '', '| Artist | Author | License | Source |', '|---|---|---|---|']
-    for artist_id, asset in portraits.items():
-        artist = name_registry.get(artist_id, {'name': artist_id})
-        author = asset['author'].replace('|', '\\|')
-        lines.append(f"| {artist['name']} | {author} | [{asset['license']}]({asset['licenseUrl']}) | [Wikimedia file]({asset['sourceUrl']}) |")
-    lines.extend(['', '## Unresolved portraits', '',
-                  'These artists remain available in the catalogue. Lack of a verified reusable photo '
-                  'does not remove an artist or imply that no photo exists.', ''])
-    for artist in core or artists:
-        artist_id = str(artist.get('id') or artist.get('mbid'))
-        if artist_id not in portraits:
-            lines.append(f"- {artist['name']}: {status.get(artist_id, {}).get('reason', 'not yet checked')}")
-    (ROOT / 'docs' / 'image-audit.md').write_text('\n'.join(lines) + '\n')
+             f'- Artists with a published portrait: {len(present)}',
+             f'- Core artist coverage: {core_present}/{len(core)} ({core_present / len(core) * 100:.1f}%)' if core else '- Core artist coverage: 0',
+             '- Output: 256×256 same-origin WebP files. People are cropped; group photographs retain the complete image with letterboxing. Changes are disclosed per asset.',
+             '- Missing photographs use initials. An unresolved search does not establish that a photograph does not exist.', '',
+             '## Survey status', '', '| State | Artists |', '| --- | ---: |']
+    for state, count in sorted(counts.items()):
+        lines.append(f'| {state} | {count} |')
+    lines += ['', 'Every unresolved artist has a reason, checked date and next action in [the review registry](../data/portrait-review.json) and '
+              'the searchable [public collection status](https://k-hiphop-map.vercel.app/coverage/). '
+              'Known official/profile URLs and access failures are preserved in [profile evidence](../data/portrait-source-candidates.json). '
+              'An Open Graph image can be an album cover or site logo; it is not an approved artist portrait.', '',
+              '## Reproduction', '', '```sh', 'python3 scripts/survey-portraits.py',
+              'python3 scripts/survey-profile-sources.py --merge-review',
+              '# Review each staged identity, attribution and crop; record its SHA-256 in portrait-approvals.json.',
+              'python3 scripts/survey-portraits.py --publish-only', 'npm run data:build', 'npm run data:validate:launch', '```', '',
+              'The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata. Non-Wikimedia originals require '
+              'photo-specific permission records. Wikipedia local fair-use files are excluded. Current published sources and '
+              'license conditions are listed below and on the [credits page](https://k-hiphop-map.vercel.app/credits/). '
+              'API caches expire after 30 days; transient request failures remain retryable.', '',
+              '## Included assets', '', '| Artist | Author | License | Source |', '| --- | --- | --- | --- |']
+    def cell(text):
+        return str(text).replace('|', '&#124;').replace('\n', ' ')
+    for artist, asset in sorted(present, key=lambda row: row[0]['name']):
+        lines.append(f"| {cell(artist['name'])} | {cell(asset['author'])} | [{cell(asset['license'])}]({asset['licenseUrl']}) | [Original file]({asset['sourceUrl']}) |")
+    lines += ['', '## Core artists requiring follow-up', '', '| Artist | State | Reason | Next action |', '| --- | --- | --- | --- |']
+    for artist in sorted(core, key=lambda a: a['name']):
+        if asset_for(artist):
+            continue
+        row = status.get(artist['id'], {})
+        lines.append(f"| {cell(artist['name'])} | {cell(row.get('state', 'unsearched'))} | {cell(row.get('reason', 'Not yet checked'))} | {cell(row.get('nextAction', 'Identity and source research'))} |")
+    (ROOT / 'docs/image-audit.md').write_text('\n'.join(lines) + '\n')
 
 
 def main():

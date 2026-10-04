@@ -83,7 +83,7 @@ export default function MapExplorer({ dataset, onReplayTrailer, trailerOpen = fa
     <a className="skip-link" href="#artist-search-area">아티스트 검색으로 건너뛰기</a>
     <header className="masthead"><a href="/" className="brand" aria-label="K-HIPHOP MAP 홈"><span className="brand-k">K—</span><span>HIPHOP<span className="brand-slash">/</span>MAP</span><span className="brand-period">1995<span>—</span>{lastYear}</span></a>
       <p className="masthead-description">대한민국 힙합,<br />연결의 기록.</p>
-      <nav className="main-nav" aria-label="주 메뉴"><a href="/methodology/">제작 원칙</a>{onReplayTrailer && <button className="trailer-replay" data-trailer-replay aria-label="30초 소개 영상" onClick={() => { setPlaying(false); onReplayTrailer(); }}><Play size={17} />30초 소개</button>}<button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={18} /><span>공유</span></button></nav>
+      <nav className="main-nav" aria-label="주 메뉴"><a className="album-nav" href="/releases/">앨범</a><a href="/methodology/">제작 원칙</a>{onReplayTrailer && <button className="trailer-replay" data-trailer-replay aria-label="30초 소개 영상" onClick={() => { setPlaying(false); onReplayTrailer(); }}><Play size={17} />30초 소개</button>}<button className="share-button" onClick={share} aria-label="지도 공유"><Share2 size={18} /><span>공유</span></button></nav>
     </header>
     <main className={`map-main ${artist || edge ? 'with-detail' : ''} ${expanded ? 'detail-expanded' : ''}`}>
       <section className="discovery-panel" aria-label="아티스트 찾기"><div className="discovery-heading"><span className="eyebrow">CONNECTION ARCHIVE</span><h1>누가 누구와<br />음악을 만들었을까<span>?</span></h1><p>이름 검색 → 협업자 선택 →<br />함께 만든 곡 확인</p></div>

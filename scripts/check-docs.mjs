@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
-const files = ['README.md', 'README.en.md', 'CONTRIBUTING.md', 'docs/architecture.md', 'docs/data-pipeline.md', 'docs/operations.md', 'docs/trailer.md', 'docs/qa.md', 'docs/images/README.md'];
+const files = ['README.md', 'README.en.md', 'CONTRIBUTING.md', 'docs/architecture.md', 'docs/data-pipeline.md', 'docs/operations.md', 'docs/trailer.md', 'docs/qa.md', 'docs/images/README.md', 'docs/archive-collection.md', 'docs/image-audit.md', 'docs/data-audit.md'];
 const errors = [];
 for (const file of files) {
   const text = readFileSync(file, 'utf8');

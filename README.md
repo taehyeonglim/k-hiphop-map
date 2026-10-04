@@ -6,13 +6,13 @@
 
 1995년부터 수집 기준일까지의 녹음 크레딧으로 아티스트들이 함께 만든 음악과 그 연결을 살펴보는 비영리 웹 아카이브입니다.
 
-[지도 열기](https://k-hiphop-map.vercel.app/) · [제작 원칙](https://k-hiphop-map.vercel.app/methodology/) · [출처와 크레딧](https://k-hiphop-map.vercel.app/credits/) · [데이터 정정](https://github.com/taehyeonglim/k-hiphop-map/issues/new?template=data-correction.yml)
+[지도 열기](https://k-hiphop-map.vercel.app/) · [앨범 탐색](https://k-hiphop-map.vercel.app/releases/) · [수집 현황](https://k-hiphop-map.vercel.app/coverage/) · [제작 원칙](https://k-hiphop-map.vercel.app/methodology/) · [출처와 크레딧](https://k-hiphop-map.vercel.app/credits/) · [데이터 정정](https://github.com/taehyeonglim/k-hiphop-map/issues/new?template=data-correction.yml)
 
 [![Verify service](https://github.com/taehyeonglim/k-hiphop-map/actions/workflows/verify.yml/badge.svg)](https://github.com/taehyeonglim/k-hiphop-map/actions/workflows/verify.yml)
 
 ![한국힙합지도의 검색·필터와 아티스트 협업 네트워크](docs/images/map-desktop.webp)
 
-<p align="center"><img src="docs/images/map-mobile.webp" width="310" alt="모바일에서 펼친 가리온의 협업자 상세와 상시 검색창" /></p>
+<p align="center"><img src="docs/images/map-mobile.webp" width="310" alt="모바일에서 펼친 가리온의 협업자 상세와 상시 검색창" /> <img src="docs/images/album-mobile.webp" width="310" alt="Master Plan 2004의 전체 트랙 목록과 곡별 참여 근거" /></p>
 
 실제 서비스 화면입니다. 사진의 저작자·이용조건은 [크레딧](https://k-hiphop-map.vercel.app/credits/)에 있습니다.
 
@@ -21,6 +21,8 @@
 - **좋아하는 아티스트의 협업자 찾기:** [가리온에서 시작하기](https://k-hiphop-map.vercel.app/?artist=garion).
 - **특정 시기의 장면 보기:** [2005–2014년의 협업 지도](https://k-hiphop-map.vercel.app/?from=2005&to=2014).
 - **두 아티스트의 연결 찾기:** 아티스트 상세의 ‘다른 아티스트와 연결 찾기’에서 각 구간의 근거 곡까지 확인합니다.
+- **초기 음반 찾기:** [대한민국·Master Plan·BLEX 등 앨범 탐색](https://k-hiphop-map.vercel.app/releases/)에서 제목·연도·유형·레이블로 찾고 전체 수록 순서와 곡별 출처를 확인합니다.
+- **누락 자료 확인:** [수집 현황](https://k-hiphop-map.vercel.app/coverage/)에서 전체 아티스트의 사진 조사 상태와 추가 확인이 필요한 음반을 봅니다.
 
 ## 사용법
 
@@ -79,6 +81,8 @@ npm run typecheck
 npm test
 npm run api:check
 python3 scripts/test-collector.py
+python3 -m pip install -r requirements.txt
+python3 scripts/test-portraits.py
 npm run build
 npm start -- --listen 3100
 # 다른 터미널에서 빌드 결과 검증
@@ -95,7 +99,7 @@ PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 npm run test:e2e
 
 주간 수집 워크플로는 검토 후보를 만들며 자동으로 공개하지 않습니다. 인물·참여 역할·판본을 검토한 카탈로그만 커밋하여 공개합니다. 원본 카탈로그와 공식 정정 자료를 수정하고, 생성된 `public/data/`는 직접 수정하지 않습니다.
 
-[수집 명령과 검토 절차](docs/data-pipeline.md) · [데이터 감사](docs/data-audit.md) · [출처 검증](docs/source-verification.md)
+[초기 음반·사진 수집 계획과 반영 기록](docs/archive-collection.md) · [수집 명령과 검토 절차](docs/data-pipeline.md) · [데이터 감사](docs/data-audit.md) · [출처 검증](docs/source-verification.md)
 
 ## 오류 제보와 기여
 
@@ -115,6 +119,6 @@ PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 npm run test:e2e
 
 ## 로드맵과 제작자
 
-이번 개선은 선택형 소개, 상시 검색, 모바일 상세 확장, 키보드 탐색, 공유 상태 복원, 가벼운 지도 데이터와 근거 버전 검증에 집중합니다. 다음 검증 과제는 실제 iOS·Android 기기 측정과 사용자 5명의 과제 수행 점검입니다. 완료 여부는 [QA 기록](docs/qa.md)에 구분해 기록합니다.
+앨범 중심의 초기 자료 수집, 전체 트랙 목록, 곡별 역할 검토, 한자·활동명 검색, 모든 아티스트의 사진 조사 기록을 추가했습니다. 사진 조사 완료는 모든 사진을 확보했다는 뜻이 아니며, 인물·이용조건이 확인되지 않은 항목은 사유와 다음 조사 행동을 공개합니다. 다음 검증 과제는 실제 iOS·Android 기기 측정과 사용자 5명의 과제 수행 점검입니다. 완료 여부는 [QA 기록](docs/qa.md)에 구분해 기록합니다.
 
 제작: [임태형 a.k.a. Lyricist](https://github.com/taehyeonglim)

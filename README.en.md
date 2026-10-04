@@ -6,13 +6,13 @@
 
 A nonprofit web archive of artist collaborations, grounded in recording credits from 1995 through the catalog's collection date.
 
-[Explore the map](https://k-hiphop-map.vercel.app/) · [Methodology](https://k-hiphop-map.vercel.app/methodology/) · [Credits](https://k-hiphop-map.vercel.app/credits/) · [Suggest a correction](https://github.com/taehyeonglim/k-hiphop-map/issues/new?template=data-correction.yml)
+[Explore the map](https://k-hiphop-map.vercel.app/) · [Browse albums](https://k-hiphop-map.vercel.app/releases/) · [Collection status](https://k-hiphop-map.vercel.app/coverage/) · [Methodology](https://k-hiphop-map.vercel.app/methodology/) · [Credits](https://k-hiphop-map.vercel.app/credits/) · [Suggest a correction](https://github.com/taehyeonglim/k-hiphop-map/issues/new?template=data-correction.yml)
 
 [![Verify service](https://github.com/taehyeonglim/k-hiphop-map/actions/workflows/verify.yml/badge.svg)](https://github.com/taehyeonglim/k-hiphop-map/actions/workflows/verify.yml)
 
 ![Desktop map with artist search, filters and the collaboration network](docs/images/map-desktop.webp)
 
-<p align="center"><img src="docs/images/map-mobile.webp" width="310" alt="Expanded Garion collaborator panel and always-visible search on mobile" /></p>
+<p align="center"><img src="docs/images/map-mobile.webp" width="310" alt="Expanded Garion collaborator panel and always-visible search on mobile" /> <img src="docs/images/album-mobile.webp" width="310" alt="Master Plan 2004 track inventory and reviewed performer evidence" /></p>
 
 These are actual application screenshots. Photograph authors and reuse conditions are listed in the [credits](https://k-hiphop-map.vercel.app/credits/).
 
@@ -21,6 +21,9 @@ These are actual application screenshots. Photograph authors and reuse condition
 - **Find an artist's collaborators:** [start with Garion](https://k-hiphop-map.vercel.app/?artist=garion).
 - **Explore a period:** [collaborations from 2005–2014](https://k-hiphop-map.vercel.app/?from=2005&to=2014).
 - **Connect two artists:** use the path search in an artist's details, then inspect the recordings supporting each step.
+
+- **Find early releases:** [browse Korea, Master Plan, BLEX and other albums](https://k-hiphop-map.vercel.app/releases/) by title, year, type or label, then inspect complete track inventories and credit evidence.
+- **Inspect missing material:** [collection status](https://k-hiphop-map.vercel.app/coverage/) records the portrait survey for every catalog artist and outstanding album research.
 
 ## How to use it
 
@@ -79,6 +82,8 @@ npm run typecheck
 npm test
 npm run api:check
 python3 scripts/test-collector.py
+python3 -m pip install -r requirements.txt
+python3 scripts/test-portraits.py
 npm run build
 npm start -- --listen 3100
 # Test the built output in another terminal
@@ -113,8 +118,10 @@ Code is [MIT](LICENSE). The code license does not relicense data, photographs, m
 - OFL notices for Anton, Barlow Condensed and Noto Sans KR are in `public/fonts/`.
 - The trailer's original instrumental was composed for this project by 임태형 a.k.a. Lyricist. Photograph, data and font conditions remain separate in the film. See the [trailer reproduction guide](docs/trailer.md).
 
+The archive now includes release-based early catalog collection, complete track inventories, per-track role review, title/alias search and a portrait survey ledger for every artist. A completed survey does not mean every photo was obtained: unresolved identity, rights and image quality remain visible with next actions.
+
 ## Roadmap and creator
 
-This revision focuses on the optional introduction, visible search, expandable mobile details, keyboard exploration, shared state restoration, lean map data and version-checked evidence. Remaining validation tasks include physical iOS/Android measurements and a five-person usability exercise. Their status is recorded separately in the [QA log](docs/qa.md).
+Next collection priorities are unresolved early releases, track-level performer evidence and reusable portraits for the remaining artists. Physical iOS/Android measurements and a five-person usability exercise remain separate validation tasks. See the [collection plan](docs/archive-collection.md) and [QA log](docs/qa.md).
 
 Created by [임태형 a.k.a. Lyricist](https://github.com/taehyeonglim)

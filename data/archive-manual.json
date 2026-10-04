@@ -1,0 +1,2792 @@
+{
+  "artists": [
+    {
+      "id": "maniadb-artist-112587",
+      "name": "吠死烏",
+      "nameEn": "吠死烏",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112587"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112587",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112587",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114863",
+      "name": "Under Blades Crew",
+      "nameEn": "Under Blades Crew",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114863"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114863",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114863",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114660",
+      "name": "Spit",
+      "nameEn": "Spit",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114660"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114660",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114660",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112185",
+      "name": "최재열",
+      "nameEn": "최재열",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112185"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112185",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112185",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112544",
+      "name": "파이",
+      "nameEn": "파이",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112544"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112544",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112544",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-112902",
+      "name": "한승우",
+      "nameEn": "한승우",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "112902"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-112902",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/112902",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-114915",
+      "name": "Who'S The Man?",
+      "nameEn": "Who'S The Man?",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "114915"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-114915",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/114915",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-113781",
+      "name": "Curbin.K",
+      "nameEn": "Curbin.K",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "113781"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-113781",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/113781",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-152386",
+      "name": "소울컴퍼니",
+      "nameEn": "소울컴퍼니",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "152386"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-152386",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/152386",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519418",
+      "name": "최적화",
+      "nameEn": "최적화",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519418"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519418",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519418",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519420",
+      "name": "Syntax-Error",
+      "nameEn": "Syntax-Error",
+      "aliases": [],
+      "kind": "group",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519420"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519420",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519420",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-153098",
+      "name": "플래닛 블랙",
+      "nameEn": "플래닛 블랙",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "153098"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-153098",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/153098",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-519421",
+      "name": "Masonic Trippers",
+      "nameEn": "Masonic Trippers",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "519421"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-519421",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/519421",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-153097",
+      "name": "멕센",
+      "nameEn": "멕센",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "153097"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-153097",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/153097",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-424550",
+      "name": "Smooth Tale",
+      "nameEn": "Smooth Tale",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "424550"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-424550",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/424550",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "maniadb-artist-431700",
+      "name": "玄武 Aka Gubook",
+      "nameEn": "玄武 Aka Gubook",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "maniadb": "431700"
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-artist-431700",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/artist/431700",
+          "fetchedAt": "2026-10-04T00:52:32.440448Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반의 실연자 링크와 아티스트 프로필의 솔로·그룹 구분으로 식별. 동명 MusicBrainz 인물과 자동 병합하지 않음."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 0,
+        "recordingCount": 0,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T00:52:32.440448Z",
+        "note": "초기 음반 트랙 표에서 발견. 곡별 실연 역할과 다른 활동명을 계속 대조합니다."
+      }
+    },
+    {
+      "id": "bugs-69058",
+      "name": "Sam Skeenie",
+      "nameEn": "Sam Skeenie",
+      "aliases": [],
+      "kind": "person",
+      "core": false,
+      "externalIds": {
+        "bugs": "69058"
+      },
+      "sources": [
+        {
+          "id": "src-review-69058",
+          "provider": "Bugs",
+          "url": "https://music.bugs.co.kr/artist/69058",
+          "fetchedAt": "2026-10-04T01:01:33.523927Z",
+          "note": "Change The Game의 피처링 크레딧이 연결하는 인물."
+        }
+      ],
+      "coverage": {
+        "releaseCount": 1,
+        "recordingCount": 1,
+        "pendingCount": 0,
+        "checkedAt": "2026-10-04T01:01:33.523927Z",
+        "note": "MP 2004 수록곡의 실연 크레딧으로 식별."
+      }
+    }
+  ],
+  "recordings": [
+    {
+      "id": "maniadb-1253174",
+      "title": "내가누구지 (自我認識)",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "joosuc",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253176",
+      "title": "거짓 [Meta Rmx]",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "garion",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433215",
+      "title": "떠나는 자",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "mb-3805ba05-09fc-496a-a47a-8de033897f9a",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433217",
+      "title": "One Rainy Day",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "jerry-k",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "the-quiett",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "kebee",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433221",
+      "title": "향기",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "kebee",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433222",
+      "title": "夏夢 (The Quiett Remix,remix)",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433224",
+      "title": "Interview",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "the-quiett",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1635937",
+      "title": "뭐라고?",
+      "year": 2002,
+      "date": "2002-11",
+      "releaseIds": [
+        "maniadb-157186"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1635938",
+      "title": "Test My Skill",
+      "year": 2002,
+      "date": "2002-11",
+      "releaseIds": [
+        "maniadb-157186"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1635941",
+      "title": "Thorn Your Side (표효하는 표범들처럼) (Zonk Mix)",
+      "year": 2002,
+      "date": "2002-11",
+      "releaseIds": [
+        "maniadb-157186"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253175",
+      "title": "제3 행성의 문제",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112587",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253177",
+      "title": "누가 잘못했는데",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-114863",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253178",
+      "title": "그들의 세상",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-114660",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253179",
+      "title": "가끔 비가 오면",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112185",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253181",
+      "title": "Blazin'",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-114863",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253182",
+      "title": "자유",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112587",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        },
+        {
+          "artistId": "garion",
+          "role": "featured",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253183",
+      "title": "發我 (발아)",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112544",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253184",
+      "title": "하루",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112902",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253185",
+      "title": "兎死拘烹 (토사구팽)",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-114915",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253186",
+      "title": "틈",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-112544",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        },
+        {
+          "artistId": "joosuc",
+          "role": "featured",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1253188",
+      "title": "M.C.",
+      "year": 1999,
+      "date": "1999-06-08",
+      "releaseIds": [
+        "maniadb-102257"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-113781",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-102257"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433212",
+      "title": "본 앨범은 [Intro]",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-152386",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433213",
+      "title": "Next Big Thingz",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-519418",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433214",
+      "title": "Syntaxerror",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-519420",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "the-quiett",
+          "role": "featured",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433216",
+      "title": "Keep It Underground",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-153098",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433218",
+      "title": "Excali-mic",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-519418",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433219",
+      "title": "Illustration Part 2：소리의 철학",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-519421",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "kebee",
+          "role": "featured",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433220",
+      "title": "Funky Smell",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-152386",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433223",
+      "title": "야설 (夜說)",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-153097",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-153098",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433225",
+      "title": "추격! 라데꾸",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "mb-3805ba05-09fc-496a-a47a-8de033897f9a",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-519418",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433226",
+      "title": "대화 [Interlude]",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-152386",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433227",
+      "title": "천국에도 그림자는 진다",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-424550",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-519418",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433228",
+      "title": "그의 선택",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-519420",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "jerry-k",
+          "role": "featured",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-153098",
+          "role": "featured",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433229",
+      "title": "아에이오우 어!?",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "mb-3805ba05-09fc-496a-a47a-8de033897f9a",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "the-quiett",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-519418",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "kebee",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-153098",
+          "role": "main",
+          "verification": "reviewed",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-4433230",
+      "title": "Hidden Track",
+      "year": 2004,
+      "date": "2004-06-10",
+      "releaseIds": [
+        "maniadb-383980"
+      ],
+      "credits": [
+        {
+          "artistId": "maniadb-artist-152386",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-383980"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1635936",
+      "title": "小音",
+      "year": 2002,
+      "date": "2002-11",
+      "releaseIds": [
+        "maniadb-157186"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-431700",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    },
+    {
+      "id": "maniadb-1635939",
+      "title": "M",
+      "year": 2002,
+      "date": "2002-11",
+      "releaseIds": [
+        "maniadb-157186"
+      ],
+      "credits": [
+        {
+          "artistId": "mc-meta",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        },
+        {
+          "artistId": "maniadb-artist-431700",
+          "role": "main",
+          "verification": "pending",
+          "sourceIds": [
+            "src-maniadb-album-157186"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "isrcs": [],
+      "kind": "official",
+      "verification": "source-confirmed"
+    }
+  ],
+  "releases": [
+    {
+      "id": "maniadb-102257",
+      "title": "검은소리 Blex - Vol.2 Compilation",
+      "date": "1999-06-08",
+      "year": 1999,
+      "type": "compilation",
+      "artistIds": [],
+      "source": {
+        "id": "src-maniadb-album-102257",
+        "provider": "maniadb",
+        "url": "https://www.maniadb.com/album/102257",
+        "fetchedAt": "2026-10-04T00:53:52.029638Z",
+        "license": "CC BY-NC-SA 2.0 KR",
+        "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-album-102257",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/102257",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "url": "https://www.maniadb.com/album/102257",
+      "labels": [
+        "강아지문화예술"
+      ],
+      "aliases": [
+        "BLEX Vol.2",
+        "검은소리 2"
+      ],
+      "recordingIds": [
+        "maniadb-1253174",
+        "maniadb-1253175",
+        "maniadb-1253176",
+        "maniadb-1253177",
+        "maniadb-1253178",
+        "maniadb-1253179",
+        "maniadb-1253181",
+        "maniadb-1253182",
+        "maniadb-1253183",
+        "maniadb-1253184",
+        "maniadb-1253185",
+        "maniadb-1253186",
+        "maniadb-1253188"
+      ],
+      "tracks": [
+        {
+          "disc": 1,
+          "position": 1,
+          "number": "1",
+          "title": "들어가며 [Contains Elements From 검은소리, 첫번째 소리]",
+          "creditedAs": "Various Artists",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "reason": "곡별 실연자 식별·역할 근거 보완 필요"
+        },
+        {
+          "disc": 1,
+          "position": 2,
+          "number": "2",
+          "title": "내가누구지 (自我認識)",
+          "creditedAs": "주석",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253174"
+        },
+        {
+          "disc": 1,
+          "position": 3,
+          "number": "3",
+          "title": "제3 행성의 문제",
+          "creditedAs": "吠死烏",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253175"
+        },
+        {
+          "disc": 1,
+          "position": 4,
+          "number": "4",
+          "title": "거짓 [Meta Rmx]",
+          "creditedAs": "가리온",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253176"
+        },
+        {
+          "disc": 1,
+          "position": 5,
+          "number": "5",
+          "title": "누가 잘못했는데",
+          "creditedAs": "Under Blades Crew",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253177"
+        },
+        {
+          "disc": 1,
+          "position": 6,
+          "number": "6",
+          "title": "그들의 세상",
+          "creditedAs": "Spit",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253178"
+        },
+        {
+          "disc": 1,
+          "position": 7,
+          "number": "7",
+          "title": "가끔 비가 오면",
+          "creditedAs": "최재열",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253179"
+        },
+        {
+          "disc": 1,
+          "position": 8,
+          "number": "8",
+          "title": "음성확인 (Blazin' Skit)",
+          "creditedAs": "Various Artists",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "reason": "곡별 실연자 식별·역할 근거 보완 필요"
+        },
+        {
+          "disc": 1,
+          "position": 9,
+          "number": "9",
+          "title": "Blazin'",
+          "creditedAs": "Under Blades Crew",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253181"
+        },
+        {
+          "disc": 1,
+          "position": 10,
+          "number": "10",
+          "title": "자유",
+          "creditedAs": "吠死烏",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253182"
+        },
+        {
+          "disc": 1,
+          "position": 11,
+          "number": "11",
+          "title": "發我 (발아)",
+          "creditedAs": "파이",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253183"
+        },
+        {
+          "disc": 1,
+          "position": 12,
+          "number": "12",
+          "title": "하루",
+          "creditedAs": "한승우",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253184"
+        },
+        {
+          "disc": 1,
+          "position": 13,
+          "number": "13",
+          "title": "兎死拘烹 (토사구팽)",
+          "creditedAs": "Who'S The Man?",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253185"
+        },
+        {
+          "disc": 1,
+          "position": 14,
+          "number": "14",
+          "title": "틈",
+          "creditedAs": "파이",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253186"
+        },
+        {
+          "disc": 1,
+          "position": 15,
+          "number": "15",
+          "title": "길거리 (M.C. Skit)",
+          "creditedAs": "Various Artists",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "reason": "곡별 실연자 식별·역할 근거 보완 필요"
+        },
+        {
+          "disc": 1,
+          "position": 16,
+          "number": "16",
+          "title": "M.C.",
+          "creditedAs": "Curbin.K",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1253188"
+        },
+        {
+          "disc": 1,
+          "position": 17,
+          "number": "17",
+          "title": "왜냐면",
+          "creditedAs": "Blex Allstar",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "reason": "곡별 실연자 식별·역할 근거 보완 필요: Blex Allstar"
+        },
+        {
+          "disc": 1,
+          "position": 18,
+          "number": "18",
+          "title": "나오며",
+          "creditedAs": "Various Artists",
+          "sources": [
+            {
+              "id": "src-maniadb-album-102257",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/102257",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "reason": "곡별 실연자 식별·역할 근거 보완 필요"
+        }
+      ],
+      "inventory": {
+        "status": "complete",
+        "expectedTracks": 18,
+        "checkedAt": "2026-10-04T00:53:52.029638Z"
+      }
+    },
+    {
+      "id": "maniadb-383980",
+      "title": "The Bangerz",
+      "date": "2004-06-10",
+      "year": 2004,
+      "type": "compilation",
+      "artistIds": [],
+      "source": {
+        "id": "src-maniadb-album-383980",
+        "provider": "maniadb",
+        "url": "https://www.maniadb.com/album/383980",
+        "fetchedAt": "2026-10-04T00:53:52.029638Z",
+        "license": "CC BY-NC-SA 2.0 KR",
+        "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-album-383980",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/383980",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "url": "https://www.maniadb.com/album/383980",
+      "labels": [
+        "Soul Company"
+      ],
+      "aliases": [
+        "더 뱅어즈"
+      ],
+      "recordingIds": [
+        "maniadb-4433212",
+        "maniadb-4433213",
+        "maniadb-4433214",
+        "maniadb-4433215",
+        "maniadb-4433216",
+        "maniadb-4433217",
+        "maniadb-4433218",
+        "maniadb-4433219",
+        "maniadb-4433220",
+        "maniadb-4433221",
+        "maniadb-4433222",
+        "maniadb-4433223",
+        "maniadb-4433224",
+        "maniadb-4433225",
+        "maniadb-4433226",
+        "maniadb-4433227",
+        "maniadb-4433228",
+        "maniadb-4433229",
+        "maniadb-4433230"
+      ],
+      "tracks": [
+        {
+          "disc": 1,
+          "position": 1,
+          "number": "1",
+          "title": "본 앨범은 [Intro]",
+          "creditedAs": "소울컴퍼니",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433212"
+        },
+        {
+          "disc": 1,
+          "position": 2,
+          "number": "2",
+          "title": "Next Big Thingz",
+          "creditedAs": "최적화",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433213"
+        },
+        {
+          "disc": 1,
+          "position": 3,
+          "number": "3",
+          "title": "Syntaxerror",
+          "creditedAs": "Syntax-Error",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433214"
+        },
+        {
+          "disc": 1,
+          "position": 4,
+          "number": "4",
+          "title": "떠나는 자",
+          "creditedAs": "Loquence(로퀜스)",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433215"
+        },
+        {
+          "disc": 1,
+          "position": 5,
+          "number": "5",
+          "title": "Keep It Underground",
+          "creditedAs": "플래닛 블랙",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433216"
+        },
+        {
+          "disc": 1,
+          "position": 6,
+          "number": "6",
+          "title": "One Rainy Day",
+          "creditedAs": "Jerry.K , The Quiett , 키비",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433217"
+        },
+        {
+          "disc": 1,
+          "position": 7,
+          "number": "7",
+          "title": "Excali-mic",
+          "creditedAs": "최적화",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433218"
+        },
+        {
+          "disc": 1,
+          "position": 8,
+          "number": "8",
+          "title": "Illustration Part 2：소리의 철학",
+          "creditedAs": "Masonic Trippers",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433219"
+        },
+        {
+          "disc": 1,
+          "position": 9,
+          "number": "9",
+          "title": "Funky Smell",
+          "creditedAs": "Soul Company",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433220"
+        },
+        {
+          "disc": 1,
+          "position": 10,
+          "number": "10",
+          "title": "향기",
+          "creditedAs": "키비(Kebee)",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433221"
+        },
+        {
+          "disc": 1,
+          "position": 11,
+          "number": "11",
+          "title": "夏夢 (The Quiett Remix,remix)",
+          "creditedAs": "Mc Meta",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433222"
+        },
+        {
+          "disc": 1,
+          "position": 12,
+          "number": "12",
+          "title": "야설 (夜說)",
+          "creditedAs": "멕센 , 플래닛 블랙",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433223"
+        },
+        {
+          "disc": 1,
+          "position": 13,
+          "number": "13",
+          "title": "Interview",
+          "creditedAs": "The Quiett",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433224"
+        },
+        {
+          "disc": 1,
+          "position": 14,
+          "number": "14",
+          "title": "추격! 라데꾸",
+          "creditedAs": "Loquence , 최적화",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433225"
+        },
+        {
+          "disc": 1,
+          "position": 15,
+          "number": "15",
+          "title": "대화 [Interlude]",
+          "creditedAs": "소울컴퍼니",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433226"
+        },
+        {
+          "disc": 1,
+          "position": 16,
+          "number": "16",
+          "title": "천국에도 그림자는 진다",
+          "creditedAs": "Smooth Tale , 최적화",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433227"
+        },
+        {
+          "disc": 1,
+          "position": 17,
+          "number": "17",
+          "title": "그의 선택",
+          "creditedAs": "Syntax-Error",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433228"
+        },
+        {
+          "disc": 1,
+          "position": 18,
+          "number": "18",
+          "title": "아에이오우 어!?",
+          "creditedAs": "Loquence , Mc Meta , The Quiett , 최적화 , 키비 , 플래닛 블랙",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433229"
+        },
+        {
+          "disc": 1,
+          "position": 19,
+          "number": "19",
+          "title": "Hidden Track",
+          "creditedAs": "Soul Company",
+          "sources": [
+            {
+              "id": "src-maniadb-album-383980",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/383980",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-4433230"
+        }
+      ],
+      "inventory": {
+        "status": "complete",
+        "expectedTracks": 19,
+        "checkedAt": "2026-10-04T00:53:52.029638Z"
+      }
+    },
+    {
+      "id": "maniadb-157186",
+      "title": "At431 Presents [折衝] Vol.1",
+      "date": "2002-11",
+      "year": 2002,
+      "type": "compilation",
+      "artistIds": [],
+      "source": {
+        "id": "src-maniadb-album-157186",
+        "provider": "maniadb",
+        "url": "https://www.maniadb.com/album/157186",
+        "fetchedAt": "2026-10-04T00:53:52.029638Z",
+        "license": "CC BY-NC-SA 2.0 KR",
+        "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+      },
+      "sources": [
+        {
+          "id": "src-maniadb-album-157186",
+          "provider": "maniadb",
+          "url": "https://www.maniadb.com/album/157186",
+          "fetchedAt": "2026-10-04T00:53:52.029638Z",
+          "license": "CC BY-NC-SA 2.0 KR",
+          "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+        }
+      ],
+      "url": "https://www.maniadb.com/album/157186",
+      "labels": [
+        "앳포쓰리원"
+      ],
+      "aliases": [
+        "절충 1"
+      ],
+      "recordingIds": [
+        "maniadb-1635936",
+        "maniadb-1635937",
+        "maniadb-1635938",
+        "maniadb-1635939",
+        "maniadb-1635941"
+      ],
+      "tracks": [
+        {
+          "disc": 1,
+          "position": 1,
+          "number": "1",
+          "title": "小音",
+          "creditedAs": "MC Meta , 折衝 Project , 玄武 Aka Gubook",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1635936"
+        },
+        {
+          "disc": 1,
+          "position": 2,
+          "number": "2",
+          "title": "뭐라고?",
+          "creditedAs": "MC Meta , 折衝 Project",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1635937"
+        },
+        {
+          "disc": 1,
+          "position": 3,
+          "number": "3",
+          "title": "Test My Skill",
+          "creditedAs": "折衝 Project",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1635938"
+        },
+        {
+          "disc": 1,
+          "position": 4,
+          "number": "4",
+          "title": "M",
+          "creditedAs": "MC Meta , 折衝 Project , 玄武 Aka Gubook",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1635939"
+        },
+        {
+          "disc": 1,
+          "position": 5,
+          "number": "5",
+          "title": "M (Instrumental)",
+          "creditedAs": "MC Meta , 折衝 Project",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "excluded",
+          "reason": "기악·MR: 수록 목록 보존, 보컬 협업 집계 제외"
+        },
+        {
+          "disc": 1,
+          "position": 6,
+          "number": "6",
+          "title": "Thorn Your Side (표효하는 표범들처럼) (Zonk Mix)",
+          "creditedAs": "折衝 Project",
+          "sources": [
+            {
+              "id": "src-maniadb-album-157186",
+              "provider": "maniadb",
+              "url": "https://www.maniadb.com/album/157186",
+              "fetchedAt": "2026-10-04T00:53:52.029638Z",
+              "license": "CC BY-NC-SA 2.0 KR",
+              "note": "음반 메타데이터와 트랙 표의 실연자·featuring 표기만 전사. 작사·작곡·편곡과 가사 본문은 제외."
+            }
+          ],
+          "status": "pending",
+          "recordingId": "maniadb-1635941"
+        }
+      ],
+      "inventory": {
+        "status": "complete",
+        "expectedTracks": 6,
+        "checkedAt": "2026-10-04T00:53:52.029638Z"
+      }
+    }
+  ]
+}

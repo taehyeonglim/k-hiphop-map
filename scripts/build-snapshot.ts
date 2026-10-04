@@ -5,14 +5,17 @@ import { UndirectedGraph } from 'graphology';
 import forceAtlas2 from 'graphology-layout-forceatlas2';
 import louvain from 'graphology-communities-louvain';
 import { deriveGraph, defaultFilters, nodeRadius } from '../src/lib/graph';
-import type { Artist, Dataset, ImageAsset, MapDataset } from '../src/lib/types';
+import type { Artist, Dataset, ImageAsset, MapDataset, ReleaseIndexEntry, PortraitReview } from '../src/lib/types';
 
 const root = process.cwd();
 const dataset: Dataset = JSON.parse(readFileSync(join(root, 'data/catalog.json'), 'utf8'));
 const portraitsPath = join(root, 'data/portraits.json');
 const portraits = existsSync(portraitsPath) ? JSON.parse(readFileSync(portraitsPath, 'utf8')) : {};
+const portraitReviews: Record<string, PortraitReview> = existsSync('data/portrait-review.json') ? JSON.parse(readFileSync('data/portrait-review.json', 'utf8')) : {};
+const releaseAudit = existsSync('data/release-audit.json') ? JSON.parse(readFileSync('data/release-audit.json', 'utf8')) : { releases: {} };
+const releaseBacklog = existsSync('data/release-backlog.json') ? JSON.parse(readFileSync('data/release-backlog.json', 'utf8')) : [];
 // Image changes also invalidate detail caches and shared dataset manifests.
-const assetVersion = createHash('sha256').update(JSON.stringify(portraits)).digest('hex').slice(0, 8);
+const assetVersion = createHash('sha256').update(JSON.stringify({ portraits, portraitReviews, releaseAudit, releaseBacklog })).digest('hex').slice(0, 8);
 dataset.version = `${dataset.version}-${assetVersion}-map2`;
 function findPortrait(artist: Artist): ImageAsset | undefined {
   const entries = portraits.images ?? portraits.portraits ?? portraits;
@@ -24,7 +27,7 @@ function findPortrait(artist: Artist): ImageAsset | undefined {
   return undefined;
 }
 for (const artist of dataset.artists) {
-  const image = findPortrait(artist); if (image) artist.image = image;
+  const image = findPortrait(artist); if (image) artist.image = image; else delete artist.image;
 }
 const snapshot = deriveGraph(dataset, { ...defaultFilters(dataset.asOf), extended: true });
 const graph = new UndirectedGraph();
@@ -90,7 +93,7 @@ for (let iteration = 0; iteration < 65; iteration++) {
 for (const a of movable) { a.x = Math.round(a.x! * 100) / 100; a.y = Math.round(a.y! * 100) / 100; }
 const output = join(root, 'public/data');
 // Remove obsolete identity/recording chunks when the reviewed catalog changes.
-rmSync(output, { recursive: true, force: true });
+rmSync(output, { recursive: true, force: true, maxRetries: 3, retryDelay: 100 });
 mkdirSync(output, { recursive: true });
 mkdirSync(join(output, 'artists'), { recursive: true }); mkdirSync(join(output, 'recordings'), { recursive: true });
 const full = deriveGraph(dataset, { ...defaultFilters(dataset.asOf), extended: true });
@@ -98,10 +101,33 @@ writeFileSync(join(output, 'graph.json'), JSON.stringify(full));
 writeFileSync(join(root, 'data/catalog.enriched.json'), JSON.stringify(dataset));
 const lean: MapDataset = {
   version: dataset.version, asOf: dataset.asOf, notes: dataset.notes,
+  artistAliases: dataset.artistAliases,
   artists: dataset.artists.map(({ id, name, nameEn, aliases, kind, core, image, community, x, y }) => ({ id, name, nameEn, aliases, kind, core, image, community, x, y })),
   recordings: dataset.recordings.map(({ id, year, verification, credits }) => ({ id, year, verification, credits: credits.map(({ artistId, role, verification }) => ({ artistId, role, verification })) })),
 };
 writeFileSync(join(output, 'map.json'), JSON.stringify(lean));
+const artistNames = new Map(dataset.artists.map(artist => [artist.id, artist.name]));
+const releaseIndex: ReleaseIndexEntry[] = dataset.releases.map(release => ({
+  id: release.id, title: release.title, aliases: release.aliases, year: release.year, type: release.type,
+  labels: release.labels, series: release.series, editionGroup: release.editionGroup,
+  artists: release.artistIds.map(id => artistNames.get(id) ?? id), trackCount: release.inventory?.expectedTracks ?? null,
+  linkedCount: release.recordingIds.length, pendingCount: release.tracks?.filter(track => track.status === 'pending').length ?? 0,
+  complete: release.inventory?.status === 'complete',
+}));
+writeFileSync(join(output, 'releases.json'), JSON.stringify({ version: dataset.version, asOf: dataset.asOf, releases: releaseIndex }));
+writeFileSync(join(output, 'coverage.json'), JSON.stringify({ version: dataset.version, asOf: dataset.asOf,
+  portraits: dataset.artists.map(artist => {
+    const review = portraitReviews[artist.id] ?? { state: 'unsearched', nextAction: '사진 출처 조사', attempts: [] };
+    return { id: artist.id, name: artist.name, core: artist.core, state: review.state, checkedAt: review.checkedAt, reason: review.reason, sources: review.sources, nextAction: review.nextAction,
+      attempts: review.attempts.map(({ provider, checkedAt, result }) => ({ provider, checkedAt, result })) };
+  }),
+  releases: [
+    ...dataset.releases.filter(release => release.year >= 1995 && release.year <= 2009 && release.inventory?.status === 'complete')
+      .map(release => ({ id: release.id, title: release.title, status: 'inventoried', tracks: release.tracks?.length, checkedAt: release.inventory?.checkedAt })),
+    ...Object.entries(releaseAudit.releases).filter(([, value]) => (value as { status: string }).status !== 'inventoried').map(([id, value]) => ({ id, ...value as object })),
+    ...releaseBacklog,
+  ],
+}));
 const recordingsByArtist = new Map<string, typeof dataset.recordings>();
 const ownedReleases = new Map<string, Set<string>>();
 const releaseLookup = new Map(dataset.releases.map(r => [r.id, r]));

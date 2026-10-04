@@ -48,11 +48,11 @@ export default function Credits() {
     <Link href="/" className="document-back">← 지도로 돌아가기</Link>
     <div className="document-kicker">CREDITS / 002</div>
     <h1>사진에도<br />출처가 있다.</h1>
-    <p className="document-lead">{photographed.length}개의 아티스트 사진. 저작자와 이용조건을 기록하고, 얼굴 노드에 맞게 크롭했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다.</p>
+    <p className="document-lead">{photographed.length}개의 아티스트 사진. 저작자와 이용조건을 기록하고, 개인 사진은 얼굴 노드에 맞게 크롭하고 그룹 사진은 전체 구도를 유지했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다. <Link href="/coverage/">전체 사진 조사 현황</Link>에서 미확보 사유와 다음 행동을 확인하세요.</p>
 
     <section>
       <h2>음악 데이터</h2>
-      <p><a href="https://musicbrainz.org/">MusicBrainz</a>의 핵심 음악 데이터(CC0), <a href="https://www.maniadb.com/api">maniadb</a>의 데이터(CC BY-NC-SA 2.0 KR), 아티스트·레이블의 공식 발매 자료를 바탕으로 구성했습니다. 개별 곡의 근거는 곡 상세에서 확인할 수 있습니다. 가사·발매 음원은 저장하거나 제공하지 않습니다.</p>
+      <p><a href="https://musicbrainz.org/">MusicBrainz</a>의 핵심 음악 데이터(CC0), <a href="https://www.maniadb.com/api">maniadb</a>의 데이터(CC BY-NC-SA 2.0 KR), 벅스의 발매·참여정보와 아티스트·레이블의 공식 자료를 대조했습니다. 개별 곡의 근거는 곡 상세에서 확인할 수 있습니다. 가사·발매 음원은 저장하거나 제공하지 않습니다.</p>
     </section>
 
     <section id="trailer" aria-labelledby="trailer-credit-title">

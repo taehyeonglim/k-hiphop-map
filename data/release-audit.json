@@ -1,0 +1,6950 @@
+{
+  "checkedAt": "2026-10-04T01:10:19.832732Z",
+  "period": [
+    1995,
+    2009
+  ],
+  "releases": {
+    "7744412d-0bba-4e74-b56c-1d3791e48ec2": {
+      "title": "武鬪",
+      "date": "2005-10-25",
+      "origins": [
+        "existing-catalog",
+        "artist:garion"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d8ff62e2-dae4-4898-b92a-6dab51a453f6": {
+      "title": "그 날 이후",
+      "date": "2005-12-16",
+      "origins": [
+        "existing-catalog",
+        "artist:garion"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e1717f82-8c69-485e-a1ff-c7eb47d09c61": {
+      "title": "Vale-Tudo",
+      "date": "2006-07-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:joosuc"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6f5fc3bf-aee2-4c6f-bd93-4b02c550dfc5": {
+      "title": "武鬪",
+      "date": "2005-10-25",
+      "origins": [
+        "existing-catalog",
+        "artist:garion"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "271be434-d3a4-4163-bdff-61b490a6f25e": {
+      "title": "가리온",
+      "date": "2004-01-16",
+      "origins": [
+        "existing-catalog",
+        "artist:garion"
+      ],
+      "status": "inventoried",
+      "tracks": 29,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "abaf9449-5138-4168-8f25-67db90b3ac26": {
+      "title": "Street Dream",
+      "date": "2008-06-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:minos",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:rhyme-a",
+        "track_artist:zito"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ad41613b-9747-41d5-9e48-b4f25d609c66": {
+      "title": "More Than Music",
+      "date": "2006-12-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "artist:infinite-flow",
+        "track_artist:verbal-jint",
+        "track_artist:tbny",
+        "track_artist:bill-stax",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:tablo",
+        "track_artist:paloalto",
+        "track_artist:epik-high",
+        "track_artist:kebee",
+        "track_artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "738fb14a-47bf-4126-b394-7e33cbe9b80d": {
+      "title": "MP Hip-Hop Project 2000 超",
+      "date": "2000-06-06",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:garion",
+        "track_artist:joosuc",
+        "track_artist:one-sun",
+        "track_artist:deegie",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "58e47e11-7485-4423-a0c2-c9c832af5855": {
+      "title": "Green Tour",
+      "date": "2006-05-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:bill-stax",
+        "track_artist:tablo",
+        "track_artist:paloalto",
+        "track_artist:nuck"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "63ea4641-0e52-4797-9107-7d0278875c02": {
+      "title": "Step Under the Metro",
+      "date": "2006-09-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:tbny",
+        "track_artist:paloalto",
+        "track_artist:mc-meta",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:p-type",
+        "track_artist:dead-p",
+        "track_artist:dynamic-duo",
+        "track_artist:rhyme-a"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "724aed1d-15ae-43ae-8ce5-e39f35b9975d": {
+      "title": "Step Under the Metro",
+      "date": "2006-09-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:tbny",
+        "track_artist:paloalto",
+        "track_artist:mc-meta",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:p-type",
+        "track_artist:dead-p",
+        "track_artist:dynamic-duo",
+        "track_artist:rhyme-a"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "70ce484c-0cdd-4dda-9609-ecf20e94eecf": {
+      "title": "Swan Songs",
+      "date": "2005-10-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:tbny",
+        "track_artist:tiger-jk",
+        "track_artist:mc-meta",
+        "artist:epik-high",
+        "track_artist:myk"
+      ],
+      "status": "inventoried",
+      "tracks": 25,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8a1423b3-294f-3874-ad9c-11c27e858d25": {
+      "title": "Black Swan Songs",
+      "date": "2006-02-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:tbny",
+        "track_artist:tiger-jk",
+        "track_artist:mc-meta",
+        "artist:epik-high",
+        "track_artist:myk"
+      ],
+      "status": "inventoried",
+      "tracks": 25,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4c5ab4a2-38bb-4f3f-b752-e066de061f89": {
+      "title": "180g Beats",
+      "date": "2005-10-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:leo-kekoa",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c27a8db9-de2a-40f2-a6a1-5a9d9d7211b3": {
+      "title": "180g Beats",
+      "date": "2000-09-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2bf97a22-6422-4c75-a4ab-93d614e5c288": {
+      "title": "The Real Me",
+      "date": "2007-12-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:tiger-jk",
+        "track_artist:mc-meta",
+        "artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:yoon-mi-rae",
+        "track_artist:leo-kekoa",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b6740a67-4c09-4efb-afa4-cb68e7935787": {
+      "title": "2000 大韓民國",
+      "date": "2000-01-04",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:mc-meta",
+        "track_artist:one-sun",
+        "track_artist:lee-ha-neul",
+        "track_artist:juvie-train",
+        "track_artist:dj-doc",
+        "track_artist:cb-mass",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9b0abbd6-3bb4-447e-b8d3-a2b67ecd477b": {
+      "title": "折衝 Project Volume.02 - 第二之折衝",
+      "date": "2003-10-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:deegie"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "592c84f8-95c7-433d-9067-f07319eaace5": {
+      "title": "Remapping the Human Soul",
+      "date": "2007-01-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:tbny",
+        "track_artist:paloalto",
+        "track_artist:mc-meta",
+        "artist:epik-high",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 28,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "90ef1fed-96fe-4c09-9d41-c38a8489cfb4": {
+      "title": "Remapping the Human Soul",
+      "date": "2007-01-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:tbny",
+        "track_artist:paloalto",
+        "track_artist:mc-meta",
+        "artist:epik-high",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 28,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "866b62fc-0ff5-4e3d-945d-a3da7963d461": {
+      "title": "친구",
+      "date": "2003-03-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "78ae8ccf-3167-4bc3-9c58-956178ef0a4c": {
+      "title": "누명",
+      "date": "2008-07-11",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:mc-meta",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:e-sens",
+        "track_artist:swings",
+        "track_artist:san-e"
+      ],
+      "status": "inventoried",
+      "tracks": 35,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a0272cd8-5f76-411a-adcb-86e92dc6b1c7": {
+      "title": "누명",
+      "date": "2008-07-11",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:mc-meta",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:e-sens",
+        "track_artist:swings",
+        "track_artist:san-e"
+      ],
+      "status": "inventoried",
+      "tracks": 35,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "24256eb3-d35e-4648-b034-7f8ad2491d68": {
+      "title": "Coffee Calls for a Cigarette",
+      "date": "2007-03-02",
+      "origins": [
+        "existing-catalog",
+        "artist:minos",
+        "track_artist:mc-meta",
+        "track_artist:kebee",
+        "track_artist:naachal",
+        "track_artist:e-sens",
+        "track_artist:jerry-k"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f321669c-e35e-44f9-b805-db1a4e883925": {
+      "title": "City of Soul",
+      "date": "2000-12-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e2b53155-86bf-4db4-8967-2157fe16735e": {
+      "title": "Pardon Me?",
+      "date": "2003-05-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:kebee",
+        "track_artist:rhyme-a"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "09094dd3-9fdc-48a3-84d1-0cc8c61f358f": {
+      "title": "Keepin' The Roots",
+      "date": "2004-03-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "track_artist:epik-high",
+        "track_artist:p-type",
+        "track_artist:leo-kekoa",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7199c5fa-99b1-4596-b094-f7d15b9ca62b": {
+      "title": "Heavy Bass",
+      "date": "2004-05-31",
+      "origins": [
+        "existing-catalog",
+        "artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3284f64b-c8c0-4b2b-9239-b9852324da0d": {
+      "title": "Heavy Bass",
+      "date": "2004-07-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-meta",
+        "artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ed8c6af2-e597-425d-88a4-c675fc852b73": {
+      "title": "伯牙絶鉉",
+      "date": "2009-01-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:mc-meta",
+        "track_artist:epik-high",
+        "track_artist:the-quiett",
+        "track_artist:nuck",
+        "track_artist:juvie-train",
+        "artist:leessang",
+        "track_artist:bizzy",
+        "track_artist:ydg",
+        "track_artist:leo-kekoa",
+        "track_artist:topbob"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "813a8a0f-605a-4fd8-bf7d-cba74a501d99": {
+      "title": "Golden Boy Training Academy : The Training Day Vol. 1",
+      "date": "2009-06-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta",
+        "track_artist:deepflow",
+        "artist:naachal",
+        "track_artist:dead-p"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8dde5070-820a-4d6d-b541-c1f7b35ad27c": {
+      "title": "The Lost Files",
+      "date": "2009-07-02",
+      "origins": [
+        "existing-catalog",
+        "artist:minos",
+        "track_artist:naachal",
+        "track_artist:zito"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b7dfa8ab-77a6-4725-9eb5-c363f6053d26": {
+      "title": "22 Channels: 2 Pieces of Identity",
+      "date": "2007-02-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow",
+        "track_artist:simon-dominic",
+        "track_artist:naachal",
+        "track_artist:dead-p",
+        "track_artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 24,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7d5cccd2-0359-4203-8f38-8a5239a9407e": {
+      "title": "The Good Die Young",
+      "date": "2009-10-29",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:tiger-jk",
+        "track_artist:the-quiett",
+        "track_artist:beenzino"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b424e6b7-8ffb-4bbd-8a54-9206566f905f": {
+      "title": "The Good Die Young",
+      "date": "2009-10-26",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:tiger-jk",
+        "track_artist:the-quiett",
+        "track_artist:beenzino"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a1bd5046-dec6-4d7c-9d38-24b022c4eaa1": {
+      "title": "Enter the Tiger",
+      "date": "1995-07-01",
+      "origins": [
+        "existing-catalog",
+        "artist:tiger-jk"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "acbb64c5-81da-42da-8041-ae85d04a3cd4": {
+      "title": "Countryman's Vibration",
+      "date": "2007-07-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "38ad53ab-9693-44eb-bf15-f080e8b4b20b": {
+      "title": "Double Dynamite",
+      "date": "2005-10-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:paloalto",
+        "track_artist:tiger-jk",
+        "track_artist:the-quiett",
+        "track_artist:juvie-train",
+        "track_artist:p-type",
+        "track_artist:yoon-mi-rae",
+        "artist:dynamic-duo",
+        "track_artist:gary",
+        "track_artist:microdot"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0e998662-9243-4b1b-ba7f-aa5f3cd5f8e2": {
+      "title": "City Life",
+      "date": "2006-03-31",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:tiger-jk",
+        "artist:defconn",
+        "track_artist:kim-chang-yeol"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f913027f-c7e9-4083-a396-7813b7e740bc": {
+      "title": "Rain's World",
+      "date": "2006-10-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "cad1475b-3778-4b87-8498-92377ac32cdb": {
+      "title": "Rain's World",
+      "date": "2007-01-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b53173b2-e792-4393-b7ef-624cb4f80659": {
+      "title": "Explore M",
+      "date": "2008-02-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0d261395-1f05-4ea7-b774-dfd3598e6c51": {
+      "title": "Explore M",
+      "date": "2007-10-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d04a3ace-bc45-46ff-a475-bcd83e1fb54e": {
+      "title": "Explore",
+      "date": "2007-07-12",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b666a4cd-ebc7-43c4-807d-c3cda268bfb9": {
+      "title": "조PD 윤일상 프로젝트 앨범 PDIS",
+      "date": "2008-03-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "94442274-faa3-4dcb-a6c9-35636d827e4f": {
+      "title": "Library of Soul",
+      "date": "2005-10-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:sean2slow",
+        "track_artist:tiger-jk",
+        "artist:leessang",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f2c29836-1a09-46c7-a241-e21615b24fc9": {
+      "title": "Phoenix Rising",
+      "date": "2004-03-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a8f04df5-d33e-4076-9e30-112db23dca26": {
+      "title": "Travel",
+      "date": "2003-11-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:tiger-jk",
+        "track_artist:bizzy",
+        "artist:ydg"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e068cd50-ce83-410c-875a-c8ee7c5d1177": {
+      "title": "Supremacy",
+      "date": "2006-07-25",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta",
+        "track_artist:infinite-flow",
+        "track_artist:dok2",
+        "track_artist:tiger-jk",
+        "track_artist:e-sens",
+        "track_artist:yoon-mi-rae",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "857aec0e-06c8-4eff-9de8-9babae4da35d": {
+      "title": "Hexagonal",
+      "date": "2009-10-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk",
+        "artist:leessang",
+        "track_artist:bizzy",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d3a7b9bf-e293-419b-8610-c908b5cddae5": {
+      "title": "HEXAGONAL",
+      "date": "2009-10-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk",
+        "artist:leessang",
+        "track_artist:bizzy",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "30292c5f-fc7f-4726-a5c7-b3f1840d16d6": {
+      "title": "Boys, Be Ambitious",
+      "date": "2005-11-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3bf6fe9e-9cf9-4a65-b178-0d1871a34496": {
+      "title": "完全 HIPHOP",
+      "date": "2000-01-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tiger-jk",
+        "track_artist:drunken-tiger",
+        "track_artist:yoon-mi-rae",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "96218eb3-a7aa-4e0d-b655-ffc57f440008": {
+      "title": "Taxi Driver",
+      "date": "2004-05-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:sean2slow",
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "50b38ca6-78ed-4fc4-a8fd-491039df94c7": {
+      "title": "Gemini Hip Hop Album",
+      "date": "2002-05-07",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "37977a3f-7a90-45bb-b4c0-a0de125f7417": {
+      "title": "To My Love",
+      "date": "2002-12-05",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "066f3d86-2856-40a1-8217-9599aa58b5a0": {
+      "title": "Feel Ghood Muzik: The 8th Wonder",
+      "date": "2009-06-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:paloalto",
+        "artist:drunken-tiger",
+        "track_artist:bizzy",
+        "track_artist:ydg",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo",
+        "track_artist:fana"
+      ],
+      "status": "inventoried",
+      "tracks": 27,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "946ca468-466b-4500-b71f-c3b332aea4c1": {
+      "title": "As Time Goes By",
+      "date": "2001-09-10",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "74430d9d-92e9-45d4-9773-2331345ca38b": {
+      "title": "As Time Goes By",
+      "date": "2001-09-10",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ace5bb09-676e-4e37-a7ce-232936ce3a3a": {
+      "title": "Best",
+      "date": "2003-04-25",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8b280f62-a9da-463d-8e14-15c10e043675": {
+      "title": "하나하면 너와 나 One Is Not A Lonely Word",
+      "date": "2004-08-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "artist:drunken-tiger",
+        "track_artist:ydg",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b889233c-08a1-44db-a493-d8e9e6ea0596": {
+      "title": "Beats Within My Soul",
+      "date": "2004-08-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:juvie-train",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0d9be455-fc05-4e9b-bbd4-bbad2775408d": {
+      "title": "Sky Is the Limit",
+      "date": "2007-09-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "artist:drunken-tiger",
+        "track_artist:bizzy",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5747f1ca-935b-4b0e-98d2-8a8c26357a7d": {
+      "title": "t 3 YOONMIRAE",
+      "date": "2007-02-23",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4a9e9afe-92c9-48a1-a096-975fe7fcebdc": {
+      "title": "Yoonmirae",
+      "date": "2007-02-24",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a5a83775-4fd0-4468-bffe-baba0c80c7b5": {
+      "title": "10 ways to say I love you",
+      "date": "2009-06-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "37e45ac0-737d-4cf9-9b98-7f9ab59df1f4": {
+      "title": "Putumayo Presents: Global Soul",
+      "date": "2003-01-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "62e434b8-6ef9-477e-b808-64b39cf0068d": {
+      "title": "Avex 15th Anniversary Presents 15 Years 150 Hits International 50 Hit Tracks",
+      "date": "2003-07-30",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 50,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3481f8a3-72e6-4ae1-82bf-29baeb3f8236": {
+      "title": "THE BEST COLLABORATIONS",
+      "date": "2008-05-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8a9842b6-02ca-41b8-a380-2de214b391da": {
+      "title": "Massmatics",
+      "date": "2001-10-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:drunken-tiger",
+        "track_artist:yoon-mi-rae",
+        "track_artist:deegie",
+        "artist:cb-mass",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "491be52c-f79a-4304-9fbe-ff06df1a5bd4": {
+      "title": "Please Don't Go (떠나지마...)",
+      "date": "2009-01-19",
+      "origins": [
+        "existing-catalog",
+        "artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 2,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "808ca12a-52ac-4385-8986-ca58e41f080e": {
+      "title": "The Great Rebirth - Drunken Tiger 02",
+      "date": "2000-04-23",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "79991c08-21fb-4aba-87a6-b681ddf44bf2": {
+      "title": "위대한 탄생",
+      "date": "2000-03-29",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger",
+        "track_artist:yoon-mi-rae",
+        "track_artist:cb-mass",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f08ef0b3-6ac6-462a-8a4e-d9ac06c1a03c": {
+      "title": "JP4",
+      "date": "2003-04-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae",
+        "artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3528fe29-8dc4-479d-b6cd-4c8954b00c08": {
+      "title": "Massappeal",
+      "date": "2003-02-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:epik-high",
+        "track_artist:yoon-mi-rae",
+        "artist:cb-mass"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a4215754-c5f6-44a2-bcc3-8a094f0b2a11": {
+      "title": "In Stardom Version 2.0",
+      "date": "1999-08-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "808a79a6-9b81-4313-b871-60c6496bb7b1": {
+      "title": "1999 대한민국",
+      "date": "1999-02-01",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:drunken-tiger",
+        "track_artist:nuck",
+        "track_artist:yoon-mi-rae",
+        "track_artist:kim-jin-pyo",
+        "track_artist:gil",
+        "track_artist:gary",
+        "track_artist:honey-family",
+        "track_artist:kim-chang-yeol",
+        "track_artist:uptown",
+        "title:대한민국"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7058fe97-b1ee-4ef1-9aad-84421d47405d": {
+      "title": "Prosac EP",
+      "date": "2002-12-13",
+      "origins": [
+        "existing-catalog",
+        "artist:tbny",
+        "track_artist:epik-high",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9c3ec1e8-e29c-4d49-9032-3248bfd3230e": {
+      "title": "1945 해방",
+      "date": "2005-07-19",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger",
+        "track_artist:bizzy",
+        "track_artist:ydg"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0519cbbd-3d73-4d95-bd34-a9e41e5e9e70": {
+      "title": "The Legend Of...",
+      "date": "2001-03-22",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "73cd0ebb-0fdf-4b00-ae5d-df6c5fc3c8e4": {
+      "title": "뿌리 (Foundation)",
+      "date": "2003-02-25",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b2735035-8057-43d7-bd63-acf0db68f040": {
+      "title": "Year of the Tiger",
+      "date": "1999-05-03",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "57bcceac-b44c-4389-ae4d-9018cd22035e": {
+      "title": "Year of the Tiger",
+      "date": "1999-05-03",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ecf0abd7-c881-4b86-9ea0-5356ef0dc359": {
+      "title": "리듬의 마법사",
+      "date": "2003-06-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:drunken-tiger",
+        "track_artist:dynamic-duo",
+        "track_artist:gary",
+        "track_artist:miryo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "cfd0407b-da4d-4b94-9f09-9ad592ca81b2": {
+      "title": "Spray Love",
+      "date": "2007-02-16",
+      "origins": [
+        "existing-catalog",
+        "artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "093f285e-0689-44c8-a79e-6be77875c280": {
+      "title": "2002 大韓民國",
+      "date": "2002-05-10",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:drunken-tiger",
+        "track_artist:defconn",
+        "track_artist:cb-mass",
+        "track_artist:buga-kingz",
+        "track_artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 37,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1be0c83d-0c4f-4bc2-8a80-0d8365ab63c8": {
+      "title": "放飛夢想",
+      "date": "2006-11-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "67b3bb09-da46-4b59-a563-ab7a193ff6ca": {
+      "title": "放飛夢想",
+      "date": "2007-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "track_artist:yoon-mi-rae"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9612e954-8374-4b74-b08c-02a333f2f904": {
+      "title": "[YB]stream",
+      "date": "2003-07-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5c1d3707-0039-424b-8309-5268652de7d4": {
+      "title": "Stream (Special Edition)",
+      "date": "2003-12-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "34ac36e7-bd3c-48ff-aec3-83e46136132f": {
+      "title": "Leessang of Honey Family",
+      "date": "2009-11-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:drunken-tiger",
+        "artist:leessang",
+        "track_artist:cb-mass"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a5fda543-69e3-42c3-afb4-05dce80dff14": {
+      "title": "Leessang of Honey Family",
+      "date": "2002-06-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:drunken-tiger",
+        "artist:leessang",
+        "track_artist:cb-mass"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "eb45bebe-9c22-49f1-b60e-8d324796ff93": {
+      "title": "Leessang, Special Jungin",
+      "date": "2009-11-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "artist:leessang",
+        "track_artist:cb-mass",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 25,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "de932d25-07b0-40d4-af18-bf316e857426": {
+      "title": "Leessang, Special Jungin",
+      "date": "2004-03-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "artist:leessang",
+        "track_artist:cb-mass",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 25,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "db9ed197-1b3d-48d7-9103-ac8d26fbb196": {
+      "title": "Massmediah",
+      "date": "2000-09-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "track_artist:juvie-train",
+        "track_artist:yoon-mi-rae",
+        "artist:cb-mass",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4f149bbf-37e2-437d-9095-09861ce409bc": {
+      "title": "Technodrome, Volume 1",
+      "date": "1999",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 38,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8dca8f10-2ca6-47eb-a521-5ccf2503b815": {
+      "title": "DJ DOC Best – Season’s Greeting [Special Package]",
+      "date": "2001-05",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 38,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d1c1e048-a0d1-42d5-9d71-b920257dff99": {
+      "title": "The Life...Doc Blues 5%",
+      "date": "2000-05-17",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "eee0fe18-e05a-474e-8ac6-1866102fbae5": {
+      "title": "소유진의 Fandangoi",
+      "date": "2001-06-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 116,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c9ebdc75-dc12-4a87-a144-b459f777e3bc": {
+      "title": "Love & Sex & Happiness",
+      "date": "2004-11-09",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc",
+        "track_artist:lee-hyun-bae",
+        "track_artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "510c6de0-f1b7-4943-b8e2-d43c9c2b3c80": {
+      "title": "Love & Sex, Happiness",
+      "date": "2004-11-09",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc",
+        "track_artist:lee-hyun-bae",
+        "track_artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "03c97e50-782c-415a-b63b-e183f3420cdd": {
+      "title": "4th Album",
+      "date": "1997",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a31a221e-d716-4e90-997a-ca14eadef437": {
+      "title": "熱情 Dance Music Collection",
+      "date": "2001-05-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc",
+        "track_artist:kim-chang-yeol",
+        "track_artist:uptown"
+      ],
+      "status": "inventoried",
+      "tracks": 87,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f2361a7c-f8e3-4577-8d99-f1fb2f11a729": {
+      "title": "Platinum ballade (disc 1)",
+      "date": "1999-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "56d05469-8a4d-4c13-88e7-aad5d04178be": {
+      "title": "DJ DOC 2",
+      "date": "1995-06",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "86c7a4f5-79bb-4688-a264-97c3ef0db2a8": {
+      "title": "D제(除)2덕(德)",
+      "date": "1996-01",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2609bfd4-1e78-409d-9a1c-3b9d653e4b4a": {
+      "title": "DJ DOC Best Of Best Panda Mix",
+      "date": "1997-08-01",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "015c407f-db2d-45e4-ab55-65541cb2f679": {
+      "title": "The Best DJ.Doc",
+      "date": "2000-12-18",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a31726ad-1c66-4b3c-923e-0fa0dbcac23c": {
+      "title": "Summer",
+      "date": "1996-07",
+      "origins": [
+        "existing-catalog",
+        "artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9e2558ef-8851-4f8f-9bdb-ac0619acf255": {
+      "title": "Best 가요 100",
+      "date": "2005-12-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 100,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "be68ed0d-bf9f-42da-8f8e-8d28b226d6ce": {
+      "title": "Hiphop Mania",
+      "date": "2004-04-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:leessang",
+        "track_artist:ydg",
+        "track_artist:dj-doc",
+        "track_artist:cb-mass",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5fe7d187-642d-48e8-8b07-a2deccee2f0a": {
+      "title": "하얀 겨울 2005",
+      "date": "2005-12-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:leessang",
+        "track_artist:dj-doc",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 47,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "141076df-f572-49b2-aeb7-913bd369760d": {
+      "title": "느낌 1999",
+      "date": "1999-08-31",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 32,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9e5df47b-9377-487e-9073-91ebbf44b148": {
+      "title": "Tonosama Trance",
+      "date": "2007-08-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "70a083b8-2a42-46f0-9022-c984c09daa68": {
+      "title": "2000 대한민국",
+      "date": "2000-01-01",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:dj-doc",
+        "track_artist:cb-mass",
+        "title:대한민국"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3792a708-db5a-4b78-833f-5b41599b57cc": {
+      "title": "연가 [戀歌]",
+      "date": "2001-01-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dj-doc"
+      ],
+      "status": "inventoried",
+      "tracks": 68,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "61c5a2c5-76f3-4ffa-8be4-e897ee3f167d": {
+      "title": "Soul Family with Johan",
+      "date": "2007-10-25",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a5d5aae6-dc7b-46f7-a812-6439c6ce14fc": {
+      "title": "The New Classik... And You Don't Stop",
+      "date": "2004-12-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:verbal-jint",
+        "track_artist:bill-stax",
+        "track_artist:epik-high",
+        "track_artist:lee-ha-neul",
+        "track_artist:mc-sniper",
+        "track_artist:defconn",
+        "track_artist:kim-jin-pyo",
+        "track_artist:kim-chang-yeol",
+        "track_artist:leo-kekoa",
+        "track_artist:45rpm"
+      ],
+      "status": "inventoried",
+      "tracks": 19,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "934083ad-e4dd-411d-a4f1-0ce68e45717c": {
+      "title": "All About JP",
+      "date": "2004-04-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 32,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d4706983-7ac7-40c4-8aa9-2e82c6441cca": {
+      "title": "Forever As One",
+      "date": "2003-11-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "de9736eb-1747-4595-bd14-5e9af837d927": {
+      "title": "Color of City (Pink)",
+      "date": "2009-05-15",
+      "origins": [
+        "existing-catalog",
+        "artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 2,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "76e4ad54-bb04-472e-8442-c3b316bed263": {
+      "title": "MP Hiphop 2002 風流 Part 2",
+      "date": "2002-12-10",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:verbal-jint",
+        "track_artist:bill-stax",
+        "track_artist:nuck",
+        "track_artist:one-sun",
+        "track_artist:juvie-train",
+        "track_artist:defconn",
+        "track_artist:kim-jin-pyo",
+        "label:Master Plan",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "56c76b7f-5185-4c23-9987-1c8de80e83b3": {
+      "title": "Chopd.Net / Best In East",
+      "date": "2000-12-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e7fa3751-ec43-4d3c-bba4-d189813b4729": {
+      "title": "JP3",
+      "date": "2001-01-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "145ca617-ff68-4701-b56b-a59491588110": {
+      "title": "십년이 지나도…",
+      "date": "1998-01-02",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ac46fc60-d7f6-4d49-a68b-5b421bf34c14": {
+      "title": "바보",
+      "date": "1999-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "73c0fd01-31d5-44ee-92a9-746ef8f3c242": {
+      "title": "Only The Strong Survive",
+      "date": "2000-11-14",
+      "origins": [
+        "existing-catalog",
+        "artist:joosuc",
+        "track_artist:kim-jin-pyo",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8b151285-0aee-4b35-ae85-29fc25979d82": {
+      "title": "Remake & Mix 18번",
+      "date": "2005-07-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:lee-ha-neul",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2d39cc44-948e-41a6-a968-e0e53dab081b": {
+      "title": "이적+김동률 프로젝트 앨범: 카니발",
+      "date": "1997-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2ef2588c-139a-4919-aaf0-d27aaea38b9e": {
+      "title": "품행제로",
+      "date": "2002-12-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:lee-ha-neul",
+        "track_artist:kim-jin-pyo",
+        "track_artist:45rpm"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "58c3cdc3-de9a-4777-9ce9-92c2e3567cc2": {
+      "title": "2적",
+      "date": "2003-05-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "96d9bae8-0a6f-4948-bbcd-6db0e71b28db": {
+      "title": "Rebirth Of KROSS",
+      "date": "2002-05-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:kim-jin-pyo",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "29afd378-f730-4a1f-9680-b7284b00aec4": {
+      "title": "Chapter 6",
+      "date": "2004-12-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3d1553ea-3dd3-422f-bb4e-98b356f5f3e0": {
+      "title": "Sweet Soul",
+      "date": "2006-07-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:bizzy",
+        "track_artist:ydg",
+        "track_artist:kim-chang-yeol",
+        "track_artist:j-kwondo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2813fdfd-9754-4e29-97e7-ad693cf06551": {
+      "title": "Energy",
+      "date": "2008-06-16",
+      "origins": [
+        "existing-catalog",
+        "artist:mighty-mouth"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3d236a0f-e416-4713-bb43-1e6232abd153": {
+      "title": "Get On The Bus",
+      "date": "2007-02-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:bill-stax",
+        "track_artist:lee-ha-neul",
+        "track_artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "68b27049-177e-4994-a59c-25648cc24942": {
+      "title": "Black Sun",
+      "date": "2007-05-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:lee-ha-neul",
+        "artist:leessang",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "059026e0-8729-44ee-b49c-9940b9717e1c": {
+      "title": "Black Sun",
+      "date": "2007-05-15",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:lee-ha-neul",
+        "artist:leessang",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6b16ca14-de14-466f-8480-81672519eaf4": {
+      "title": "싸집",
+      "date": "2006-07-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:drunken-tiger",
+        "track_artist:lee-ha-neul",
+        "track_artist:leessang",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "eea088fd-d75d-47d4-aa5a-8b876c030c4a": {
+      "title": "Honey Family 1집",
+      "date": "1999",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "53d16f8e-dc97-4af7-8085-d48d8d87f65c": {
+      "title": "Starcraft Game Music, Volume 1",
+      "date": "2000-01",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "89d9d18a-74bc-4039-9e23-fba24b7d467a": {
+      "title": "StarCraft Game Music, Volume 1",
+      "date": "2000-02-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper",
+        "track_artist:honey-family"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "655802ce-adb4-413e-a1bc-129104fffa6e": {
+      "title": "재, 계발 (再啓發)",
+      "date": "2009-11-18",
+      "origins": [
+        "existing-catalog",
+        "artist:leessang"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "040d945e-7a2f-43df-9c7f-8263216a4da3": {
+      "title": "재, 계발 (再啓發)",
+      "date": "2003-05-22",
+      "origins": [
+        "existing-catalog",
+        "artist:leessang"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0a3e5342-a964-4bed-b565-d09c2b52b843": {
+      "title": "DAZZLE",
+      "date": "2009",
+      "origins": [
+        "existing-catalog",
+        "track_artist:leessang"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9e389c8d-45b7-4dcd-b374-a3f219c46bae": {
+      "title": "The Very Best Of Browneyes 'Take A Favorite'",
+      "date": "2007-06-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gary"
+      ],
+      "status": "inventoried",
+      "tracks": 19,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9e1f19ab-1939-48e4-aa7f-465e2097fa58": {
+      "title": "Reason for Breathing?",
+      "date": "2002-11-26",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d3bd709e-7238-4c31-ae78-5544f0ba7f40": {
+      "title": "Enlightenment",
+      "date": "2001-08-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gary"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d347961b-2e00-467e-bc39-88e0ffcd2f04": {
+      "title": "VIVID",
+      "date": "2008-04-10",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gary"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6197c5ea-744e-429f-be1f-a023bca223cd": {
+      "title": "Band of Dynamic Brothers",
+      "date": "2009-10-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:e-sens",
+        "artist:dynamic-duo",
+        "track_artist:gary",
+        "track_artist:topbob"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d3d2cbe9-140c-4443-bcae-d9ade59a1aa6": {
+      "title": "불꽃",
+      "date": "2006-06-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gary"
+      ],
+      "status": "inventoried",
+      "tracks": 2,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4481f662-2a51-42f6-973f-84b9401ec365": {
+      "title": "2008 연가",
+      "date": "2008",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gary"
+      ],
+      "status": "inventoried",
+      "tracks": 72,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "417d2364-0568-4376-9774-bc2136e8f4ea": {
+      "title": "2009 무한도전 올림픽대로 듀엣가요제",
+      "date": "2009-07-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:gil"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8944d90f-7ea9-4ab3-a13b-cb5d434f39d0": {
+      "title": "The Last Winter Story",
+      "date": "2001-12-19",
+      "origins": [
+        "existing-catalog",
+        "artist:deegie",
+        "track_artist:cb-mass",
+        "track_artist:buga-kingz"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "26b441c1-6e32-4e04-bcf7-461216fc1cf7": {
+      "title": "Underground Connection",
+      "date": "2002-08-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cb-mass"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4785f1a2-6551-4c85-afb8-298dc72f175b": {
+      "title": "Love Is Enlightened",
+      "date": "2007-10-30",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:ydg",
+        "artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "aab247c5-36ff-4d2c-aa89-9559b6c48a2a": {
+      "title": "Enlightened",
+      "date": "2007-05-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:ydg",
+        "artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d36ec879-7198-46be-818f-1756d2ec78db": {
+      "title": "LastDays",
+      "date": "2008-08-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "artist:dynamic-duo",
+        "track_artist:supreme-team"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "950d0bfa-bbb7-4977-85d4-aa48a27b275c": {
+      "title": "LastDays",
+      "date": "2008-08-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "artist:dynamic-duo",
+        "track_artist:supreme-team"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c7fe1568-1535-4bed-874b-567179acd4eb": {
+      "title": "Ballad for Fallen Soul Part.1",
+      "date": "2009-02-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:e-sens",
+        "artist:dynamic-duo",
+        "track_artist:supreme-team"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c35f3225-047e-44bb-88b1-7fc493e8e86d": {
+      "title": "GONE (New Ways Always)",
+      "date": "2008-11-10",
+      "origins": [
+        "existing-catalog",
+        "artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "daedc60e-0fec-4d3b-8923-3cde8a383be3": {
+      "title": "Lucky 7",
+      "date": "2006-08-30",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a4b2b8e1-ff83-465a-a84e-d72d06639510": {
+      "title": "Reds, Go Together",
+      "date": "2006-05-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a74b591d-90fa-461e-bfa7-9bbdb5f264fd": {
+      "title": "Heartbreaker",
+      "date": "2007-10-25",
+      "origins": [
+        "existing-catalog",
+        "artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9f3cc7eb-f679-469b-b90d-617e33b0eb7c": {
+      "title": "Back To The Soul Flight",
+      "date": "2005-01-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f4ce25ae-4c53-4ddd-9b47-ca915e2b50f6": {
+      "title": "Acoustic & Vintage",
+      "date": "2006-09-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:p-type",
+        "track_artist:dynamic-duo",
+        "track_artist:gan-d"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d1afbea4-a954-40c2-8308-fd9bac8c45d7": {
+      "title": "Pieces, Part One",
+      "date": "2008-04-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:dok2",
+        "artist:epik-high",
+        "track_artist:kebee",
+        "track_artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b473c1c9-85c9-4153-ab90-f07b77d6f812": {
+      "title": "Pieces, Part One",
+      "date": "2008-04-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:dok2",
+        "artist:epik-high",
+        "track_artist:kebee",
+        "track_artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1bdfffb5-b2f1-4547-b4f0-97ef9e651dc6": {
+      "title": "Pieces, Part One",
+      "date": "2008-04-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:dok2",
+        "artist:epik-high",
+        "track_artist:kebee",
+        "track_artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b25c335b-95bb-433f-ac4f-dc1de049e57b": {
+      "title": "Sound Renovates a Structure",
+      "date": "2003-11-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bc1f0ebf-79e2-409a-8990-92ff9378698b": {
+      "title": "Supreme Team Guide to Excellent Adventure",
+      "date": "2009-07-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo",
+        "artist:supreme-team",
+        "track_artist:beatbox-dg"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7a2503c3-6396-4a48-9cfe-7000447ecf9a": {
+      "title": "무명",
+      "date": "2007-11-23",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:e-sens",
+        "track_artist:dynamic-duo",
+        "track_artist:swings"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5a51b339-ea0e-4dad-b58f-687336e79056": {
+      "title": "무명",
+      "date": "2007-11-23",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:e-sens",
+        "track_artist:dynamic-duo",
+        "track_artist:swings"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fad87f87-0fc1-4802-8cbf-d834b34e0487": {
+      "title": "The Wind, The Sea, The Rain",
+      "date": "2007-11-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:epik-high",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "20076c05-8098-4cff-af4a-4e5eb2c025f1": {
+      "title": "Chapter 1",
+      "date": "2006",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "414a2e2b-2a06-4a0d-bd39-cc3b29dc7eb9": {
+      "title": "콘이 삼춘 다이어리",
+      "date": "2004-11-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:dynamic-duo",
+        "artist:defconn"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "04dc6197-c5b2-4607-9d01-d908f07835fa": {
+      "title": "Masquerade",
+      "date": "2006-04-06",
+      "origins": [
+        "existing-catalog",
+        "artist:tbny",
+        "track_artist:sean2slow",
+        "track_artist:tablo",
+        "track_artist:epik-high",
+        "track_artist:ydg",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "60c0f786-5a24-42a3-8951-ec165844954d": {
+      "title": "Map of the Human Soul",
+      "date": "2003-10-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9083326a-3f35-47de-a52d-8673054d0447": {
+      "title": "Map of the Human Soul",
+      "date": "2003-10-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:dynamic-duo",
+        "track_artist:yankie"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c4315d84-b3e9-4922-ab28-7e555628e902": {
+      "title": "High Society",
+      "date": "2004-07-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:dynamic-duo",
+        "track_artist:deegie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "12c6e555-6022-3c46-b7fa-c991d34c8c1f": {
+      "title": "High Society",
+      "date": "2004-07-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:dynamic-duo",
+        "track_artist:deegie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a85bd949-c76d-46b6-9453-d13a95384f5f": {
+      "title": "High Society",
+      "date": "2006-04-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:dynamic-duo",
+        "track_artist:deegie"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6a9c6bc8-77a0-4ab4-be2b-b607f4beaa9b": {
+      "title": "Daily Apartment",
+      "date": "2009",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:paloalto",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0d75d9e7-ab24-4719-bc33-17f1183d5bdf": {
+      "title": "Daily Apartment",
+      "date": "2009-07-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:paloalto",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "79ba1c73-0bd9-4403-b6c6-55a68c0ed05c": {
+      "title": "Daily Apartment",
+      "date": "2009-07-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:paloalto",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7c37d767-8785-4f98-9d22-aff4e362db4a": {
+      "title": "Positive Mind",
+      "date": "2004-10-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:juvie-train",
+        "track_artist:leessang",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d0b087a2-23f6-4e32-a969-78b6c2b643e7": {
+      "title": "Positive Mind",
+      "date": "2004-10-28",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a5e96d27-ae5c-421e-ab53-b132ae5d5f2a": {
+      "title": "A Word to the Wise",
+      "date": "2009-05-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fbe177ca-d758-4185-88fd-cddd3adce5d6": {
+      "title": "눈물이 뚝뚝",
+      "date": "2009-04-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "dd9ddad0-35c3-4cfb-b552-e3a0b1951639": {
+      "title": "눈물이 뚝뚝",
+      "date": "2009-03-31",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9f645104-995b-4609-9d20-4ccb5ba46c72": {
+      "title": "1초에 한방울",
+      "date": "2009-06-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ecfa36b8-4980-4dde-9aba-fc477b83573b": {
+      "title": "All Star (올스타)",
+      "date": "2007-01-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dynamic-duo",
+        "track_artist:uptown"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e1b92049-d0b9-4d14-998e-4eca30149ea8": {
+      "title": "My Vintage Romance",
+      "date": "2008-06-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:gaeko"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e6451ab2-55c9-423e-9099-807aba698221": {
+      "title": "Follow Your Soul",
+      "date": "2006-12-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:juvie-train",
+        "track_artist:choiza",
+        "track_artist:gan-d"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d2f68fe1-7ff5-4cd5-ba61-38ec405217b9": {
+      "title": "Superior Vol.1",
+      "date": "2003-03-18",
+      "origins": [
+        "existing-catalog",
+        "artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:bill-stax",
+        "track_artist:epik-high",
+        "track_artist:bizniz",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e7e8e9d3-a6e6-48ac-a985-36ce88501641": {
+      "title": "Welcome To The Infected Area",
+      "date": "2002-07-15",
+      "origins": [
+        "existing-catalog",
+        "artist:joosuc",
+        "track_artist:bill-stax",
+        "track_artist:juvie-train",
+        "track_artist:defconn",
+        "label:Master Plan",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e3e22e16-f6e9-479a-ae72-0f5f9ea81209": {
+      "title": "MP Hip-Hop 2001 大舶",
+      "date": "2001-06",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:one-sun",
+        "track_artist:mithra-jin",
+        "track_artist:leo-kekoa",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1cd891be-0d23-457e-8f64-2c2e57a1bf70": {
+      "title": "2001 大韓民國",
+      "date": "2001-04-01",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:sean2slow",
+        "track_artist:45rpm",
+        "track_artist:buga-kingz",
+        "track_artist:gan-d"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "24a8a8bb-23f9-4a44-aae0-09c6d402e0bf": {
+      "title": "Superior Vol. 2",
+      "date": "2005-07-25",
+      "origins": [
+        "existing-catalog",
+        "artist:joosuc",
+        "track_artist:verbal-jint",
+        "track_artist:shorry-j"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c361b3df-7cb4-4f99-b4bd-1c764bc97fb5": {
+      "title": "Harlem ver.3.0",
+      "date": "2004-06-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f91dd647-9bf0-4303-aa7d-222fba547750": {
+      "title": "Beatz 4 da Streetz",
+      "date": "2001-09-17",
+      "origins": [
+        "existing-catalog",
+        "artist:joosuc",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "05baaf39-192c-417f-9723-d09e748d9a23": {
+      "title": "HIII",
+      "date": "2003",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:bill-stax",
+        "track_artist:defconn"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bc474ec0-fb73-43db-999f-84d4b6ef5c29": {
+      "title": "Here I am",
+      "date": "2008-10-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:mighty-mouth"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c28dc690-7986-4043-9c50-ac6132b895fb": {
+      "title": "The Best Of DJ Honda",
+      "date": "2004",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc"
+      ],
+      "status": "inventoried",
+      "tracks": 81,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "cd513236-e02a-4378-a94e-f83b118e4c6c": {
+      "title": "Master Plan Present : Change The Game",
+      "date": "2004-03-30",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:verbal-jint",
+        "track_artist:bill-stax",
+        "track_artist:nuck",
+        "track_artist:one-sun",
+        "track_artist:defconn",
+        "track_artist:sangchu",
+        "title:Master Plan",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c9cd670c-ca49-4626-b275-099b6e0577eb": {
+      "title": "Kim Bum Soo",
+      "date": "2008-08-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bfa453e7-5de2-4d69-ba0b-352d6bae0bbf": {
+      "title": "Still-A-Live: Club Master Plan Last Live Album",
+      "date": "2002-02-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:one-sun",
+        "track_artist:defconn",
+        "track_artist:deegie",
+        "track_artist:mithra-jin",
+        "track_artist:leo-kekoa",
+        "track_artist:45rpm",
+        "title:Master Plan",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 48,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fde18d31-0540-4133-8823-029505cd4b17": {
+      "title": "JoPD Presents BROOKLYN mix tape vol.1",
+      "date": "2005-09-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:epik-high",
+        "track_artist:kim-jin-pyo"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5ddb947e-1c3d-4b8d-bbd7-4f8bec9c0df6": {
+      "title": "Lesson 4 The People",
+      "date": "2003-05-13",
+      "origins": [
+        "existing-catalog",
+        "artist:defconn"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6d03b622-d1d2-4a5b-8f32-e45934bc7f08": {
+      "title": "Straight From The Streetz",
+      "date": "2001-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:p-type",
+        "artist:defconn"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b47652ed-00cc-4047-a03d-bcabb4b58fcb": {
+      "title": "편지함",
+      "date": "2003-04-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:joosuc",
+        "track_artist:infinite-flow",
+        "track_artist:verbal-jint",
+        "track_artist:bill-stax",
+        "track_artist:defconn",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "47236f7d-2bf5-49a2-bc29-5491fae3d7c7": {
+      "title": "Show's Just Begun",
+      "date": "2008-04-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:defconn"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b6ea714b-9e4b-4266-a579-0bae1dd5d4c1": {
+      "title": "The Vintage",
+      "date": "2008-11-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta",
+        "artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a8ea3e32-7bd8-4156-8bd5-549dfb854905": {
+      "title": "Q Train",
+      "date": "2008-12-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "artist:the-quiett",
+        "track_artist:p-type",
+        "track_artist:mad-clown",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b2d535b1-f407-46ff-af19-63838b1af50e": {
+      "title": "Q Train",
+      "date": "2006-02-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "artist:the-quiett",
+        "track_artist:p-type",
+        "track_artist:mad-clown"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "53d56d73-84df-4fb0-b1d2-ca4c5341fb80": {
+      "title": "Koonta in Nuoliunce",
+      "date": "2006-09-21",
+      "origins": [
+        "existing-catalog",
+        "artist:koonta",
+        "track_artist:minos",
+        "track_artist:sean2slow",
+        "track_artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "07b2ee0e-a9f5-4ee4-8b4e-24a0d0c9e6c0": {
+      "title": "Modern Rhymes",
+      "date": "2001-07-13",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:p-type"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "cd3782b3-d438-44db-9296-6aa95e8d9af2": {
+      "title": "Kandid Collection Vol. 1",
+      "date": "2002-09-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9bd35e40-0f1c-4861-a00a-bc60e628e7c4": {
+      "title": "Favorite",
+      "date": "2007-05-11",
+      "origins": [
+        "existing-catalog",
+        "artist:verbal-jint",
+        "track_artist:tablo",
+        "track_artist:dynamic-duo"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a3580987-01b8-4bea-816c-9a7acb23f966": {
+      "title": "We Are Music",
+      "date": "2005-06-07",
+      "origins": [
+        "existing-catalog",
+        "artist:infinite-flow",
+        "track_artist:verbal-jint",
+        "track_artist:bill-stax",
+        "track_artist:sean2slow"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "008f7901-82c1-4527-8e14-b4789a745927": {
+      "title": "2007 Memories",
+      "date": "2007-09-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "28f8b62b-9d17-4f1b-b8a8-3bf6c2f094ae": {
+      "title": "Cluster, Volume 1",
+      "date": "2007-08-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "678dc5d2-7d3b-4492-b88d-80d553ff55f1": {
+      "title": "Afro Afro",
+      "date": "2008-01-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:leo-kekoa",
+        "track_artist:kim-ban-jang"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fa518c8d-ea94-4689-86ab-dff2216d8057": {
+      "title": "Respect 4 Brotha",
+      "date": "2002-06-19",
+      "origins": [
+        "existing-catalog",
+        "artist:infinite-flow",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "25945195-88cd-476b-abd9-ca87590f0da8": {
+      "title": "Swan Songs",
+      "date": "2005-10-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:tbny",
+        "artist:epik-high",
+        "track_artist:myk"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d2cf3b1d-1964-46f8-9528-224735fbec8c": {
+      "title": "연애편지",
+      "date": "2006-03-16",
+      "origins": [
+        "existing-catalog",
+        "artist:infinite-flow",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7df0049c-6766-4fb7-899d-da1130acffb1": {
+      "title": "Eluphant Bakery",
+      "date": "2006-03-31",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "artist:eluphant",
+        "track_artist:rhyme-a"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "be0a3659-39ba-47f2-b16a-ef197e86ad90": {
+      "title": "Eluphant Bakery",
+      "date": "2008-12-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:infinite-flow",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "artist:eluphant",
+        "track_artist:rhyme-a",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "88fc2479-c566-4529-8223-021692fe9226": {
+      "title": "Mind Expander",
+      "date": "2008-04-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:leessang",
+        "track_artist:leo-kekoa",
+        "track_artist:rhyme-a",
+        "track_artist:mad-clown",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e375b1c8-07d9-4bb7-8d53-9fe61814b228": {
+      "title": "A Walk in the Clouds",
+      "date": "2009-02-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:minos",
+        "track_artist:paloalto",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:jerry-k",
+        "track_artist:zito"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fcbab5d3-868e-4405-aae0-a4c6a8ddf689": {
+      "title": "A Path Of Love",
+      "date": "2007-10-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo",
+        "track_artist:nuck",
+        "track_artist:myk"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4a34fc97-24ff-4895-a499-32adc67e5b1c": {
+      "title": "The Genesis",
+      "date": "2004-07-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "artist:bill-stax",
+        "track_artist:nuck",
+        "label:Master Plan",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "11a8220f-7629-4173-9ed5-0d530212eac6": {
+      "title": "Poetree Syndrome",
+      "date": "2007-10-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:the-quiett",
+        "artist:kebee",
+        "track_artist:nuck",
+        "track_artist:e-sens",
+        "track_artist:mithra-jin",
+        "track_artist:beatbox-dg",
+        "track_artist:zito",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8d13c570-e56f-4ac9-afee-c80648a83f5e": {
+      "title": "Ugly Talkin'",
+      "date": "2008-02-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta",
+        "artist:minos",
+        "track_artist:verbal-jint",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:paloalto",
+        "track_artist:kebee",
+        "track_artist:nuck",
+        "track_artist:e-sens",
+        "track_artist:beatbox-dg",
+        "track_artist:zito",
+        "label:Master Plan"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "14da5c43-7077-47c9-924d-d5b71d749ff3": {
+      "title": "A Serenade",
+      "date": "2008-01-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:nuck"
+      ],
+      "status": "inventoried",
+      "tracks": 2,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "feb733a7-1a00-4ba1-bf03-e9e1e1ace63c": {
+      "title": "MP Hiphop 2002 風流 Part 1",
+      "date": "2002-12-10",
+      "origins": [
+        "existing-catalog",
+        "compilation-audit",
+        "track_artist:joosuc",
+        "track_artist:bill-stax",
+        "track_artist:nuck",
+        "track_artist:one-sun",
+        "label:Master Plan",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a282baa4-a2e9-4cac-b1e7-7ffd2c2f1289": {
+      "title": "The Passage",
+      "date": "2009-05-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:minos",
+        "track_artist:tablo",
+        "track_artist:the-quiett",
+        "artist:kebee",
+        "track_artist:nuck",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "46f33fff-6a6f-40bc-b4bf-e9cf52795503": {
+      "title": "결혼해줄래",
+      "date": "2009-06-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:bizniz"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "52343c9d-4fc1-4484-904e-45fff81a3787": {
+      "title": "Miss $ S Class",
+      "date": "2009-08-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:bizniz"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "68b308b0-534b-4d87-8a54-1567277801a4": {
+      "title": "Raw Deal",
+      "date": "2007-11-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:verbal-jint",
+        "track_artist:bizniz"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "64d67caf-3211-4f84-a46c-d3f6bfef6c47": {
+      "title": "E.via a.k.a. Happy E.vil",
+      "date": "2009-06-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:bill-stax",
+        "track_artist:geegooin",
+        "artist:tymee"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "54497027-f6fa-463c-bcbc-8381ebaa1d7b": {
+      "title": "Pokaface",
+      "date": "2003-10-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tbny",
+        "track_artist:bill-stax"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a79f4263-a337-4566-895d-71ce46c372d2": {
+      "title": "初行",
+      "date": "2003-05-15",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper",
+        "track_artist:skull",
+        "track_artist:illinit",
+        "track_artist:stony-skunk",
+        "track_artist:moowoong"
+      ],
+      "status": "inventoried",
+      "tracks": 19,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0d936bc7-1ffd-4048-8e33-76a3a36ecd0a": {
+      "title": "Boom Di Boom Di",
+      "date": "2007-06-12",
+      "origins": [
+        "existing-catalog",
+        "artist:skull"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "97d35f94-8d50-4e9b-ae71-c69836e93f81": {
+      "title": "Comfort",
+      "date": "2008-03-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:skull",
+        "track_artist:45rpm",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0e3fc698-d5e9-4dc2-827f-3f20c5642a52": {
+      "title": "Out of Control",
+      "date": "2008-06-09",
+      "origins": [
+        "existing-catalog",
+        "artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "11eed4a8-b71e-49eb-b7b3-5c5e2eb6d292": {
+      "title": "Best seller",
+      "date": "2003-10-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper",
+        "artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "752dcee4-fe91-436a-a2ab-d1405e9211c0": {
+      "title": "Ragga Muffin",
+      "date": "2005-06-02",
+      "origins": [
+        "existing-catalog",
+        "artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ea265772-80c8-4086-afb9-794460a6618b": {
+      "title": "Skunk Riddim",
+      "date": "2006-08-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:garion",
+        "artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "56ffb87c-c12b-4291-8f7f-5bb1718b86dc": {
+      "title": "More Fyah",
+      "date": "2007-09-03",
+      "origins": [
+        "existing-catalog",
+        "artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f7025765-e59d-45aa-82eb-f648cf1d2e69": {
+      "title": "For The Bloom",
+      "date": "2005-09-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "67f40b28-bc5d-499c-8341-e2d4b3e4ed54": {
+      "title": "YG 10th Anniversary Special Album",
+      "date": "2006-07-31",
+      "origins": [
+        "existing-catalog",
+        "track_artist:45rpm",
+        "track_artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 32,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ef6bb30b-ca79-48de-a62f-7ac19370b25a": {
+      "title": "Lextacy",
+      "date": "2005-07-25",
+      "origins": [
+        "existing-catalog",
+        "track_artist:stony-skunk"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "03896bde-37de-489c-9ab2-95e5528bbc6e": {
+      "title": "Soul Company Official Bootleg Vol.2",
+      "date": "2007-02-14",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:e-sens",
+        "track_artist:jerry-k",
+        "track_artist:fana",
+        "track_artist:rhyme-a",
+        "track_artist:mad-clown",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 19,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b719b3bc-d644-4e6f-9ae2-ad5dd1c347d8": {
+      "title": "Illstrumentalz Vol.1",
+      "date": "2009-05-15",
+      "origins": [
+        "existing-catalog",
+        "artist:dok2",
+        "track_artist:paloalto",
+        "track_artist:beenzino"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9fd7cbf2-cace-467a-a7f3-1e4310181d7e": {
+      "title": "[e]",
+      "date": "2009-09-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:paloalto",
+        "artist:epik-high",
+        "track_artist:ydg",
+        "track_artist:beenzino",
+        "track_artist:myk",
+        "track_artist:beatbox-dg"
+      ],
+      "status": "inventoried",
+      "tracks": 30,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "92746581-daa0-44da-8e0a-046b6d73476a": {
+      "title": "[e]",
+      "date": "2009-09-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:paloalto",
+        "artist:epik-high",
+        "track_artist:ydg",
+        "track_artist:beenzino",
+        "track_artist:myk",
+        "track_artist:beatbox-dg"
+      ],
+      "status": "inventoried",
+      "tracks": 30,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "afbe59a6-6c7f-4f99-9c88-ba4cd8cb8c3c": {
+      "title": "The Menu",
+      "date": "2008-04-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic",
+        "track_artist:dok2",
+        "track_artist:e-sens",
+        "artist:buga-kingz"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4fb378c2-e0b6-4e9e-b1c6-d4c30b056d03": {
+      "title": "New Celebration",
+      "date": "2009-10-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:tymee"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "57176893-aa6e-4bf6-aee1-9a21929df107": {
+      "title": "New Celebration",
+      "date": "2009-10-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:tymee"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4cca4ebd-ce54-4292-a29d-bd143b49195f": {
+      "title": "Crucial Moment",
+      "date": "2007-05-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:the-quiett",
+        "track_artist:jjk",
+        "track_artist:mad-clown",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b1daa669-52f0-4e9d-b775-13902e0db44c": {
+      "title": "246",
+      "date": "2009-01-29",
+      "origins": [
+        "existing-catalog",
+        "artist:the-quiett",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "27d4415a-74f3-4ae7-85bf-2dca1167166e": {
+      "title": "Luv Sickness",
+      "date": "2008-10-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:the-quiett",
+        "track_artist:fana",
+        "artist:mad-clown",
+        "track_artist:tak",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b9db1819-a787-480f-a907-24e5b4284fc3": {
+      "title": "The Lost Me",
+      "date": "2007-12-24",
+      "origins": [
+        "existing-catalog",
+        "artist:the-quiett"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "dbb9ef49-b95a-4f2f-b2eb-814022e9f6cd": {
+      "title": "Music",
+      "date": "2005-07-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:paloalto",
+        "artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:jerry-k",
+        "track_artist:fana",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "66a70cf2-27a7-3def-97d4-f2890148abe5": {
+      "title": "Music",
+      "date": "2007-08-08",
+      "origins": [
+        "existing-catalog",
+        "artist:the-quiett",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "38d55a16-e1f8-455b-96aa-b89223a7652a": {
+      "title": "Unofficial Experiment EP",
+      "date": "2003-09-29",
+      "origins": [
+        "existing-catalog",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "track_artist:e-sens"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8b856d6a-1d68-4227-89de-0d24b8a3786f": {
+      "title": "Soul Company Official Bootleg Vol.1",
+      "date": "2005-03-03",
+      "origins": [
+        "existing-catalog",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:jerry-k",
+        "track_artist:fana",
+        "label:Soul Company",
+        "title:Official Bootleg"
+      ],
+      "status": "inventoried",
+      "tracks": 21,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c8151145-a03b-4458-a8a5-84cdeec6a0ad": {
+      "title": "Loaded",
+      "date": "2005-11-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:minos",
+        "track_artist:deepflow",
+        "track_artist:simon-dominic",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:e-sens",
+        "track_artist:dead-p",
+        "track_artist:rhyme-a",
+        "track_artist:ignito",
+        "label:Big Deal Records"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6b021adc-d98f-4fb0-9232-6dfd92f17b11": {
+      "title": "Evolutional Poems",
+      "date": "2004-10-19",
+      "origins": [
+        "existing-catalog",
+        "track_artist:the-quiett",
+        "artist:kebee",
+        "track_artist:jerry-k"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b4c81fbc-0ece-43ce-8dab-d4af7216abc5": {
+      "title": "Evolutional Poems",
+      "date": "2008-08-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:the-quiett",
+        "artist:kebee",
+        "track_artist:jerry-k",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e8a5d5d8-7104-4ed3-9332-5b784efa06bf": {
+      "title": "Evolutional Poems",
+      "date": "2004-10-19",
+      "origins": [
+        "existing-catalog",
+        "artist:kebee",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b309a21c-dcc7-4cb9-90b8-1c5edd737999": {
+      "title": "발자국",
+      "date": "2004-02-02",
+      "origins": [
+        "existing-catalog",
+        "artist:paloalto",
+        "track_artist:the-quiett"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d60b353d-ae06-44e1-ab6e-0985eb4bf634": {
+      "title": "Be In Deep Grief",
+      "date": "2004-03-18",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper",
+        "track_artist:illinit",
+        "track_artist:baechigi",
+        "track_artist:room9"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7cd67676-b94a-43e6-afa9-deba864f93dc": {
+      "title": "Maestro",
+      "date": "2009-06-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:huckleberry-p",
+        "track_artist:jjk",
+        "track_artist:mc-sniper",
+        "track_artist:basick",
+        "track_artist:fana",
+        "track_artist:leo-kekoa",
+        "track_artist:j-kyun",
+        "track_artist:illinit",
+        "artist:outsider",
+        "track_artist:moowoong",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "37474324-2e5b-46a5-9279-c57a6ee695ad": {
+      "title": "Maestro",
+      "date": "2009-06-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:huckleberry-p",
+        "track_artist:jjk",
+        "track_artist:mc-sniper",
+        "track_artist:basick",
+        "track_artist:fana",
+        "track_artist:leo-kekoa",
+        "track_artist:j-kyun",
+        "track_artist:illinit",
+        "artist:outsider",
+        "track_artist:moowoong",
+        "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3c4abe5e-2323-40a3-892c-c59ab8482f74": {
+      "title": "Challenge 4 Da Change",
+      "date": "2006-02-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper",
+        "track_artist:illinit",
+        "track_artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2de4f82c-31d1-448c-a9af-8089088c8f6c": {
+      "title": "魂: Map the Soul",
+      "date": "2009-03-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:minos",
+        "track_artist:verbal-jint",
+        "track_artist:simon-dominic",
+        "track_artist:tablo",
+        "track_artist:paloalto",
+        "artist:epik-high",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:e-sens",
+        "track_artist:myk",
+        "track_artist:beatbox-dg"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a140d47b-618f-4003-9702-24d0f8eeac96": {
+      "title": "Resoundin'",
+      "date": "2005-06-30",
+      "origins": [
+        "existing-catalog",
+        "artist:paloalto"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e0e978fb-6629-4d87-a635-9836a3604dc7": {
+      "title": "Rap Hustler",
+      "date": "2008-07-25",
+      "origins": [
+        "existing-catalog",
+        "artist:deepflow",
+        "track_artist:e-sens",
+        "track_artist:basick",
+        "track_artist:dead-p",
+        "track_artist:fana",
+        "track_artist:swings",
+        "track_artist:san-e",
+        "track_artist:rhyme-a",
+        "track_artist:sleepy"
+      ],
+      "status": "inventoried",
+      "reason": "'NoneType' object has no attribute 'lower'",
+      "checkedAt": "2026-10-04T01:10:19.832732Z",
+      "tracks": 28
+    },
+    "8ca86705-3168-484d-a7a4-4e45f9103fa3": {
+      "title": "Whose Dream",
+      "date": "2008-05-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:simon-dominic"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f9a30412-0b34-41f0-994c-e42e8e7d2e22": {
+      "title": "Elements Combined",
+      "date": "2005-05-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow",
+        "track_artist:simon-dominic",
+        "track_artist:paloalto",
+        "track_artist:rhyme-a",
+        "label:Big Deal Records"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3cca3d37-cd90-4a48-8935-d13991a721cf": {
+      "title": "Remixing The Human Soul",
+      "date": "2009-07-22",
+      "origins": [
+        "existing-catalog",
+        "artist:epik-high",
+        "track_artist:yankie",
+        "track_artist:myk"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "14efbc64-00bb-4288-a2b9-d812cd5b78f9": {
+      "title": "It's Raining",
+      "date": "2004-10-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:epik-high"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "74dde181-6158-4587-9a6c-af4c6d8181c4": {
+      "title": "Lovescream",
+      "date": "2008-09-30",
+      "origins": [
+        "existing-catalog",
+        "artist:epik-high"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "688724cd-b515-42b9-9669-3bc24ae67229": {
+      "title": "Lovescream",
+      "date": "2008-10-02",
+      "origins": [
+        "existing-catalog",
+        "artist:epik-high"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2beeec9c-8f97-41f1-82e5-6911e6abdb5a": {
+      "title": "현영의 가요 리믹스 (Best Club Kayo Hits)",
+      "date": "2006-04-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:epik-high"
+      ],
+      "status": "inventoried",
+      "tracks": 40,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d2c52879-c43d-42c3-85d5-f874cedc571f": {
+      "title": "PINCH YOUR SOUL",
+      "date": "2006-03-14",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "90e53be7-a2a5-4555-9739-2586877869d9": {
+      "title": "Someday",
+      "date": "2008-08-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3f28badd-2457-4674-a5b0-178119bd42f0": {
+      "title": "Someday",
+      "date": "2008-08-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4e5c9021-3c68-46c4-ba48-fb540667eef8": {
+      "title": "すべてのものにあなたを思う",
+      "date": "2006-02-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:tablo"
+      ],
+      "status": "inventoried",
+      "tracks": 3,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "597ce9a1-2bc8-4d3f-a06b-77eae2b41f27": {
+      "title": "COMA",
+      "date": "2002-03-14",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mithra-jin"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4344c879-5116-4561-9dbe-7c08b014a764": {
+      "title": "Fanatic",
+      "date": "2009-02-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "artist:fana",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "538ec133-4077-48ac-8825-1c420c1c876e": {
+      "title": "Devil",
+      "date": "2008-07-04",
+      "origins": [
+        "existing-catalog",
+        "artist:jerry-k",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "29f3d3c0-df3a-499d-a90b-53520af4451a": {
+      "title": "Mad Scientist & Sweet Monsters",
+      "date": "2009-09-16",
+      "origins": [
+        "existing-catalog",
+        "artist:soul-dive"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2135ce0a-e115-4e91-8aee-0489852f4331": {
+      "title": "Re:Pops!",
+      "date": "2009-11-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:minos",
+        "track_artist:the-quiett",
+        "track_artist:fana",
+        "track_artist:suda",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "721cd650-d418-47d9-84cc-a605426875da": {
+      "title": "Beats Rhymes And Life",
+      "date": "2009-10-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow",
+        "track_artist:huckleberry-p",
+        "track_artist:dead-p",
+        "track_artist:mad-clown"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "587a6071-89ab-4f08-97aa-7bf3b20d5875": {
+      "title": "Webstar Presents: Caught in the Web",
+      "date": "2006-09-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:yanghongwon"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "01b0f5c6-c1b9-4640-9cd6-caa1b3faf29f": {
+      "title": "Humanimal",
+      "date": "2009-10-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:b-i"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fa86ac98-0ab3-41c3-b243-9843130f91b4": {
+      "title": "Humanimal",
+      "date": "2009-07-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:b-i"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8f56517c-3672-4310-a8db-b15015e323c2": {
+      "title": "Heartbreaker",
+      "date": "2009-08-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cl",
+        "artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9fbf4e81-6ae0-438d-ae42-c6146806c68e": {
+      "title": "Heartbreaker",
+      "date": "2009-08-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cl",
+        "artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3ebef7d1-a580-4bce-aaa4-5f6c6fe9057d": {
+      "title": "Heartbreaker",
+      "date": "2009-08-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cl",
+        "artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f62f469a-d72c-4fbc-9840-1dc35416433e": {
+      "title": "Bigbang Vol.1",
+      "date": "2006-12-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1731e504-525c-4b90-a95c-651d5fde8279": {
+      "title": "BIGBANG",
+      "date": "2006-08-29",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "163ca0ba-13aa-4624-a10e-f2a75ed9814e": {
+      "title": "BIGBANG",
+      "date": "2006-08-29",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "52fd116c-c00e-489a-9a53-22928128c5f7": {
+      "title": "BIGBANG VOL.1 SINCE 2007",
+      "date": "2006-12-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "278b911d-f953-4ae5-8c43-74fbb80a953f": {
+      "title": "BIGBANG VOL. 1 SINCE 2007",
+      "date": "2006-12-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6c701ad2-f665-4b8b-ae23-54635daf63e3": {
+      "title": "BIGBANG Vol. 1",
+      "date": "2006-12-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9d163b8c-ae6c-42e1-8837-756c73719701": {
+      "title": "Bigbang, Vol. 1",
+      "date": "2006-12-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fd0908a5-6478-4ebb-ae45-55280842f818": {
+      "title": "24/SE7EN",
+      "date": "2006-03-08",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5c38259b-e5c3-4d92-b8dd-49e5323fc35b": {
+      "title": "24/SE7EN",
+      "date": "2006-03-08",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "905ce62b-d902-4122-8d17-0cc26a17b048": {
+      "title": "Why be normal?",
+      "date": "2002-10-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e2d16137-a08f-467f-a6ed-1619614f7f1b": {
+      "title": "Why be normal?",
+      "date": "2002-10-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 24,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "029c05b6-0439-42ab-a991-f26140efb2ab": {
+      "title": "First Live Concert: The Real",
+      "date": "2007-08-02",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "33cbcfe8-106d-4b60-acce-9d7f4e648fcf": {
+      "title": "First Live Concert - The Real",
+      "date": "2008",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9644247c-4c13-4245-bff0-6933fa9ad5d7": {
+      "title": "D.I.S.C.O. Part2",
+      "date": "2008-09-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2b6c68db-5faf-46d2-95ec-b04fc4be1a63": {
+      "title": "By Storm",
+      "date": "2001-09-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:45rpm",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "de1c4573-f1e8-4959-82ab-e5561953c6ee": {
+      "title": "Only Look At Me Pt.2",
+      "date": "2008-06-30",
+      "origins": [
+        "existing-catalog",
+        "artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "56d50376-cd6b-44fc-a5e9-7a850cdc156b": {
+      "title": "Hot Issue",
+      "date": "2007-11-22",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7767c752-e685-405d-8378-840bf7fb21fe": {
+      "title": "Hot Issue",
+      "date": "2007-11-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "05490865-dca5-472f-a77a-26dae9cee999": {
+      "title": "Hot Issue",
+      "date": "2007-11-22",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "933f4235-6ac2-4832-bbbb-21ca3c7efbd1": {
+      "title": "D.I.S.C.O",
+      "date": "2008-06-30",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cl",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f8aca226-b6df-4668-9e11-652a5ed2fb8a": {
+      "title": "D.I.S.C.O",
+      "date": "2008-07-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:cl",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 6,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "51aa03ee-66c1-49ea-82b4-716718bc25fd": {
+      "title": "Hybrid Dream / Rain Is Falling",
+      "date": "2009-05-13",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f8626436-97e9-4539-b52d-5f97333bd856": {
+      "title": "Just Listen...",
+      "date": "2003-03-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "400df6a7-1a17-4a25-a618-137ae0864861": {
+      "title": "Just Listen...",
+      "date": "2003-03-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1b648f4f-faca-4eb8-8641-c2ca6836eb8f": {
+      "title": "Second Live Concert - Bigbang Is Great",
+      "date": "2008",
+      "origins": [
+        "existing-catalog",
+        "track_artist:g-dragon",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d08355a2-da3f-4207-877a-dbc0c5698ddc": {
+      "title": "GREAT",
+      "date": "2008-02-27",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7f28470c-9562-4c16-b3c8-fb750f63996e": {
+      "title": "Road Movie",
+      "date": "2008-07-14",
+      "origins": [
+        "existing-catalog",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7cbcd969-bac1-474e-a1d7-7d7f09e4338c": {
+      "title": "우리들의 전설 OST",
+      "date": "2009-07-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:t-o-p"
+      ],
+      "status": "inventoried",
+      "tracks": 40,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b22139b1-5952-4a1f-a2fb-180450003910": {
+      "title": "Please Don’t Go",
+      "date": "2009-11-20",
+      "origins": [
+        "existing-catalog",
+        "artist:cl"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fdd96a9c-0dd2-4762-b759-d2be73f7804a": {
+      "title": "Kiss",
+      "date": "2009-07-09",
+      "origins": [
+        "existing-catalog",
+        "artist:cl"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b331a710-a11b-4969-9604-f42d91bc1f7b": {
+      "title": "Get Up",
+      "date": "2005-12-01",
+      "origins": [
+        "existing-catalog",
+        "artist:jessi"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e6b1009c-1996-4da3-b3b8-60821d69c36a": {
+      "title": "Minastasia",
+      "date": "2007-07-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:uptown",
+        "track_artist:jessi"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1a39401f-8e49-421f-9ed4-67c7ed34925c": {
+      "title": "The Rebirth",
+      "date": "2009-01-15",
+      "origins": [
+        "existing-catalog",
+        "artist:jessi"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e48353f8-50c6-4ebc-8e59-2129795a382a": {
+      "title": "Motiphie Meets E.via!",
+      "date": "2009-08-05",
+      "origins": [
+        "existing-catalog",
+        "artist:tymee"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "61659380-88b0-457f-9473-55efc54b7825": {
+      "title": "Here I Am",
+      "date": "2009-12-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:huckleberry-p"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0e9b553f-04b8-4054-90b8-5e0c405923e6": {
+      "title": "Beholder & Xenorm",
+      "date": "2008-07-17",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6052678c-fcbf-4f03-8bae-0cad4399468b": {
+      "title": "Hommage",
+      "date": "2009-11-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow",
+        "track_artist:basick",
+        "track_artist:dead-p",
+        "track_artist:j-kyun",
+        "artist:rhyme-a",
+        "label:Soul Company"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "63d14133-b5bf-4e5c-b4b0-95b59477f467": {
+      "title": "Late Night Special (Mixtape)",
+      "date": "2009-12-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:qm"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2d2bc762-36db-4453-b368-cd245c964b3f": {
+      "title": "Untouchable 1st",
+      "date": "2009-06-11",
+      "origins": [
+        "existing-catalog",
+        "artist:untouchable"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3c94eb31-5b28-4529-a9f4-a21af72869bd": {
+      "title": "Vol 1 - Quiet Storm",
+      "date": "2009-01-09",
+      "origins": [
+        "existing-catalog",
+        "artist:untouchable"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "794c5d5a-b602-4c66-a64b-4139ff12ad31": {
+      "title": "바다를 바라보다…",
+      "date": "2009-08-06",
+      "origins": [
+        "existing-catalog",
+        "track_artist:untouchable"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ddd98ec3-4667-4b49-b549-8d2998643dd6": {
+      "title": "꽃미남 연쇄테러사건 OST",
+      "date": "2007-07-30",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dead-p"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9a8be686-b7a9-46a0-b517-2ac29f5b3253": {
+      "title": "The Renaissance",
+      "date": "2005-07-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow",
+        "track_artist:dynamic-duo",
+        "artist:buga-kingz"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "749965a2-a40d-40df-934e-5635a5c61d1e": {
+      "title": "맨땅에 헤딩 OST (MBC TV 드라마)",
+      "date": "2009-10-15",
+      "origins": [
+        "existing-catalog",
+        "track_artist:buga-kingz"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f30c0b9b-8a67-415a-bb53-6e2ca4c85ece": {
+      "title": "밤이면 밤마다 OST",
+      "date": "2008-07-14",
+      "origins": [
+        "existing-catalog",
+        "track_artist:buga-kingz"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c84c4363-fac4-432b-9117-694d5e312d72": {
+      "title": "Ill Skill",
+      "date": "2007-02-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:dok2",
+        "track_artist:sean2slow",
+        "track_artist:juvie-train",
+        "track_artist:ydg",
+        "artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6e36dde0-6722-48c2-918d-2abac00dbcaf": {
+      "title": "옆집 형들이 들려준 노래",
+      "date": "2004-04-16",
+      "origins": [
+        "existing-catalog",
+        "track_artist:juvie-train"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d8efcb9c-d7da-43fe-b520-a558bb6dc313": {
+      "title": "Represented... Now Believe",
+      "date": "1997-10-30",
+      "origins": [
+        "existing-catalog",
+        "artist:uptown"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9eb5e045-da77-43c9-a3fe-cf6215c20c6a": {
+      "title": "Testimony",
+      "date": "2006-05-25",
+      "origins": [
+        "existing-catalog",
+        "artist:uptown"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e16c4c7b-b96e-4aa2-b6a0-134328f882ab": {
+      "title": "Another Myself",
+      "date": "2006-07-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:uptown",
+        "track_artist:miryo"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bf4d707c-5aa3-43fd-92ba-3b14cdb1c6c3": {
+      "title": "Another Myself",
+      "date": "2006-07-10",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bee1e433-30bc-41f9-85ab-4c78191f1437": {
+      "title": "無題",
+      "date": "1996-09-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:uptown"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "69cf8b90-6763-4b5e-b50e-9d15c92d0161": {
+      "title": "HI, Side-A",
+      "date": "2008-10-07",
+      "origins": [
+        "existing-catalog",
+        "artist:tbny"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d156c340-93d1-4d4e-8138-e04db0cca615": {
+      "title": "MC Sniper Limited Edition",
+      "date": "2002-12-27",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper",
+        "track_artist:baechigi",
+        "track_artist:room9"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2362eb8a-b137-4028-8298-a8d3ba0bc3c2": {
+      "title": "배치기 2집 - 馬耳東風",
+      "date": "2006-08-28",
+      "origins": [
+        "existing-catalog",
+        "artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4e02e019-badf-4611-b906-300388a268b8": {
+      "title": "Giant",
+      "date": "2005-02-18",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper",
+        "artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 19,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2c90ebc2-a516-468b-8993-e639d58bc8a0": {
+      "title": "BlueBrand Part 1",
+      "date": "2009-04-15",
+      "origins": [
+        "existing-catalog",
+        "track_artist:baechigi"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "817c9ba3-e3ae-457b-987c-d54e3e81671d": {
+      "title": "패밀리",
+      "date": "2008-11-17",
+      "origins": [
+        "existing-catalog",
+        "artist:mighty-mouth"
+      ],
+      "status": "inventoried",
+      "tracks": 2,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "13ea927e-863e-4305-b3ad-8b4d7681723d": {
+      "title": "Love Class",
+      "date": "2009-08-06",
+      "origins": [
+        "existing-catalog",
+        "artist:mighty-mouth"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "abd6d9d6-5fe4-4661-aae7-3350ebea3982": {
+      "title": "M RIZING",
+      "date": "2008-09-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mighty-mouth"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3c134ce7-e6aa-4ff0-a2b3-07928242ef16": {
+      "title": "Sensibility",
+      "date": "2008-11-13",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c973c06c-eb44-4001-a08a-ceeb7816a8c2": {
+      "title": "나 매력없니..",
+      "date": "2009-03-24",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sangchu"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8d611fc3-35f0-41b2-ba53-d6ad00be5aef": {
+      "title": "My Favorite",
+      "date": "2009-08-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sangchu"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "34efdd1a-4ccd-4c15-8114-71ef1a242ac0": {
+      "title": "My Name Is Enjel",
+      "date": "2007-02-27",
+      "origins": [
+        "existing-catalog",
+        "track_artist:shorry-j"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e21d1a89-17db-4b2b-b2d1-a76adfdc088d": {
+      "title": "Hit-Pop",
+      "date": "2008-02-13",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta",
+        "artist:45rpm"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "89e92a27-9649-4a62-84fd-c48448502834": {
+      "title": "Old Rookie",
+      "date": "2005-05-04",
+      "origins": [
+        "existing-catalog",
+        "artist:45rpm"
+      ],
+      "status": "inventoried",
+      "tracks": 45,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6755a421-279b-4305-9588-5cb942184ae4": {
+      "title": "First Love Class",
+      "date": "2007-10-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:j-kwondo"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c7278672-1fd8-48b8-93ec-2006cfe2b599": {
+      "title": "Soliloquist",
+      "date": "2007-10-25",
+      "origins": [
+        "existing-catalog",
+        "artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a0ee062f-ac89-4169-b0eb-052d1661bc34": {
+      "title": "Come Outside",
+      "date": "2004-01-06",
+      "origins": [
+        "existing-catalog",
+        "artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "04e2bba3-e78b-4509-b1f3-12e5db81150c": {
+      "title": "Come Outside",
+      "date": "2004-01-06",
+      "origins": [
+        "existing-catalog",
+        "artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0c1ec04d-aee9-4ffa-9a7b-264779b1c803": {
+      "title": "DS Connexion",
+      "date": "2005-12-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "97955278-a638-4dc4-a768-d7c7cecbd52c": {
+      "title": "그립고 그립고 그립다",
+      "date": "2009-11-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c91e771c-6f4f-490b-b34e-38e5970cacb0": {
+      "title": "Museum",
+      "date": "2009-11-17",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper",
+        "track_artist:outsider",
+        "track_artist:room9"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2a49e304-c2ab-406d-9ac2-30ad994b25fa": {
+      "title": "환타스틱 프로젝트 Vol.1",
+      "date": "2009-09-07",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper",
+        "track_artist:outsider"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "eba49ee0-494e-4e31-83e1-83f232091c6d": {
+      "title": "SO SNIPER",
+      "date": "2002-05-17",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4128caa3-f0e6-40dc-adb3-c6ac9e937393": {
+      "title": "How Bad Do U Want It?",
+      "date": "2007-03-07",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "35b41ce9-98dd-40a8-a6e2-6a6f06aba298": {
+      "title": "For You",
+      "date": "2007-12-21",
+      "origins": [
+        "existing-catalog",
+        "artist:mc-sniper"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9ddc125f-4da7-4ef5-b712-fd91507e2be1": {
+      "title": "내 여자 친구를 소개합니다 Original Soundtrack",
+      "date": "2004-06-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:mc-sniper"
+      ],
+      "status": "inventoried",
+      "tracks": 24,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "267192b0-f2d8-4219-a65b-d4a3c06ee8a0": {
+      "title": "Bittersweet Thang",
+      "date": "2009-07-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:deepflow",
+        "track_artist:fatdoo"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d7723785-1625-415b-bf31-861c2bc32309": {
+      "title": "MESSAGE FROM UNDERGROUND 2006",
+      "date": "2006-03-31",
+      "origins": [
+        "existing-catalog",
+        "artist:rhyme-a"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "03af41fe-6d55-42d3-97d7-1b85671d885c": {
+      "title": "Clubland III: The Sound of the Summer",
+      "date": "2003-06-23",
+      "origins": [
+        "existing-catalog",
+        "track_artist:xxx"
+      ],
+      "status": "inventoried",
+      "tracks": 41,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "72eef92e-395b-490b-96a7-b742ecd6c1f6": {
+      "title": "Rock the Dancefloor 08",
+      "date": "2003-06-09",
+      "origins": [
+        "existing-catalog",
+        "track_artist:xxx"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d9e32ed2-a7b2-4153-82dc-203c2a13edd5": {
+      "title": "Bollwerk The Nightclubs Volume 8",
+      "date": "2003",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 20,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "304c4876-e2f8-4290-ba85-df6140b63526": {
+      "title": "ClubCharts One",
+      "date": "2003-07-28",
+      "origins": [
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 38,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fd79e306-5c4d-4f0b-8796-f816f548784c": {
+      "title": "Party Party Party: Die besten Party-Hits 66-99",
+      "date": "1999",
+      "origins": [
+        "existing-catalog",
+        "track_artist:xxx"
+      ],
+      "status": "inventoried",
+      "tracks": 40,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7c2636dd-6918-4fe2-ae49-39985cfebc30": {
+      "title": "Ultimate NRG 4",
+      "date": "2009-02-02",
+      "origins": [
+        "existing-catalog",
+        "track_artist:xxx"
+      ],
+      "status": "inventoried",
+      "tracks": 64,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4925c99b-1d9b-40a7-90d4-e4f899ed1dc2": {
+      "title": "Open Music Contest #3: By Perseverance the Snail Reached Art",
+      "date": "2007-04-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:xxx"
+      ],
+      "status": "inventoried",
+      "tracks": 37,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "6bfecc49-e4a8-4234-86d3-8524911f06dd": {
+      "title": "Bizzionary",
+      "date": "2008-06-27",
+      "origins": [
+        "existing-catalog",
+        "artist:bizzy"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "4c6e5f05-dab5-4a38-a4d7-6e9b8cebcb91": {
+      "title": "Refresh",
+      "date": "2007-04-20",
+      "origins": [
+        "existing-catalog",
+        "track_artist:koonta"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ef76e776-0f74-44f0-a1af-3aee2b178260": {
+      "title": "Da Man On The Block!!",
+      "date": "2002-05-13",
+      "origins": [
+        "existing-catalog",
+        "artist:ydg"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3f1d4192-8c74-4f41-96e7-e22cf54fd695": {
+      "title": "17 Seventeen Xeno",
+      "date": "2007-09-12",
+      "origins": [
+        "existing-catalog",
+        "track_artist:maniac"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "44e1d1cf-665a-4a2b-8c97-2271c81eee35": {
+      "title": "Thank You (For Saving My Life)",
+      "date": "2001-11-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:sean2slow"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "17863648-34f4-4609-84d9-a636f5e4c79e": {
+      "title": "검은띠",
+      "date": "2009-02-12",
+      "origins": [
+        "existing-catalog",
+        "artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "24b35680-b142-49fa-b2ab-4dd43bc9ea54": {
+      "title": "Hawaiian Style 4",
+      "date": "2005-07-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:leo-kekoa"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a93f81c4-ec00-41e9-b40b-30740cff2862": {
+      "title": "Home: Boston Underground Hip Hop",
+      "date": "2001-09-21",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e75bcf0e-88ed-4da6-a5e4-e7e038bec062": {
+      "title": "Necronomicon",
+      "date": "2006",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 26,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "839c37d0-f036-4616-9a6f-c5f908fa90a7": {
+      "title": "Necronomicon",
+      "date": "2006-09-05",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "94bc22c8-b625-44a9-b0b3-ad31900544ac": {
+      "title": "Necronomicon",
+      "date": "2006-06-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 22,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d20fc0a8-43f6-4d4f-915f-449bf372c9e8": {
+      "title": "Underground Forever",
+      "date": "2004-11-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 23,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "008c84cf-32bb-469f-8e5b-65b1031b067d": {
+      "title": "Long Range",
+      "date": "2008-07-22",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fb0efaeb-2e89-4aa8-8cef-f0009ad8159b": {
+      "title": "COSMICOLOR",
+      "date": "2007-03-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e78d36e1-02ea-4f86-9081-d8094664d332": {
+      "title": "Cosmicolor",
+      "date": "2007-03-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "898fa183-7082-4a21-b3b2-ab45d69e60e4": {
+      "title": "COSMICOLOR",
+      "date": "2007-03-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 24,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7d72a7f4-abdf-4079-ac0e-64ddca07bed9": {
+      "title": "COSMICOLOR",
+      "date": "2007-03-28",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "73b9009a-7c55-4e14-b71d-e78907687e76": {
+      "title": "Look At Me",
+      "date": "2009-10-15",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 7,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "30601a37-7832-4f01-a549-38f94c83ddbf": {
+      "title": "electriCOLOR -COMPLETE REMIX-",
+      "date": "2007-09-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 44,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e2ab4347-9ec4-459b-8fdc-66b4fdb66d1f": {
+      "title": "electriCOLOR - COMPLETE REMIX",
+      "date": "2007-09-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 43,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "efa394c1-67d0-4d0f-9406-e940ef0dbe89": {
+      "title": "electriCOLOR -COMPLETE REMIX-",
+      "date": "2007-09-26",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 44,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e5f36e9b-80c5-4240-bfb5-ad824093ad3c": {
+      "title": "electriCOLOR COMPLETE REMIX 3",
+      "date": "2008-02",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "278e8149-f1a0-4446-ac0b-81a0709322ac": {
+      "title": "electriCOLOR COMPLETE REMIX 2",
+      "date": "2007-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:snacky-chan"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "27afc9b5-e392-4898-acf5-b9b02ad615a2": {
+      "title": "Untold Story",
+      "date": "2007-06-01",
+      "origins": [
+        "existing-catalog",
+        "track_artist:miryo"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f3016ca3-1b1f-45ab-9530-a275ab2ffccf": {
+      "title": "Before I Go J-Lim",
+      "date": "2007-10-04",
+      "origins": [
+        "existing-catalog",
+        "track_artist:miryo"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e4a8ffa7-be2f-4957-ad9d-43c0a93502d0": {
+      "title": "The Colorful Voices",
+      "date": "2007-12-11",
+      "origins": [
+        "existing-catalog",
+        "track_artist:miryo"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "c394c07d-f72f-46cf-a084-09a6b7fc258b": {
+      "title": "The 4th Episode",
+      "date": "2004-04-30",
+      "origins": [
+        "track_artist:joosuc",
+        "track_artist:epik-high",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ca7477d6-78f1-4c00-82df-4e5611776169": {
+      "title": "People & Places Vol.1",
+      "date": "2003",
+      "origins": [
+        "track_artist:minos",
+        "track_artist:verbal-jint",
+        "track_artist:paloalto",
+        "track_artist:the-quiett",
+        "track_artist:kebee",
+        "track_artist:rhyme-a",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "106dfb2b-a254-4d5b-90c4-27b53f9cf07e": {
+      "title": "Upgrade",
+      "date": "2008",
+      "origins": [
+        "track_artist:deepflow",
+        "track_artist:verbal-jint",
+        "track_artist:the-quiett",
+        "artist:swings",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0b8143a5-a7fd-4f35-a068-fa4abbe3ab7c": {
+      "title": "Eternal Essence of Music",
+      "date": "2007-09-04",
+      "origins": [
+        "track_artist:verbal-jint",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "bc941645-86b2-474c-9310-671f02456d06": {
+      "title": "a.k.a. happy e.vil",
+      "date": "2009-06-19",
+      "origins": [
+        "track_artist:bill-stax",
+        "track_artist:geegooin",
+        "artist:tymee",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "e42b8cf3-8b72-4ed2-8214-93013451421d": {
+      "title": "Thunderground",
+      "date": "2009-11-25",
+      "origins": [
+        "artist:dok2",
+        "track_artist:tablo",
+        "track_artist:mithra-jin",
+        "track_artist:myk",
+        "track_artist:beatbox-dg",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "5de427a5-ccfd-4bfe-97f2-6c4d430a9c73": {
+      "title": "Love Child of the Century",
+      "date": "2007-06",
+      "origins": [
+        "track_artist:tablo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 29,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d8ab54c7-d5c1-4d21-9dd5-cb48c1e7e8bd": {
+      "title": "Rain`s World (Special Edition)",
+      "date": "2006-12-06",
+      "origins": [
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:dynamic-duo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fbf149f1-0eef-4ca5-8a11-d512f1db9fa1": {
+      "title": "Someday",
+      "date": "2008-08-28",
+      "origins": [
+        "track_artist:tablo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 17,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fd7a44a3-640e-4487-9d09-22e4520b0fa9": {
+      "title": "Explore M",
+      "date": "2007-07-10",
+      "origins": [
+        "track_artist:tablo",
+        "track_artist:tiger-jk",
+        "track_artist:yoon-mi-rae",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a0af1d04-2909-4e05-86cf-26ad37a59886": {
+      "title": "最佳現場+新曲專輯",
+      "date": "2002",
+      "origins": [
+        "track_artist:tiger-jk",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 27,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a7eedd06-e934-42e8-8eb3-665d4f141241": {
+      "title": "Odyssey",
+      "date": "2001-11-13",
+      "origins": [
+        "track_artist:drunken-tiger",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "787584b6-1b1d-4e76-a2f3-a18cf3447330": {
+      "title": "Incognito VIrtuoso",
+      "date": "2000-01-07",
+      "origins": [
+        "track_artist:nuck",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3de69127-f6b5-4105-b078-b5dfc46286da": {
+      "title": "9th Dazzle",
+      "date": "2009-10-15",
+      "origins": [
+        "track_artist:leessang",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 10,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "892573fb-7b1b-4fe1-a93a-d7249218e9e0": {
+      "title": "Back To Stage (Promo)",
+      "date": "2007-11-16",
+      "origins": [
+        "track_artist:yoon-mi-rae",
+        "track_artist:dynamic-duo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "80576e80-e2c4-4948-8fc9-d6caeaaa36c0": {
+      "title": "도망자 (영화 '짝패' 삽입곡)",
+      "date": "2006-05-25",
+      "origins": [
+        "artist:dynamic-duo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8a311d2d-6abc-46a7-92f5-bf48e113de61": {
+      "title": "Triple Dynamite (0CD VS Gaeko)",
+      "date": "2009-09-24",
+      "origins": [
+        "artist:dynamic-duo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "b9609a6a-d69e-48e7-880b-e4b7878d5e22": {
+      "title": "Finally",
+      "date": "2003-11-04",
+      "origins": [
+        "track_artist:dynamic-duo",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "fd0c4732-87e1-4011-9568-92528f074f91": {
+      "title": "Anybody",
+      "date": "2008-11-18",
+      "origins": [
+        "track_artist:dynamic-duo",
+        "track_artist:san-e",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 1,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "140a2e7a-87c8-47f7-9c4d-3e3565a08599": {
+      "title": "머피의 법칙",
+      "date": "1995",
+      "origins": [
+        "artist:dj-doc",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "69a20e33-456f-440e-8379-44eb7558d7a5": {
+      "title": "Love & Sex, Happiness",
+      "date": "2004-11-09",
+      "origins": [
+        "artist:dj-doc",
+        "track_artist:lee-hyun-bae",
+        "track_artist:leo-kekoa",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1fbfd9ba-b0d8-4bec-befc-540a92d88480": {
+      "title": "Neuer deutscher Techno",
+      "date": "2000-01-17",
+      "origins": [
+        "track_artist:dj-doc",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 39,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7e19209d-672e-49dd-93a1-04a579f33f79": {
+      "title": "One Shot 가요 리믹스Vol.2",
+      "date": "2003-04-19",
+      "origins": [
+        "track_artist:dj-doc",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 40,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "a6a776f3-4e32-409e-937b-d7e81d5437ba": {
+      "title": "The Way I Am (Repackage)",
+      "date": "2006-12-12",
+      "origins": [
+        "track_artist:gil",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "1c46b28b-d827-40ce-86d1-f35a9a5309f2": {
+      "title": "Verbal Medication",
+      "date": "1999-12-18",
+      "origins": [
+        "artist:uptown",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "8498cddd-78b5-47e1-905b-60d45ae116fa": {
+      "title": "By Storm",
+      "date": "2001-09-04",
+      "origins": [
+        "track_artist:45rpm",
+        "track_artist:g-dragon",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "0db4bd18-510a-4722-af8d-5150964bbc6f": {
+      "title": "Rush",
+      "date": "2007-04-16",
+      "origins": [
+        "track_artist:g-dragon",
+        "track_artist:t-o-p",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 11,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7a821a4a-ba42-4007-8ede-f9c06d6e1aca": {
+      "title": "Se7olution",
+      "date": "2009-02-17",
+      "origins": [
+        "track_artist:g-dragon",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 14,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "81c09746-e378-4efb-ac68-67736ab86b9f": {
+      "title": "The Great",
+      "date": "2008-02-27",
+      "origins": [
+        "track_artist:g-dragon",
+        "track_artist:t-o-p",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "852e9ee8-8524-481b-8ddd-a4ef80225aff": {
+      "title": "The Real Vol.1 (First Live Concert)",
+      "date": "2007-02-08",
+      "origins": [
+        "track_artist:g-dragon",
+        "track_artist:t-o-p",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 16,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "d703496b-626d-489d-b741-1ea67c24fd43": {
+      "title": "Pish!",
+      "date": "2009-07-14",
+      "origins": [
+        "artist:pinodyne",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 9,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "f0d18c94-5f4a-4d2d-b563-3b4084564d83": {
+      "title": "E.via a.k.a. Happy E.vil",
+      "date": "2009-06-22",
+      "origins": [
+        "artist:tymee",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 15,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "ad438853-a35e-473f-9480-290a0423ce34": {
+      "title": "367일",
+      "date": "2009-09-28",
+      "origins": [
+        "artist:baechigi",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 4,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "7f873e70-5746-49e6-8275-5ff642149a38": {
+      "title": "Singular Plurals Volume 2",
+      "date": "2005",
+      "origins": [
+        "track_artist:snacky-chan",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 18,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "886b9ae4-d898-4fe8-bbe9-5d4c1b7c81ab": {
+      "title": "Spektakler",
+      "date": "2006",
+      "origins": [
+        "track_artist:snacky-chan",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 52,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "2763e74a-ed95-46f5-bbd5-5f94695c6510": {
+      "title": "School for Dummies",
+      "date": "2009-11-20",
+      "origins": [
+        "label:Soul Company",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "3d303bfa-4a64-4c19-afe9-183d91d4de95": {
+      "title": "Official Bootleg",
+      "date": "2009-08-26",
+      "origins": [
+        "title:Official Bootleg",
+        "existing-catalog"
+      ],
+      "status": "out-of-scope",
+      "tracks": 3,
+      "checkedAt": "2026-10-04T01:10:19.832732Z",
+      "reason": "KAGERO의 동명 일본 발매. 한국 초기 힙합 컴필레이션 근거 없음."
+    },
+    "18d4f4b7-30ff-4029-8fa7-20b0d25a6974": {
+      "title": "Walk the Stage: The Official Bootleg Box Set",
+      "date": "2009-06-29",
+      "origins": [
+        "title:Official Bootleg",
+        "existing-catalog"
+      ],
+      "status": "out-of-scope",
+      "tracks": 51,
+      "checkedAt": "2026-10-04T01:10:19.832732Z",
+      "reason": "Michael Schenker Group의 록 라이브 박스. 한국 초기 힙합 컴필레이션과 무관."
+    },
+    "b1d64df8-ae7a-40bd-8bc2-d0ce25ab54ba": {
+      "title": "Master Plan",
+      "date": "2000",
+      "origins": [
+        "title:Master Plan",
+        "existing-catalog"
+      ],
+      "status": "out-of-scope",
+      "tracks": 12,
+      "checkedAt": "2026-10-04T01:10:19.832732Z",
+      "reason": "Mike Etheridge의 동명 앨범. 한국 Master Plan 레이블의 발매가 아님."
+    },
+    "60c615d9-ba23-4e74-b094-ba339bd8017a": {
+      "title": "어쩌면 (Espionne Remixes)",
+      "date": "2002-04-26",
+      "origins": [
+        "label:Master Plan",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 5,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "9d5b6a29-a8e4-41ec-85c9-8b37e7716947": {
+      "title": "Lovers",
+      "date": "2003-08-14",
+      "origins": [
+        "label:Master Plan",
+        "existing-catalog"
+      ],
+      "status": "inventoried",
+      "tracks": 13,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    }
+  },
+  "discovery": {
+    "artist:garion": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:garion": {
+      "status": "complete",
+      "count": 14,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:joosuc": {
+      "status": "complete",
+      "count": 7,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:joosuc": {
+      "status": "complete",
+      "count": 35,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:koonta": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:koonta": {
+      "status": "complete",
+      "count": 48,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:minos": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:minos": {
+      "status": "complete",
+      "count": 23,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:deepflow": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:deepflow": {
+      "status": "complete",
+      "count": 54,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:infinite-flow": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:infinite-flow": {
+      "status": "complete",
+      "count": 17,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:verbal-jint": {
+      "status": "complete",
+      "count": 39,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:verbal-jint": {
+      "status": "complete",
+      "count": 137,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:tbny": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:tbny": {
+      "status": "complete",
+      "count": 21,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:bill-stax": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:bill-stax": {
+      "status": "complete",
+      "count": 56,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:simon-dominic": {
+      "status": "complete",
+      "count": 18,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:simon-dominic": {
+      "status": "complete",
+      "count": 80,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:dok2": {
+      "status": "complete",
+      "count": 35,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:dok2": {
+      "status": "complete",
+      "count": 217,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:sean2slow": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:sean2slow": {
+      "status": "complete",
+      "count": 44,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:tablo": {
+      "status": "complete",
+      "count": 14,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:tablo": {
+      "status": "complete",
+      "count": 88,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:paloalto": {
+      "status": "complete",
+      "count": 38,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:paloalto": {
+      "status": "complete",
+      "count": 194,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:gaeko": {
+      "status": "complete",
+      "count": 13,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:gaeko": {
+      "status": "complete",
+      "count": 144,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:tiger-jk": {
+      "status": "complete",
+      "count": 20,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:tiger-jk": {
+      "status": "complete",
+      "count": 96,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:mc-meta": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:mc-meta": {
+      "status": "complete",
+      "count": 37,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:epik-high": {
+      "status": "complete",
+      "count": 57,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:epik-high": {
+      "status": "complete",
+      "count": 19,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:huckleberry-p": {
+      "status": "complete",
+      "count": 12,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:huckleberry-p": {
+      "status": "complete",
+      "count": 43,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:the-quiett": {
+      "status": "complete",
+      "count": 40,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:the-quiett": {
+      "status": "complete",
+      "count": 186,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:kebee": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:kebee": {
+      "status": "complete",
+      "count": 36,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:drunken-tiger": {
+      "status": "complete",
+      "count": 13,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:drunken-tiger": {
+      "status": "complete",
+      "count": 17,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:nuck": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:nuck": {
+      "status": "complete",
+      "count": 28,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:one-sun": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:one-sun": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:lee-ha-neul": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:lee-ha-neul": {
+      "status": "complete",
+      "count": 9,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:juvie-train": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:juvie-train": {
+      "status": "complete",
+      "count": 22,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:jjk": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:jjk": {
+      "status": "complete",
+      "count": 12,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:p-type": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:p-type": {
+      "status": "complete",
+      "count": 20,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:mc-sniper": {
+      "status": "complete",
+      "count": 14,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:mc-sniper": {
+      "status": "complete",
+      "count": 19,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:naachal": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:naachal": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:e-sens": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:e-sens": {
+      "status": "complete",
+      "count": 26,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:basick": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:basick": {
+      "status": "complete",
+      "count": 52,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:qm": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:qm": {
+      "status": "complete",
+      "count": 25,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:leessang": {
+      "status": "complete",
+      "count": 18,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:leessang": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:dead-p": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:dead-p": {
+      "status": "complete",
+      "count": 18,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:jerry-k": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:jerry-k": {
+      "status": "complete",
+      "count": 19,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:bizzy": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:bizzy": {
+      "status": "complete",
+      "count": 47,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:yanghongwon": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:yanghongwon": {
+      "status": "complete",
+      "count": 39,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:maniac": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:maniac": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:ydg": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:ydg": {
+      "status": "complete",
+      "count": 65,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:yoon-mi-rae": {
+      "status": "complete",
+      "count": 31,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:yoon-mi-rae": {
+      "status": "complete",
+      "count": 92,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:geegooin": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:geegooin": {
+      "status": "complete",
+      "count": 30,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:choiza": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:choiza": {
+      "status": "complete",
+      "count": 29,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:dynamic-duo": {
+      "status": "complete",
+      "count": 37,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:dynamic-duo": {
+      "status": "complete",
+      "count": 92,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:defconn": {
+      "status": "complete",
+      "count": 7,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:defconn": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:skull": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:skull": {
+      "status": "complete",
+      "count": 31,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:deegie": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:deegie": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:mithra-jin": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:mithra-jin": {
+      "status": "complete",
+      "count": 7,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:dj-doc": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:dj-doc": {
+      "status": "complete",
+      "count": 26,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:cb-mass": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:cb-mass": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:kim-jin-pyo": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:kim-jin-pyo": {
+      "status": "complete",
+      "count": 26,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:gil": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:gil": {
+      "status": "complete",
+      "count": 9,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:gary": {
+      "status": "complete",
+      "count": 13,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:gary": {
+      "status": "complete",
+      "count": 39,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:honey-family": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:honey-family": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:kim-chang-yeol": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:kim-chang-yeol": {
+      "status": "complete",
+      "count": 9,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:fana": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:fana": {
+      "status": "complete",
+      "count": 25,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:uptown": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:uptown": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:lee-hyun-bae": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:lee-hyun-bae": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:leo-kekoa": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:leo-kekoa": {
+      "status": "complete",
+      "count": 19,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:j-kyun": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:j-kyun": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:swings": {
+      "status": "complete",
+      "count": 19,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:swings": {
+      "status": "complete",
+      "count": 115,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:j-kwondo": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:j-kwondo": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:mighty-mouth": {
+      "status": "complete",
+      "count": 11,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:mighty-mouth": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:45rpm": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:45rpm": {
+      "status": "complete",
+      "count": 9,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:topbob": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:topbob": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:miryo": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:miryo": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:san-e": {
+      "status": "complete",
+      "count": 39,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:san-e": {
+      "status": "complete",
+      "count": 58,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:supreme-team": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:supreme-team": {
+      "status": "complete",
+      "count": 15,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:buga-kingz": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:buga-kingz": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:yankie": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:yankie": {
+      "status": "complete",
+      "count": 44,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:beenzino": {
+      "status": "complete",
+      "count": 26,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:beenzino": {
+      "status": "complete",
+      "count": 115,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:b-i": {
+      "status": "complete",
+      "count": 28,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:b-i": {
+      "status": "complete",
+      "count": 41,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:jessi": {
+      "status": "complete",
+      "count": 40,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:jessi": {
+      "status": "complete",
+      "count": 58,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:microdot": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:microdot": {
+      "status": "complete",
+      "count": 28,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:bizniz": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:bizniz": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:sangchu": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:sangchu": {
+      "status": "complete",
+      "count": 16,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:shorry-j": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:shorry-j": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:cl": {
+      "status": "complete",
+      "count": 32,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:cl": {
+      "status": "complete",
+      "count": 58,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:g-dragon": {
+      "status": "complete",
+      "count": 46,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:g-dragon": {
+      "status": "complete",
+      "count": 215,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:illinit": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:illinit": {
+      "status": "complete",
+      "count": 27,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:eluphant": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:eluphant": {
+      "status": "complete",
+      "count": 7,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:kim-ban-jang": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:kim-ban-jang": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:outsider": {
+      "status": "complete",
+      "count": 13,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:outsider": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:rhyme-a": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:rhyme-a": {
+      "status": "complete",
+      "count": 22,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:pinodyne": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:pinodyne": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:tymee": {
+      "status": "complete",
+      "count": 18,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:tymee": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:untouchable": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:untouchable": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:baechigi": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:baechigi": {
+      "status": "complete",
+      "count": 14,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:stony-skunk": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:stony-skunk": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:myk": {
+      "status": "complete",
+      "count": 1,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:myk": {
+      "status": "complete",
+      "count": 26,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:sleepy": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:sleepy": {
+      "status": "complete",
+      "count": 12,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:ignito": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:ignito": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:beatbox-dg": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:beatbox-dg": {
+      "status": "complete",
+      "count": 9,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:mad-clown": {
+      "status": "complete",
+      "count": 34,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:mad-clown": {
+      "status": "complete",
+      "count": 51,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:room9": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:room9": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:moowoong": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:moowoong": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:suda": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:suda": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:zito": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:zito": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:soul-dive": {
+      "status": "complete",
+      "count": 4,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:soul-dive": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:tak": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:tak": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:snacky-chan": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:snacky-chan": {
+      "status": "complete",
+      "count": 28,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:t-o-p": {
+      "status": "complete",
+      "count": 5,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:t-o-p": {
+      "status": "complete",
+      "count": 43,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:gan-d": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:gan-d": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:fatdoo": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:fatdoo": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:xxx": {
+      "status": "complete",
+      "count": 6,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "track_artist:xxx": {
+      "status": "complete",
+      "count": 10,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "label:Master Plan": {
+      "status": "complete",
+      "matches": [
+        "e2ed0227-5f07-4dcb-ba74-60d2664a6ef1"
+      ],
+      "checkedAt": "2026-10-04T00:59:31.069036Z"
+    },
+    "label:Soul Company": {
+      "status": "complete",
+      "matches": [
+        "10388e16-1d54-4d16-9bee-35a0459863ba"
+      ],
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "label:Big Deal Records": {
+      "status": "complete",
+      "matches": [
+        "2c21c0b5-293f-4ae2-85dd-cec2ef9c0674"
+      ],
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "label:Independent Records": {
+      "status": "needs-source",
+      "matches": [],
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "label:신의의지": {
+      "status": "needs-source",
+      "matches": [],
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "label:한량사": {
+      "status": "needs-source",
+      "matches": [],
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "label:가라사대": {
+      "status": "needs-source",
+      "matches": [],
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "title:BLEX": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:검은소리": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:SNP": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:Show N Prove": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:The Bangerz": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:Official Bootleg": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:절정신운 한아": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:힙합구조대": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:대한민국": {
+      "status": "complete",
+      "count": 2,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "title:Master Plan": {
+      "status": "complete",
+      "count": 3,
+      "checkedAt": "2026-10-04T00:37:43.017019Z"
+    },
+    "artist:skull:alias:5765ee3c-4cc7-431a-b6a4-e3851a8f601f": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "track_artist:skull:alias:5765ee3c-4cc7-431a-b6a4-e3851a8f601f": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572": {
+      "status": "complete",
+      "count": 0,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    },
+    "track_artist:bizniz:alias:48f44e14-4158-4b8f-b95b-bd4abc9f0572": {
+      "status": "complete",
+      "count": 8,
+      "checkedAt": "2026-10-04T01:10:19.832732Z"
+    }
+  }
+}

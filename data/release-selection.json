@@ -1,0 +1,20 @@
+{
+  "excluded": {
+    "3d303bfa-4a64-4c19-afe9-183d91d4de95": "KAGERO의 동명 일본 발매. 한국 초기 힙합 컴필레이션 근거 없음.",
+    "18d4f4b7-30ff-4029-8fa7-20b0d25a6974": "Michael Schenker Group의 록 라이브 박스. 한국 초기 힙합 컴필레이션과 무관.",
+    "b1d64df8-ae7a-40bd-8bc2-d0ce25ab54ba": "Mike Etheridge의 동명 앨범. 한국 Master Plan 레이블의 발매가 아님."
+  },
+  "fullInventories": [
+    "ca7477d6-78f1-4c00-82df-4e5611776169",
+    "89d9d18a-74bc-4039-9e23-fba24b7d467a",
+    "905ce62b-d902-4122-8d17-0cc26a17b048",
+    "e2d16137-a08f-467f-a6ed-1619614f7f1b",
+    "9b0abbd6-3bb4-447e-b8d3-a2b67ecd477b",
+    "be68ed0d-bf9f-42da-8f8e-8d28b226d6ce",
+    "a5d5aae6-dc7b-46f7-a812-6439c6ce14fc",
+    "67f40b28-bc5d-499c-8341-e2d4b3e4ed54",
+    "ecfa36b8-4980-4dde-9aba-fc477b83573b",
+    "2c90ebc2-a516-468b-8993-e639d58bc8a0"
+  ],
+  "note": "초기 한국 힙합 컴필레이션은 모든 트랙의 참여자를 조사. 타 장르·해외 모음집은 전체 순서를 보존하되 핵심 아티스트가 참여한 곡부터 녹음 연결. 제목 일치만으로 범위를 확장하지 않음."
+}

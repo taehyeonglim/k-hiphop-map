@@ -1,0 +1,13 @@
+{
+  "mb-48f44e14-4158-4b8f-b95b-bd4abc9f0572": {
+    "artistId": "bizniz",
+    "source": {
+      "id": "src-review-173166",
+      "provider": "Bugs",
+      "url": "https://music.bugs.co.kr/album/173166",
+      "fetchedAt": "2026-10-04T01:01:33.523927Z",
+      "note": "음반 소개가 Young GM에서 Bizniz로의 활동명 변경을 명시. 원래 ID의 아티스트 URL·지도 링크도 유지."
+    },
+    "reviewedAt": "2026-10-04T01:01:33.523927Z"
+  }
+}
