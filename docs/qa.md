@@ -279,3 +279,11 @@ The complete final built-static acceptance run passed **75 applicable cases with
 ```sh
 PLAYWRIGHT_BASE_URL=http://127.0.0.1:3100 PLAYWRIGHT_OUTPUT_DIR=test-results/archive-acceptance PLAYWRIGHT_REPORT_DIR=playwright-report/archive-acceptance npm run test:e2e
 ```
+
+Production runtime revision **`f283f88891f0100b8e8d85428622440da7eca8f7`** was built from a clean tracked-file export and promoted as **`dpl_D2BTCKJ8Ge5aTKDuA4YqgmhBT5E7`** to [the main service](https://k-hiphop-map.vercel.app/). The initial CLI archive upload was cancelled after generated directory entries inflated its size; no deployment was promoted from that upload. Excluding directory names themselves fixes that source-boundary issue. The successful deployment passed Vercel's data/type/build gates and authenticated pre-promotion checks.
+
+Public HTTP verification confirmed the same map/index/coverage/artist version, 4,017 release entries, 2,756 dated photo records with 633 included and none unsearched, album pages, the legacy artist URL's canonical target, and exact SHA-256 matches for new YDG, Ahn Byeong-woong, 45RPM and Miryo photos. The visitor API retained HTTP 200, `no-store` and the existing total of 46 across promotion; verification used GET, with no registrations. Delivery evidence is `.cache/archive-run/public-delivery.json` and `.cache/archive-run/preview-checks.json`.
+
+All **8 public archive browser cases passed in 8.1 seconds** on desktop and mobile emulation. Their evidence is in `test-results/archive-public/` and `playwright-report/archive-public/`. Local static evidence covers the complete 75-case acceptance suite; production checks are reported separately.
+
+A further **4/4 public map checks passed in 14.0 seconds** for identity/alias search and source-backed selected neighborhoods on desktop and mobile emulation. Evidence: `test-results/archive-public-map/` and `playwright-report/archive-public-map/`. Combined public browser acceptance is 12 applicable cases, with no failures.

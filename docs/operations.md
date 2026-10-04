@@ -41,3 +41,9 @@ The map footer shows cumulative browser visits since this feature was enabled, c
 ## Release evidence
 
 [QA 기록](qa.md)에 커밋/데이터 버전, 브라우저·기기·네트워크, 명령, 결과, 미검증 항목을 기록합니다. 에뮬레이션을 실기기 측정으로 표기하지 않습니다. / Record the version, environment, commands, outcomes and unverified scenarios in the QA log.
+
+## Source upload boundary
+
+`vercel deploy --dry --json`으로 전송할 파일 목록을 먼저 확인한다. `.vercelignore`는 `out`, `public/data`, `test-results`, `playwright-report`, `artifacts` 등 디렉터리 이름 자체도 제외한다. Vercel CLI 59.7.0의 `--archive=tgz` 경로에서는 끝의 `/`만으로 제외한 디렉터리 엔트리를 tar가 다시 순회하는 동작을 확인했다. 압축 업로드 크기가 소스 목록과 다르면 중단하고, 검증한 커밋을 `git archive`로 별도 폴더에 추출한 뒤 일반 업로드를 사용한다. 환경 파일·수집 캐시·로컬 빌드 결과를 배포 소스에 포함하지 않는다.
+
+프로덕션 환경으로 빌드하되 도메인을 아직 연결하지 않으려면 `vercel deploy --prod --skip-domain`을 사용한다. 준비된 배포에서 데이터 버전과 공개 파일을 확인한 뒤 `vercel promote DEPLOYMENT_URL`로 서비스 도메인에 연결한다. 방문자 API 검증은 GET으로 수행하며, 브라우저 QA의 방문 등록 요청은 모의 응답으로 처리한다.
