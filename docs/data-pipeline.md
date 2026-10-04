@@ -16,7 +16,7 @@ python3 scripts/survey-profile-sources.py --merge-review
 
 `collect-releases.py`는 1995–2009년의 기존 발매, 핵심 아티스트의 발매/트랙 참여 browse, 레이블과 제목 후보를 대조합니다. `--refresh`는 캐시를 갱신하고 `--limit N`은 처리할 발매 수를 제한합니다. 검색 결과는 `.cache/archive-run/`에만 생성합니다. maniadb 수입 대상과 인물 대응은 `data/maniadb-releases.json`에 명시해야 합니다. 곡별 벅스 참여정보가 필요하면 `python3 scripts/collect-credit-evidence.py ALBUM_ID`로 후보 근거를 수집합니다. 가사 본문은 공개 결과물에 넣지 않습니다.
 
-Portrait discovery stages reusable candidates under `.cache/portraits/candidates/`. It records every current artist, failed requests, unresolved identities and next actions. Official profile images are evidence candidates, not automatically licensed assets. Weekly CI refreshes music sources and revisits unresolved portraits after 30 days; it uploads candidates without publishing or committing them.
+Portrait discovery stages reusable candidates under `.cache/portraits/candidates/`. It records every current artist, failed requests, unresolved identities and next actions. Official profile images are evidence candidates, not automatically licensed assets. Separately reviewed public-source references may be published with explicit unconfirmed rights metadata; publication approval is not rights-holder permission. Weekly CI refreshes music sources and revisits unresolved portraits after 30 days; it uploads candidates without publishing or committing them.
 
 ## 검토와 반영
 
@@ -33,9 +33,10 @@ Portrait discovery stages reusable candidates under `.cache/portraits/candidates
 | `data/artist-aliases.json` | 출처로 확인한 활동명 통합과 이전 URL 대응 |
 | `data/portrait-review.json` | 모든 아티스트의 사진 조사 상태·사유·다음 행동 |
 | `data/portrait-source-candidates.json` | 공식 프로필·DB에서 발견한 이미지 후보와 접근 결과 |
+| `data/portrait-profile-selections.json` | 공개 출처 참조 107장의 원본 SHA-256·크기·크롭·인물 근거·권리 미확인 상태 |
 | `data/portrait-permissions.json` | Wikimedia 이외 사진의 사진별 사용허락 근거. 허락된 사진이 없으면 빈 객체 |
 | `data/portrait-approvals.json` | 검토한 후보 원본 URL, `reviewedAt`, `identityConfirmed`, `cropApproved`, 검토 파일의 `imageSha256` |
-| `data/portraits.json` | 실제 게시 사진의 원본·저작자·라이선스·변형 내역 |
+| `data/portraits.json` | 실제 게시 사진의 원본·출처 귀속·라이선스 또는 미확인 권리 상태·변형 내역 |
 | `data/catalog.sqlite`, `.cache/` | 비공개 원본 응답·다운로드·조사 캐시, Git 제외 |
 | `public/data/`, `data/catalog.enriched.json` | 빌드 생성물. 직접 수정하지 않음 |
 
@@ -52,7 +53,7 @@ npm run data:build
 npm run data:validate:launch
 ```
 
-`--publish-only`는 승인 파일과 후보의 원본 URL·이미지 해시가 일치하는 사진만 `public/images/artists/`로 복사합니다. 크롭·인물·이용조건 검토를 생략하는 옵션이 아닙니다. 공식 사진 허락 자료에는 `identitySource`, `permissionUrl`, `author`, `license`, `sourceUrl`, `originalUrl`, `allowCrop`을 기록합니다. 편집을 허용하지 않은 사진은 원래 구도를 유지합니다.
+`--publish-only`는 승인 파일과 후보의 원본 URL·이미지 해시가 일치하는 사진만 `public/images/artists/`로 복사합니다. 크롭·인물·권리 상태 검토를 생략하는 옵션이 아닙니다. 공개 출처 참조는 `python3 scripts/stage-profile-portraits.py`로 재현하며, 원본의 SHA-256 또는 크기가 달라지면 중단합니다. `rights.status=unconfirmed`인 후보는 승인에 `publicationBasis=public-source-reference`가 있어야 게시됩니다. 이는 사용허락 기록이 아니므로 `portrait-permissions.json`에 허락을 만들어 넣지 않습니다. `--artist ID`를 반복 지정하면 기존 게시 파일과 다른 아티스트의 조사 상태를 건드리지 않고 해당 후보만 반영할 수 있습니다. 공식 사진 허락 자료에는 `identitySource`, `permissionUrl`, `author`, `license`, `sourceUrl`, `originalUrl`, `allowCrop`을 기록합니다. 편집을 허용하지 않은 사진은 원래 구도를 유지합니다.
 
 The general artist collector remains available as `npm run data:collect`. It uses stable paginated release/recording browse and reapplies the reviewed archive and per-track overlays when rebuilding the catalog. Publish only after checking candidates; unknown or failed source responses must remain explicit.
 

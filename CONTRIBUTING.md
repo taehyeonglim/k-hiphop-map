@@ -28,6 +28,6 @@ Use a focused branch and PR. Read the installed Next.js documentation, preserve 
 
 ## 자료와 이용조건
 
-새 사진은 저작자·원본 URL·라이선스 URL·변형 내역이 필요합니다. 코드의 MIT 라이선스는 데이터·사진·음원에 적용되지 않습니다. 노래·가사·확인되지 않은 사진을 추가하지 마세요. 공개 PR과 이슈에 API 키나 방문자 카운터 비밀키를 넣지 마세요.
+새 사진은 출처 귀속·원본 URL·권리 상태·변형 내역이 필요합니다. 공개 출처 참조 사진은 `rights.status=unconfirmed`를 유지하고, 출처·인물·크롭 검토와 `publicationBasis=public-source-reference` 승인을 별도로 기록합니다. 이는 권리자의 이용허락이 아닙니다. 코드의 MIT 라이선스는 데이터·사진·음원에 적용되지 않습니다. 노래·가사·인물이 확인되지 않은 사진을 추가하거나 공개 프로필에 임의로 CC 라이선스를 붙이지 마세요. 공개 PR과 이슈에 API 키나 방문자 카운터 비밀키를 넣지 마세요.
 
 Every new portrait needs an author, original page, license URL and transformation notes. The code license does not relicense data or media. Keep secrets out of issues and pull requests.

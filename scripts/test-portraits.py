@@ -13,9 +13,46 @@ spec.loader.exec_module(survey)
 selection_spec = importlib.util.spec_from_file_location('selections', Path(__file__).with_name('stage-portrait-selections.py'))
 selections = importlib.util.module_from_spec(selection_spec)
 selection_spec.loader.exec_module(selections)
+profile_spec = importlib.util.spec_from_file_location('profiles', Path(__file__).with_name('stage-profile-portraits.py'))
+profiles = importlib.util.module_from_spec(profile_spec)
+profile_spec.loader.exec_module(profiles)
 
 
 class PortraitGates(unittest.TestCase):
+    def test_public_reference_is_not_a_license_or_implicit_publication_approval(self):
+        selection = dict(provider='Bugs', rightsStatus='unconfirmed',
+                         originalUrl='https://example.org/photo.jpg', sourceUrl='https://example.org/artist',
+                         attribution='Profile provider; photographer unknown', title='Artist profile',
+                         identityNotes='Artist and recording credits matched', identitySources=['https://example.org/artist'])
+        asset = profiles.attribution(selection)
+        self.assertEqual(asset['rights']['status'], 'unconfirmed')
+        self.assertNotIn('permission', asset)
+        with self.assertRaises(ValueError):
+            profiles.attribution({**selection, 'permission': {'basis': 'license'}})
+        with self.assertRaises(ValueError):
+            profiles.attribution({**selection, 'rightsStatus': 'licensed'})
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'photo.webp'
+            path.write_bytes(b'reviewed photo')
+            approval = dict(sourceUrl=asset['sourceUrl'], reviewedAt='2026-10-04',
+                            identityConfirmed=True, cropApproved=True,
+                            imageSha256=hashlib.sha256(path.read_bytes()).hexdigest())
+            self.assertFalse(survey.approved_candidate(asset, approval, path))
+            approval['publicationBasis'] = 'public-source-reference'
+            self.assertTrue(survey.approved_candidate(asset, approval, path))
+            self.assertFalse(survey.approved_candidate({**asset, 'permission': {'basis': 'license'}}, approval, path))
+
+    def test_same_dimension_replacement_original_requires_new_review(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'photo.png'
+            Image.new('RGB', (300, 300), 'red').save(path)
+            selection = dict(sourceSize=[300, 300], box=[0, 0, 300, 300],
+                             sourceSha256=hashlib.sha256(path.read_bytes()).hexdigest())
+            self.assertEqual(profiles.verified_crop(path, selection, 'person').size, (256, 256))
+            Image.new('RGB', (300, 300), 'blue').save(path)
+            with self.assertRaises(ValueError):
+                profiles.verified_crop(path, selection, 'person')
+
     def test_video_requires_its_own_explicit_reuse_license(self):
         info = {'id': 'abcdefghijk', 'title': 'Artist interview', 'channel': 'Official channel'}
         with self.assertRaises(ValueError):

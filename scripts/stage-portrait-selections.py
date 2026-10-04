@@ -52,7 +52,12 @@ def crop_image(image, selection, kind):
     if kind == 'group':
         if selection['box'] != [0, 0, image.width, image.height]:
             raise ValueError('Group portraits must preserve all members in the selected frame')
-        return ImageOps.pad(image, (256, 256), color='#151719')
+        inset = selection.get('groupInset', 0)
+        if not isinstance(inset, int) or not 0 <= inset <= 32:
+            raise ValueError('Group inset must be between 0 and 32 pixels')
+        result = Image.new('RGB', (256, 256), '#151719')
+        result.paste(ImageOps.pad(image, (256 - 2 * inset, 256 - 2 * inset), color='#151719'), (inset, inset))
+        return result
     if right-left != bottom-top:
         raise ValueError('Person portraits require a square crop without distortion')
     return image.crop(selection['box']).resize((256, 256), Image.Resampling.LANCZOS)

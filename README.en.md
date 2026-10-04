@@ -16,7 +16,7 @@ A nonprofit web archive of artist collaborations, grounded in recording credits 
 
 These are actual application screenshots. Photograph authors and reuse conditions are listed in the [credits](https://k-hiphop-map.vercel.app/credits/).
 
-The October 4, 2026 portrait expansion brings core coverage to **161/268 artists (60.1%)**, with **674/2,756 artists** photographed overall. All 41 new portraits are core artists; 107 core portraits still need research. [New portraits, evidence and reproduction](docs/portrait-expansion.md)
+The October 4, 2026 follow-up adds all **107 remaining core portraits**: core coverage is **268/268 (100%)**, with **781/2,756 artists** photographed overall. These 107 public profile/interview images have reviewed identities and sources; **individual reuse permission remains unconfirmed** and is explicitly distinguished from licensed images. [New portraits, evidence and reproduction](docs/portrait-expansion.md)
 
 ## Things to explore
 
@@ -116,7 +116,7 @@ Code is [MIT](LICENSE). The code license does not relicense data, photographs, m
 
 - [MusicBrainz core metadata](https://musicbrainz.org/doc/About/Data_License) is CC0; supplementary tags and genre associations retain CC BY-NC-SA 3.0. Preserve this distinction for cached profiles and derivatives.
 - maniadb-derived data retains CC BY-NC-SA 2.0 KR.
-- Each photograph records its author, original page, license URL and transformations. See the [image audit](docs/image-audit.md).
+- Each photograph records its source attribution, original page, rights status and transformations. Uncredited photographers and unconfirmed reuse permission are identified separately from explicit CC licenses; attribution alone is not permission. See the [image audit](docs/image-audit.md).
 - OFL notices for Anton, Barlow Condensed and Noto Sans KR are in `public/fonts/`.
 - The trailer's original instrumental was composed for this project by 임태형 a.k.a. Lyricist. Photograph, data and font conditions remain separate in the film. See the [trailer reproduction guide](docs/trailer.md).
 

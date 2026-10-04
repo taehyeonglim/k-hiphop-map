@@ -30,8 +30,17 @@ test('source-only early album and photo survey are discoverable', async ({ page 
   await page.getByRole('link', { name: '수집 현황', exact: true }).click();
   await expect(page.locator('.coverage-metrics')).toBeVisible();
   await page.getByLabel('아티스트 이름').fill('주석');
+  // Joosuc is now photographed; the default missing-only view must exclude him.
+  await expect(page.locator('.coverage-list')).not.toContainText('주석');
+  await page.getByLabel('조사 상태').selectOption('included');
   await expect(page.locator('.coverage-list')).toContainText('주석');
-  await expect(page.locator('.coverage-list')).toContainText('확인');
+  await expect(page.locator('.coverage-list')).toContainText('사진 반영');
+  await expect(page.locator('.coverage-list')).toContainText('재사용 허락 미확인');
+  await page.locator('.coverage-list').getByRole('link', { name: '주석', exact: true }).click();
+  const photo = page.locator('.artist-document-header img');
+  await expect(photo).toHaveAttribute('src', '/images/artists/joosuc.webp');
+  await expect(photo).toBeVisible();
+  expect(await photo.evaluate(async (image: HTMLImageElement) => { await image.decode(); return image.naturalWidth; })).toBe(256);
 });
 
 test('album index failure can be retried without inventing an empty catalog', async ({ page }) => {

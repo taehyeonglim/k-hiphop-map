@@ -30,6 +30,9 @@ def valid_image(asset):
 
 
 def approved_candidate(asset, approval, path):
+    if asset.get('rights', {}).get('status') == 'unconfirmed':
+        if approval.get('publicationBasis') != 'public-source-reference' or asset.get('permission'):
+            return False
     return (approval.get('sourceUrl') == asset['sourceUrl'] and bool(approval.get('reviewedAt'))
             and approval.get('identityConfirmed') is True and approval.get('cropApproved') is True
             and path.is_file() and approval.get('imageSha256') == hashlib.sha256(path.read_bytes()).hexdigest())
@@ -41,6 +44,7 @@ def main():
     parser.add_argument('--limit', type=int)
     parser.add_argument('--publish', action='store_true')
     parser.add_argument('--publish-only', action='store_true')
+    parser.add_argument('--artist', action='append', help='Limit survey/publication to these artist IDs')
     args = parser.parse_args()
     p.CACHE.mkdir(parents=True, exist_ok=True)
     STAGING.mkdir(parents=True, exist_ok=True)
@@ -54,7 +58,8 @@ def main():
     staged = json.loads(staged_path.read_text()) if staged_path.exists() else {}
     extra_candidates = p.CACHE / 'core-candidates.json'
     if extra_candidates.exists():
-        staged.update(json.loads(extra_candidates.read_text()))
+        # Explicitly staged selections take precedence over older discovery cache.
+        staged = {**json.loads(extra_candidates.read_text()), **staged}
     approval_path = ROOT / 'data/portrait-approvals.json'
     approvals = json.loads(approval_path.read_text()) if approval_path.exists() else {}
     permission_path = ROOT / 'data/portrait-permissions.json'
@@ -63,13 +68,18 @@ def main():
     for artist in artists:
         aid = artist['id']
         row = review.setdefault(aid, {'state': 'unsearched', 'attempts': [], 'nextAction': '이름·별칭과 식별자로 사진 출처 조사'})
+        if args.artist and aid not in args.artist:
+            continue
         if aid in assets and valid_image(assets[aid]):
             row.update(state='included', checkedAt=NOW, nextAction='정기 파일·귀속 정보 점검', sources=[assets[aid]['sourceUrl']])
+            if assets[aid].get('rights', {}).get('status') == 'unconfirmed':
+                row['nextAction'] = '출처 유지·사진 저작자와 재사용 조건 확인'
         elif aid in assets:
             row.update(state='retry', reason='기존 사진 파일 또는 필수 출처 정보 불완전')
     save(review_path, review)
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=args.retry_days)
     pending = [a for a in artists if review[a['id']]['state'] != 'included' and
+               (not args.artist or a['id'] in args.artist) and
                (review[a['id']]['state'] in ('unsearched', 'retry') or not review[a['id']].get('checkedAt') or
                 dt.datetime.fromisoformat(review[a['id']]['checkedAt'].replace('Z', '+00:00')) < cutoff)]
     pending.sort(key=lambda a: (not a['core'], a['name']))
@@ -149,6 +159,8 @@ def main():
         print(f'Portrait survey {min(start+30,len(pending))}/{len(pending)}; {len(staged)} staged candidates', flush=True)
     if args.publish or args.publish_only:
         for aid, approval in approvals.items():
+            if args.artist and aid not in args.artist:
+                continue
             asset = staged.get(aid)
             if aid not in review or not asset or approval.get('sourceUrl') != asset['sourceUrl']:
                 continue
@@ -163,6 +175,8 @@ def main():
             shutil.copy2(path, destination)
             assets[aid] = {**asset, 'identitySources': list(dict.fromkeys(asset.get('identitySources', []))), 'reviewedAt': approval['reviewedAt']}
             review[aid].update(state='included', checkedAt=NOW, sources=[asset['sourceUrl']], nextAction='정기 파일·귀속 정보 점검')
+            if asset.get('rights', {}).get('status') == 'unconfirmed':
+                review[aid]['nextAction'] = '출처 유지·사진 저작자와 재사용 조건 확인'
         save(assets_path, assets)
         save(review_path, review)
         p.write_audit(artists, assets, review)

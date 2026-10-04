@@ -118,7 +118,7 @@ writeFileSync(join(output, 'releases.json'), JSON.stringify({ version: dataset.v
 writeFileSync(join(output, 'coverage.json'), JSON.stringify({ version: dataset.version, asOf: dataset.asOf,
   portraits: dataset.artists.map(artist => {
     const review = portraitReviews[artist.id] ?? { state: 'unsearched', nextAction: '사진 출처 조사', attempts: [] };
-    return { id: artist.id, name: artist.name, core: artist.core, state: review.state, checkedAt: review.checkedAt, reason: review.reason, sources: review.sources, nextAction: review.nextAction,
+    return { id: artist.id, name: artist.name, core: artist.core, rightsStatus: artist.image?.rights?.status, state: review.state, checkedAt: review.checkedAt, reason: review.reason, sources: review.sources, nextAction: review.nextAction,
       attempts: review.attempts.map(({ provider, checkedAt, result }) => ({ provider, checkedAt, result })) };
   }),
   releases: [

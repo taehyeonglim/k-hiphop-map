@@ -60,7 +60,7 @@ export default function ArtistPanel({ dataset, snapshot, artist, filters, onSele
           <h3>자료 출처</h3><div className="artist-sources">{sourceArtist?.sources.map(source => <a key={source.id} href={source.url} target="_blank" rel="noreferrer">{source.provider}<ExternalLink size={15} /></a>)}</div>
         </div>}
       </div>
-      {artist.image && <><button className="image-credit-button" onClick={() => setShowCredit(!showCredit)} aria-expanded={showCredit} aria-label="사진 출처 보기"><Info size={16} />사진 출처</button>{showCredit && <div className="image-credit"><p>{artist.image.author} · <a href={artist.image.licenseUrl} target="_blank" rel="noreferrer">{artist.image.license}</a></p><a href={artist.image.sourceUrl} target="_blank" rel="noreferrer">원본과 이용조건 ↗</a></div>}</>}
+      {artist.image && <><button className="image-credit-button" onClick={() => setShowCredit(!showCredit)} aria-expanded={showCredit} aria-label="사진 출처 보기"><Info size={16} />사진 출처</button>{showCredit && <div className="image-credit"><p>{artist.image.author} · {artist.image.rights?.status === 'unconfirmed' ? <span>{artist.image.license}</span> : <a href={artist.image.licenseUrl} target="_blank" rel="noreferrer">{artist.image.license}</a>}</p><a href={artist.image.sourceUrl} target="_blank" rel="noreferrer">{artist.image.rights?.status === 'unconfirmed' ? '원본 출처 ↗' : '원본과 이용조건 ↗'}</a></div>}</>}
       <a className="artist-page-link" href={`/artists/${artist.id}/`}>전체 디스코그래피 · 아티스트 페이지<ArrowRight size={17} /></a>
       <a className="correction-link" href={correctionUrl(artist.id, dataset.version, typeof window === 'undefined' ? '' : window.location.href)} target="_blank" rel="noreferrer">이 아티스트의 데이터 수정 제안 ↗</a>
     </div>

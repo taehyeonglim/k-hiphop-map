@@ -39,6 +39,7 @@ export const metadata = { title: '사진·영상·음악과 데이터 크레딧'
 export default function Credits() {
   const data: Dataset = JSON.parse(readFileSync('data/catalog.enriched.json', 'utf8'));
   const photographed = data.artists.filter((artist) => artist.image);
+  const unconfirmed = photographed.filter((artist) => artist.image?.rights?.status === 'unconfirmed').length;
   const trailerPath = 'public/media/trailer/v3/credits.json';
   const trailer: TrailerCredits | undefined = existsSync(trailerPath)
     ? JSON.parse(readFileSync(trailerPath, 'utf8'))
@@ -48,7 +49,9 @@ export default function Credits() {
     <Link href="/" className="document-back">← 지도로 돌아가기</Link>
     <div className="document-kicker">CREDITS / 002</div>
     <h1>사진에도<br />출처가 있다.</h1>
-    <p className="document-lead">{photographed.length}개의 아티스트 사진. 저작자와 이용조건을 기록하고, 개인 사진은 얼굴 노드에 맞게 크롭하고 그룹 사진은 전체 구도를 유지했습니다. 재사용이 허용된 영상의 정지 장면에는 원본 제목과 장면 시각도 기록했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다. <Link href="/coverage/">전체 사진 조사 현황</Link>에서 미확보 사유와 다음 행동을 확인하세요.</p>
+    <p className="document-lead">{photographed.length}개의 아티스트 사진. 출처와 확인된 저작자·이용조건을 기록하고, 개인 사진은 얼굴 노드에 맞게 크롭하고 그룹 사진은 전체 구도를 유지했습니다. 재사용이 허용된 영상의 정지 장면에는 원본 제목과 장면 시각도 기록했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다. <Link href="/coverage/">전체 사진 조사 현황</Link>에서 미확보 사유와 다음 행동을 확인하세요.</p>
+
+    <p className="document-note">전체 사진 중 {unconfirmed}개는 음원 서비스·공연 프로필·인터뷰 등 공개 출처에서 확인한 사진이며, 개별 재사용 허락은 미확인입니다. 사진별로 이 상태를 표시합니다. 출처 표기가 이용허락을 대신하지 않으며, CC 사진의 라이선스와도 구분합니다. 권리자 정보·이용조건 정정 및 삭제 요청은 <a href="https://github.com/taehyeonglim/k-hiphop-map/issues/new?title=사진%20권리%20정정">사진 정정 제보</a>로 남길 수 있습니다.</p>
 
     <section>
       <h2>음악 데이터</h2>
@@ -109,7 +112,7 @@ export default function Credits() {
           <h2><Link href={`/artists/${artist.id}/`}>{artist.name}</Link></h2>
           <p>{artist.image!.author}</p>
           {artist.image!.title && <p>{artist.image!.title}</p>}
-          <a href={artist.image!.licenseUrl} target="_blank" rel="noreferrer">{artist.image!.license}</a>
+          {artist.image!.rights?.status === 'unconfirmed' ? <p>{artist.image!.license}</p> : <a href={artist.image!.licenseUrl} target="_blank" rel="noreferrer">{artist.image!.license}</a>}
           <p><a href={artist.image!.sourceUrl} target="_blank" rel="noreferrer">원본 출처 ↗</a> · {artist.image!.crop || '정사각형 썸네일 크롭·WebP 변환'}</p>
         </div>
       </article>)}

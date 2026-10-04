@@ -25,6 +25,7 @@ for (const artist of dataset.artists) {
   if (artist.image) {
     if (!artist.image.author || !artist.image.licenseUrl || !artist.image.sourceUrl || !artist.image.originalUrl) errors.push(`Incomplete image attribution: ${artist.id}`);
     if (artist.image.src.startsWith('/') && !existsSync(join(process.cwd(), 'public', artist.image.src))) errors.push(`Missing image asset: ${artist.image.src}`);
+    if (artist.image.rights?.status === 'unconfirmed' && (artist.image.permission || !artist.image.rights.note || !artist.image.license.includes('미확인'))) errors.push(`Public-source image incorrectly implies permission: ${artist.id}`);
   }
 }
 const isrcIndex = new Map<string, string>();
@@ -89,6 +90,7 @@ if (existsSync('public/data/map.json')) {
     if (!survey || !survey.nextAction) errors.push(`Missing portrait survey: ${artist.id}`);
     if (survey?.state === 'included' && !artist.image) errors.push(`Portrait survey falsely claims included: ${artist.id}`);
     if (artist.image && survey?.state !== 'included') errors.push(`Published portrait absent from survey: ${artist.id}`);
+    if (survey?.rightsStatus !== artist.image?.rights?.status) errors.push(`Portrait rights status absent or inconsistent in coverage: ${artist.id}`);
   }
   for (const extended of [false, true]) for (const [from, to] of [[1995, Number(dataset.asOf.slice(0, 4))], [2005, 2014], [2020, Number(dataset.asOf.slice(0, 4))]]) {
     const filters = { from, to, extended, cumulative: false, minCount: 2 };

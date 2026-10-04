@@ -322,9 +322,10 @@ def write_audit(artists: list[dict], portraits: dict, status: dict):
         counts[state] = counts.get(state, 0) + 1
     lines = ['# Portrait source audit', '',
              'This report is regenerated when reviewed candidates are published. It covers every artist in the current catalogue. '
-             'Discovery does not itself approve a portrait: identity, file-specific reuse terms and the actual crop must be reviewed.', '',
+             'Discovery does not itself approve a portrait: identity, source, rights status and the actual crop must be reviewed. Public availability does not establish reuse permission.', '',
              f'- Current catalogue artists: {len(artists)}',
              f'- Artists with a published portrait: {len(present)}',
+             f"- Public-source references with unconfirmed reuse permission: {sum(asset.get('rights', {}).get('status') == 'unconfirmed' for _, asset in present)}",
              f'- Core artist coverage: {core_present}/{len(core)} ({core_present / len(core) * 100:.1f}%)' if core else '- Core artist coverage: 0',
              '- Output: 256×256 same-origin WebP files. People are cropped; group photographs retain the complete image with letterboxing. Changes are disclosed per asset.',
              '- Missing photographs use initials. An unresolved search does not establish that a photograph does not exist.', '',
@@ -338,22 +339,25 @@ def write_audit(artists: list[dict], portraits: dict, status: dict):
               'Commons captions, photographer searches and CC video search results are retained in '
               '[expanded discovery](../data/portrait-discovery.json). Manual frame/crop coordinates are in '
               '[portrait selections](../data/portrait-selections.json), with observed per-video license statements in '
-              '[video evidence](../data/portrait-video-evidence.json). See the [expansion record](portrait-expansion.md).', '',
+              '[video evidence](../data/portrait-video-evidence.json). Public profile/interview selections, source hashes, identity evidence and crop coordinates are in '
+              '[public-source selections](../data/portrait-profile-selections.json). See the [expansion record](portrait-expansion.md).', '',
               '## Reproduction', '', '```sh', 'python3 scripts/survey-portraits.py',
               'python3 scripts/survey-profile-sources.py --merge-review',
               'python3 scripts/discover-portrait-sources.py --provider commons',
               'python3 scripts/discover-portrait-sources.py --provider flickr',
               'python3 scripts/discover-portrait-sources.py --provider youtube',
               'python3 scripts/stage-portrait-selections.py',
+              'python3 scripts/stage-profile-portraits.py',
               '# Review each staged identity, attribution and crop; record its SHA-256 in portrait-approvals.json.',
               'python3 scripts/survey-portraits.py --publish-only', 'npm run data:build', 'npm run data:validate:launch', '```', '',
               'The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata. Non-Wikimedia originals require '
-              'photo-specific permission records or explicit CC BY video licenses from the selected source. '
+              'photo-specific permission records, explicit CC BY video licenses, or a separately reviewed public-source reference. '
+              'Public-source references retain `rights.status=unconfirmed` and require `publicationBasis=public-source-reference` in the approval; this is not permission from the rights holder. '
               'An official channel or CC search result alone is not permission. Video title, author, timestamp and changes are retained. '
               'Wikipedia local fair-use files are excluded. Current published sources and '
               'license conditions are listed below and on the [credits page](https://k-hiphop-map.vercel.app/credits/). '
               'API caches expire after 30 days; transient request failures remain retryable.', '',
-              '## Included assets', '', '| Artist | Author | License | Source |', '| --- | --- | --- | --- |']
+              '## Included assets', '', '| Artist | Author / source attribution | License / rights status | Source |', '| --- | --- | --- | --- |']
     def cell(text):
         return str(text).replace('|', '&#124;').replace('\n', ' ')
     for artist, asset in sorted(present, key=lambda row: row[0]['name']):

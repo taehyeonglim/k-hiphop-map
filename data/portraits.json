@@ -10774,5 +10774,2151 @@
       "url": "https://www.youtube.com/t/creative_commons"
     },
     "reviewedAt": "2026-10-04T02:21:50.007904+00:00"
+  },
+  "joosuc": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/41/4113.jpg?version=4199&d=20160711105827",
+    "sourceUrl": "https://music.bugs.co.kr/artist/4113",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "주석 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/4113",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/joosuc.webp",
+    "checkedAt": "2026-10-04T02:48:11.963335+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/4113",
+      "https://music.bugs.co.kr/artist/80078792"
+    ],
+    "crop": "얼굴 영역 [476, 0, 3219, 2743] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "infinite-flow": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/276/27610.jpg?version=2067&d=20190511111308",
+    "sourceUrl": "https://music.bugs.co.kr/artist/27610",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "인피닛플로우(I.F) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/27610",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/infinite-flow.webp",
+    "checkedAt": "2026-10-04T02:48:11.840484+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/27610",
+      "https://music.bugs.co.kr/artist/27605",
+      "https://music.bugs.co.kr/artist/60510"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "tbny": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/200/652/65294.jpg?version=20190601002439",
+    "sourceUrl": "https://music.bugs.co.kr/artist/65294",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "TBNY 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/65294",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/tbny.webp",
+    "checkedAt": "2026-10-04T02:48:14.325420+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/65294",
+      "https://music.bugs.co.kr/artist/31999",
+      "https://music.bugs.co.kr/artist/32000"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "sean2slow": {
+    "originalUrl": "https://cdn.instiz.net/data/cached_img/upload_ichart/artist/000/011/11183.jpg?v=1761841480",
+    "sourceUrl": "https://www.ichart.kr/artist/17194",
+    "author": "iChart 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "션이슬로우 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://www.ichart.kr/artist/17194",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/sean2slow.webp",
+    "checkedAt": "2026-10-04T02:48:13.157297+00:00",
+    "identitySources": [
+      "https://www.ichart.kr/artist/17194",
+      "https://music.bugs.co.kr/artist/80003912"
+    ],
+    "crop": "얼굴 영역 [0, 0, 300, 300] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "p-type": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/181/18156.jpg?version=125386&d=20220218104541",
+    "sourceUrl": "https://music.bugs.co.kr/artist/18156",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "피타입(P-TYPE) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/18156",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/p-type.webp",
+    "checkedAt": "2026-10-04T02:48:16.365209+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/18156"
+    ],
+    "crop": "얼굴 영역 [194, 0, 2390, 2196] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "mckdaddy": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801919/80191957.jpg?version=242777&d=20220111175903",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80191957",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "맥대디 (Mckdaddy) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80191957",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/mckdaddy.webp",
+    "checkedAt": "2026-10-04T02:48:17.676088+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80191957",
+      "https://music.bugs.co.kr/artist/20049927",
+      "https://music.bugs.co.kr/artist/80333108"
+    ],
+    "crop": "얼굴 영역 [598, 0, 2384, 1786] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "don-malik": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802101/80210189_009.jpg?version=410531&d=20240730175939",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80210189",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "던말릭",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80210189",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/don-malik.webp",
+    "checkedAt": "2026-10-04T02:48:19.134969+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80210189",
+      "https://music.bugs.co.kr/artist/80245467"
+    ],
+    "crop": "얼굴 영역 [0, 170, 2000, 2170] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "qm": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800861/80086187.jpg?version=214978&d=20201212020227",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80086187",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "큐엠(QM) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80086187",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/qm.webp",
+    "checkedAt": "2026-10-04T02:48:21.308356+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80086187"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3684, 3684] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "ja-mezz": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802025/80202582.jpg?version=400041&d=20240414175852",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80202582",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Ja Mezz 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80202582",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/ja-mezz.webp",
+    "checkedAt": "2026-10-04T02:48:22.333572+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80202582",
+      "https://music.bugs.co.kr/artist/20220815"
+    ],
+    "crop": "얼굴 영역 [741, 2, 1553, 814] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "chillin-homie": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200645/20064554.jpg?version=234461&d=20240531175935",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20064554",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Chillin Homie 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20064554",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/chillin-homie.webp",
+    "checkedAt": "2026-10-04T02:48:24.724999+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20064554",
+      "https://music.bugs.co.kr/artist/13142758"
+    ],
+    "crop": "얼굴 영역 [195, 1164, 2880, 3849] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "dead-p": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800039/80003933.jpg?version=1465&d=20160608102229",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80003933",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "데드피(DEADP) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80003933",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/dead-p.webp",
+    "checkedAt": "2026-10-04T02:48:25.636185+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80003933"
+    ],
+    "crop": "얼굴 영역 [3058, 651, 6626, 4219] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "black-nine": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802441/80244198.jpg?version=169479&d=20190219171311",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80244198",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "블랙나인(BLACK NINE) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80244198",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/black-nine.webp",
+    "checkedAt": "2026-10-04T02:48:28.633900+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80244198"
+    ],
+    "crop": "얼굴 영역 [0, 0, 4912, 4912] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "yanghongwon": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200351/20035134.jpg?version=222591&d=20240517175903",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20035134",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "양홍원 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20035134",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/yanghongwon.webp",
+    "checkedAt": "2026-10-04T02:48:30.317805+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20035134"
+    ],
+    "crop": "얼굴 영역 [0, 838, 3567, 4405] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "maniac": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800260/80026039.jpg?version=185149&d=20221013182311",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80026039",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "MAN1AC 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80026039",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/maniac.webp",
+    "checkedAt": "2026-10-04T02:48:30.718201+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80026039"
+    ],
+    "crop": "얼굴 영역 [254, 103, 837, 686] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "los": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802815/80281516.jpg?version=200111&d=20240621161705",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80281516",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "로스(Los) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80281516",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/los.webp",
+    "checkedAt": "2026-10-04T02:48:32.868938+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80281516",
+      "https://music.bugs.co.kr/artist/20069297"
+    ],
+    "crop": "얼굴 영역 [192, 50, 1609, 1467] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "uneducated-kid": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200467/20046704.jpg?version=232212&d=20251205175945",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20046704",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "UNEDUCATED KID 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20046704",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/uneducated-kid.webp",
+    "checkedAt": "2026-10-04T02:48:33.708934+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20046704",
+      "https://music.bugs.co.kr/artist/80343625"
+    ],
+    "crop": "얼굴 영역 [330, 0, 2910, 2580] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "geegooin": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801261/80126124.jpg?version=105678&d=20230401175859",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80126124",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "지구인 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80126124",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/geegooin.webp",
+    "checkedAt": "2026-10-04T02:48:37.384076+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80126124",
+      "https://music.bugs.co.kr/artist/80117433"
+    ],
+    "crop": "얼굴 영역 [600, 150, 1800, 1350] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "chin-chilla": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200536/20053698.jpg?version=230048&d=20230809173658",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20053698",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "오담률 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20053698",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/chin-chilla.webp",
+    "checkedAt": "2026-10-04T02:48:39.574781+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20053698"
+    ],
+    "crop": "얼굴 영역 [0, 47, 2533, 2580] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "zizo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801371/80137117.jpg?version=121114&d=20220718155528",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80137117",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "지조 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80137117",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/zizo.webp",
+    "checkedAt": "2026-10-04T02:48:40.941607+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80137117",
+      "https://music.bugs.co.kr/artist/80092010"
+    ],
+    "crop": "얼굴 영역 [858, 365, 1408, 915] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "son-simba": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802371/80237170.jpg?version=231231&d=20230222102638",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80237170",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Son Simba (손 심바) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80237170",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/son-simba.webp",
+    "checkedAt": "2026-10-04T02:48:42.430108+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80237170",
+      "https://music.bugs.co.kr/artist/20074968"
+    ],
+    "crop": "얼굴 영역 [451, 29, 1104, 682] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "lil-tachi": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200787/20078756.jpg?version=268084&d=20240925183109",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20078756",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Lil tachi 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20078756",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/lil-tachi.webp",
+    "checkedAt": "2026-10-04T02:48:43.900627+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20078756"
+    ],
+    "crop": "얼굴 영역 [0, 0, 1718, 1718] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "keem-hyo-eun": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802663/80266351.jpg?version=192610&d=20231118020451",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80266351",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "김효은 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80266351",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/keem-hyo-eun.webp",
+    "checkedAt": "2026-10-04T02:48:45.089139+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80266351",
+      "https://music.bugs.co.kr/artist/20085960",
+      "https://music.bugs.co.kr/artist/20069297"
+    ],
+    "crop": "얼굴 영역 [213, 115, 1329, 1231] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "kim-seungmin": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802157/80215792.jpg?version=231215&d=20260917175945",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80215792",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "김승민 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80215792",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/kim-seungmin.webp",
+    "checkedAt": "2026-10-04T02:48:46.877784+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80215792"
+    ],
+    "crop": "얼굴 영역 [984, 205, 1624, 845] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "olnl": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200306/20030681.jpg?version=220893&d=20250912115914",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20030681",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "OLNL (오르내림) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20030681",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/olnl.webp",
+    "checkedAt": "2026-10-04T02:48:47.897685+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20030681"
+    ],
+    "crop": "얼굴 영역 [101, 0, 764, 663] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "chin": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/121119/12111941.jpg?version=292971&d=20201214103304",
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111941",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Chin 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/12111941",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/chin.webp",
+    "checkedAt": "2026-10-04T02:48:49.805273+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/12111941",
+      "https://music.bugs.co.kr/artist/20095219"
+    ],
+    "crop": "얼굴 영역 [881, 278, 2579, 1976] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "ck": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/121119/12111940.jpg?version=292952&d=20201214103304",
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111940",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "CK 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/12111940",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/ck.webp",
+    "checkedAt": "2026-10-04T02:48:50.650913+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/12111940",
+      "https://music.bugs.co.kr/artist/20095219"
+    ],
+    "crop": "얼굴 영역 [144, 108, 3360, 3324] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "louie-homies": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/121119/12111942.jpg?version=292968&d=20201214103304",
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111942",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Louie 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/12111942",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/louie-homies.webp",
+    "checkedAt": "2026-10-04T02:48:53.545733+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/12111942",
+      "https://music.bugs.co.kr/artist/20095219"
+    ],
+    "crop": "얼굴 영역 [739, 0, 3158, 2419] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "rohann": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200536/20053697.jpg?version=275931&d=20260821104012",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20053697",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Rohann 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20053697",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/rohann.webp",
+    "checkedAt": "2026-10-04T02:48:53.974532+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20053697",
+      "https://music.bugs.co.kr/artist/14684607"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3165, 3165] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "dbo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802186/80218657.jpg?version=191238&d=20200618175954",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80218657",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Dbo (디보) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80218657",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/dbo.webp",
+    "checkedAt": "2026-10-04T02:48:56.235723+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80218657",
+      "https://music.bugs.co.kr/artist/80223353"
+    ],
+    "crop": "얼굴 영역 [178, 0, 640, 462] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "trade-l": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200811/20081151.jpg?version=282967&d=20260428112426",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20081151",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "TRADE L (트레이드 엘) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20081151",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/trade-l.webp",
+    "checkedAt": "2026-10-04T02:48:57.003444+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20081151"
+    ],
+    "crop": "얼굴 영역 [403, 267, 2634, 2498] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "deegie": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/74/7440.jpg?version=17063&d=20191218110633",
+    "sourceUrl": "https://music.bugs.co.kr/artist/7440",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "김디지(Deegie) [트레블러] 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/7440",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/deegie.webp",
+    "checkedAt": "2026-10-04T02:48:58.960569+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/7440",
+      "https://music.bugs.co.kr/artist/80140348",
+      "https://music.bugs.co.kr/artist/20251054"
+    ],
+    "crop": "얼굴 영역 [135, 18, 473, 356] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "cb-mass": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/200/5/578.jpg?version=20190601002439",
+    "sourceUrl": "https://music.bugs.co.kr/artist/578",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "씨비 매스(CB Mass) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/578",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/cb-mass.webp",
+    "checkedAt": "2026-10-04T02:48:59.542004+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/578",
+      "https://music.bugs.co.kr/artist/2914",
+      "https://music.bugs.co.kr/artist/2915",
+      "https://music.bugs.co.kr/artist/2916"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "honey-family": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/238/23852.jpg?version=1153&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/23852",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "허니 패밀리(Honey In Honey Family) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/23852",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/honey-family.webp",
+    "checkedAt": "2026-10-04T02:49:01.441797+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/23852",
+      "https://music.bugs.co.kr/artist/6544",
+      "https://music.bugs.co.kr/artist/12757",
+      "https://music.bugs.co.kr/artist/8008535",
+      "https://music.bugs.co.kr/artist/8009096"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "leo-kekoa": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800509/80050937.jpg?version=24509&d=20100630204328",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80050937",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "리오 케이코아(Leo Kekoa) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80050937",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/leo-kekoa.webp",
+    "checkedAt": "2026-10-04T02:49:02.037668+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80050937",
+      "https://music.bugs.co.kr/artist/80114476"
+    ],
+    "crop": "얼굴 영역 [0, 0, 886, 886] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "j-kwondo": {
+    "originalUrl": "https://t1.daumcdn.net/news/202204/19/Edaily/20220419161704163mjqh.jpg",
+    "sourceUrl": "https://v.daum.net/v/20220419161700264",
+    "author": "이데일리 인터뷰 · 사진 저작자 미표기",
+    "title": "45RPM 박재진(왼쪽), 이현배 인터뷰 사진",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://v.daum.net/v/20220419161700264",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/j-kwondo.webp",
+    "checkedAt": "2026-10-04T02:49:02.596753+00:00",
+    "identitySources": [
+      "https://v.daum.net/v/20220419161700264",
+      "https://music.bugs.co.kr/artist/80027634",
+      "https://music.bugs.co.kr/artist/6399"
+    ],
+    "crop": "얼굴 영역 [135, 38, 315, 218] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "topbob": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/320/32000.jpg?version=8171&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/32000",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "톱밥(TopBob) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/32000",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/topbob.webp",
+    "checkedAt": "2026-10-04T02:49:04.990238+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/32000",
+      "https://music.bugs.co.kr/artist/80073041",
+      "https://music.bugs.co.kr/artist/65294"
+    ],
+    "crop": "얼굴 영역 [387, 0, 731, 344] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "yankie": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/319/31999.jpg?version=7532&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/31999",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "얀키 (YANKIE) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/31999",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/yankie.webp",
+    "checkedAt": "2026-10-04T02:49:05.428258+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/31999",
+      "https://music.bugs.co.kr/artist/65294"
+    ],
+    "crop": "얼굴 영역 [207, 21, 1125, 939] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "dsel": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802563/80256385.jpg?version=213233&d=20250203175941",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80256385",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "dsel 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80256385",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/dsel.webp",
+    "checkedAt": "2026-10-04T02:49:07.950162+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80256385",
+      "https://music.bugs.co.kr/artist/20074968",
+      "https://music.bugs.co.kr/artist/20063024"
+    ],
+    "crop": "얼굴 영역 [420, 0, 2760, 2340] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "bizniz": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800514/80051451.jpg?version=6426&d=20190511111308",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80051451",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "비즈니즈(Bizniz) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80051451",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/bizniz.webp",
+    "checkedAt": "2026-10-04T02:49:09.273186+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80051451",
+      "https://music.bugs.co.kr/artist/80125440"
+    ],
+    "crop": "얼굴 영역 [165, 0, 1365, 1200] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "chaboom": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800576/80057660.jpg?version=241733&d=20250212114455",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80057660",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Chaboom(차붐) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80057660",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/chaboom.webp",
+    "checkedAt": "2026-10-04T02:49:10.977385+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80057660",
+      "https://music.bugs.co.kr/artist/80103405",
+      "https://music.bugs.co.kr/artist/20069297"
+    ],
+    "crop": "얼굴 영역 [36, 131, 538, 633] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "choilb": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200169/20016929.jpg?version=213679&d=20250909175928",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20016929",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "최엘비(CHOILB) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20016929",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/choilb.webp",
+    "checkedAt": "2026-10-04T02:49:11.827893+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20016929"
+    ],
+    "crop": "얼굴 영역 [136, 0, 500, 364] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "illinit": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800678/80067885.jpg?version=18512&d=20181129174849",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80067885",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "일리닛(illinit) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80067885",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/illinit.webp",
+    "checkedAt": "2026-10-04T02:49:13.659336+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80067885",
+      "https://music.bugs.co.kr/artist/80188138",
+      "https://music.bugs.co.kr/artist/80114476"
+    ],
+    "crop": "얼굴 영역 [0, 0, 542, 542] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "truedy": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802480/80248014.jpg?version=238188&d=20211203114714",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80248014",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "트루디(Truedy) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80248014",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/truedy.webp",
+    "checkedAt": "2026-10-04T02:49:15.068697+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80248014"
+    ],
+    "crop": "얼굴 영역 [584, 129, 1844, 1389] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "goldbuuda": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200597/20059796.jpg?version=236407&d=20220429103120",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20059796",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "GOLDBUUDA 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20059796",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/goldbuuda.webp",
+    "checkedAt": "2026-10-04T02:49:16.925250+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20059796",
+      "https://music.bugs.co.kr/artist/20084617"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3830, 3830] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "hash-swan": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802079/80207985.jpg?version=192614&d=20190925174943",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80207985",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Hash Swan 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80207985",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/hash-swan.webp",
+    "checkedAt": "2026-10-04T02:49:19.596575+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80207985",
+      "https://music.bugs.co.kr/artist/20085960"
+    ],
+    "crop": "얼굴 영역 [264, 242, 4394, 4372] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "pinodyne": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800578/80057871_001.jpg?version=258665&d=20190916105006",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80057871",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "피노다인",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80057871",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/pinodyne.webp",
+    "checkedAt": "2026-10-04T02:49:20.008550+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80057871",
+      "https://music.bugs.co.kr/artist/80068303",
+      "https://music.bugs.co.kr/artist/80107952"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "new-champ": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800905/80090515.jpg?version=134676&d=20240223020231",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80090515",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "뉴챔프 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80090515",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/new-champ.webp",
+    "checkedAt": "2026-10-04T02:49:22.183856+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80090515"
+    ],
+    "crop": "얼굴 영역 [0, 0, 2092, 2092] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jimmy-paige": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802819/80281962.jpg?version=222556&d=20240830111714",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80281962",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Jimmy Paige 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80281962",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jimmy-paige.webp",
+    "checkedAt": "2026-10-04T02:49:23.880485+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80281962",
+      "https://music.bugs.co.kr/artist/20052467"
+    ],
+    "crop": "얼굴 영역 [1189, 0, 4007, 2818] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "black-nut": {
+    "originalUrl": "https://artsro.com/HyAdmin/upload/goodFile/F120190327131647.jpg",
+    "sourceUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=760",
+    "author": "아츠로 공연 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "공연 아티스트 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=760",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/black-nut.webp",
+    "checkedAt": "2026-10-04T02:49:23.887061+00:00",
+    "identitySources": [
+      "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=760",
+      "https://music.bugs.co.kr/artist/80139977",
+      "https://music.bugs.co.kr/artist/20052467"
+    ],
+    "crop": "얼굴 영역 [56, 0, 455, 399] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "owen": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802233/80223354.jpg?version=182320&d=20240103112027",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80223354",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "오왼(Owen) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80223354",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/owen.webp",
+    "checkedAt": "2026-10-04T02:49:26.747214+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80223354",
+      "https://music.bugs.co.kr/artist/80314668",
+      "https://music.bugs.co.kr/artist/20022814"
+    ],
+    "crop": "얼굴 영역 [0, 0, 868, 868] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "seo-chul-goo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801727/80172786.jpg?version=176227&d=20221021114735",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80172786",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "서출구 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80172786",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/seo-chul-goo.webp",
+    "checkedAt": "2026-10-04T02:49:27.509684+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80172786"
+    ],
+    "crop": "얼굴 영역 [0, 0, 4388, 4388] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "ek": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802430/80243010.jpg?version=213098&d=20250702020227",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80243010",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "EK 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80243010",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/ek.webp",
+    "checkedAt": "2026-10-04T02:49:29.708054+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80243010",
+      "https://music.bugs.co.kr/artist/20069297"
+    ],
+    "crop": "얼굴 영역 [318, 688, 5304, 5674] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "mommy-son": {
+    "originalUrl": "https://artsro.com/HyAdmin/upload/goodFile/F120200109124145.jpg",
+    "sourceUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=1121",
+    "author": "아츠로 공연 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "공연 아티스트 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=1121",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/mommy-son.webp",
+    "checkedAt": "2026-10-04T02:49:30.330041+00:00",
+    "identitySources": [
+      "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=1121",
+      "https://music.bugs.co.kr/artist/20069224",
+      "https://music.bugs.co.kr/artist/20079515",
+      "https://music.bugs.co.kr/artist/20143045"
+    ],
+    "crop": "얼굴 영역 [94, 0, 682, 588] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "stony-skunk": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/509/50962.jpg?version=9409&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/50962",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "스토니 스컹크(Stony Skunk) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/50962",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/stony-skunk.webp",
+    "checkedAt": "2026-10-04T02:49:31.899119+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/50962",
+      "https://music.bugs.co.kr/artist/8008281",
+      "https://music.bugs.co.kr/artist/8008282"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "myk": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801521/80152141.jpg?version=155832&d=20160517100338",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80152141",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "솔튼페이퍼 / MYK 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80152141",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/myk.webp",
+    "checkedAt": "2026-10-04T02:49:31.539980+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80152141",
+      "https://music.bugs.co.kr/artist/80022770",
+      "https://music.bugs.co.kr/album/535702"
+    ],
+    "crop": "얼굴 영역 [1597, 638, 4198, 3239] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "homies": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200952/20095219.jpg?version=263250&d=20250925134636",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20095219",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "호미들 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20095219",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/homies.webp",
+    "checkedAt": "2026-10-04T02:49:33.987756+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20095219",
+      "https://music.bugs.co.kr/artist/12111940",
+      "https://music.bugs.co.kr/artist/12111941",
+      "https://music.bugs.co.kr/artist/12111942"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "mfbty": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801456/80145637_004.jpg?version=158367&d=20150319120011",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80145637",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "MFBTY",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80145637",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/mfbty.webp",
+    "checkedAt": "2026-10-04T02:49:34.597894+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80145637",
+      "https://music.bugs.co.kr/artist/6566",
+      "https://music.bugs.co.kr/artist/7406",
+      "https://music.bugs.co.kr/artist/33184"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "beatbox-dg": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800273/80027379.jpg?version=238097&d=20181106145408",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80027379",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "BEATBOX DG 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80027379",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/beatbox-dg.webp",
+    "checkedAt": "2026-10-04T02:49:36.427222+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80027379",
+      "https://music.bugs.co.kr/artist/80335977"
+    ],
+    "crop": "얼굴 영역 [516, 0, 2440, 1924] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "futuristic-swaver": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802157/80215705.jpg?version=176518&d=20201210153645",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80215705",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Futuristic Swaver 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80215705",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/futuristic-swaver.webp",
+    "checkedAt": "2026-10-04T02:49:37.898483+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80215705",
+      "https://music.bugs.co.kr/artist/80343625"
+    ],
+    "crop": "얼굴 영역 [671, 59, 3902, 3290] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "street-baby": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/803662/80366234.jpg?version=340381&d=20230710163258",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80366234",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Street Baby 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80366234",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/street-baby.webp",
+    "checkedAt": "2026-10-04T02:49:39.327832+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80366234"
+    ],
+    "crop": "얼굴 영역 [584, 194, 2566, 2176] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "lil-cherry": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200374/20037432.jpg?version=230220&d=20220429112323",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20037432",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Lil Cherry 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20037432",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/lil-cherry.webp",
+    "checkedAt": "2026-10-04T02:49:41.635799+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20037432",
+      "https://music.bugs.co.kr/artist/20084617"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3830, 3830] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "chamane": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802049/80204952.jpg?version=176459&d=20240103020226",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80204952",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "차메인(ChaMane) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80204952",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/chamane.webp",
+    "checkedAt": "2026-10-04T02:49:43.277875+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80204952",
+      "https://music.bugs.co.kr/artist/20174463"
+    ],
+    "crop": "얼굴 영역 [449, 0, 3418, 2969] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "no-el": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200376/20037655.jpg?version=211588&d=20260731154403",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20037655",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "NO:EL 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20037655",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/no-el.webp",
+    "checkedAt": "2026-10-04T02:49:44.725147+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20037655"
+    ],
+    "crop": "얼굴 영역 [285, 45, 2835, 2595] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "room9": {
+    "originalUrl": "https://file2.nocutnews.co.kr/newsroom/image/2011/09/27092739234_60800010.jpg",
+    "sourceUrl": "https://www.nocutnews.co.kr/news/4217731",
+    "author": "노컷뉴스 인터뷰 · 사진 저작자 미표기",
+    "title": "룸나인 인터뷰 사진",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://www.nocutnews.co.kr/news/4217731",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/room9.webp",
+    "checkedAt": "2026-10-04T02:49:44.400722+00:00",
+    "identitySources": [
+      "https://www.nocutnews.co.kr/news/4217731",
+      "https://music.bugs.co.kr/artist/62645"
+    ],
+    "crop": "얼굴 영역 [295, 35, 495, 235] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "moowoong": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800225/80022585.jpg?version=6220&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80022585",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "무웅 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80022585",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/moowoong.webp",
+    "checkedAt": "2026-10-04T02:49:46.310162+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80022585",
+      "https://music.bugs.co.kr/artist/15019"
+    ],
+    "crop": "얼굴 영역 [5, 122, 345, 462] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jayho": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801672/80167275_003.jpg?version=249048&d=20190429113100",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80167275",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "jayho",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80167275",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jayho.webp",
+    "checkedAt": "2026-10-04T02:49:47.812983+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80167275",
+      "https://music.bugs.co.kr/artist/80168814"
+    ],
+    "crop": "얼굴 영역 [221, 0, 616, 395] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "suda": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800509/80050931.jpg?version=153273&d=20190604182630",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80050931",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "수다쟁이 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80050931",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/suda.webp",
+    "checkedAt": "2026-10-04T02:49:49.563814+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80050931"
+    ],
+    "crop": "얼굴 영역 [260, 0, 1700, 1440] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "takuwa": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200403/20040383.jpg?version=226590&d=20200724104229",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20040383",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "TAKUWA 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20040383",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/takuwa.webp",
+    "checkedAt": "2026-10-04T02:49:50.865377+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20040383"
+    ],
+    "crop": "얼굴 영역 [5, 0, 2329, 2324] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "bryn": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200627/20062770.jpg?version=365569&d=20260917175945",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20062770",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "브린 (Bryn) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20062770",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/bryn.webp",
+    "checkedAt": "2026-10-04T02:49:53.372456+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20062770"
+    ],
+    "crop": "얼굴 영역 [0, 0, 4000, 4000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "andup": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800839/80083989.jpg?version=33748&d=20170120185400",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80083989",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Andup (앤덥) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80083989",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/andup.webp",
+    "checkedAt": "2026-10-04T02:49:54.397296+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80083989"
+    ],
+    "crop": "얼굴 영역 [4, 0, 586, 582] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "bully-da-ba-tard": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200542/20054239.jpg?version=226784&d=20180426170147",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20054239",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "윤병호(Bully Da Ba$tard) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20054239",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/bully-da-ba-tard.webp",
+    "checkedAt": "2026-10-04T02:49:55.973784+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20054239"
+    ],
+    "crop": "얼굴 영역 [806, 47, 2033, 1274] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "pluma": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200794/20079470.jpg?version=251864&d=20200814173552",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20079470",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "플루마(PLUMA) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20079470",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/pluma.webp",
+    "checkedAt": "2026-10-04T02:49:57.438138+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20079470"
+    ],
+    "crop": "얼굴 영역 [475, 0, 2475, 2000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jambino": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200801/20080164.jpg?version=286514&d=20231214092043",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20080164",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "jambino 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20080164",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jambino.webp",
+    "checkedAt": "2026-10-04T02:49:59.854047+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20080164",
+      "https://music.bugs.co.kr/artist/20097422"
+    ],
+    "crop": "얼굴 영역 [281, 730, 3087, 3536] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "osshun-gum": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200351/20035135.jpg?version=222554&d=20220404100440",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20035135",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Osshun Gum 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20035135",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/osshun-gum.webp",
+    "checkedAt": "2026-10-04T02:50:00.331082+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20035135"
+    ],
+    "crop": "얼굴 영역 [0, 0, 858, 858] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "ourealgoat": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200760/20076067.jpg?version=432134&d=20250723145036",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20076067",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "아우릴고트 (OUREALGOAT) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20076067",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/ourealgoat.webp",
+    "checkedAt": "2026-10-04T02:50:03.619551+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20076067"
+    ],
+    "crop": "얼굴 영역 [349, 0, 3491, 3142] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "noh-yun-ha": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/201299/20129904.jpg?version=309308&d=20260129175940",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20129904",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "노윤하 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20129904",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/noh-yun-ha.webp",
+    "checkedAt": "2026-10-04T02:50:04.104639+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20129904"
+    ],
+    "crop": "얼굴 영역 [44, 792, 2859, 3607] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "geeks": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800955/80095507.jpg?version=38783&d=20160816104945",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80095507",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "긱스(Geeks) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80095507",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/geeks.webp",
+    "checkedAt": "2026-10-04T02:50:07.251404+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80095507",
+      "https://music.bugs.co.kr/artist/80095508",
+      "https://music.bugs.co.kr/artist/80095509"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "kirin": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800606/80060698.jpg?version=100706&d=20201023173258",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80060698",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "KIRIN (기린) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80060698",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/kirin.webp",
+    "checkedAt": "2026-10-04T02:50:09.059476+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80060698",
+      "https://music.bugs.co.kr/artist/20071616",
+      "https://music.bugs.co.kr/artist/20007594"
+    ],
+    "crop": "얼굴 영역 [1180, 204, 1710, 734] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "blnk": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801339/80133934.jpg?version=109290&d=20200305170332",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80133934",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "BLNK 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80133934",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/blnk.webp",
+    "checkedAt": "2026-10-04T02:50:10.618915+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80133934",
+      "https://music.bugs.co.kr/artist/80168814"
+    ],
+    "crop": "얼굴 영역 [0, 0, 1020, 1020] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "wutan": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801013/80101352.jpg?version=131015&d=20170212235914",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80101352",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "우탄 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80101352",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/wutan.webp",
+    "checkedAt": "2026-10-04T02:50:12.344329+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80101352",
+      "https://music.bugs.co.kr/artist/80202886",
+      "https://music.bugs.co.kr/artist/20076895",
+      "https://music.bugs.co.kr/artist/80107681"
+    ],
+    "crop": "얼굴 영역 [1301, 0, 3204, 1903] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "tak": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800225/80022586.jpg?version=6187&d=20100420174611",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80022586",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "탁(배치기) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80022586",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/tak.webp",
+    "checkedAt": "2026-10-04T02:50:13.221606+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80022586",
+      "https://music.bugs.co.kr/artist/15019"
+    ],
+    "crop": "얼굴 영역 [204, 227, 357, 380] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "bloo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200192/20019269.jpg?version=186705&d=20250225175001",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20019269",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "블루(BLOO) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20019269",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/bloo.webp",
+    "checkedAt": "2026-10-04T02:50:17.112807+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20019269",
+      "https://music.bugs.co.kr/artist/20022814"
+    ],
+    "crop": "얼굴 영역 [0, 0, 4000, 4000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "niahn": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802825/80282564.jpg?version=421890&d=20241220115941",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80282564",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "니안(niahn) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80282564",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/niahn.webp",
+    "checkedAt": "2026-10-04T02:50:17.960756+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80282564"
+    ],
+    "crop": "얼굴 영역 [508, 636, 3343, 3471] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "unofficialboyy": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200360/20036043.jpg?version=210541&d=20260919115940",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20036043",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "unofficialboyy 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20036043",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/unofficialboyy.webp",
+    "checkedAt": "2026-10-04T02:50:19.692668+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20036043"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3000, 3000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "rock-punkman": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200018/20001847.jpg?version=186946&d=20200717135951",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20001847",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Loxx Punkman (록스 펑크맨) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20001847",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/rock-punkman.webp",
+    "checkedAt": "2026-10-04T02:50:20.396398+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20001847"
+    ],
+    "crop": "얼굴 영역 [109, 48, 570, 509] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "northfacegawd": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200897/20089731.jpg?version=257204&d=20190823105433",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20089731",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Northfacegawd 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20089731",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/northfacegawd.webp",
+    "checkedAt": "2026-10-04T02:50:25.068307+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20089731",
+      "https://music.bugs.co.kr/artist/80343625"
+    ],
+    "crop": "얼굴 영역 [979, 716, 2240, 1977] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "polodared": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/201454/20145400.jpg?version=318184&d=20230412160853",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20145400",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Polodared 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20145400",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/polodared.webp",
+    "checkedAt": "2026-10-04T02:50:24.283635+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20145400"
+    ],
+    "crop": "얼굴 영역 [0, 0, 3307, 3307] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "fleeky-bang": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/201580/20158033.jpg?version=446920&d=20250718153609",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20158033",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "Fleeky Bang 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20158033",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/fleeky-bang.webp",
+    "checkedAt": "2026-10-04T02:50:27.300160+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20158033"
+    ],
+    "crop": "얼굴 영역 [0, 0, 2796, 2796] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "anandelight": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200702/20070271.jpg?version=247779&d=20260331020453",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20070271",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "아넌딜라이트(Anandelight) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20070271",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/anandelight.webp",
+    "checkedAt": "2026-10-04T02:50:27.984117+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20070271"
+    ],
+    "crop": "얼굴 영역 [160, 71, 1153, 1064] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jjangyou": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200089/20008928_003.jpg?version=274446&d=20200427115341",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20008928",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "짱유",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20008928",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jjangyou.webp",
+    "checkedAt": "2026-10-04T02:50:29.836236+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20008928",
+      "https://music.bugs.co.kr/artist/80219461",
+      "https://music.bugs.co.kr/artist/20191126",
+      "https://music.bugs.co.kr/artist/20171542"
+    ],
+    "crop": "얼굴 영역 [269, 304, 965, 1000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "a-chess": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200055/20005588.jpg?version=179034&d=20260917172527",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20005588",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "에이체스 (A-Chess) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20005588",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/a-chess.webp",
+    "checkedAt": "2026-10-04T02:50:31.432496+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20005588"
+    ],
+    "crop": "얼굴 영역 [317, 0, 5513, 5196] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jaedal": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802105/80210507.jpg?version=194772&d=20251126185427",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80210507",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "JDL (재달) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80210507",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jaedal.webp",
+    "checkedAt": "2026-10-04T02:50:33.389140+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80210507",
+      "https://music.bugs.co.kr/artist/80168814"
+    ],
+    "crop": "얼굴 영역 [0, 0, 1000, 1000] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "choi-sam": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801776/80177616.jpg?version=163975&d=20150518202504",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80177616",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "최삼(Choi Sam) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80177616",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/choi-sam.webp",
+    "checkedAt": "2026-10-04T02:50:34.047394+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80177616"
+    ],
+    "crop": "얼굴 영역 [0, 0, 1500, 1500] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "damini": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/201518/20151819.jpg?version=327795&d=20220207152741",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20151819",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "다민이 (DAMINI) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20151819",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/damini.webp",
+    "checkedAt": "2026-10-04T02:50:37.282264+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20151819"
+    ],
+    "crop": "얼굴 영역 [0, 0, 2400, 2400] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "d-action": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800092/80009271.jpg?version=1031&d=20191204165357",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80009271",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "디액션(D. Action) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80009271",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/d-action.webp",
+    "checkedAt": "2026-10-04T02:50:36.515185+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80009271",
+      "https://music.bugs.co.kr/artist/80018917"
+    ],
+    "crop": "얼굴 영역 [0, 0, 600, 600] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "mba": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802167/80216783.jpg?version=263666&d=20191120152443",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80216783",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "MBA(Most Badass Asian) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80216783",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/mba.webp",
+    "checkedAt": "2026-10-04T02:50:40.347941+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80216783"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "dj-shine": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/200/80103/8010397.jpg?version=20190601002439",
+    "sourceUrl": "https://music.bugs.co.kr/artist/8010397",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "디제이 샤인(DJ Shine) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/8010397",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/dj-shine.webp",
+    "checkedAt": "2026-10-04T02:50:40.511974+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/8010397",
+      "https://music.bugs.co.kr/artist/14205"
+    ],
+    "crop": "얼굴 영역 [0, 0, 200, 200] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "jung-yeon-jun": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/40/4049.jpg?version=2364&d=20250304180945",
+    "sourceUrl": "https://music.bugs.co.kr/artist/4049",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "정연준 [업타운] 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/4049",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/jung-yeon-jun.webp",
+    "checkedAt": "2026-10-04T02:50:43.519110+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/4049",
+      "https://music.bugs.co.kr/artist/80008241",
+      "https://music.bugs.co.kr/artist/80023383",
+      "https://music.bugs.co.kr/artist/80060819",
+      "https://music.bugs.co.kr/artist/1377"
+    ],
+    "crop": "얼굴 영역 [448, 0, 1344, 896] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "sapo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801642/80164244.jpg?version=122042&d=20221229165434",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80164244",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "사포(SAPO) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80164244",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/sapo.webp",
+    "checkedAt": "2026-10-04T02:50:43.484678+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80164244",
+      "https://music.bugs.co.kr/artist/80356739"
+    ],
+    "crop": "얼굴 영역 [360, 0, 4000, 3640] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "fatdoo": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800420/80042099.jpg?version=38921&d=20160607115839",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80042099",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "팻두(FatDoo) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80042099",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/fatdoo.webp",
+    "checkedAt": "2026-10-04T02:50:47.067242+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80042099",
+      "https://music.bugs.co.kr/artist/80019952",
+      "https://music.bugs.co.kr/artist/80386458"
+    ],
+    "crop": "얼굴 영역 [0, 0, 2731, 2731] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "xxx": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802638/80263860.jpg?version=187463&d=20181018104658",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80263860",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "XXX 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80263860",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/xxx.webp",
+    "checkedAt": "2026-10-04T02:50:46.198067+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80263860",
+      "https://music.bugs.co.kr/artist/80245265",
+      "https://music.bugs.co.kr/artist/80263862"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "legit-goons": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/801688/80168814_006.jpg?version=338761&d=20220613164126",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80168814",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "LEGIT GOONS (리짓군즈) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80168814",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/legit-goons.webp",
+    "checkedAt": "2026-10-04T02:50:49.611175+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80168814",
+      "https://music.bugs.co.kr/artist/80133934",
+      "https://music.bugs.co.kr/artist/80167275",
+      "https://music.bugs.co.kr/artist/80192494",
+      "https://music.bugs.co.kr/artist/80210507"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "dopesun": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800847/80084753.jpg?version=49305&d=20111024195300",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80084753",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "돕선(Dopesun) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80084753",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/dopesun.webp",
+    "checkedAt": "2026-10-04T02:50:50.234798+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80084753"
+    ],
+    "crop": "얼굴 영역 [23, 0, 311, 288] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "tarae": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/800795/80079585.jpg?version=32228&d=20160516113120",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80079585",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "타래(Tarae) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80079585",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/tarae.webp",
+    "checkedAt": "2026-10-04T02:50:51.905278+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80079585",
+      "https://music.bugs.co.kr/artist/80079584"
+    ],
+    "crop": "얼굴 영역 [118, 0, 468, 350] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "iron": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/802006/80200668.jpg?version=158709&d=20150324104021",
+    "sourceUrl": "https://music.bugs.co.kr/artist/80200668",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "아이언 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/80200668",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/iron.webp",
+    "checkedAt": "2026-10-04T02:50:53.464942+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/80200668"
+    ],
+    "crop": "얼굴 영역 [73, 0, 349, 276] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "lee-hyun-jun": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200596/20059614.jpg?version=263041&d=20220812142627",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20059614",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "이현준 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20059614",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/lee-hyun-jun.webp",
+    "checkedAt": "2026-10-04T02:50:55.476423+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20059614"
+    ],
+    "crop": "얼굴 영역 [1066, 0, 4121, 3055] 크롭. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
+  },
+  "30": {
+    "originalUrl": "https://image.bugsm.co.kr/artist/images/original/200749/20074968.jpg?version=243215&d=20230222102638",
+    "sourceUrl": "https://music.bugs.co.kr/artist/20074968",
+    "author": "벅스 아티스트 프로필 · 사진 저작자 미표기",
+    "title": "서리(30) 프로필",
+    "license": "공개 출처 사진 · 재사용 허락 미확인",
+    "licenseUrl": "https://music.bugs.co.kr/artist/20074968",
+    "rights": {
+      "status": "unconfirmed",
+      "note": "아티스트 식별을 위한 공개 출처의 사진입니다. 개별 사진의 저작자·재사용 허락은 확인되지 않았으며, 출처 표기가 이용허락을 대신하지 않습니다."
+    },
+    "src": "/images/artists/30.webp",
+    "checkedAt": "2026-10-04T02:50:57.327217+00:00",
+    "identitySources": [
+      "https://music.bugs.co.kr/artist/20074968",
+      "https://music.bugs.co.kr/artist/20037631",
+      "https://music.bugs.co.kr/artist/20040238",
+      "https://music.bugs.co.kr/artist/80009274",
+      "https://music.bugs.co.kr/artist/80186044",
+      "https://music.bugs.co.kr/artist/80237170",
+      "https://music.bugs.co.kr/artist/80256385"
+    ],
+    "crop": "전체 그룹 구도 유지·여백 추가. 256×256 WebP 변환, 색상 변경 없음.",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00"
   }
 }

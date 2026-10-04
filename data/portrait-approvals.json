@@ -4693,5 +4693,968 @@
     "imageSha256": "059600949636493ecc1734a9f4e62c75d64d025de4429d44108da32937b462ae",
     "reason": "Studio FLO 넉살과 아이들 #1 게스트 디아크. 45초 자기소개 및 D.Ark 자막으로 인물 확인. 검은 상의·목걸이·갈색 머리 인물로, 흰 티셔츠·모자의 진행자 넉살과 구분.",
     "reviewMethod": "원본 장면·식별 출처 대조 후 정사각형 및 원형 표시 검토; 인물·프레이밍 확인"
+  },
+  "joosuc": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/4113",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9ff9d19b8365390842cc052bd5ff4be7596940ab0bc629f25a23fc6aa5b501c9",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 주석 표기와 소속·멤버 표기(패디로봇(Faddy Robot))를 대조. 대표 발매: 정상을 향한 독주 2. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "infinite-flow": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/27610",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "32cde4931bd084a8ae04ddd926dac93bc887739734090677b8561d38ff867d80",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 인피닛플로우(I.F) 표기와 소속·멤버 표기(넋업샨 , 영지엠)를 대조. 대표 발매: 연애편지, More Than Music. 단체 사진의 구성원 전체를 보존."
+  },
+  "tbny": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/65294",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "3a5f94d047ed23e74f3d603705989e6a7a5e339620dc53f8b76d4782c102d220",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 TBNY 표기와 소속·멤버 표기(얀키 (YANKIE) , 톱밥)를 대조. 대표 발매: Masquerade. 단체 사진의 구성원 전체를 보존."
+  },
+  "sean2slow": {
+    "sourceUrl": "https://www.ichart.kr/artist/17194",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "4461029c79b9614fb6b198936ad39203068dcbe0dbe0d148f4ef9fe8e8623152",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 션이슬로우(Sean 2 Slow) 표기와 활동명·발매곡을 대조. 대표 발매: 2001 대한민국(大韓民國), 절충(折衝) 3: 불한당들의 진입과 전투 Part.1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "p-type": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/18156",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e97bc17a957714b43e8920207100fabf31daeaa84ae3b385b09a398d28151685",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 피타입(P-TYPE) 표기와 활동명·발매곡을 대조. 대표 발매: NEXT LEVEL, Heavy Bass. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "mckdaddy": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80191957",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "2b8c8e3c96dfc45fa8e641986a0bf41416a2223f6c192e438145cd65117d9537",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 맥대디 (Mckdaddy) 표기와 소속·멤버 표기(대디톤즈(Daddy Tonez) , VAGABONDS)를 대조. 대표 발매: 쇼미더머니 11 Episode 1, 쇼미더머니 9 Episode 1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "don-malik": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80210189",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "52e5eb68b7e78a31fd47d064f8165c814aaface45637da22232deaa3039685b5",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 던말릭 (DON MALIK) 표기와 소속·멤버 표기(데이즈얼라이브(Daze Alive))를 대조. 대표 발매: 쇼미더머니 11 Semi Final, 쇼미더머니 11 Final. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "qm": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80086187",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "226f02c5ddb7ba594986eb2e1fd4285dba0ff194a44c032fee8d1344c71fcd14",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 큐엠(QM) 표기와 활동명·발매곡을 대조. 대표 발매: 아저씨, 쇼미더머니 11 Episode 2. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "ja-mezz": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80202582",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "6eea8f022252e79777a974201ef5c8e8fc8b932e6923fba4567956439a429416",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Ja Mezz 표기와 소속·멤버 표기(Neo Chimera)를 대조. 대표 발매: 쇼미더머니 4 - Episode 2. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "chillin-homie": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20064554",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "52a80e77b9dee377ae6f1796ae0a366d81bf58c01f3b474dbea15c4f0f618c5d",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Chillin Homie 표기와 소속·멤버 표기(에이피 알케미 (AP Alchemy))를 대조. 대표 발매: Jet Lag, A-Team. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "dead-p": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80003933",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e91ec265695fb99a203084d12c17d37e969d3e8ff4c406ed9cd358b870f8ca5e",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 데드피(DEADP) 표기와 활동명·발매곡을 대조. 대표 발매: Bitch, Move Up. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "black-nine": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80244198",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "135f4454ef1f362537c50848376417ccd47d38b3dac7ec288c4fccaddc01939a",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 블랙나인(BLACK NINE) 표기와 활동명·발매곡을 대조. 대표 발매: S.M.T.M (SHOW ME THE MONEY), Ballin’ All Day. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "yanghongwon": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20035134",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e6dda82a7eda515e923c1fa9b67dd7eb8ddc8d67ad34f84bd6637e89f94b9a13",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 양홍원 표기와 활동명·발매곡을 대조. 대표 발매: IndiGO, Dingo X Indigo Music. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "maniac": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80026039",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "79086ae73725e5002e9c365aa670fa279149499fbc04e2832c89509059bfcbe8",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 MAN1AC 표기와 활동명·발매곡을 대조. 대표 발매: Love Peace Movement (호심술 REMIX). 실제 개인 사진의 얼굴 영역을 검토. 해외 동명이인 페이지를 제외하고 MAN1AC의 젓가락·Money Makerz 참여로 확인."
+  },
+  "los": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80281516",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ed58278935cb2f2cb700964f5aed37cb6e730db8a6aa6954b2c60d0c5d08938f",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 로스(Los) 표기와 소속·멤버 표기(TEAM 119)를 대조. 대표 발매: Love Peace Movement (호심술 REMIX), 나쁜놈. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "uneducated-kid": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20046704",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "41028d3aec16b71dffc29f37a82220278dfc14a9b039709ac0c43e8914631444",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 UNEDUCATED KID 표기와 소속·멤버 표기(STAREX)를 대조. 대표 발매: Catch Me If You Can, HOODSTAR. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "geegooin": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80126124",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9fa0fcc9851510d009f9f5ed8f60cd9800e833b01a372e79697f82159626d6d3",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 지구인 표기와 소속·멤버 표기(리듬파워)를 대조. 대표 발매: NEXT LEVEL, AK47 MEGA MIX. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "chin-chilla": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20053698",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "43fa3f7ca7e519663a69ef71e6f5173e516d7b23708a02085802c27165f676a3",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 오담률 표기와 활동명·발매곡을 대조. 대표 발매: 북 Remix, 고등래퍼2 팀대항전 Part.1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "zizo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80137117",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "5be767831cbd286126c964647fb197b0f90633e445a142ab083a020f3926a8dd",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 지조 표기와 소속·멤버 표기(투게더 브라더스(Together Brothers))를 대조. 대표 발매: 쇄빙선, 쇼미더머니2 - Part.3. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "son-simba": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80237170",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "04607165ca6764d8c09105284f759e61723d2ef1bc406aa86ebf866a55530d86",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Son Simba (손 심바) 표기와 소속·멤버 표기(서리(30))를 대조. 대표 발매: Neo Christian Flow, DOUBLECROSS MUSASHI. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "lil-tachi": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20078756",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "1020ff7d5f09e8239c3658f5b6f533bf2db837f0a9322f4987fc3fe5b3f08766",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Lil tachi 표기와 활동명·발매곡을 대조. 대표 발매: BOY Remix. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "keem-hyo-eun": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80266351",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "22e72566eca92a5204fba359a25f810d72d62cbf96ea322ec7016b0bd750967f",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 김효은 표기와 소속·멤버 표기(WAYSIDE , TEAM 119)를 대조. 대표 발매: BAND, Bition Boyz. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "kim-seungmin": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80215792",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "25b3b83777a1d26bf44c1386efcc7c9c22205f34d3d19cdba875627eb0012ad6",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 김승민 표기와 활동명·발매곡을 대조. 대표 발매: 내 기쁨은 너가 벤틀리를 끄는 거야, 이 노래가 (스터디그룹 X 김승민, Skinny Brown). 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "olnl": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20030681",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8d5e60b82f966302d8f988dcd6479670491b55f37f5d0fad56c60c8d9d578993",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 OLNL (오르내림) 표기와 활동명·발매곡을 대조. 대표 발매: OYEAH, APOLLO. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "chin": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111941",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "0d61a28f793d2e601dd6e9b7c45a71c8f46cee311c7f467ce5e35b712220b920",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Chin 표기와 소속·멤버 표기(호미들)를 대조. 대표 발매: The Money Team, YNR VS ALL. 실제 개인 사진의 얼굴 영역을 검토. 호미들 멤버 목록과 해당 개인 프로필의 역방향 소속 링크를 함께 확인."
+  },
+  "ck": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111940",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "2e72e9e65ae63facd9fc88d8dd588cf0ddb11e5833e0101b619a018397fa5be4",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 CK 표기와 소속·멤버 표기(호미들)를 대조. 대표 발매: The Money Team, Verses.zip. 실제 개인 사진의 얼굴 영역을 검토. 호미들 멤버 목록과 해당 개인 프로필의 역방향 소속 링크를 함께 확인."
+  },
+  "louie-homies": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/12111942",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8725d554fd5a71e48d7bc82e7bc51f3d0876ce024a0470fece92c13f2f5925b2",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Louie 표기와 소속·멤버 표기(호미들)를 대조. 대표 발매: 굴젓 (G+Jus), The Money Team. 실제 개인 사진의 얼굴 영역을 검토. 호미들 멤버 목록과 해당 개인 프로필의 역방향 소속 링크를 함께 확인."
+  },
+  "rohann": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20053697",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9283a033a28b0d59c98ef1ede1ffb8a124b3eede9b9d375c4f3d5c2fe6e61b33",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Rohann 표기와 소속·멤버 표기(YEAHWEARE (예위아))를 대조. 대표 발매: 북 Remix, 고등래퍼2 팀대항전 Part.1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "dbo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80218657",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "5e2ac322288ba1c80ca46cfb7a47e2ed2c0c5ec35cf0e428f02dceaa0cdbc8a7",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Dbo (디보) 표기와 소속·멤버 표기(KD(KiggaXDbo))를 대조. 대표 발매: One Hunnit, I Could Do Dead. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "trade-l": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20081151",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "42ea93f862c472a6a490a2d3aaf4b9fc080962e973dd096111e3a8782a716ff9",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 TRADE L (트레이드 엘) 표기와 활동명·발매곡을 대조. 대표 발매: FASHO, AMBITION 5/10. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "deegie": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/7440",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7bcdf045e937710d750744c8f3dc5632122b70d8643d70aed82c759a0e26ad1e",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 김디지(Deegie) [트레블러] 표기와 소속·멤버 표기(트레블러(Trabler) , The Martian Project)를 대조. 대표 발매: Deegie's In True Mental Pt.4, Deegie's In True Mental. 실제 개인 사진의 얼굴 영역을 검토. 김디지(트레블러)이며 Dizzy 및 Beatbox DG와 구분."
+  },
+  "cb-mass": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/578",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "402a03a4c1511363f9ce29a3bbc360c646185cdc912e41d32b4c9d483c1919a4",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 씨비 매스(CB Mass) 표기와 소속·멤버 표기(최자 , Curbin , 개코)를 대조. 대표 발매: 휘파람, 동네 한 바퀴. 단체 사진의 구성원 전체를 보존."
+  },
+  "honey-family": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/23852",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "97a38720638d622c38813a95e75446e2b6f8ce18b80af65f6b415e08d87658d6",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 허니 패밀리(Honey In Honey Family) 표기와 소속·멤버 표기(개리 , 명호 , 길 , 주라)를 대조. 대표 발매: 남자이야기 -My Way, 우리 같이 해요 (1999 대한민국 앨범집). 단체 사진의 구성원 전체를 보존. 사진은 공개 프로필에 실린 활동 시기의 단체 구도로, 현재 멤버 구성을 주장하지 않음."
+  },
+  "leo-kekoa": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80050937",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ddde1872a44a4906f5a4994a7e95bc07c9d79ca7b90387539c628e991587da45",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 리오 케이코아(Leo Kekoa) 표기와 소속·멤버 표기(강남2인조)를 대조. 대표 발매: 청룡열차 (feat. Supreme Team & 길미), 크리스마스 징크스 (feat. JK김동욱). 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "j-kwondo": {
+    "sourceUrl": "https://v.daum.net/v/20220419161700264",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "06b53bd376b2be0acf951dc7334396bdabb9943b11a9d0f65d7e53bb39d87f1a",
+    "publicationBasis": "public-source-reference",
+    "reason": "45RPM 박재진(J-Kwondo). 기사에서 왼쪽 인물을 박재진으로 명시한 첫 단체 공연 사진에서 왼쪽 인물만 선택. 이현배 및 제이켠과 구분."
+  },
+  "topbob": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/32000",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "357ff5b014af7f11580c2eba768341b92dcdcd0d8c390c149933350bbaceff5f",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 톱밥(TopBob) 표기와 소속·멤버 표기(투윈스(2winS) , TBNY)를 대조. 대표 발매: Komplex, Plex. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "yankie": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/31999",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "d1b8e34897ce0aa09ee3abd2c24d4c19835002a88edc09a7a4e1127973d8be2c",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 얀키 (YANKIE) 표기와 소속·멤버 표기(TBNY)를 대조. 대표 발매: Andre, Yankie Proverbs Chapter 1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "dsel": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80256385",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7acca716d130f62e9f0e33ad99ae8774a8897c3027e27263b7985f1267f83a0f",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 dsel 표기와 소속·멤버 표기(서리(30) , dsel X KHUNDI PANDA)를 대조. 대표 발매: 쇼미더머니 9 Episode 1, 쇼미더머니 9 Final. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "bizniz": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80051451",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "70d3763b688bc6206ec9f76eccfba38a2ae57d92cdf6c905cff2d94dc897cde0",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 비즈니즈(Bizniz) 표기와 소속·멤버 표기(바스타즈(Bastardz))를 대조. 대표 발매: #evolution, Suga Luv. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "chaboom": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80057660",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "c0b50a95d7e1a10f31daac1554c5096553c8159fa34f88ada4c79a355fd236b1",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Chaboom(차붐) 표기와 소속·멤버 표기(블링 더 캐쉬(Bling The Cash) , TEAM 119)를 대조. 대표 발매: 쇼미더머니 777 Episode 1, 쇼미더머니 777 Episode 3. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "choilb": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20016929",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "87248bb50be3758b5a093fefd912192e4577e5645a6aee010fbf1e30d774c4d1",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 최엘비(CHOILB) 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 8 Episode 2, her.. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "illinit": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80067885",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "b9528316a4844d39bbbad69ff267c530b037c772f67e64a0436c5a27023bf924",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 일리닛(illinit) 표기와 소속·멤버 표기(일리닛x일레븐(illinit x i11evn) , 강남2인조)를 대조. 대표 발매: Made In '98. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "truedy": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80248014",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "612ea3496773e2eec23e09528c711e324b64bd30b4d3c776c37b548766ec698b",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 트루디(Truedy) 표기와 활동명·발매곡을 대조. 대표 발매: ALL KILL, 니가 있어야 살아. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "goldbuuda": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20059796",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "a23220447b9f0eba768b5b78a2cef3c4f6ab60f25b2e1b8e9d386b24ea9e5163",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 GOLDBUUDA 표기와 소속·멤버 표기(Lil Cherry X JitoMo)를 대조. 대표 발매: ALL-YOU-CAN-EAT, MUKKBANG!. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "hash-swan": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80207985",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "a925798cb27bbd42b50a46f7faa4dbeafc61a011dc69cafb21e3e3f1acaeb622",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Hash Swan 표기와 소속·멤버 표기(WAYSIDE)를 대조. 대표 발매: BAND, 도깨비. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "pinodyne": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80057871",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7ba2b52f2babe068468f89a96c306abd07ccbbb642698c793880852ec1a8647a",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 피노다인(Pinodyne) 표기와 소속·멤버 표기(허클베리피 , Soul Fish)를 대조. 대표 발매: PINOvation, Pinocchio. 단체 사진의 구성원 전체를 보존."
+  },
+  "new-champ": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80090515",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "6933f645efb640fa6bad91444d161ad09fa488b261e4aef2d7391b1041fbe8ee",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 뉴챔프 표기와 활동명·발매곡을 대조. 대표 발매: 야하게 (feat. 계범주, 지희필), Training Zombie. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jimmy-paige": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80281962",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7dd8a1873543f919494e4f79b289c2abed0aa1f53c63900404fdc7e9785fee31",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Jimmy Paige 표기와 소속·멤버 표기(실키보이즈(SILKYBOIS))를 대조. 대표 발매: Sushi (JM Remix), TRAP. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "black-nut": {
+    "sourceUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=760",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "a5582d8797c2d166418ba4c642b8285dc78bdee1e59c59055d2248bc5d7e1d66",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 블랙넛(Black Nut) 표기와 소속·멤버 표기(실키보이즈(SILKYBOIS))를 대조. 대표 발매: 100, IMJMWDP. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "owen": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80223354",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "b1333b83326323ea650acf9f19e74b0b9c27657196d9a268f07f086e3b81051f",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 오왼(Owen) 표기와 소속·멤버 표기(Wons N Dollas , 메킷레인(MKIT RAIN))를 대조. 대표 발매: City, Relationship. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "seo-chul-goo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80172786",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8b42f0d46cd997843a44fc513bcd17609b019b07886949212e1205daf3073aec",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 서출구 표기와 활동명·발매곡을 대조. 대표 발매: 신사 ($insa), Spill. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "ek": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80243010",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "1054169ec853aab7d23deb497af13caf87fe5c08e1358ca90c1aa58e1c86770e",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 EK 표기와 소속·멤버 표기(TEAM 119)를 대조. 대표 발매: GOD GOD GOD. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "mommy-son": {
+    "sourceUrl": "https://artsro.com/sub/play_view.html?CatNo=78&GoIdx=1121",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8433555ad7b17864cdc6afb6cdf22f9bd8a6402c07d9c57bd967688b9a8438e1",
+    "publicationBasis": "public-source-reference",
+    "reason": "아츠로가 마미손으로 게시한 소년점프·쇼미더머니777 출연자 프로필. 분홍색 복면을 쓴 실제 사진이며 다른 인물의 맨얼굴로 대체하지 않음."
+  },
+  "stony-skunk": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/50962",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "f61698021ba061e26fbf4e841c18b00181a494decddc8ffb52f7f160c6c7a3a7",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 스토니 스컹크(Stony Skunk) 표기와 소속·멤버 표기(소래눈보이 , 스컬)를 대조. 대표 발매: Ragga Muffin, No Woman No Cry. 단체 사진의 구성원 전체를 보존."
+  },
+  "myk": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80152141",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "63dc4323d646554efff671b7da353e3d6b3d2b4d68201a7fc16bdec27bd5154a",
+    "publicationBasis": "public-source-reference",
+    "reason": "MYK의 솔로 프로젝트 솔튼페이퍼 프로필. MYK 프로필의 연결과 공식 발매 소개(535702)로 활동명 관계를 확인. 모자·긴 머리·기타를 든 개인 사진."
+  },
+  "homies": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20095219",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "746308234a013ab1e8e3952f8f6a73b79fcebe92fbfcea07ec61629ffa7f3f2b",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 호미들 표기와 소속·멤버 표기(CK , Chin , Louie)를 대조. 대표 발매: 스테이지 파이터(STF) Original Vol.5. 단체 사진의 구성원 전체를 보존."
+  },
+  "mfbty": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80145637",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "93b780fa69a58322a02db4d7fdf9a5d50b3abf591bdaf7b2544190a90201b572",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 MFBTY 표기와 소속·멤버 표기(Tiger JK , 윤미래 , 비지)를 대조. 대표 발매: Angel, 눈빛에. 단체 사진의 구성원 전체를 보존. Tiger JK·윤미래·비지 3명이 함께 있는 별도 사진을 선택하고 로고·앨범 표지·게스트 사진을 제외."
+  },
+  "beatbox-dg": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80027379",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7de09578d23203e52f9ee09285b952a0c442a69ea0b1f7e9bc53845475df6489",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 BEATBOX DG 표기와 소속·멤버 표기(DNA)를 대조. 대표 발매: Overcome, Dope (feat. Beenzino). 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "futuristic-swaver": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80215705",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "3be79f3d98b75990793d03d173f10e495772e478defe9e022d4e4c4709f95dfc",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Futuristic Swaver 표기와 소속·멤버 표기(STAREX)를 대조. 대표 발매: Swish, Heartless. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "street-baby": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80366234",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "1210758f613179f247981dac62aecc61fc949a54591afa56de073c7b1dfd385a",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Street Baby 표기와 활동명·발매곡을 대조. 대표 발매: The Real Street Baby, DAYDATE. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "lil-cherry": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20037432",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "c3d4969084f65da8878c08d48c8c48b207e36e362e2d4e7fb2f331de939bb54b",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Lil Cherry 표기와 소속·멤버 표기(Lil Cherry X JitoMo)를 대조. 대표 발매: Rubber Duck, Sauce Talk. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "chamane": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80204952",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "c8b34c14428872e26ca222ee7f90d16164ada861c60cded1d9a074b1cbf86751",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 차메인(ChaMane) 표기와 소속·멤버 표기(프레밀리 (FRML))를 대조. 대표 발매: 20, 19. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "no-el": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20037655",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "1fc51e5047930f34c54b16720aa8c094b0731b0894fda94ea2efad7095f550eb",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 NO:EL 표기와 활동명·발매곡을 대조. 대표 발매: IndiGO, Work Out. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "room9": {
+    "sourceUrl": "https://www.nocutnews.co.kr/news/4217731",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "f03bed4d68cb38f396d2b2aaf04717ce2eeb084120bb4c53b3f7795f1476cc28",
+    "publicationBasis": "public-source-reference",
+    "reason": "스나이퍼사운드 소속 Mr.Room9의 Love (Pt.1) 발매 인터뷰. 본문과 두 번째 사진으로 확인한 인물이며, 2컷 구성 중 오른쪽 옆얼굴을 선택."
+  },
+  "moowoong": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80022585",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "4707a10983776db4058f57e1b3b135e0605a8a133cfe3b13de55ce6bd6136866",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 무웅 표기와 소속·멤버 표기(배치기)를 대조. 대표 발매: Maestro, MoonLight. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jayho": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80167275",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "97bd63959eab581c03140e18aca0bfad0670192120f617e0c7e523a0d46cffee",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 jayho 표기와 소속·멤버 표기(LEGIT GOONS (리짓군즈))를 대조. 대표 발매: LOCALS ONLY, SLOPE. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "suda": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80050931",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "de084ac745822988ee3c40c916e63e81c218e880bc3a21a021fc3c115a456114",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 수다쟁이 표기와 활동명·발매곡을 대조. 대표 발매: Get Backers, 북가좌동 349-17. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "takuwa": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20040383",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ee2e1735e6d86db51be395f653e2579e1d903ea1a5f265eab95576bdcebece0a",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 TAKUWA 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 8 Episode 2, 쇼미더머니 8 Episode 4. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "bryn": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20062770",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e7fdbd493e32610dd706b03debb6922ddd03cbe75d39b0fd44752f07493ad0dd",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 브린 (Bryn) 표기와 활동명·발매곡을 대조. 대표 발매: Runaway, Lilly. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "andup": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80083989",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "64a1cb79d269d27d92693f12e27267415fbb8e6bdf2b9d7dd82d804943fc71d3",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Andup (앤덥) 표기와 활동명·발매곡을 대조. 대표 발매: Let's Talk About. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "bully-da-ba-tard": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20054239",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8220ec398fcc78e8d79bdf6df3031b4fe7d5c76a5d693ed4f3b641286aab2e42",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 윤병호(Bully Da Ba$tard) 표기와 활동명·발매곡을 대조. 대표 발매: LOOK (Bonus Track), Volvo. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "pluma": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20079470",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "afcd333464c96309e0ddde3ea29173dfe69965a83c6b03b500cf27a1e87c83b3",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 플루마(PLUMA) 표기와 활동명·발매곡을 대조. 대표 발매: I'm the ONE, RACKS. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jambino": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20080164",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9e462d157f45d5a97de8b2ed8954ef175a096ecab5f75410cf2df857817fa1fd",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 jambino 표기와 소속·멤버 표기(이주민(Yizumin))를 대조. 대표 발매: 쇼미더머니 11 Episode 1, 쇼미더머니 11 Semi Final. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "osshun-gum": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20035135",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "4cd3627ed653307074aa94410af6d7f8d39c8b0d2e302a78ed4dea6e9e1ce629",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Osshun Gum 표기와 활동명·발매곡을 대조. 대표 발매: Osshun Waves, Dingo X Indigo Music. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "ourealgoat": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20076067",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "7dcd81a080ee7b2840cc13b5d5a2bb1b33297c31b0459385a7cd7f2e0db0f7fd",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 아우릴고트 (OUREALGOAT) 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 10 Episode 1, O'L. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "noh-yun-ha": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20129904",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "d68a24dfa665dc04c31f780cdc4bb6d98987b6109aed76488708167786f292d2",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 노윤하 표기와 활동명·발매곡을 대조. 대표 발매: sonogram. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "geeks": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80095507",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "2fd9cd25d4c1e896a9ae8cfe6d116d4f1c5e059adeb9e7dba66a6ff1c97afae6",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 긱스(Geeks) 표기와 소속·멤버 표기(릴보이 , 황문섭)를 대조. 대표 발매: Officially Missing You, Officially Missing You, Too. 단체 사진의 구성원 전체를 보존."
+  },
+  "kirin": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80060698",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "aba93c1b0ac29cfb6408f6fc83ab92709e485a73fab06a12b695b6eca1f171d9",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 KIRIN (기린) 표기와 소속·멤버 표기(CLUB 33 (KIRIN & SUMIN) , 8BallTown (에잇볼타운))를 대조. 대표 발매: CITY BREEZE, Baddest Nice Guys. 실제 개인 사진의 얼굴 영역을 검토. 국내 남성 솔로·8BallTown 활동을 확인해 동명의 여성·해외 아티스트와 구분."
+  },
+  "blnk": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80133934",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e9ea20bdfa5420f9a5c8db53d92b2a24f59d0b2a401b9b77f91b7a9dd940e607",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 BLNK 표기와 소속·멤버 표기(LEGIT GOONS (리짓군즈))를 대조. 대표 발매: FLAME. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "wutan": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80101352",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ace918224e1b9472490c376153b4c3980e228ae4f7b3bdaf07eee8df7179f7d8",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 우탄 표기와 소속·멤버 표기(우탄 & 버기(Wu-Tan & Buggy) , MUNCHEESE , VMC)를 대조. 대표 발매: 쇼미더머니2 - Part.2, Dope Boys Club. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "tak": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80022586",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8eb5a57b4fa3081ba58b03da8ded5051af46b7f86b8af4d55da77ca2eab73efb",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 탁(배치기) 표기와 소속·멤버 표기(배치기)를 대조. 대표 발매: AK47 MEGA MIX. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "bloo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20019269",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "55dec9d737fc6e18fd41cd8f550f2a8717079094f4b0ff5c4d8e25d9e0861966",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 블루(BLOO) 표기와 소속·멤버 표기(메킷레인(MKIT RAIN))를 대조. 대표 발매: Downtown Baby, Drive Thru. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "niahn": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80282564",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "f29d2243ba6384725a554824232ae5b89ba7e7fed2270cd18d2bfb075b2fcfff",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 니안(niahn) 표기와 활동명·발매곡을 대조. 대표 발매: 가로등, Broken Hurt. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "unofficialboyy": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20036043",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "165ba6ffe140b0e63043a42e176afc42b032f6d2ba371fc88c1f33c22b4fab50",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 unofficialboyy 표기와 활동명·발매곡을 대조. 대표 발매: drugonline gate. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "rock-punkman": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20001847",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "8bf6cfd6faa4beea45297c33240789470b8a0329f9e4fdf64ea19d86cf79c416",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Loxx Punkman (록스 펑크맨) 표기와 활동명·발매곡을 대조. 대표 발매: Conscious, THE RED APPLE. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "northfacegawd": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20089731",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "476ad222c318f077899e0cde90ae1f88f50146fbffde1b94bdc6d692a5f628bb",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Northfacegawd 표기와 소속·멤버 표기(STAREX)를 대조. 대표 발매: 700 EP, northfacegawd. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "polodared": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20145400",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "f9d5c04f42ce1d006e77aa454a11b67fc058ce3479665bf1210c60868e51440b",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Polodared 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 11 Episode 1, Seoul To Osaka. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "fleeky-bang": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20158033",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "e465d87da12d965adbe2c3f4c6440f7afef03c3b03c2f096c3cb3d514a4c3286",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 Fleeky Bang 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 12 Episode 1, 쇼미더머니 11 Episode 1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "anandelight": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20070271",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "b66d98cbb223895c3b16ef221e61bbfd68484f9ce40c67d5d5ea73f91cf309c0",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 아넌딜라이트(Anandelight) 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 10 Episode 1. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jjangyou": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20008928",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "f7b45a317597796e30ac7f2af856e95e33d765e1a56570ed8011991994909db7",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 짱유(JJANGYOU) 표기와 소속·멤버 표기(와비사비룸(Wavisabiroom) , 짱유 시바세키 , HYPNOSIS THERAPY)를 대조. 대표 발매: 115. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "a-chess": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20005588",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "858c611b1c0c0c3353aba03b2773493a38cc614e63d643e0830af9f79c4b6a69",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 에이체스 (A-Chess) 표기와 활동명·발매곡을 대조. 대표 발매: 쇼미더머니 10 Episode 1, 귀가. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jaedal": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80210507",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "106d77c254fc3f2a1cbe1a40baa7991adb9aeb01d378e2039392a26aa81664bd",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 JDL (재달) 표기와 소속·멤버 표기(LEGIT GOONS (리짓군즈))를 대조. 대표 발매: Period, Adventure. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "choi-sam": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80177616",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "41d6e6cb3155d86dd3fc883fbb6f94a42c150e7e5edf11609247b55643cf2444",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 최삼(Choi Sam) 표기와 활동명·발매곡을 대조. 대표 발매: 뭐라카노. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "damini": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20151819",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "df493816592bcde40823d1d750eb5eef2c84ff59978ed15536c483f2594b5800",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 다민이 (DAMINI) 표기와 활동명·발매곡을 대조. 대표 발매: 아저씨. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "d-action": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80009271",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "0727bf244252bee7dcc8f190f4df4e3f3a4c0f53d8897f6f37230e7ab9c1c92a",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 디액션(D. Action) 표기와 소속·멤버 표기(언터쳐블)를 대조. 대표 발매: 억만장자, 녹취록 EP. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "mba": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80216783",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "27c0ef033ce45574384cfa4693c321d66bae013231ab70f51c356541f8057685",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 MBA(Most Badass Asian) 표기와 활동명·발매곡을 대조. 대표 발매: 사인히어(SignHere) episode1, YF. 단체 사진의 구성원 전체를 보존."
+  },
+  "dj-shine": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/8010397",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "bf93b739cf3a4b30d6579196666c161f77600ca435ce00aa9d84f9d42ec37753",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 디제이 샤인(DJ Shine) 표기와 소속·멤버 표기(코스트 투 코스트(Coast II Koast))를 대조. 대표 발매: Right Round, 신데렐라 O.S.T. (현진영 Project). 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "jung-yeon-jun": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/4049",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "2dfb2b6efde4a933d1f6b4865cd350a6055f9e7af8437f8e27c73d7d1757c814",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 정연준 [업타운] 표기와 소속·멤버 표기(슬로우잼(Slow Jam) , 솔타운(Soul-Town) , 보라색안경원숭이(Purple Tarsier) , 업타운(UPT))를 대조. 대표 발매: 파일럿 (MBC 미니시리즈), 1집 - 하루 하루 지나가면. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "sapo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80164244",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9aee969a3e96c906f3daed6715d73a378a3367030507c8f4f78ae74c46821613",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 사포(SAPO) 표기와 소속·멤버 표기(프리지본 (FreezyBone))를 대조. 대표 발매: SAPO PENSEE, Dream. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "fatdoo": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80042099",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "9cbb4f31e194939cb8b508b4c8c247caad5b5d2ac75abb6a558afe8dedbf0e02",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 팻두(FatDoo) 표기와 소속·멤버 표기(디에스 커넥션(DS_Connexion) , 팻티겐)를 대조. 대표 발매: 기억을 지워주는 병원 3, 기억을 지워주는 병원 2. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "xxx": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80263860",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "cf7f68fd466825c65ef5acce58ae6470347482187eb7fa8fb1cf2530dbb6db86",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 XXX 표기와 소속·멤버 표기(김심야 , FRNK)를 대조. 대표 발매: Liquor, Bougie. 단체 사진의 구성원 전체를 보존."
+  },
+  "legit-goons": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80168814",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "01db8225f37ba90c94146cd1383c296aeb2e3becafe46fd0b34cbdf5ddfed899",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 LEGIT GOONS (리짓군즈) 표기와 소속·멤버 표기(BLNK , jayho , 뱃사공 , JDL (재달))를 대조. 대표 발매: Dingo X LEGIT GOONS (Part 2). 단체 사진의 구성원 전체를 보존."
+  },
+  "dopesun": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80084753",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ab0f3b816e7b55bb69ff5fb8376ebc58b317420ff5dbf1429ed5c37efd69dd02",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 돕선(Dopesun) 표기와 활동명·발매곡을 대조. 대표 발매: 묶은머리 여자가 예뻐, 이까짓 거. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "tarae": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80079585",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "614dbef81373181de67ffcfda6c3c7f2f968430b727aeceaecc77d03513fe3be",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 타래(Tarae) 표기와 소속·멤버 표기(스매쉬 바운스(Smash Bounce))를 대조. 대표 발매: Swaggers Made In USA, Black (On The Low Down). 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "iron": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/80200668",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "488a7ea1109c1abfd47a1c0a209041cebe50e161b61b6822c3f47ed47e612a68",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 아이언 표기와 활동명·발매곡을 대조. 대표 발매: I AM, ROCK BOTTOM. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "lee-hyun-jun": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20059614",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "ff542d516fa87f115686e004c4cb53e866cf86381d7688c56fa7a92fca50a439",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 이현준 표기와 활동명·발매곡을 대조. 대표 발매: White Lighter, Hello Stranger. 실제 개인 사진의 얼굴 영역을 검토."
+  },
+  "30": {
+    "sourceUrl": "https://music.bugs.co.kr/artist/20074968",
+    "reviewedAt": "2026-10-04T03:02:32.824961+00:00",
+    "identityConfirmed": true,
+    "cropApproved": true,
+    "imageSha256": "44fa7eb15d50afa61cac5caae0e97f2c7408398aed9219c7afbeacb77badd33e",
+    "publicationBasis": "public-source-reference",
+    "reason": "공개 프로필의 서리(30) 표기와 소속·멤버 표기(KHUNDI PANDA , qjinjin , 딥플로우 , 비앙 , Son Simba , dsel)를 대조. 대표 발매: THE FROST ON YOUR EDGE, THE FROST ON YOUR KIDS. 단체 사진의 구성원 전체를 보존. 여성 솔로 Seori가 아닌 남성 그룹 서리(30)."
   }
 }
