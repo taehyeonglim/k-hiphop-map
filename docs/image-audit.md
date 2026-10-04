@@ -3,8 +3,8 @@
 This report is regenerated when reviewed candidates are published. It covers every artist in the current catalogue. Discovery does not itself approve a portrait: identity, file-specific reuse terms and the actual crop must be reviewed.
 
 - Current catalogue artists: 2756
-- Artists with a published portrait: 633
-- Core artist coverage: 120/268 (44.8%)
+- Artists with a published portrait: 674
+- Core artist coverage: 161/268 (60.1%)
 - Output: 256×256 same-origin WebP files. People are cropped; group photographs retain the complete image with letterboxing. Changes are disclosed per asset.
 - Missing photographs use initials. An unresolved search does not establish that a photograph does not exist.
 
@@ -12,25 +12,33 @@ This report is regenerated when reviewed candidates are published. It covers eve
 
 | State | Artists |
 | --- | ---: |
-| identity-review | 55 |
-| included | 633 |
-| not-found | 2027 |
+| identity-review | 53 |
+| included | 674 |
+| not-found | 1985 |
+| permission-needed | 2 |
+| retry | 1 |
 | visual-review | 41 |
 
 Every unresolved artist has a reason, checked date and next action in [the review registry](../data/portrait-review.json) and the searchable [public collection status](https://k-hiphop-map.vercel.app/coverage/). Known official/profile URLs and access failures are preserved in [profile evidence](../data/portrait-source-candidates.json). An Open Graph image can be an album cover or site logo; it is not an approved artist portrait.
+
+Commons captions, photographer searches and CC video search results are retained in [expanded discovery](../data/portrait-discovery.json). Manual frame/crop coordinates are in [portrait selections](../data/portrait-selections.json), with observed per-video license statements in [video evidence](../data/portrait-video-evidence.json). See the [expansion record](portrait-expansion.md).
 
 ## Reproduction
 
 ```sh
 python3 scripts/survey-portraits.py
 python3 scripts/survey-profile-sources.py --merge-review
+python3 scripts/discover-portrait-sources.py --provider commons
+python3 scripts/discover-portrait-sources.py --provider flickr
+python3 scripts/discover-portrait-sources.py --provider youtube
+python3 scripts/stage-portrait-selections.py
 # Review each staged identity, attribution and crop; record its SHA-256 in portrait-approvals.json.
 python3 scripts/survey-portraits.py --publish-only
 npm run data:build
 npm run data:validate:launch
 ```
 
-The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata. Non-Wikimedia originals require photo-specific permission records. Wikipedia local fair-use files are excluded. Current published sources and license conditions are listed below and on the [credits page](https://k-hiphop-map.vercel.app/credits/). API caches expire after 30 days; transient request failures remain retryable.
+The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata. Non-Wikimedia originals require photo-specific permission records or explicit CC BY video licenses from the selected source. An official channel or CC search result alone is not permission. Video title, author, timestamp and changes are retained. Wikipedia local fair-use files are excluded. Current published sources and license conditions are listed below and on the [credits page](https://k-hiphop-map.vercel.app/credits/). API caches expire after 30 days; transient request failures remain retryable.
 
 ## Included assets
 
@@ -213,6 +221,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | MAMAMOO+ | JC 제시 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:20230403_MAMAMOO%2B_(%EB%A7%88%EB%A7%88%EB%AC%B4%2B).jpg) |
 | MAX | Toglenn | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:MAX_Schneider_2019_by_Glenn_Francis.jpg) |
 | MAX | Nesnad | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:MAXgroup-all-a-oct1-2016.jpg) |
+| MC 메타 | 인문360 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=gW1_xz9ylo4) |
 | MC 몽 | http://vobkr.tistory.com/ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:090402_MC%EB%AA%BD_01.jpg) |
 | MC 스나이퍼 | 1theK (원더케이) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Mcsniper2015.png) |
 | MELODYDAY | SJ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EB%A9%9C%EB%A1%9C%EB%94%94%EB%8D%B0%EC%9D%B4(MelodyDay)_%EC%98%81%EB%93%B1%ED%8F%AC_%ED%83%80%EC%9E%84%EC%8A%A4%ED%80%98%EC%96%B4_%EB%AC%B8%ED%99%94%EA%B3%B5%EC%97%B0_02.jpg) |
@@ -358,6 +367,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 가리온 | 뮤지스땅스 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Garion.png) |
 | 가인 | 곰탱유 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:(2016.09.11)%EB%A9%9C%EB%A1%9C%EB%94%94%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8%EC%BA%A0%ED%94%84_%EC%A0%9C%EC%95%84%EB%8B%98_%EA%B0%80%EC%9D%B8%EB%8B%98_%EC%A7%81%EC%B0%8D_by%EA%B3%B0%ED%83%B1%EC%9C%A0_(1).jpg) |
 | 가희 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kahi_in_February_2024.png) |
+| 간디 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Buga_Kingz_from_acrofan.jpg) |
 | 강균성 | KATV | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kang_kyun_sung.png) |
 | 강대성 | GOM | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Daesung_-_MADE_THE_MOVIE_Premiere.jpg) |
 | 강민경 | KIYOUNG KIM | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kang_Min-kyung_at_the_beverage_promotions_176.jpg) |
@@ -388,6 +398,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 김소혜 | TV10 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kim_So-hye_(%EA%B9%80%EC%86%8C%ED%98%9C)_2023_03.jpg) |
 | 김수윤 | Nine Stars | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:2019_Pink_Punch_Showcase_Su_Yun.png) |
 | 김신영 | Official Youtube account of 식신로드 (Gourmet Road) , its twitter account has a link to the YouTube account | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%A3%BC%EC%98%81%ED%9B%88,_%EC%B2%9C%EC%9D%B4%EC%8A%AC_%EC%B6%9C%EC%97%B0_%ED%93%A8%EC%A0%84_%ED%96%84%EB%B2%84%EA%B7%B8_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC_%EA%B0%95%EB%82%A8%EA%B5%AC_%EC%97%AD%EC%82%BC%EB%8F%99_%EB%AF%BC%EB%B0%95_(%EC%8B%9D%EC%8B%A0%EB%A1%9C%EB%93%9C_Gourmet_Road)_eps_176-1_(%EA%B9%80%EC%8B%A0%EC%98%81).jpg) |
+| 김심야 | Marie Claire Korea | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=gOHQ1YZTHLQ) |
 | 김연우 | Jinho Jung from Seoul, South Korea | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kim_Yeon-woo.jpg) |
 | 김오키 | Studio FLO 스튜디오 플로 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EA%B9%80%EC%98%A4%ED%82%A4.jpg) |
 | 김완선 | Korea.net / Korean Culture and Information Service (Jeon Han) | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kim_Wan_Sun_Korea_KPOP_World_Festival_18_(cropped).jpg) |
@@ -405,6 +416,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 나다 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Nada_for_Marie_Claire_Korea_2016_(2).jpg) |
 | 나얼 | 여니수니 | [CC BY 2.0 kr](https://creativecommons.org/licenses/by/2.0/kr/deed.en) | [Original file](https://commons.wikimedia.org/wiki/File:Naul.jpg) |
 | 나윤권 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:240831_%EB%82%98%EC%9C%A4%EA%B6%8C_%EC%8B%A0%EC%B4%8C_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg) |
+| 나찰 | 뮤지스땅스 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=h5a9_2I0Hy8) |
 | 나플라 | GROOVL1N | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Nafla_200625.png) |
 | 넉살 | Studio FLO | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Nucksal_210913.png) |
 | 넋업샨 | 권우찬 | [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC:Nuck.jpg) |
@@ -415,12 +427,15 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 달수빈 | soobin212tw | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Subin_from_DalShabet_on_28th_May,_2016_3.jpg) |
 | 더 원 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:The_One_from_acrofan.jpg) |
 | 더 콰이엇 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EB%8D%94%EC%BD%B0%EC%9D%B4%EC%97%87_4.jpg) |
+| 던밀스 | Studio FLO 스튜디오 플로 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=_rce7xwmNxU) |
 | 데프콘 | zzal TV 고다쿠 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:(GO%EB%8B%A4%EC%BF%A0)_%EA%B3%A0%EB%8B%A4%EC%BF%A0%EC%97%90_%EB%B0%94%EB%9D%BC%EB%8A%94_%EA%B2%83%EC%9D%80_(%EC%8B%9C%EC%A6%8C2_%EC%B5%9C%EC%A2%85%ED%9A%8C)_1m48s.jpg) |
 | 도끼 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EB%8F%84%EB%81%BC_1.jpg) |
 | 도영 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:20231006_Doyoung_(NCT).jpg) |
 | 도한세 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Do_Han_Se_2021.png) |
 | 동해 | Daegil yoo | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:171115_%EC%8A%88%ED%8D%BC%EC%A3%BC%EB%8B%88%EC%96%B4_%EB%8F%99%ED%95%B4.jpg) |
 | 드렁큰 타이거 | NewsInStar | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Drunken_tiger2018.png) |
+| 디아크 | Studio FLO 스튜디오 플로 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=ZaDNQK9zPD4) |
+| 디테오 | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=I17FKnWTH2Q) |
 | 딕펑스 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:190919_%EB%94%95%ED%8E%91%EC%8A%A4_%ED%99%8D%EB%8C%80_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg) |
 | 딘 | Jae Chung (JDZ) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:DEAN,_Joombas_Music_Group_artist.png) |
 | 딥플로우 | GET CHEE$E | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Deepflow_Feb_2017.png) |
@@ -431,15 +446,18 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 레이디 제인 | poongwoo | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:120114_%EB%A1%AF%EB%8D%B0%EC%9B%94%EB%93%9C_-_%EB%A0%88%EC%9D%B4%EB%94%94%EC%A0%9C%EC%9D%B8.jpg) |
 | 로꼬 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:220521_%EB%8D%94%ED%81%AC%EB%9D%BC%EC%9D%B4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EB%A1%9C%EA%BC%AC.jpg) |
 | 로시 | Dorothy Company | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Rothy_201223.jpg) |
+| 루이 (긱스) | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=KkOmkffvvrE) |
 | 루피 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Loopy_200318.jpg) |
 | 리듬파워 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EB%A6%AC%EB%93%AC%ED%8C%8C%EC%9B%8C_1.jpg) |
 | 리쌍 | Jinho Jung | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Leessang.jpg) |
 | 릴러말즈 | Bamboo Studio | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EB%A6%B4%EB%9F%AC%EB%A7%90%EC%A6%88_2022.png) |
 | 릴보이 | ENTmedia music | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Lil_Boi_170827.jpg) |
 | 마이노스 | Lamin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:110618_%EA%B8%80%EB%A1%9C%EB%B2%8C_%EC%97%90%ED%8B%B0%EC%BC%93_%EC%BA%A0%ED%8E%98%EC%9D%B8_-_%ED%99%8D%EB%8C%80_%ED%9E%99%ED%95%A9_%EA%B2%8C%EB%A6%B4%EB%9D%BC_%EC%BD%98%EC%84%9C%ED%8A%B8_Eluphant_3.jpg) |
+| 마이크로닷 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=EuEK0mVQGMw) |
 | 마이티 마우스 | Bryan Dorrough | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Mighty_Mouth.jpg) |
 | 매드클라운 | mang2goon | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:150425_%EB%A7%A4%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B4_02.jpg) |
 | 머쉬베놈 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Mushvenom_20210201.png) |
+| 면도 | WOMAN SENSE | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=jrXZO4BvWGI) |
 | 문종업 | NINE STARS | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Moon_Jong_Up_%EB%AC%B8%EC%A2%85%EC%97%85_,_%27HEADACHE%27_PRESS_SHOWCASE_PHOTO_SESSION_18m_11s.jpg) |
 | 문지은 | poongwoo | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:120428_Pni_%EC%82%AC%EC%A7%84%EC%98%81%EC%83%81%EA%B8%B0%EC%9E%90%EC%9E%AC%EC%A0%84_-_%EC%86%8C%EB%8B%88_%EB%AC%B8%EC%A7%80%EC%9D%80.jpg) |
 | 뮤지 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:20111026_970fb_o.jpg) |
@@ -467,24 +485,30 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 뱃사공 | 코넛 - Conut HipHop Magazine | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Bassagong.jpg) |
 | 버벌진트 | Ming J | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Verbal_Jint_-_%EA%B8%B0%EB%A6%84%EA%B0%99%EC%9D%80%EA%B1%B8_%EB%81%BC%EC%96%B9%EB%82%98.jpg) |
 | 베이식 | Pabian | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EB%B2%A0%EC%9D%B4%EC%8B%9D_(cropped).jpg) |
+| 보이비 | 꽁병지tv | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=auCs_1wzOCc) |
 | 볼빨간사춘기 | LG전자 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90,_%E2%80%98LG_G6%E2%80%99%EB%A1%9C_%EC%A0%9C%EC%9E%91%ED%95%9C_%EC%9D%8C%EC%9B%90_%EA%B3%B5%EA%B0%9C_(33965400595)_(cropped).jpg) |
 | 봉태규 | 디스패치 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:190716_%EB%B4%89%ED%83%9C%EA%B7%9C.jpg) |
 | 부가킹즈 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Buga_Kingz_from_acrofan.jpg) |
 | 부석순 | SEVENTEEN | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:230216_BSS_(%EB%B6%80%EC%84%9D%EC%88%9C).jpg) |
+| 블라세 | GooseBumps | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Blase_2020.png) |
 | 비아이 | Hikooksong | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:20221210_B.I_All_Day_Show_in_Seoul_Crop.jpg) |
 | 비오 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:20211226%E2%80%94Be%27O,_interview,_Marie_Claire_Korea_(00m11s).jpg) |
 | 비와이 | f2.8 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:20161119_%EB%B9%84%EC%99%80%EC%9D%B4_%EB%A9%9C%EB%A1%A0%EB%AE%A4%EC%A7%81%EC%96%B4%EC%9B%8C%EB%93%9C_(2).jpg) |
+| 비지 | JKEntAUS | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Special_message_from_MFBTY_with_JUNOFLO.webm) |
 | 비프리 | Lamin | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:110618_%EA%B8%80%EB%A1%9C%EB%B2%8C_%EC%97%90%ED%8B%B0%EC%BC%93_%EC%BA%A0%ED%8E%98%EC%9D%B8_-_%ED%99%8D%EB%8C%80_%ED%9E%99%ED%95%A9_%EA%B2%8C%EB%A6%B4%EB%9D%BC_%EC%BD%98%EC%84%9C%ED%8A%B8_B-Free_5.jpg) |
 | 빅나티 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:220521_%EB%8D%94%ED%81%AC%EB%9D%BC%EC%9D%B4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C_%EB%B9%85%EB%82%98%ED%8B%B0.jpg) |
+| 빅원 | SBS Radio 에라오 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=q2wrJWANY04) |
 | 빈지노 | NewsInStar | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:190521_%EB%B9%88%EC%A7%80%EB%85%B8X%ED%99%8D%EC%A2%85%ED%98%84,_%EA%B0%90%ED%83%84%EB%82%98%EC%98%A4%EB%8A%94_%EB%A9%8B%EC%A7%90_%27%EB%B0%94%EC%9D%B4%EB%A0%88%EB%8F%84(BYREDO)%27_%ED%94%8C%EB%9E%98%EA%B7%B8%EC%8B%AD_%EC%8A%A4%ED%86%A0%EC%96%B4_%EC%98%A4%ED%94%88_%EA%B8%B0%EB%85%90%ED%96%89%EC%82%AC_36s.jpg) |
 | 빈첸 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:190506_%EC%94%A8%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EB%B9%88%EC%B2%B8.jpg) |
 | 사이먼 도미닉 | May S. Young from Metro NYC, United States | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:AOMG,_Simon_Dominic_2014.jpg) |
 | 산이 | http://hdpics.tistory.com/ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:171014_SAN_E.jpg) |
+| 상추 | USAG- Humphreys | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Sangchu_in_K-Force_Special_Show_-_Pyeongtaek,_South_Korea_-_7_March_2013.jpg) |
 | 서사무엘 | OnCam! TV | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Samuel_Seo_-_K-pop_World_Festival_2016.jpg) |
 | 서은광 | Little Boy | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:150110_BTOB_Seo_Eunkwang.jpg) |
 | 서인국 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Seo_In-Guk_210601.png) |
 | 서인영 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Seo_In-young_from_acrofan.jpg) |
 | 선우정아 | 티비텐 (TV10) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%84%A0%EC%9A%B0%EC%A0%95%EC%95%84_(SWJA)_-_GIRLS_ON_FIRE_PRESS_CONFERENCE.png) |
+| 소울 다이브 | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=I17FKnWTH2Q) |
 | 소율 | 포에버 (Forever5) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:(15.08.22)_CRAYON_POP_%ED%81%AC%EB%A0%88%EC%9A%A9%ED%8C%9D_%EC%9D%98%EC%A0%95%EB%B6%80_%EC%B0%A9%ED%95%9C%EC%BD%98%EC%84%9C%ED%8A%B8_(Soyul).jpg) |
 | 소정 | Sjcontents | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Lee_So-jung_at_a_fansign_in_Shinsegae_inMarch_2016_03.jpg) |
 | 소코도모 | Studio Flo | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Sokodomo.png) |
@@ -497,13 +521,17 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 수퍼비 | STUDIO JEJUMBC _ 스튜디오 제주MBC | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%88%98%ED%8D%BC%EB%B9%84_%EC%A0%9C%EC%A3%BC%EC%97%90%EC%BD%94%EB%AE%A4%EC%A7%81%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C.jpg) |
 | 슈가 | Dispatch | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Min_Yoon-gi_May_2018.jpg) |
 | 슈프림팀 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Supreme_Team_from_acrofan.jpg) |
+| 스낵키챈 | Dynasty Muzik · 촬영 Byun Byul · 편집 Snacky Chan | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=YFutQ04fRoY) |
 | 스월비 | MIC SWG | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Swervy.png) |
+| 스웨이디 | 스튜디오 틈새 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=MJ5cNdClU98) |
 | 스윙스 | Linchpins | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:2017_%EC%8A%A4%EC%9C%99%EC%8A%A4.jpg) |
 | 스컬 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180802_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EC%8A%A4%EC%BB%AC_1.jpg) |
 | 슬리피 | SBS Radio 에라오 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%8A%AC%EB%A6%AC%ED%94%BC.jpg) |
+| 슬릭 | PGNpictures | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:SLEEQ2021.png) |
 | 승리 | NINE STARS | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:181001_%EC%8A%B9%EB%A6%AC_02.png) |
 | 식케이 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EC%8B%9D%EC%BC%80%EC%9D%B4_2.jpg) |
 | 신보라 | LG전자 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Shin_Bo_Ra.jpg) |
+| 신스 | Marie Claire Korea | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=lyjf1hH9xR4) |
 | 신승훈 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Shin_Seung-hun_from_acrofan.jpg) |
 | 신혜성 | D.E.M.O.N | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:141116_%EC%83%81%ED%95%98%EC%9D%B4_%EA%B3%B5%EC%97%B0_-_%EC%9D%B4%EB%AF%BC%EC%9A%B0%26%EC%8B%A0%ED%98%9C%EC%84%B1_10.jpg) |
 | 씨잼 | Linchpins | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:2017_%EC%94%A8%EC%9E%BC.jpg) |
@@ -519,22 +547,28 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 양인모 | Zangelin21 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Inmo_Yang_2025_(cropped).jpg) |
 | 양현석 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:161110_%EC%96%91%ED%98%84%EC%84%9D.png) |
 | 양희은 | 여니수니 | [CC BY 2.0 kr](https://creativecommons.org/licenses/by/2.0/kr/deed.en) | [Original file](https://commons.wikimedia.org/wiki/File:Yang_Hee-Eun.jpg) |
+| 어글리덕 | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=WM683j1TI3U) |
 | 언터쳐블 | USAG- Humphreys | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Untouchable_in_K-Force_Special_Show_-_Pyeongtaek,_South_Korea_-_7_March_2013.jpg) |
 | 엄정화 | 티비텐 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Uhm_Junghwa_Kolon_Sports_50th_Anniversary_Event_1.jpg) |
 | 엄지 | 8월의 축복 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:231102_%ED%95%9C%EA%B0%95_%EA%B2%8C%EB%A6%B4%EB%9D%BC_%EC%97%84%EC%A7%80_(5).jpg) |
+| 업타운 | SBS Radio 에라오 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=3tKu376NFBI) |
 | 에디킴 | 우연히현영 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:141211_%EA%B9%80%EC%98%88%EB%A6%BC%26%EC%97%90%EB%94%94%ED%82%B4_%EB%8D%94%EC%87%BC_in_%EC%BD%94%EC%97%91%EC%8A%A4_%EC%95%BC%EC%99%B8%EB%AC%B4%EB%8C%80_(%EC%97%90%EB%94%94%ED%82%B4).jpg) |
 | 에픽하이 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:190322_%EC%97%90%ED%94%BD%ED%95%98%EC%9D%B4_%EC%BD%94%EC%97%91%EC%8A%A4_%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_2.jpg) |
 | 엔젤 | Official Youtube account of 식신로드 (Gourmet Road) , its twitter account has a link to the YouTube account | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EC%A7%80%ED%98%9C,_%EC%B1%84%EC%9D%80%EC%A0%95_%EC%B6%9C%EC%97%B0_58%EB%85%84_%EC%A0%84%ED%86%B5%EC%9D%98_%EC%96%91%EB%85%90_%EC%86%8C%EA%B0%88%EB%B9%84_%EC%A4%91%EA%B5%AC_%EC%9D%84%EC%A7%80%EB%A1%9C_%EB%A7%9B%EC%A7%91_%EC%A1%B0%EC%84%A0%EC%98%A5_(%EC%8B%9D%EC%8B%A0%EB%A1%9C%EB%93%9C_Gourmet_Road)_eps_21-2_%EC%B1%84%EC%9D%80%EC%A0%95.jpg) |
 | 예지 | 허수아비 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:15.05.27_%EC%9B%90%EC%A3%BC_%EC%9C%84%EB%AC%B8%EC%97%B4%EC%B0%A8_%EC%A7%81%EC%B0%8D(_%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80_%EC%9E%AC%EC%9D%B4,_%EB%A6%B0%EC%A7%80,_%EC%98%88%EC%A7%80,_%ED%98%9C%EB%AF%B8,_%EC%B0%A8%EC%98%A4%EB%A3%A8_)_03.jpg) |
+| 오디 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=oa6Kv86Aynw) |
 | 오케이션 | Cohortseoul | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Okasian.jpg) |
 | 옥주현 | scene PLAYBILL | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:(%EC%94%AC%ED%94%8CTV)_%EC%94%AC%ED%94%8C%EB%A0%88%EC%9D%B4%EB%B9%8C_6%EC%9B%94%ED%98%B8_COVER_STORY_%27%EB%A7%88%ED%83%80%ED%95%98%EB%A6%AC%27%EC%98%A5%EC%A3%BC%ED%98%84_(2).jpg) |
 | 옥택연 | mang2goon | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:221125_Ok_Taec-yeon.jpg) |
+| 올티 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=v5rlhWsSPHY) |
 | 용준형 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:2017%EB%85%84_11%EC%9B%94%ED%98%B8_Marie_Claire_Korea_%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8_05.png) |
+| 우디 고차일드 | K-pop Profiles | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Woodiegochild.jpg) |
 | 우원재 | SBS Radio | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Woo_Wonjae_190405.jpg) |
 | 우주소녀 | HeyDay | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170701_%EC%9A%B0%EC%A3%BC%EC%86%8C%EB%85%80_%EC%8B%A0%EC%B4%8C_%EA%B2%8C%EB%A6%B4%EB%9D%BC.jpg) |
 | 우혜림 | 우혜림 • Lim's Diary | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Woo_Hye-rim_in_May_2023.png) |
 | 웅산 | 실버아이TV | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Woongsan2021.png) |
 | 원슈타인 | GROOVL1N | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Wonstein_(%EC%9B%90%EC%8A%88%ED%83%80%EC%9D%B8)_210601.jpg) |
+| 원썬 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=voB6Yk1yo00) |
 | 유겸 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Yugyeom_for_Marie_Claire_Korea_June_2024_issue_01.png) |
 | 유리상자 | 유주샨*ROSA | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Yurisangja_in_2017.png) |
 | 유빈 | SBS Radio | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Kim_Yu-bin_in_August_2022.png) |
@@ -553,6 +587,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 윤훼이 | SL8 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%EC%9C%A4%ED%9B%BC%EC%9D%B4_2020.png) |
 | 은지원 | 바나나우유 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:20180106_%EC%A0%9D%EC%8A%A4%ED%82%A4%EC%8A%A4_20%EC%A3%BC%EB%85%84%EC%BD%98%EC%84%9C%ED%8A%B8_@%EB%8C%80%EA%B5%AC_27.jpg) |
 | 은하 | 티비텐 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Eunha_August_2024_(3x4_cropped).jpg) |
+| 이그니토 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=ZYXtXS1NDCU) |
 | 이기광 | 티비텐 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Lee_Gikwang_Seoul_Fashion_Week_September_2024.jpg) |
 | 이루펀트 | BRANDNEW MUSIC | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Eluphant_in_2019.png) |
 | 이무진 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:20210427%E2%80%94Lee_Mu-jin_%EC%9D%B4%EB%AC%B4%EC%A7%84,_interview,_Marie_Claire_Korea_screenshot_(05m55s).jpg) |
@@ -575,6 +610,7 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 이창섭 | leechapusopu | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170617_Lee_Chang-sub_(4).jpg) |
 | 이하늘 | LG전자 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Lee_Ha-Neul.jpg) |
 | 이해리 | http://dkyouholic.tistory.com/ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170114_%EB%B9%84%EB%B0%9C%EB%94%94%ED%8C%8C%ED%81%AC_%EB%9D%BC%EC%9D%B4%EB%94%A9_%EC%BD%98%EC%84%9C%ED%8A%B8_-_%EB%8B%A4%EB%B9%84%EC%B9%98_%EC%A7%81%EC%B0%8D_01.jpg) |
+| 이현배 | 젬비씨 JEMBC | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=bMR6mLwcVlE) |
 | 이홍기 | 뉴스인스타 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:0208_%EC%98%A5%EC%88%98%EC%88%98_%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90_%27%EB%84%88_%EB%AF%B8%EC%9B%8C!_%EC%A4%84%EB%A6%AC%EC%97%A3%27_%EC%A0%9C%EC%9E%91%EB%B0%9C%ED%91%9C%ED%9A%8C_%EC%9D%B4%ED%99%8D%EA%B8%B0.jpg) |
 | 이효리 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:(Marie_Claire_Korea)_Feel_The_Soul_-_%EC%9D%B4%ED%9A%A8%EB%A6%AC_(4).jpg) |
 | 인순이 | livingocean | [CC BY 2.0 kr](https://creativecommons.org/licenses/by/2.0/kr/deed.en) | [Original file](https://commons.wikimedia.org/wiki/File:Insooni_at_the_Expo_2012_Yeosu11.jpg) |
@@ -605,19 +641,26 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 정채연 | TV10 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jung_Chae-yeon_in_November_2025.png) |
 | 정형돈 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jeong_Hyeong-don_from_acrofan.jpg) |
 | 정훈희 | 여니수니 | [CC BY 2.0 kr](https://creativecommons.org/licenses/by/2.0/kr/deed.en) | [Original file](https://commons.wikimedia.org/wiki/File:Jung_Hoon-Hee.jpg) |
+| 제리케이 | LET IT VIDEO | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=U0qR8gk7HR4) |
 | 제시 | SBS Radio | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jessi_(%EC%A0%9C%EC%8B%9C)_in_October_2023.png) |
 | 제아 | Mohanshe | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:37.2_JEA.jpg) |
+| 제이제이케이 | MIC SWAGGER | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=tLsGbtSJrSs) |
 | 제이켠 | 이선재 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:J%27Kyun_Soulcompany_Show.png) |
 | 제이홉 | TV10 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:J-Hope_at_W_Korea_Breast_Cancer_Campaign,_15_October_2025.png) |
 | 조PD | Original:Army Vet, Cropped:Puramyun31 | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Cho_PD.jpg) |
+| 조광일 | SBS Radio 에라오 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jo_Gwangil_20220129.png) |
 | 조규찬 | 여니수니 | [CC BY 2.0 kr](https://creativecommons.org/licenses/by/2.0/kr/deed.en) | [Original file](https://commons.wikimedia.org/wiki/File:Cho_Kyu-Chan.jpg) |
 | 조여정 | Republic of Korea | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Cho_Yeo-jeong.jpg) |
+| 조원우 | K-POPIT 케이팝잇 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=WHJzmNuyrhg) |
+| 주비트레인 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Buga_Kingz_from_acrofan.jpg) |
 | 주영 | Nizzyool | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jooyoung_in_2015_Greenplugged_Seoul.jpg) |
 | 지드래곤 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:G-Dragon_in_February_2025.png) |
 | 지수연 | NINE STARS | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Suyeon_weki_meki_2018_1.jpg) |
+| 지스트 | BRANDNEW MUSIC | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=E9VfxH3HEZ0) |
 | 지연 | photomami | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170614_T-ARA_Park_Ji-yeon_at_What%27s_My_Name_Showcase.jpg) |
 | 지오 | Republic of Korea | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:G.O_in_2013_K-Pop_World_Festival.jpg) |
 | 지코 | Bonnielou2013 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Zico_2017_Monster_5_(cropped).jpg) |
+| 지토 | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=I17FKnWTH2Q) |
 | 지투 | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:180801_%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%B6%95%EC%A0%9C_%EC%A7%80%ED%88%AC_3.jpg) |
 | 진주 | KIYOUNG KIM | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:Jin_Joo.jpg) |
 | 진진 | http://intheholic.tistory.com/ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170602_Astro_07.jpg) |
@@ -631,6 +674,8 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 코요태 | SBS Radio | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Koyote_in_November_2024.png) |
 | 쿠기 | Marie Claire Korea | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) | [Original file](https://en.wikipedia.org/wiki/File:Coogie_2023-09-27.png) |
 | 쿤디판다 | 헌터퐝 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Khundi_Panda_2021.png) |
+| 쿤타 | SBS Radio 에라오 | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=ZM2Orff_fj4) |
+| 퀸 와사비 | GROOVL1N | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=29k4Cp2DBzA) |
 | 크러쉬 | NewsInStar | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:190706_%EC%A7%9D%EA%BF%8D_%ED%8A%B9%EC%A7%91!_%EB%B9%84%EC%99%80%EC%9D%B4X%ED%81%AC%EB%9F%AC%EC%89%AC,_%EC%8A%A4%EC%9B%A9%EB%84%98%EC%B9%98%EB%8A%94_%EB%B8%8C%EC%9D%B4_(KBS_%ED%95%B4%ED%94%BC%ED%88%AC%EA%B2%8C%EB%8D%944_%EC%B6%9C%EA%B7%BC%EA%B8%B8)_1m_31s.jpg) |
 | 크루셜 스타 | 권우찬 | [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC:Crucial.jpg) |
 | 클래지 | Eat Your Kimchi | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:DJ_Clazzi.png) |
@@ -643,6 +688,8 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 타이거 JK | Explicit | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:181202_%EB%93%9C%EB%A0%81%ED%81%B0%ED%83%80%EC%9D%B4%EA%B1%B0_AK%ED%94%8C%EB%9D%BC%EC%9E%90_%EB%B6%84%EB%8B%B9%EC%A0%90_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_2.jpg) |
 | 타이미 | KIYOUNG KIM | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Original file](https://commons.wikimedia.org/wiki/File:E-Via_in_2010_Asia_Song_Festival.jpg) |
 | 탑 | GOM | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:T.O.P_-_MADE_THE_MOVIE_Premiere_-_2.jpg) |
+| 테드 박 | POPDUST | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Ted_Park_(born_1994)_in_a_2021_interview_for_Popdust.png) |
+| 테이크원 | Ming J | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=WM683j1TI3U) |
 | 토니안 | f28star | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:161129_Tony_An_MMA.jpg) |
 | 팔로알토 | Bonnielou2013 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:Paloalto_5_cropped.jpg) |
 | 펀치넬로 | Studio Flo | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%ED%8E%80%EC%B9%98%EB%84%AC%EB%A1%9C_2021.png) |
@@ -655,8 +702,10 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 | 한요한 | Linchpins | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:2017_%ED%95%9C%EC%9A%94%ED%95%9C.jpg) |
 | 한해 | BRANDNEW MUSIC | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:150206_%ED%95%9C%ED%95%B4_05.png) |
 | 해찬 | K-POPIT 케이팝잇 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:20231006_Haechan_(NCT).jpg) |
+| 행주 | NewsInStar | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=r9GOzoyEIvU) |
 | 허각 | huindoong2 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Original file](https://commons.wikimedia.org/wiki/File:170131_%EB%A0%88%EB%93%9C%EB%B9%85%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4_%ED%97%88%EA%B0%81_%EC%9D%8C%EA%B0%90%ED%9A%8C_%EC%A7%81%EC%B0%8D.jpg) |
 | 허성현 | SBS Radio 에라오 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:%ED%97%88%EC%84%B1%ED%98%84_2023.png) |
+| 허클베리피 | Yellocean Show | [CC BY (YouTube)](https://www.youtube.com/t/creative_commons) | [Original file](https://www.youtube.com/watch?v=ojSU2e2agqs) |
 | 혁오 | 뉴스인스타 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:180110_%ED%98%81%EC%98%A4%EB%B0%B4%EB%93%9C.jpg) |
 | 형원 | Marie Claire Korea | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:HYUNGWON_MarieClarieKorea_2021.png) |
 | 호란 | acrofan.com | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Original file](https://commons.wikimedia.org/wiki/File:Horan_from_acrofan.jpg) |
@@ -674,151 +723,110 @@ The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata.
 
 | Artist | State | Reason | Next action |
 | --- | --- | --- | --- |
-| CB Mass | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| DJ 샤인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| J-Kwondo | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| MBA | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| MC 메타 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| MFBTY | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 공식 프로필·프레스킷의 사진과 재사용 조건 확인 |
-| MYK | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| QM | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| TBNY | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| XXX | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 간디 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 골드부다 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 기린 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 긱스 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 김승민 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 김심야 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 김효은 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 나찰 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 노스페이스갓 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 노엘 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 노윤하 | identity-review | 프로필·음악 DB 페이지에서 이미지 후보를 발견했으나 인물과 사진별 이용조건 미확인 | 후보가 해당 아티스트의 사진인지 대조하고 사진별 사용허락 근거 확인 |
-| 뉴챔프 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 니안 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 다민이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 던말릭 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 던밀스 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 데드피 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 돕선 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디보 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디아크 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디액션 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디젤 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디지 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 디테오 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 레오케코아 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 로스 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 록스 펑크맨 | identity-review | 프로필·음악 DB 페이지에서 이미지 후보를 발견했으나 인물과 사진별 이용조건 미확인 | 후보가 해당 아티스트의 사진인지 대조하고 사진별 사용허락 근거 확인 |
-| 루이 (긱스) | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 루이 (호미들) | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 룸나인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 리짓군즈 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 릴체리 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 릴타치 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 마미손 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 마이크로닷 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 매니악 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 맥대디 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 면도 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 무웅 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 보이비 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 불리 다 바스타드 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 브린 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 블라세 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 블랙나인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 블랙넛 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 블랭 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 블루 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 비즈니즈 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 비지 | identity-review | 프로필·음악 DB 페이지에서 이미지 후보를 발견했으나 인물과 사진별 이용조건 미확인 | 후보가 해당 아티스트의 사진인지 대조하고 사진별 사용허락 근거 확인 |
-| 비트박스 DG | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 빅원 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 사포 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 상추 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 서리 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 서출구 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 션이슬로우 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 소울 다이브 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 손심바 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 수다쟁이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 스낵키챈 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 스웨이디 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 스토니스컹크 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 스트릿 베이비 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 슬릭 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 신스 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 씨케이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 아넌딜라이트 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 아이언 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 아체 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 앤덥 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 얀키 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 양홍원 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 어글리덕 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 언에듀케이티드 키드 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 언오피셜보이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 업타운 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오담률 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오디 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오르내림 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오션검 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오왼 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 오우릴고트 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 올티 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 우디 고차일드 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 우탄 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 원썬 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 이그니토 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 이로한 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 이케이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 이현배 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 이현준 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 인피닛 플로우 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 일리닛 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 자메즈 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 잠비노 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 재달 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 정연준 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 제리케이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 공식 프로필·프레스킷의 사진과 재사용 조건 확인 |
-| 제이제이케이 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 제이호 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 조광일 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 조원우 | identity-review | 프로필·음악 DB 페이지에서 이미지 후보를 발견했으나 인물과 사진별 이용조건 미확인 | 후보가 해당 아티스트의 사진인지 대조하고 사진별 사용허락 근거 확인 |
-| 주비트레인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 주석 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 지구인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 지미 페이지 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 지스트 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 지조 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 지토 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 짱유 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 차메인 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 차붐 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 최삼 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 최엘비 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 친 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 칠린호미 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 쿤타 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 퀸 와사비 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 타래 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 타쿠와 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 탁 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 테드 박 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 테이크원 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 톱밥 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 트레이드엘 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 트루디 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 팻두 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 폴로다레드 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 퓨처리스틱 스웨버 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 플루마 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 플리키뱅 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 피노다인 | identity-review | 프로필·음악 DB 페이지에서 이미지 후보를 발견했으나 인물과 사진별 이용조건 미확인 | 후보가 해당 아티스트의 사진인지 대조하고 사진별 사용허락 근거 확인 |
-| 피타입 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 해쉬스완 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 공식 프로필·프레스킷의 사진과 재사용 조건 확인 |
-| 행주 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 허니 패밀리 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 허클베리피 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
-| 호미들 | not-found | Wikimedia에서 식별자·이용조건이 확인된 사진을 확보하지 못함 | 이전 활동명·공식 프로필·사진가 자료 추가 조사 |
+| CB Mass | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| DJ 샤인 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| J-Kwondo | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| MBA | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| MFBTY | not-found | 공식 인사 영상에는 게스트 준오플로가 함께 출연해 MFBTY 3인의 단체 사진으로 사용 보류. 비지 개인 사진에는 본인만 크롭. | 타이거 JK·윤미래·비지 세 멤버로 구성된 단체 사진의 이용조건 확인 |
+| MYK | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| QM | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| TBNY | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| XXX | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 골드부다 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 기린 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 긱스 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 김승민 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 김효은 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 노스페이스갓 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 노엘 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 노윤하 | identity-review | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 뉴챔프 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 니안 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 다민이 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 던말릭 | not-found | 촬영자가 던말릭으로 명시한 공연 영상을 찾았으나 얼굴이 작고 어두운 원경으로 사용 보류. | 던말릭 단독 클로즈업·공식 프로필의 재사용 조건 확인 |
+| 데드피 | permission-needed | 한국어 구분 표기로 사진 파일을 찾았으나, 파일별 재사용 라이선스를 확인하지 못해 게시 보류. | 해당 사진의 촬영자·공식 프레스킷에서 재사용 조건 확인 또는 이용조건이 명확한 대체 사진 확보 |
+| 돕선 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 디보 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 디액션 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 디젤 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 디지 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 레오케코아 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 로스 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 록스 펑크맨 | identity-review | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 루이 (호미들) | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 룸나인 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 리짓군즈 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 릴체리 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 릴타치 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 마미손 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 매니악 | not-found | TV텐 출연 영상은 인물을 확인했으나 역광으로 얼굴이 어두움. OUR MUZIK 티저에서도 선명한 얼굴 장면을 확보하지 못함. | 다른 단독 인터뷰·홍보 사진에서 얼굴 화질 및 재사용 조건 확인 |
+| 맥대디 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 무웅 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 불리 다 바스타드 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 브린 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 블랙나인 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 블랙넛 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 블랭 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 블루 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 비즈니즈 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 비트박스 DG | not-found | acrofan 무대 사진의 원본과 이용조건은 확인했으나 후드와 마이크가 얼굴을 가려 보류. | 비트박스 DG의 얼굴이 드러난 촬영자 원본·공식 사진 확보 |
+| 사포 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 서리 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 서출구 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 션이슬로우 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 손심바 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 수다쟁이 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 스토니스컹크 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 스트릿 베이비 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 씨케이 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 아넌딜라이트 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 아이언 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 아체 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 앤덥 | not-found | 본인 Andupinda 채널 후보는 앨범·사진첩 원경 또는 검은 화면으로 프로필에 쓸 얼굴을 확보하지 못함. | 안덥의 단독 인터뷰·촬영자 원본에서 선명한 얼굴과 이용조건 확인 |
+| 얀키 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 양홍원 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 언에듀케이티드 키드 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 언오피셜보이 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 오담률 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 오르내림 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 오션검 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 오왼 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 오우릴고트 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 우탄 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 이로한 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 이케이 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 이현준 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 인피닛 플로우 | not-found | 브랜뉴뮤직 공식 영상 후보는 가사·앨범 그래픽 영상으로 아티스트 얼굴 사진이 아님. | 넋업샨·비즈니즈가 함께한 공식 단체 사진과 원본 이용조건 확인 |
+| 일리닛 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 자메즈 | not-found | 제작자 공개 라이브 영상에서 인물을 확인했으나 저조도·측면 장면 위주로 얼굴 사진에 사용 보류. | 밝고 정면에 가까운 자메즈 인터뷰·프로필 후보 추가 검토 |
+| 잠비노 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 재달 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 정연준 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 제이호 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 주석 | not-found | KMG Official 공연 영상은 확인했으나 얼굴이 작고 어두워 사용 보류. | 주석의 단독 인터뷰·공식 프레스킷에서 밝고 선명한 얼굴과 이용조건 확인 |
+| 지구인 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 지미 페이지 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 지조 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 짱유 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 차메인 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 차붐 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 최삼 | retry | 뉴스타파의 MC 메타·최삼 제작 영상은 찾았으나 다운로드 오류로 최삼의 실제 프레임 검토를 완료하지 못함. | 영상 다운로드를 재시도하고 최삼 출연 장면의 얼굴·크롭 직접 확인 |
+| 최엘비 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 친 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 칠린호미 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 타래 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 타쿠와 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 탁 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 톱밥 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 트레이드엘 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 트루디 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 팻두 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 폴로다레드 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 퓨처리스틱 스웨버 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 플루마 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 플리키뱅 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 피노다인 | identity-review | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 피타입 | permission-needed | 한국어 구분 표기로 사진 파일을 찾았으나, 파일별 재사용 라이선스를 확인하지 못해 게시 보류. | 해당 사진의 촬영자·공식 프레스킷에서 재사용 조건 확인 또는 이용조건이 명확한 대체 사진 확보 |
+| 해쉬스완 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 허니 패밀리 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |
+| 호미들 | not-found | Commons 캡션·Flickr·CC 영상까지 추가 검색했으나 게시할 사진을 아직 확보하지 못함. 후보에는 동명이인·음원·재업로드가 섞여 있음. | 이전 활동명·소속 그룹과 후보의 실제 출연자를 대조하고, 공식 사진·촬영자 원본의 이용조건과 얼굴 화질 확인 |

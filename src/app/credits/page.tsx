@@ -48,7 +48,7 @@ export default function Credits() {
     <Link href="/" className="document-back">← 지도로 돌아가기</Link>
     <div className="document-kicker">CREDITS / 002</div>
     <h1>사진에도<br />출처가 있다.</h1>
-    <p className="document-lead">{photographed.length}개의 아티스트 사진. 저작자와 이용조건을 기록하고, 개인 사진은 얼굴 노드에 맞게 크롭하고 그룹 사진은 전체 구도를 유지했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다. <Link href="/coverage/">전체 사진 조사 현황</Link>에서 미확보 사유와 다음 행동을 확인하세요.</p>
+    <p className="document-lead">{photographed.length}개의 아티스트 사진. 저작자와 이용조건을 기록하고, 개인 사진은 얼굴 노드에 맞게 크롭하고 그룹 사진은 전체 구도를 유지했습니다. 재사용이 허용된 영상의 정지 장면에는 원본 제목과 장면 시각도 기록했습니다. 사진이 없는 아티스트도 이름으로 탐색할 수 있습니다. <Link href="/coverage/">전체 사진 조사 현황</Link>에서 미확보 사유와 다음 행동을 확인하세요.</p>
 
     <section>
       <h2>음악 데이터</h2>
@@ -108,6 +108,7 @@ export default function Credits() {
         <div>
           <h2><Link href={`/artists/${artist.id}/`}>{artist.name}</Link></h2>
           <p>{artist.image!.author}</p>
+          {artist.image!.title && <p>{artist.image!.title}</p>}
           <a href={artist.image!.licenseUrl} target="_blank" rel="noreferrer">{artist.image!.license}</a>
           <p><a href={artist.image!.sourceUrl} target="_blank" rel="noreferrer">원본 출처 ↗</a> · {artist.image!.crop || '정사각형 썸네일 크롭·WebP 변환'}</p>
         </div>

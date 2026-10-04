@@ -1,0 +1,781 @@
+{
+  "woodie-gochild": {
+    "provider": "commons",
+    "fileTitle": "File:Woodiegochild.jpg",
+    "sourceSize": [
+      627,
+      448
+    ],
+    "box": [
+      124,
+      9,
+      491,
+      376
+    ],
+    "identityNotes": "파일 설명의 Woodie Gochild 및 청색 머리·노란 안경의 개인 프로필 사진을 확인.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Woodiegochild.jpg"
+    ]
+  },
+  "gwangil-jo": {
+    "provider": "commons",
+    "fileTitle": "File:Jo Gwangil 20220129.png",
+    "sourceSize": [
+      368,
+      330
+    ],
+    "box": [
+      61,
+      10,
+      358,
+      307
+    ],
+    "identityNotes": "SBS 라디오 출연 장면을 담은 Jo Gwangil 명시 파일. 개인 얼굴 확인.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Jo_Gwangil_20220129.png"
+    ]
+  },
+  "sangchu": {
+    "provider": "commons",
+    "fileTitle": "File:Sangchu in K-Force Special Show - Pyeongtaek, South Korea - 7 March 2013.jpg",
+    "sourceSize": [
+      4288,
+      2848
+    ],
+    "box": [
+      1788,
+      257,
+      2585,
+      1054
+    ],
+    "identityNotes": "USAG Humphreys 원본 사진의 Sangchu 명시 캡션과 군복 출연자 확인.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Sangchu_in_K-Force_Special_Show_-_Pyeongtaek,_South_Korea_-_7_March_2013.jpg"
+    ]
+  },
+  "ted-park": {
+    "provider": "commons",
+    "fileTitle": "File:Ted Park (born 1994) in a 2021 interview for Popdust.png",
+    "sourceSize": [
+      638,
+      534
+    ],
+    "box": [
+      118,
+      24,
+      572,
+      478
+    ],
+    "identityNotes": "Popdust 인터뷰의 Ted Park 명시 파일과 개인 얼굴 확인.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Ted_Park_(born_1994)_in_a_2021_interview_for_Popdust.png"
+    ]
+  },
+  "sleeq": {
+    "provider": "commons",
+    "fileTitle": "File:SLEEQ2021.png",
+    "sourceSize": [
+      358,
+      471
+    ],
+    "box": [
+      50,
+      12,
+      336,
+      298
+    ],
+    "identityNotes": "SLEEQ2021 파일의 슬릭 인터뷰 인물 확인.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:SLEEQ2021.png"
+    ]
+  },
+  "juvie-train": {
+    "provider": "commons",
+    "fileTitle": "File:Buga Kingz from acrofan.jpg",
+    "sourceSize": [
+      600,
+      360
+    ],
+    "box": [
+      372,
+      0,
+      559,
+      187
+    ],
+    "identityNotes": "부가킹즈 단체 원본의 오른쪽 주황 옷·모자 인물. 주비트레인 개별 보도 사진과 대조. 가운데 안경 인물은 바비 킴이므로 제외.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Buga_Kingz_from_acrofan.jpg",
+      "https://www.bntnews.co.kr/article/view/bnt201204260102"
+    ]
+  },
+  "gan-d": {
+    "provider": "commons",
+    "fileTitle": "File:Buga Kingz from acrofan.jpg",
+    "sourceSize": [
+      600,
+      360
+    ],
+    "box": [
+      9,
+      0,
+      196,
+      187
+    ],
+    "identityNotes": "부가킹즈 단체 원본의 왼쪽 긴 머리·회색 스카프 인물. 소속사 제공 단체 사진의 간디와 대조. 가운데 바비 킴 및 오른쪽 주비트레인과 구분.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Buga_Kingz_from_acrofan.jpg",
+      "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01079126599426584"
+    ]
+  },
+  "blase": {
+    "provider": "commons",
+    "fileTitle": "File:Blase 2020.png",
+    "sourceSize": [
+      193,
+      201
+    ],
+    "box": [
+      0,
+      0,
+      193,
+      193
+    ],
+    "identityNotes": "Blase 2020으로 명시된 GooseBumps 인터뷰 캡처. 원본 영상 왼쪽에 앉은 인물과 대조.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Blase_2020.png",
+      "https://www.youtube.com/watch?v=e3x4iysWeIY"
+    ]
+  },
+  "huckleberry-p": {
+    "provider": "youtube",
+    "videoId": "ojSU2e2agqs",
+    "timestamp": 30,
+    "sourceSize": [
+      854,
+      470
+    ],
+    "box": [
+      219,
+      63,
+      473,
+      317
+    ],
+    "identityNotes": "허클베리피 단독 인사 영상의 이름·하이라이트레코즈 표기 확인. 텔레비전 테두리와 광고 문구를 제외한 얼굴 크롭.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=ojSU2e2agqs"
+    ]
+  },
+  "olltii": {
+    "provider": "youtube",
+    "videoId": "v5rlhWsSPHY",
+    "timestamp": 5,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      431,
+      47,
+      913,
+      529
+    ],
+    "identityNotes": "TV텐 OG #6 올티 단독 인터뷰. 흰 비니·안경 인물; 댓글 영역을 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=v5rlhWsSPHY"
+    ]
+  },
+  "myundo": {
+    "provider": "youtube",
+    "videoId": "jrXZO4BvWGI",
+    "timestamp": 4,
+    "sourceSize": [
+      564,
+      720
+    ],
+    "box": [
+      284,
+      185,
+      564,
+      465
+    ],
+    "identityNotes": "우먼센스 면도·수퍼비 인사 영상. 오른쪽 보라색 머리가 면도, 왼쪽 모자·선글라스는 수퍼비.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=jrXZO4BvWGI"
+    ]
+  },
+  "bigone": {
+    "provider": "youtube",
+    "videoId": "q2wrJWANY04",
+    "timestamp": 90,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      286,
+      218,
+      552,
+      484
+    ],
+    "identityNotes": "SBS 딘딘의 뮤직하이 빅원 출연 영상. 분할 화면 왼쪽 검은 머리·야구 점퍼가 빅원; 오른쪽 딘딘 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=q2wrJWANY04"
+    ]
+  },
+  "odee": {
+    "provider": "youtube",
+    "videoId": "oa6Kv86Aynw",
+    "timestamp": 10,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      565,
+      90,
+      889,
+      414
+    ],
+    "identityNotes": "TV텐 ODEE 표기 단독 영상의 검은 모자·밝은 재킷 인물 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=oa6Kv86Aynw"
+    ]
+  },
+  "ignito": {
+    "provider": "youtube",
+    "videoId": "ZYXtXS1NDCU",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      411,
+      130,
+      843,
+      562
+    ],
+    "identityNotes": "TV텐 이그니토 단독 출연 영상. 검은 머리·목걸이 인물 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=ZYXtXS1NDCU"
+    ]
+  },
+  "kim-ximya": {
+    "provider": "youtube",
+    "videoId": "gOHQ1YZTHLQ",
+    "timestamp": 100,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      496,
+      104,
+      784,
+      392
+    ],
+    "identityNotes": "마리끌레르 김심야 인터뷰. 긴 머리·검은 안경·흰 재킷의 단독 출연자 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=gOHQ1YZTHLQ"
+    ]
+  },
+  "since": {
+    "provider": "youtube",
+    "videoId": "lyjf1hH9xR4",
+    "timestamp": 90,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      401,
+      72,
+      862,
+      533
+    ],
+    "identityNotes": "마리끌레르 여성 창작자의 시간 신스 단독 인터뷰. 브레이드 머리 출연자 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=lyjf1hH9xR4"
+    ]
+  },
+  "mc-meta": {
+    "provider": "youtube",
+    "videoId": "gW1_xz9ylo4",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      462,
+      61,
+      844,
+      443
+    ],
+    "identityNotes": "인문360 MC 메타 강연의 회색 줄무늬 니트·안경 인물. 가리온 MC 메타 개별 출연 영상 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=gW1_xz9ylo4"
+    ]
+  },
+  "naachal": {
+    "provider": "youtube",
+    "videoId": "h5a9_2I0Hy8",
+    "timestamp": 340,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      169,
+      43,
+      803,
+      677
+    ],
+    "identityNotes": "가리온 공연의 체크 셔츠·검은 캡 인물이 나찰. 메타는 비니·선글라스·검은 재킷. 엠넷 제공 가리온 사진에서 이름과 얼굴을 대조.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=h5a9_2I0Hy8",
+      "https://news.tf.co.kr/read/entertain/1050178.htm"
+    ]
+  },
+  "one-sun": {
+    "provider": "youtube",
+    "videoId": "voB6Yk1yo00",
+    "timestamp": 15,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      500,
+      140,
+      1000,
+      640
+    ],
+    "identityNotes": "TV텐 OG #2 원썬 단독 영상. NY 모자·흰 셔츠 인물 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=voB6Yk1yo00"
+    ]
+  },
+  "jjk": {
+    "provider": "youtube",
+    "videoId": "tLsGbtSJrSs",
+    "timestamp": 20,
+    "sourceSize": [
+      1280,
+      536
+    ],
+    "box": [
+      335,
+      20,
+      600,
+      285
+    ],
+    "identityNotes": "MIC SWG 공식 새 호스트 JJK 소개 영상. 팝 필터로 얼굴이 가려지지 않은 장면 선택.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=tLsGbtSJrSs"
+    ]
+  },
+  "queen-wa-abii": {
+    "provider": "youtube",
+    "videoId": "29k4Cp2DBzA",
+    "timestamp": 10,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      472,
+      47,
+      875,
+      450
+    ],
+    "identityNotes": "GROOVL1N 퀸 와사비 인터뷰. 초록 단발 출연자 단독 장면; 진행자 라비 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=29k4Cp2DBzA"
+    ]
+  },
+  "sway-d": {
+    "provider": "youtube",
+    "videoId": "MJ5cNdClU98",
+    "timestamp": 100,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      276,
+      41,
+      809,
+      574
+    ],
+    "identityNotes": "스튜디오 틈새 스웨이디 인터뷰. 노란 머리·검은 상의 출연자의 실제 인터뷰 장면, 삽입 MV 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=MJ5cNdClU98"
+    ]
+  },
+  "jerry-k": {
+    "provider": "youtube",
+    "videoId": "U0qR8gk7HR4",
+    "timestamp": 5,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      240,
+      79,
+      744,
+      583
+    ],
+    "identityNotes": "제리케이 단독 인사 영상. 화면 이름 자막과 피처링 소개 일치.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=U0qR8gk7HR4"
+    ]
+  },
+  "h2adin": {
+    "provider": "youtube",
+    "videoId": "WHJzmNuyrhg",
+    "timestamp": 10,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      508,
+      86,
+      818,
+      396
+    ],
+    "identityNotes": "TV텐 OG #9 조원우 단독 영상. H2ADIN의 본명·활동명 Jo Wonwoo와 일치.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=WHJzmNuyrhg"
+    ]
+  },
+  "don-mills": {
+    "provider": "youtube",
+    "videoId": "_rce7xwmNxU",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      417,
+      133,
+      827,
+      543
+    ],
+    "identityNotes": "Studio FLO 넉살과 아이들 던밀스 진행 회차. 화면 이름 자막 던밀스 및 출연자 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=_rce7xwmNxU"
+    ]
+  },
+  "lee-hyun-bae": {
+    "provider": "youtube",
+    "videoId": "bMR6mLwcVlE",
+    "timestamp": 70,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      216,
+      50,
+      706,
+      540
+    ],
+    "identityNotes": "제주MBC 웃음주식회사 이현배 단독 요리 영상. 보라색 후드·모자·수염 출연자 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=bMR6mLwcVlE"
+    ]
+  },
+  "microdot": {
+    "provider": "youtube",
+    "videoId": "EuEK0mVQGMw",
+    "timestamp": 60,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      446,
+      40,
+      885,
+      479
+    ],
+    "identityNotes": "TV텐 마이크로닷 현장 인터뷰 원본. 흰 셔츠의 단독 출연자 확인.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=EuEK0mVQGMw"
+    ]
+  },
+  "gist": {
+    "provider": "youtube",
+    "videoId": "E9VfxH3HEZ0",
+    "timestamp": 120,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      470,
+      68,
+      902,
+      500
+    ],
+    "identityNotes": "브랜뉴뮤직 키비·GIST 라이브. 검은 머리·흰 셔츠·검은 조끼가 GIST; 긴 머리·체크 셔츠의 키비와 구분.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=E9VfxH3HEZ0"
+    ]
+  },
+  "koonta": {
+    "provider": "youtube",
+    "videoId": "ZM2Orff_fj4",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      236,
+      65,
+      531,
+      360
+    ],
+    "identityNotes": "SBS 쿤타·베이식 출연 라이브. 왼쪽 수염·긴 머리·검은 재킷이 쿤타; 가운데 베이식과 구분.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=ZM2Orff_fj4"
+    ]
+  },
+  "boi-b": {
+    "provider": "youtube",
+    "videoId": "auCs_1wzOCc",
+    "timestamp": 15,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      154,
+      171,
+      485,
+      502
+    ],
+    "identityNotes": "꽁병지TV 제작 보이비 인터뷰. 화면 보이비 이름 자막이 가리키는 왼쪽 검은 모자 인물; 가운데 김병지와 오른쪽 진행자 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=auCs_1wzOCc"
+    ]
+  },
+  "hangzoo": {
+    "provider": "youtube",
+    "videoId": "r9GOzoyEIvU",
+    "timestamp": 150,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      469,
+      11,
+      822,
+      364
+    ],
+    "identityNotes": "뉴스인스타 노포래퍼 기자간담회. 문세윤·매드클라운·딘딘 뒤에 개별 포즈를 취한 검은 점퍼의 행주. 배경 포스터 속 행주와 일치.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=r9GOzoyEIvU"
+    ]
+  },
+  "snacky-chan": {
+    "provider": "youtube",
+    "videoId": "YFutQ04fRoY",
+    "timestamp": 45,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      204,
+      133,
+      456,
+      385
+    ],
+    "identityNotes": "Dynasty Muzik 공식 UNDERGOD 소개 장면. 진행자 스내키챈의 인물·설명 확인. 게스트 자매 등장 이전 단독 장면.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=YFutQ04fRoY"
+    ],
+    "additionalCredit": "촬영 Byun Byul · 편집 Snacky Chan"
+  },
+  "zito": {
+    "provider": "youtube",
+    "videoId": "I17FKnWTH2Q",
+    "timestamp": 50,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      460,
+      47,
+      820,
+      407
+    ],
+    "identityNotes": "2013 뮤콘 소울다이브 공연의 역방향 검은 캡·검은 안경 인물. J2엔터테인먼트 제공 지토 개인 프로필과 대조. 물병이 얼굴을 가리는 장면은 제외.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=I17FKnWTH2Q",
+      "https://www.edaily.co.kr/News/Read?mediaCodeNo=258&newsId=01308726599721456"
+    ]
+  },
+  "d-theo": {
+    "provider": "youtube",
+    "videoId": "I17FKnWTH2Q",
+    "timestamp": 190,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      838,
+      137,
+      1184,
+      483
+    ],
+    "identityNotes": "2013 뮤콘 소울다이브 촬영 원본의 회색 버킷햇·선글라스 인물. 소울다이브 홈페이지에서 제공한 디테오 개인 사진의 얼굴·콧수염과 대조.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=I17FKnWTH2Q",
+      "https://www.xportsnews.com/article/167131"
+    ]
+  },
+  "soul-dive": {
+    "provider": "youtube",
+    "videoId": "I17FKnWTH2Q",
+    "timestamp": 160,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "identityNotes": "촬영자가 소울다이브로 명시한 뮤콘 공연. 넋업샨·디테오·지토 세 멤버 전체 프레임을 보존.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=I17FKnWTH2Q"
+    ]
+  },
+  "ugly-duck": {
+    "provider": "youtube",
+    "videoId": "WM683j1TI3U",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      380,
+      65,
+      680,
+      365
+    ],
+    "identityNotes": "촬영자의 South Town Show 어글리덕·테이크원 공연. 검은 비니·글자가 있는 맨투맨이 어글리덕, 무늬 없는 밝은 상의 인물은 테이크원.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=WM683j1TI3U"
+    ]
+  },
+  "takeone": {
+    "provider": "youtube",
+    "videoId": "WM683j1TI3U",
+    "timestamp": 270,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      434,
+      83,
+      758,
+      407
+    ],
+    "identityNotes": "촬영자의 South Town Show 어글리덕·테이크원 공연. 검은 짧은 머리·무늬 없는 밝은 상의의 테이크원 단독 파트, 비니 인물과 구분.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=WM683j1TI3U"
+    ]
+  },
+  "uptown": {
+    "provider": "youtube",
+    "videoId": "3tKu376NFBI",
+    "timestamp": 30,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "identityNotes": "SBS 공식 업타운 라이브의 2023년 활동 멤버 세 명이 함께한 프레임. 초기 멤버 사진이라고 주장하지 않음.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=3tKu376NFBI"
+    ]
+  },
+  "louie": {
+    "provider": "youtube",
+    "videoId": "KkOmkffvvrE",
+    "timestamp": 90,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      385,
+      43,
+      716,
+      374
+    ],
+    "identityNotes": "촬영자의 2013 AFO 긱스 공연. 카무플라주 재킷·초록색 챙 모자의 루이. 붉은 머리·검은 셔츠의 릴보이 및 호미들 루이와 구분.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=KkOmkffvvrE"
+    ]
+  },
+  "bizzy": {
+    "provider": "commons",
+    "fileTitle": "File:Special message from MFBTY with JUNOFLO.webm",
+    "timestamp": 3,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      884,
+      175,
+      1174,
+      465
+    ],
+    "identityNotes": "JK Entertainment 공식 메시지. 화면에 소개되는 Tiger JK, Yoon Mi Rae, Junoflo, Bizzy 순서 및 맨 오른쪽 비지 확인. 동반 출연자 준오플로는 MFBTY 구성원으로 취급하지 않음.",
+    "identitySources": [
+      "https://commons.wikimedia.org/wiki/File:Special_message_from_MFBTY_with_JUNOFLO.webm",
+      "https://www.youtube.com/watch?v=IW_BUTrUGHk"
+    ]
+  },
+  "d-ark": {
+    "provider": "youtube",
+    "videoId": "ZaDNQK9zPD4",
+    "timestamp": 55,
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "box": [
+      422,
+      105,
+      832,
+      515
+    ],
+    "identityNotes": "Studio FLO 넉살과 아이들 #1 게스트 디아크. 45초 자기소개 및 D.Ark 자막으로 인물 확인. 검은 상의·목걸이·갈색 머리 인물로, 흰 티셔츠·모자의 진행자 넉살과 구분.",
+    "identitySources": [
+      "https://www.youtube.com/watch?v=ZaDNQK9zPD4"
+    ]
+  }
+}

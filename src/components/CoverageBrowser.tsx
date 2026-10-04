@@ -26,9 +26,11 @@ export default function CoverageBrowser({ version }: { version: string }) {
   if (!data) return <p role="status">수집 현황을 불러오는 중입니다.</p>;
   const included = data.portraits.filter(row => row.state === 'included').length;
   const searched = data.portraits.filter(row => row.state !== 'unsearched' && row.state !== 'retry').length;
+  const core = data.portraits.filter(row => row.core);
+  const coreIncluded = core.filter(row => row.state === 'included').length;
   return <>
-    <div className="coverage-metrics"><div><strong>{data.portraits.length.toLocaleString('ko-KR')}</strong><span>전체 아티스트</span></div><div><strong>{included.toLocaleString('ko-KR')}</strong><span>사진 연결</span></div><div><strong>{searched.toLocaleString('ko-KR')}</strong><span>조사 결과 기록</span></div></div>
-    <section><h2>아티스트 사진 조사</h2><p>사진 미확보는 사진이 존재하지 않는다는 뜻이 아닙니다. 인물과 이용조건을 확인한 사진만 게시하며, 나머지 항목도 조사 대상에 남깁니다.</p>
+    <div className="coverage-metrics"><div><strong>{data.portraits.length.toLocaleString('ko-KR')}</strong><span>전체 아티스트</span></div><div><strong>{included.toLocaleString('ko-KR')}</strong><span>전체 사진 반영</span></div><div><strong>{coreIncluded.toLocaleString('ko-KR')}</strong><span>핵심 {core.length}명 중 사진 반영 · {core.length ? (coreIncluded / core.length * 100).toFixed(1) : '0.0'}%</span></div></div>
+    <section><h2>아티스트 사진 조사</h2><p>{searched.toLocaleString('ko-KR')}명의 조사 결과를 기록했습니다. 사진 미확보는 사진이 존재하지 않는다는 뜻이 아닙니다. 인물과 이용조건을 확인한 사진만 게시하며, 나머지 항목도 조사 대상에 남깁니다.</p>
       <form className="coverage-filters" onSubmit={event => event.preventDefault()}><label>아티스트 이름<input type="search" value={query} onChange={event => { setQuery(event.target.value); setLimit(30); }} /></label><label>조사 상태<select value={state} onChange={event => { setState(event.target.value); setLimit(30); }}><option value="missing">사진 미반영 전체</option><option value="">전체</option>{Object.entries(states).map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label></form>
       <p role="status">{rows.length.toLocaleString('ko-KR')}개 항목 · 핵심 아티스트 우선</p><ul className="coverage-list">{rows.slice(0, limit).map(row => <li key={row.id}><div><Link href={`/artists/${row.id}/`}>{row.name}</Link><span>{states[row.state]}</span></div>{row.reason && row.state !== 'included' && <p>{row.reason}</p>}<p>{row.nextAction}</p><small>확인 {row.checkedAt?.slice(0, 10) ?? '대기'} · 조사 기록 {row.attempts.length}회</small>{!!row.sources?.length && <details><summary>확인한 출처</summary>{row.sources.map(url => <a href={url} target="_blank" rel="noreferrer" key={url}>출처 ↗ </a>)}</details>}</li>)}</ul>
       {limit < rows.length && <button className="archive-more" onClick={() => setLimit(value => value + 30)}>30개 더 보기</button>}

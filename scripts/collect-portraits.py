@@ -153,13 +153,16 @@ def wiki_candidates(artist: dict) -> tuple[list[str], list[str]]:
     names = [name, *artist.get('aliases', [])]
     names = [n for n in names if n and not re.search(r'[가-힣]', n)][:4]
     english = []
-    for name in names:
+    # Wikipedia article titles are case-sensitive after the first letter.
+    # Stage names such as DON MALIK and BIGONE also occur as Don Malik/Bigone.
+    for name in dict.fromkeys(n for original in names for n in (original, original.title())):
         if name.lower() in ARTICLE_OVERRIDES:
             english.append(ARTICLE_OVERRIDES[name.lower()])
         english.extend([name, name + ' (rapper)', name + ' (musician)',
                         name + ' (singer)', name + ' (band)'])
-    korean = [n for n in [artist['name'], *artist.get('aliases', [])]
-              if re.search(r'[가-힣]', n)]
+    korean = [qualified for n in [artist['name'], *artist.get('aliases', [])]
+              if re.search(r'[가-힣]', n)
+              for qualified in (n, n + ' (가수)', n + ' (래퍼)', n + ' (음악 그룹)')]
     return list(dict.fromkeys(english)), list(dict.fromkeys(korean))
 
 
@@ -332,12 +335,22 @@ def write_audit(artists: list[dict], portraits: dict, status: dict):
               'the searchable [public collection status](https://k-hiphop-map.vercel.app/coverage/). '
               'Known official/profile URLs and access failures are preserved in [profile evidence](../data/portrait-source-candidates.json). '
               'An Open Graph image can be an album cover or site logo; it is not an approved artist portrait.', '',
+              'Commons captions, photographer searches and CC video search results are retained in '
+              '[expanded discovery](../data/portrait-discovery.json). Manual frame/crop coordinates are in '
+              '[portrait selections](../data/portrait-selections.json), with observed per-video license statements in '
+              '[video evidence](../data/portrait-video-evidence.json). See the [expansion record](portrait-expansion.md).', '',
               '## Reproduction', '', '```sh', 'python3 scripts/survey-portraits.py',
               'python3 scripts/survey-profile-sources.py --merge-review',
+              'python3 scripts/discover-portrait-sources.py --provider commons',
+              'python3 scripts/discover-portrait-sources.py --provider flickr',
+              'python3 scripts/discover-portrait-sources.py --provider youtube',
+              'python3 scripts/stage-portrait-selections.py',
               '# Review each staged identity, attribution and crop; record its SHA-256 in portrait-approvals.json.',
               'python3 scripts/survey-portraits.py --publish-only', 'npm run data:build', 'npm run data:validate:launch', '```', '',
               'The survey accepts explicit CC BY, CC BY-SA, CC0 or public-domain file metadata. Non-Wikimedia originals require '
-              'photo-specific permission records. Wikipedia local fair-use files are excluded. Current published sources and '
+              'photo-specific permission records or explicit CC BY video licenses from the selected source. '
+              'An official channel or CC search result alone is not permission. Video title, author, timestamp and changes are retained. '
+              'Wikipedia local fair-use files are excluded. Current published sources and '
               'license conditions are listed below and on the [credits page](https://k-hiphop-map.vercel.app/credits/). '
               'API caches expire after 30 days; transient request failures remain retryable.', '',
               '## Included assets', '', '| Artist | Author | License | Source |', '| --- | --- | --- | --- |']

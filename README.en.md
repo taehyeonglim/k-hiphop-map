@@ -16,6 +16,8 @@ A nonprofit web archive of artist collaborations, grounded in recording credits 
 
 These are actual application screenshots. Photograph authors and reuse conditions are listed in the [credits](https://k-hiphop-map.vercel.app/credits/).
 
+The October 4, 2026 portrait expansion brings core coverage to **161/268 artists (60.1%)**, with **674/2,756 artists** photographed overall. All 41 new portraits are core artists; 107 core portraits still need research. [New portraits, evidence and reproduction](docs/portrait-expansion.md)
+
 ## Things to explore
 
 - **Find an artist's collaborators:** [start with Garion](https://k-hiphop-map.vercel.app/?artist=garion).
